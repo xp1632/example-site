@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/design_style.css" type="text/css" />
+    <title>Design Page</title>
+</head>
+<body>
+    <div id="container">
+        <h1>This is the design page!</h1>
+        <form method="post" action="process.php">
+            <ul>
+                <li>
+                    <label>First Name:</label>
+                    <input name="first_name" type="text"/>
+                    <br />
+                    <label>Last Name:</label>
+                    <input name="last_name" type="text"/>
+                    <br />
+                    <label>E-mail:</label>
+                    <input name="e_mail" type="e-mail"/>
+                    <br />
+                    <label>Favorite Food:</label>
+                    <select name="food">
+                        <option value="pizza1">Pizza1</option>
+                        <option value="pizza2">Pizza2</option>
+                        <option value="pizza3">Pizza3</option>
+                        <option value="pizza4">Pizza4</option>
+                    </select>
+                    <br />
+                    <label>Gender:</label>
+                    <input type="radio" name="gender" value="Male"/>Male
+                    <input type="radio" name="gender" value="Female"/>Female
+                    <br />
+                    <label>Message:</label>
+                    <textarea name="message"></textarea>
+                    <br />
+                    <input type="submit" value="Print!"/>
+                </li>
+            </ul>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

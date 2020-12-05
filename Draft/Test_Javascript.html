@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript_learning</title>
+
+    <script>
+        var parameterName = "Time Setting: ";
+        var parameterContent= new Array("1980s",'before sunset','midnight');
+
+        var parameterNameArray = new Array("Time Setting","Character","Scene Setting");
+        var parameterContentArray = new Array();
+        parameterContentArray['Time Setting'] = new Array("1980s",'before sunset','midnight');
+        parameterContentArray['Character'] = new Array("Captain Bob","Square pants",'Killer Bean');
+        parameterContentArray['Scene Setting'] = new Array("Gym","Lake","School");
+
+        //there should be a flag check in the randomrise function, if true ,do randomlized, if not, keep as before
+
+        function randomNameContent(nameArray,contentArray){
+            var randomNumName = Math.floor(Math.random() * nameArray.length);
+            var randomParaName = nameArray[randomNumName];
+            document.write(randomParaName+": ");
+            var randomNumContent = Math.floor(Math.random() * contentArray.length);
+            var randomParaContent = contentArray[randomParaName][randomNumContent];
+
+            document.write(randomParaContent);
+            document.write('<br/>');
+        }
+    </script>
+
+
+
+</head>
+<body>
+    <script>
+        // var randomNum = Math.floor(Math.random() * parameterContent.length)
+        // document.write(parameterName);
+        // document.write(parameterContent[randomNum]);
+
+
+        // there should be two random func, one for select X(no-repeat) paraName from paraName List that get randomParaName List, 
+        //if the user lock one of the paraname, delete it from the randomParaName List so it would be kept.While other ParaName would be sent to randomize
+
+        //one for select one paraContent of corresponding paraName of all paraName in the randomParaName List
+
+        //for css side, 也可以lock 了不显示刷新的
+
+
+        //////////////////////////////////////////////////////////////////////////////////////
+        // for randomize para
+        // var randomNumName = Math.floor(Math.random() * parameterContent.length);
+        // var  randomParaName = parameterNameArray[randomNumName];
+        // document.write(randomParaName+": ");
+        // var randomNumContent = Math.floor(Math.random() * parameterContent.length);
+        // var randomParaContent = parameterContentArray[randomParaName][randomNumContent];
+
+        // document.write(randomParaContent);
+        randomNameContent(parameterNameArray,parameterContentArray);
+        randomNameContent(parameterNameArray,parameterContentArray);
+        randomNameContent(parameterNameArray,parameterContentArray);
+        ////////////////////////////////////////////////////////////////////////////////////
+
+
+        //go through 2d list
+        ////////////////////////////////////////////////////////////////////////////////////
+        // document.write("<br />");
+        // for(i in parameterNameArray){
+        //     document.write(parameterNameArray[i]+": ");
+
+        //     for(j in parameterContentArray[parameterNameArray[i]]){
+        //         document.write(parameterContentArray[parameterNameArray[i]][j]+'<br />');
+        //     }
+        // }
+        ////////////////////////////////////////////////////////////////////////////////////
+    </script>
+
+
+
+
+    
+</body>
+</html>

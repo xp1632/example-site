@@ -1,0 +1,40 @@
+body{
+   background-color: azure; 
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+}
+
+h1.redclass{
+    color: red;
+}
+
+#container{
+    width: max-content;
+    margin: auto;
+    border: 1px solid #cccccc;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: seashell;
+    min-height: 600px;
+}
+
+img{
+    border: springgreen 3px solid;
+    padding:4px;
+}
+
+th,td{
+    width: 100px;
+    text-align: center;
+
+}
+
+td{
+    border-bottom: 1px #cccccc dashed;
+    padding: 3px 0px;
+}
+
+li{
+    text-align: left;
+}

@@ -1,0 +1,121 @@
+body {
+    background: url(../images/cat.svg) repeat-x;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+strong{font-weight:bold;}
+.clr{clear: both;}
+
+h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 21px;
+}
+
+#container {
+    width: 930px;
+    margin: 50px auto 10px auto;
+    padding: 20px 30px;
+    border-top: #666 solid 3px;
+    border-bottom: #666 solid 3px;
+    background: #f5f5f5;
+}
+
+#header #name{
+    float:left;
+}
+
+#header #contact{
+    float: right;
+}
+
+.row{
+    padding: 30px 0;
+    font-size: 20px;
+    overflow: hidden;
+    border-bottom: #ccc dotted 1px;
+}
+
+h2.left{
+    float: left;
+    width: 140px;
+    font-style: italic;
+}
+
+#profile p{
+    float: right;
+    width:700px;
+}
+
+#skills ul{
+    float: right;
+    width:700px;
+}
+
+#skills ul li{
+    float: left;
+    width:180px;
+    padding:0 40px 0 0;
+    font-size: 16px;
+}
+
+#technical table{
+    float: right;
+    width: 700px;
+}
+
+#technical table td{
+    width: 100px;
+    border-bottom: #ccc solid 1px;
+    padding: 5px;
+    /* text-align: center; */
+}
+
+#experience div{
+    float: right;
+    width:700px;
+    border-bottom: #ccc solid 1px;
+    padding: 10px 0;
+}
+
+#experience div h3, #education{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+#experience div h4{
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+#experience div p{
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+#education div{
+    float: right;
+    width: 700px;
+    padding: 10px 0;
+}
+
+#education div h3{
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+#footer {
+    text-align: center;
+    margin-bottom: 10px;
+}

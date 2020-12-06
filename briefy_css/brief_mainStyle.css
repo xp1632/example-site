@@ -118,7 +118,7 @@
     
 }
 /*To fit moblie*/
-@media screen and (max-width:328px){
+@media screen and (max-width:380px){
     
     .levelGroup{
         flex-direction: inherit;

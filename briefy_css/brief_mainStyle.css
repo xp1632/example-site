@@ -158,7 +158,7 @@
   }
 }
 
-@media screen and (max-width: 328px) {
+@media screen and (max-width: 380px) {
   .contentGroup li {
     width: 100%;
   }

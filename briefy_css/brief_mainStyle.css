@@ -86,7 +86,7 @@
 .levelGroup {
   display: flex;
   flex-direction: row;
-  text-align: center;
+  text-align: left;
   background-color: #fff;
   width: 60%;
 
@@ -135,7 +135,7 @@
 .contentGroup {
   display: flex;
   /* flex-direction: row; */
-  text-align: center;
+  text-align: left;
   background-color: #fff;
   /* width: 80%; */
 
@@ -149,7 +149,7 @@
 .contentGroup li {
   width: 30%;
   height: 15%;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0;
   box-sizing: border-box;
 }
 @media screen and (max-width: 767px) {
@@ -183,4 +183,7 @@ a {
 .small_title {
   padding-left: 2rem;
   font-size: 0.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }

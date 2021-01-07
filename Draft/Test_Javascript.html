@@ -4,7 +4,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript_learning</title>
 
+    <script type="text/javascript" src="jquery.js"></script>
+
+
+    <style>
+        .red{
+            color:red;
+        }
+    </style>
+
     <script>
+
+        //jquery side
+        // to avoid calling the elements before load them in
+        $(document).ready(function(){
+            $('h2.dynamicH2').html('This is a new h2 heading from jqurey');
+            $('h2').addClass('red');
+
+            $('button.textButton').click(function(){
+                $('h1.textChanged').html("this is the new text after changing");
+                $('h1.textChanged').slideToggle(200);
+            });
+
+        });
+
+
+
+
+        //javascript side
         var parameterName = "Time Setting: ";
         var parameterContent= new Array("1980s",'before sunset','midnight');
 
@@ -25,6 +52,29 @@
 
             document.write(randomParaContent);
             document.write('<br/>');
+        }
+
+        function hoverIn(){
+            var heading1 = document.getElementById('heading1');
+            heading1.innerHTML = 'New heading';
+
+        }
+
+        function hoverOut(){
+            var heading1 = document.getElementById("heading1");
+            heading1.innerHTML="This is the original heading"
+
+
+        }
+
+        function focusIn(){
+            alert("Get in!");
+
+        }
+
+        function blurOut(){
+            alert("Get out!");
+
         }
     </script>
 
@@ -55,9 +105,13 @@
         // var randomParaContent = parameterContentArray[randomParaName][randomNumContent];
 
         // document.write(randomParaContent);
-        randomNameContent(parameterNameArray,parameterContentArray);
-        randomNameContent(parameterNameArray,parameterContentArray);
-        randomNameContent(parameterNameArray,parameterContentArray);
+
+
+        // randomNameContent(parameterNameArray,parameterContentArray);
+        // randomNameContent(parameterNameArray,parameterContentArray);
+        // randomNameContent(parameterNameArray,parameterContentArray);
+
+
         ////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -73,6 +127,50 @@
         // }
         ////////////////////////////////////////////////////////////////////////////////////
     </script>
+
+
+    <script>
+        var day =new Date().getDay();
+        switch(day){
+            case 0:
+                x="Today is Sunday";
+                break;
+            case 1:
+                x="Today is m";
+                break;
+            case 2:
+                x="Today is T";
+                break;
+            case 3:
+                x="Today is W";
+                break;
+            case 4:
+                x="Today is 4";
+                break;
+            case 5:
+                x="I don't care";
+                break;
+        }
+
+        alert(x);
+    </script>
+
+    <button onclick="return randomNameContent(parameterNameArray,parameterContentArray)">New design!</button>
+    <h1 id="heading1" onmouseover="return hoverIn()" onmouseout="return hoverOut()">This is the original heading</h1> <br />
+
+    <form>
+
+        Name:<input onfocus="return focusIn()" onblur="return blurOut()" type="text" name="name"/> <br />
+        <input type="submit" value="Submit"/>
+
+    </form>
+
+    <h2 class ="dynamicH2">Test jquery!</h2>
+    <h2>Test another h2!</h2> <br/>
+
+    <button class="textButton">Change text</button>
+
+    <h1 class="textChanged">This is the text to change</h1>
 
 
 

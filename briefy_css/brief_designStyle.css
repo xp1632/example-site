@@ -1,31 +1,16 @@
 /* Add Google Fonts */
-/* 
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap"); */
 
-@font-face {
-    font-family: "Input Mono";
-    src: url("../briefy_fonts/InputMono-Medium-Testing.ttf");
-}
- @font-face {
-    font-family: "Output Sans";
-    src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
-}
-
- @font-face {
-    font-family: "Output Sans Medium";
-    src: url("../briefy_fonts/OutputSans-Medium-Edu.otf");
-}
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap");
 
 /*pageContainer for mainbody,a 3-part column flexbox, include header,level,content_container */
 .pageContainer {
     display: flex;
-    /* align-items: center; */
-    height: 50%;
+    align-items: center;
+    height: 90%;
     flex-direction: column;
-    font-size: 1rem;
-    padding-left: 7%;
-    padding-right: 7%;
-
+    font-family: "Nunito Sans", sans-serif, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
 }
 
 .pageContainer #header{
@@ -60,6 +45,7 @@
 
 
 }
+
 .flexHeader li{
 
     flex-direction: row;
@@ -70,31 +56,6 @@
     border: solid 1px #000; */
 }
 
-
-#logoImg{
-
-
-
-
-}
-
-
-#title{
-
-    font-family: "Input Mono";
-    font-style: normal;
-    font-weight: medium;
-
-    /* background-color: blanchedalmond;
-    border: solid 1px #000; */
-}
-
-#sidemenu{
-
-
-    /* background-color: blanchedalmond;
-    border: solid 1px #000; */
-}
 
 /* #logoImg{
    
@@ -144,16 +105,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
-
-.levelGroup li{
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    background-color: rgba(0, 0, 0,0.1);
-    border:  solid 1px #000;
-    border-radius: 5px;
-
-}
-
 /*To fit tablet*/
 @media screen and (max-width: 767px) {
     .levelGroup{
@@ -200,13 +151,12 @@
 .contentGroup{
     display: flex;
     /* flex-direction: row; */
-    text-align: center;
+    text-align: left;
     background-color:#fff;
     /* width: 80%; */
 
     padding: 1rem 2rem 2rem 2rem;
     
-
     /* flex-basis: 33%; */
     flex-wrap: wrap;
     justify-content: space-between;
@@ -216,18 +166,8 @@
 .contentGroup li{
     width: 30%;
     height: 15%;
-
-    padding: 1rem 0.5rem 1rem 0;
-    
-    margin-bottom: 1rem;
-
+    padding: 0.5rem 0.5rem 0.5rem 0;
     box-sizing: border-box;
-
-    background-color: rgba(0, 0, 0,0.1);
-
-    /* border:  solid 1px #000; */
-    border-radius: 5px;
-
 }
 @media screen and (max-width: 767px) {
     .contentGroup li{

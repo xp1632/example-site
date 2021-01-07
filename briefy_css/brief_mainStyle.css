@@ -1,313 +1,273 @@
+@font-face {
+  font-family: "Input Mono";
+  src: url("../briefy_fonts/InputMono-Medium-Testing.ttf");
+}
+@font-face {
+  font-family: "Output Sans";
+  src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
+}
 
 @font-face {
-    font-family: "Input Mono";
-    src: url("../briefy_fonts/InputMono-Medium-Testing.ttf");
-}
- @font-face {
-    font-family: "Output Sans";
-    src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
-}
-
- @font-face {
-    font-family: "Output Sans Medium";
-    src: url("../briefy_fonts/OutputSans-Medium-Edu.otf");
+  font-family: "Output Sans Medium";
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.otf");
 }
 
 /*pageContainer for mainbody,a 3-part column flexbox, include header,level,content_container */
 .pageContainer {
-    display: flex;
-    /* align-items: center; */
-    height: 50%;
-    flex-direction: column;
-    font-size: 1rem;
-    padding-top: 2%;
-    padding-left: 7%;
-    padding-right: 7%;
-
+  display: flex;
+  /* align-items: center; */
+  height: 50%;
+  flex-direction: column;
+  font-size: 1rem;
+  padding-top: 2%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
-.pageContainer #header{
-    width: 100%;
-    /* border: solid 1px #000000; */
+.pageContainer #header {
+  width: 100%;
+  /* border: solid 1px #000000; */
 }
 
-.pageContainer #level{
-    width: 100%;
-    margin-top: 50px;
-    
+.pageContainer #level {
+  width: 100%;
+  margin-top: 50px;
 }
 
-.pageContainer #content_container{
-    width: 100%;
-    height: 50%;
-    /* border: solid 1px #000000; */
-    margin-top: 30px;
+.pageContainer #content_container {
+  width: 100%;
+  height: 50%;
+  /* border: solid 1px #000000; */
+  margin-top: 30px;
 }
 /*pageContainer for mainbody,a 3-part column flexbox */
 
-
 /*flexHeader for header, a 3-part row flexbox,include logoImg, title, sidemenu */
 .flexHeader {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-/* 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  /* 
     background-color:#fff; */
-    justify-content: space-between;
-
-
+  justify-content: space-between;
 }
-.flexHeader li{
+.flexHeader li {
+  flex-direction: row;
+  text-align: center;
+  /* flex-basis: 30%; */
 
-    flex-direction: row;
-    text-align: center;
-    /* flex-basis: 30%; */
-
-    /* background-color: blanchedalmond;
+  /* background-color: blanchedalmond;
     border: solid 1px #000; */
 }
 
-
-#logoImg{
-    flex:1;
-    margin-left: -5%;
+#logoImg {
+  flex: 1;
+  margin-left: -5%;
 }
 
-.logoImage{
-    width: 50%;
+.logoImage {
+  width: 50%;
 }
-
 
 @media screen and (max-width: 767px) {
-   .logoImage{
-      width: 70%;
-    }
-
+  .logoImage {
+    width: 70%;
+  }
 }
 
-@media screen and (max-width:380px){
-    .logoImage{
-        width: 100%;
-      }
-
+@media screen and (max-width: 380px) {
+  .logoImage {
+    width: 100%;
+  }
 }
 
-#title{
-    flex:3;
+#title {
+  flex: 3;
 }
 
-#sidemenu{
-   flex: 1;
+#sidemenu {
+  flex: 1;
 }
-
 
 /*a inside row-flexbox for menubutton in sidemenu*/
-.buttonGroup{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    background-color:#fff;
-    flex-wrap: wrap;
-
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #fff;
+  flex-wrap: wrap;
 }
 
-.buttonGroup li{
-    flex:1;
+.buttonGroup li {
+  flex: 1;
 }
 /*a inside row-flexbox for menubutton in sidemenu*/
 
 /*flexHeader for header, a 3-part row flexbox,include logoImg, title, sidemenu */
 
-
-
 /*flexbox foe levelgroup, a 5-part for flexbox, include level1---level5*/
-.levelGroup{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 60%;
+.levelGroup {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 60%;
 
-    padding: 1rem 2rem 1rem 2rem;
-    
-    flex-basis: 18%;
-    flex-wrap: wrap;
-    justify-content: space-between;
- 
+  padding: 1rem 2rem 1rem 2rem;
+
+  flex-basis: 18%;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
+.levelGroup li {
+  padding: 1rem 1.8rem 1rem 1.8rem;
 
+  border-radius: 5px;
+  margin-bottom: 4%;
 
-.levelGroup li{
-    padding: 1rem 1.8rem 1rem 1.8rem;
+  background-color: rgba(0, 0, 0, 0.1);
 
-
-    border-radius: 5px;
-    margin-bottom: 4%;
-
-
-    background-color: rgba(0, 0, 0,0.1);
-
-    transition-property: color, background-color;
-    transition-duration: 1s;
-
-} 
+  transition-property: color, background-color;
+  transition-duration: 1s;
+}
 
 /* hover effect */
 
-.levelGroup a:hover{
-    color: white;
+.levelGroup a:hover {
+  color: white;
 }
 
-.levelGroup li:hover{
-    color: white;
-    background-color: rgb(0, 0, 0);
+.levelGroup li:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
 /* hover effect */
-
-
 
 /*To fit tablet*/
 @media screen and (max-width: 767px) {
-    .levelGroup{
-        width: 90%;
-        flex-basis: 15%;
-    }
-    .levelGroup li{
-        padding: 1rem 1.5rem 1rem 1.5rem;
-    }
-    
+  .levelGroup {
+    width: 90%;
+    flex-basis: 15%;
+  }
+  .levelGroup li {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+  }
 }
 /*To fit moblie*/
-@media screen and (max-width:380px){
-    
-    .levelGroup{
-        flex-direction: inherit;
-        width: 80%;
-        flex-basis: 30%;
-    }
-    .levelGroup li{
-        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    }
+@media screen and (max-width: 380px) {
+  .levelGroup {
+    flex-direction: inherit;
+    width: 80%;
+    flex-basis: 30%;
+  }
+  .levelGroup li {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
 
-    /* .levelGroup:last-child{
+  /* .levelGroup:last-child{
         flex-grow: 1;
         align-self: stretch;
     } */
-
 }
-
 
 /*flexbox foe levelgroup, a 5-part for flexbox, include level1---level5*/
 
-
-
 /*flexbox for area_content, flexbox includes 15 elements, for large screen 3 column,5 each, for tablet, 2 columns, for mobile 1 column*/
-.content_container{
-    margin-top:3rem ;
+.content_container {
+  margin-top: 3rem;
 }
 
+.contentGroup {
+  display: flex;
+  /* flex-direction: row; */
+  text-align: center;
+  /* width: 80%; */
 
-.contentGroup{
-    display: flex;
-    /* flex-direction: row; */
-    text-align: center;
-    /* width: 80%; */
+  padding: 1rem 2rem 2rem 2rem;
 
-    padding: 1rem 2rem 2rem 2rem;
-    
-
-    /* flex-basis: 33%; */
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-
+  /* flex-basis: 33%; */
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.contentGroup li{
-    width: 30%;
-    height: 15%;
+.contentGroup li {
+  width: 30%;
+  height: 15%;
 
-    padding: 1rem 0.5rem 1rem 0.5rem;
-    
-    margin-bottom: 1rem;
+  padding: 1rem 0.5rem 1rem 0.5rem;
 
-    box-sizing: border-box;
+  margin-bottom: 1rem;
 
-    background-color: rgba(0, 0, 0,0.1);
+  box-sizing: border-box;
 
-    /* border:  solid 1px #000; */
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
 
-    transition-property: color, background-color;
-    transition-duration: 1s;
+  /* border:  solid 1px #000; */
+  border-radius: 5px;
 
+  transition-property: color, background-color;
+  transition-duration: 1s;
 }
 
 /* hover effect */
 
-.contentGroup a:hover{
-    color: white;
+.contentGroup a:hover {
+  color: white;
 }
 
-.contentGroup li:hover{
-    color: white;
-    background-color: rgb(0, 0, 0);
+.contentGroup li:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
 /* hover effect */
-
 
 @media screen and (max-width: 767px) {
-    .contentGroup li{
-        width: 45%;
-    }
-
+  .contentGroup li {
+    width: 45%;
+  }
 }
 
-@media screen and (max-width:380px){
-    .contentGroup li{
-        width: 100%;
-    }
-
+@media screen and (max-width: 380px) {
+  .contentGroup li {
+    width: 100%;
+  }
 }
 /*flexbox for area_content, flexbox includes 15 elements, for large screen 3 column,5 each, for tablet, 2 columns, for mobile 1 column*/
 
-
 /*font area*/
-a{
-    text-decoration:none;
-    color:#333;
-    }
-
-.mono_Font{
-    font-family: "Input Mono";
-    font-style: normal;
-    font-weight: medium;
-    font-size: 1.1rem;
+a {
+  text-decoration: none;
+  color: #333;
 }
 
-.sans_Font{
-    font-family: "Output Sans";
-    font-style: normal;
-
-    /* font-weight: medium; */
+.mono_Font {
+  font-family: "Input Mono";
+  font-style: normal;
+  font-weight: medium;
+  font-size: 1.1rem;
 }
 
-.sans_Font_Medium{
-    font-family: "Output Sans";
-    font-style: normal;
-    font-weight: bold;
-    
+.sans_Font {
+  font-family: "Output Sans";
+  font-style: normal;
+
+  /* font-weight: medium; */
+}
+
+.sans_Font_Medium {
+  font-family: "Output Sans";
+  font-style: normal;
+  font-weight: bold;
 }
 
 /*small font style for levels and categories*/
 
-.small_title{
-
-    letter-spacing:1px;
-    font-family: "Input Mono";
-    font-style: normal;
-    font-weight: bold;
-    padding-left: 2rem;
-    font-size: 0.6rem;
+.small_title {
+  letter-spacing: 1px;
+  font-family: "Input Mono";
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 2rem;
+  font-size: 0.6rem;
 }

@@ -216,7 +216,12 @@ h4 {
 }
 
 .output-wrapper {
-  margin-top: 2em;
+  margin-top: 6em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 2em;
+  grid-row-gap: 4em;
 }
 
 .output--main {
@@ -253,6 +258,15 @@ h4 {
   border: 2px solid #000;
   border-radius: 100%;
   position: relative;
+  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.tooltip:hover {
+  background-color: #121212;
+}
+
+.tooltip:hover .i-icon {
+  filter: brightness(0) invert(1);
 }
 
 /* Tooltip text */
@@ -295,7 +309,7 @@ h4 {
   opacity: 1;
 }
 
-.image-5 {
+.i-icon {
   width: auto;
   height: 81%;
 }
@@ -335,7 +349,7 @@ h4 {
   }
 
   .output-wrapper {
-    margin-top: 2em;
+    margin-top: 6em;
   }
 
   .output--name {

@@ -74,14 +74,24 @@
     margin-left: -5%;
 }
 
+.logoImage{
+    width: 50%;
+}
 
 
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
    .logoImage{
-      width: 35%;
+      width: 70%;
     }
 
-} */
+}
+
+@media screen and (max-width:380px){
+    .logoImage{
+        width: 100%;
+      }
+
+}
 
 #title{
     flex:3;

@@ -1,3 +1,21 @@
+/* Fonts */
+
+@font-face {
+  font-family: "Input Mono";
+  src: url("../briefy_fonts/InputMono-Medium-Testing.ttf");
+}
+@font-face {
+  font-family: "Output Sans";
+  src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
+}
+
+@font-face {
+  font-family: "Output Sans Medium";
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.otf");
+}
+
+/* Styles */
+
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;

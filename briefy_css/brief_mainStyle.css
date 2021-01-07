@@ -1,6 +1,3 @@
-/* Add Google Fonts */
-/* 
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap"); */
 
 @font-face {
     font-family: "Input Mono";
@@ -23,6 +20,7 @@
     height: 50%;
     flex-direction: column;
     font-size: 1rem;
+    padding-top: 2%;
     padding-left: 7%;
     padding-right: 7%;
 
@@ -35,7 +33,7 @@
 
 .pageContainer #level{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 50px;
     
 }
 
@@ -54,8 +52,8 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-
-    background-color:#fff;
+/* 
+    background-color:#fff; */
     justify-content: space-between;
 
 
@@ -64,7 +62,7 @@
 
     flex-direction: row;
     text-align: center;
-    flex-basis: 30%;
+    /* flex-basis: 30%; */
 
     /* background-color: blanchedalmond;
     border: solid 1px #000; */
@@ -72,44 +70,27 @@
 
 
 #logoImg{
-
-
-
-
+    flex:1;
+    margin-left: -5%;
 }
 
+
+
+/* @media screen and (max-width: 767px) {
+   .logoImage{
+      width: 35%;
+    }
+
+} */
 
 #title{
-
-    font-family: "Input Mono";
-    font-style: normal;
-    font-weight: medium;
-
-    /* background-color: blanchedalmond;
-    border: solid 1px #000; */
+    flex:3;
 }
-
-#sidemenu{
-
-
-    /* background-color: blanchedalmond;
-    border: solid 1px #000; */
-}
-
-/* #logoImg{
-   
-
-}
-
-
-#title{
-    flex:2;
-}
-
 
 #sidemenu{
    flex: 1;
-} */
+}
+
 
 /*a inside row-flexbox for menubutton in sidemenu*/
 .buttonGroup{
@@ -134,25 +115,47 @@
 .levelGroup{
     display: flex;
     flex-direction: row;
-    text-align: left;
-    background-color:#fff;
+    text-align: center;
     width: 60%;
 
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     
     flex-basis: 18%;
     flex-wrap: wrap;
     justify-content: space-between;
+ 
 }
+
 
 
 .levelGroup li{
-    padding: 1rem 1.5rem 1rem 1.5rem;
-    background-color: rgba(0, 0, 0,0.1);
-    border:  solid 1px #000;
-    border-radius: 5px;
+    padding: 1rem 1.8rem 1rem 1.8rem;
 
+
+    border-radius: 5px;
+    margin-bottom: 4%;
+
+
+    background-color: rgba(0, 0, 0,0.1);
+
+    transition-property: color, background-color;
+    transition-duration: 1s;
+
+} 
+
+/* hover effect */
+
+.levelGroup a:hover{
+    color: white;
 }
+
+.levelGroup li:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+/* hover effect */
+
+
 
 /*To fit tablet*/
 @media screen and (max-width: 767px) {
@@ -160,9 +163,8 @@
         width: 90%;
         flex-basis: 15%;
     }
-
     .levelGroup li{
-        padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
     }
     
 }
@@ -177,15 +179,14 @@
     .levelGroup li{
         padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     }
-    
+
+    /* .levelGroup:last-child{
+        flex-grow: 1;
+        align-self: stretch;
+    } */
 
 }
-.levelGroup li{
-    /* flex:1; */
-    
-    /* background-color: blanchedalmond;
-    border: solid 1px #000; */
-}
+
 
 /*flexbox foe levelgroup, a 5-part for flexbox, include level1---level5*/
 
@@ -201,7 +202,6 @@
     display: flex;
     /* flex-direction: row; */
     text-align: center;
-    background-color:#fff;
     /* width: 80%; */
 
     padding: 1rem 2rem 2rem 2rem;
@@ -210,6 +210,7 @@
     /* flex-basis: 33%; */
     flex-wrap: wrap;
     justify-content: space-between;
+
 
 }
 
@@ -228,7 +229,24 @@
     /* border:  solid 1px #000; */
     border-radius: 5px;
 
+    transition-property: color, background-color;
+    transition-duration: 1s;
+
 }
+
+/* hover effect */
+
+.contentGroup a:hover{
+    color: white;
+}
+
+.contentGroup li:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+/* hover effect */
+
+
 @media screen and (max-width: 767px) {
     .contentGroup li{
         width: 45%;
@@ -251,16 +269,35 @@ a{
     color:#333;
     }
 
-.bold_Font{
-    font-weight: bold;
+.mono_Font{
+    font-family: "Input Mono";
+    font-style: normal;
+    font-weight: medium;
+    font-size: 1.1rem;
 }
 
-.large_Font{
-    /* font-size: 5rem; */
+.sans_Font{
+    font-family: "Output Sans";
+    font-style: normal;
+
+    /* font-weight: medium; */
+}
+
+.sans_Font_Medium{
+    font-family: "Output Sans";
+    font-style: normal;
+    font-weight: bold;
+    
 }
 
 /*small font style for levels and categories*/
+
 .small_title{
+
+    letter-spacing:1px;
+    font-family: "Input Mono";
+    font-style: normal;
+    font-weight: bold;
     padding-left: 2rem;
     font-size: 0.6rem;
 }

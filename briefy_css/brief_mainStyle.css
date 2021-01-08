@@ -130,21 +130,21 @@
 
     padding: 1rem 2rem 1rem 2rem;
     
-    flex-basis: 18%;
+    /* flex-basis: 20%; */
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
  
 }
 
 
 
 .levelGroup li{
-    padding: 1rem 1.8rem 1rem 1.8rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
 
 
     border-radius: 5px;
     margin-bottom: 4%;
-
+    margin-right: 2%;
 
     background-color: rgba(0, 0, 0,0.1);
 

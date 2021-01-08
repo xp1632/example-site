@@ -19,8 +19,8 @@
     /* align-items: center; */
     height: 50%;
     flex-direction: column;
-    font-size: 1rem;
-    padding-top: 2%;
+    /* font-size: 1rem; */
+    padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
 
@@ -75,7 +75,7 @@
 }
 
 .logoImage{
-    width: 50%;
+    width: 35%;
 }
 
 
@@ -109,6 +109,7 @@
     text-align: center;
     background-color:#fff;
     flex-wrap: wrap;
+
 
 }
 
@@ -306,12 +307,13 @@ a{
     font-family: "Input Mono";
     font-style: normal;
     font-weight: medium;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .sans_Font{
     font-family: "Output Sans";
     font-style: normal;
+    font-size: 1.2rem;
 
     /* font-weight: medium; */
 }
@@ -320,6 +322,7 @@ a{
     font-family: "Output Sans";
     font-style: normal;
     font-weight: bold;
+    font-size: 1.2rem;
     
 }
 

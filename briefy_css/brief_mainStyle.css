@@ -167,7 +167,9 @@
     color: white;
     background-color: rgb(0, 0, 0);
 }
+
 /* hover effect */
+
 
 
 
@@ -332,3 +334,31 @@ a{
     padding-left: 2rem;
     font-size: 0.6rem;
 }
+
+/*Reveal and Hide Styles*/
+
+.toggle-btn{
+    display: none;
+}
+@media screen and (max-width:560px){
+
+    .toggle-btn-visible{
+        display: block;
+    }
+    
+    .toggle-target-hidden{
+        display: none;
+    }
+    
+    .toggle-target-expanded{
+        display: block;
+    }
+    
+    .buttonGroup li{
+        width: 100%;
+        margin-bottom: 3%;
+        flex-grow: 1;
+    }
+}
+
+

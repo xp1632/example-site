@@ -357,7 +357,13 @@ h4 {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 2em;
+  }
+  .output-wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
   .body {
     font-size: 15px;
   }
@@ -398,12 +404,15 @@ h4 {
 }
 
 @media screen and (max-width: 479px) {
+  .output-wrapper{
+    grid-template-columns: 1fr 1fr;
+  }
   h1 {
-    font-size: 1.7em;
+    font-size: 1.3em;
   }
 
   h2 {
-    font-size: 1.4em;
+    font-size: 1.1em;
   }
 
   h4 {
@@ -460,6 +469,7 @@ h4 {
     width: 1.2em;
     height: 1.2em;
     margin-left: 0.8em;
+    text-align: center;
   }
 
   .heading-6 {

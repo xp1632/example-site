@@ -177,11 +177,22 @@
 
 /* hover effect */
 
+@media screen and (max-width: 1280px) {
 
+    .levelGroup{
+        width: 90%;
+        flex-basis: 15%;
+    }
+    .levelGroup li{
+        padding: 1rem 1.5rem 1rem 1.5rem;
+    }
+    
+}
 
 
 /*To fit tablet*/
 @media screen and (max-width: 767px) {
+
     #sidemenu{
         position: absolute;
         right: 12px;
@@ -359,7 +370,7 @@ a{
 .toggle-btn{
     display: none;
 }
-@media screen and (max-width:560px){
+@media screen and (max-width:770px){
 
     .toggle-btn-visible{
         display: block;

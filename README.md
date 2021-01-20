@@ -7,3 +7,5 @@ What's need to be done:
  - jumping to home page,about page, gallery page etc
  - add nav bar to about page, gallery page
  - font stuffs on different screen size
+ 
+ You could also check this page on basecamp https://3.basecamp.com/4748917/buckets/19265240/todolists/3270353107#

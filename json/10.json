@@ -1,77 +1,194 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{
+	"keys":[
+		"Problem",
+		"Produktkategorie",
+		"Zielgruppe",
+		"Material",
+		"Farbe",
+		"Herstellungstechnik",
+		"Kosten",
+		"Auflage",
+		"Formsprache",
+		"Textur und Oberfläche",
+		"Abilities",
+		"Auftraggeberin",
+		"Vermarktung"
+	],
+	
+	"Problem":[
+		{"name":"Problem","title":"Richtung Minimalismus","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Traditioneller Feier","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Bauhaus Legacy","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Umgang mit Herstellungsresten","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Schnelle Lösung für Notsituation","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Eames Legacy","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Trend alles selber machen","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Trend Pflanzen zuhause","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"3 Generationen unter einem Dach","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Sich vor Nachbarn verstecken","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Pandemie Eingrenzung","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Privatsphäre schützen","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Home Office","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Schlafen unterwegs","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Küche kleiner als 4m²","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Upcycling","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Die Zeit vergeht zu schnell","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Zu viel Verpackung","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Wohnung aufräumen","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Japanische Tradition","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"},
+		{"name":"Problem","title":"Klassische WG Probleme","intr":"Problem zu Lösen oder Thematik, die dein Projekt wieder aufgreifen soll"}
+	],
+	
+	"Produktkategorie":[
+		{"name":"Produktkategorie","title":"Licht","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Sitzgelegenheit","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Tischkultur","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Verpackung","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Regal","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Behälter","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Büromöbel","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Möbel","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Gesellschaftsspiele","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Möbel für zu Hause","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Gartenmöbel","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Heimtextil","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Badmöbel","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Kinderprodukte","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Spielzeug","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Elektronik","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Mit Bildschirm","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Mit Sound","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"},
+		{"name":"Produktkategorie","title":"Möbel für den öffentlichen Raum","intr":"Die Art oder Eigenschaft, die dein Produkt haben soll"}
+	],
+	
+	"Zielgruppe":[
+		{"name":"Zielgruppe","title":"alle über 65 Jahre","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Kindergartenkinder","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Jugendliche","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Frauen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Männer","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Hausfraien bis 50","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Vegetarierinnen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Veganerinnen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"frisch Verheiratete","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Studierende","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Eletern mit kleinkindern","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Autofahrerinnen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Fahrradfahrerinnen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Körperlich eingeschränkte Personen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Geistig eingeschränkte Personen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Linkshänder","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten"}
+	],
+	
+	"Material":[
+		{"name":"Material","title":"Holz","intr":"Du solltest in deinem Projekt (unter anderem) Holz verwenden"},
+		{"name":"Material","title":"Metall","intr":"Du solltest in deinem Projekt (unter anderem) Metall verwenden"},
+		{"name":"Material","title":"Glas","intr":"Du solltest in deinem Projekt (unter anderem) Glas verwenden"},
+		{"name":"Material","title":"Papier","intr":"Du solltest in deinem Projekt (unter anderem) Papier verwenden"},
+		{"name":"Material","title":"Schaumstoff","intr":"Du solltest in deinem Projekt (unter anderem) Schaumstoff verwenden"},
+		{"name":"Material","title":"Porzellan","intr":"Du solltest in deinem Projekt (unter anderem) Porzellan verwenden"},
+		{"name":"Material","title":"Ton","intr":"Du solltest in deinem Projekt (unter anderem) Ton verwenden"},
+		{"name":"Material","title":"Kunsstoff","intr":"Du solltest in deinem Projekt (unter anderem) Kunststoff verwenden"},
+		{"name":"Material","title":"leicht","intr":"Du solltest in deinem Projekt (unter anderem) leichte Materialien verwenden"},
+		{"name":"Material","title":"schwer","intr":"Du solltest in deinem Projekt (unter anderem) schwere Materialien verwenden"},
+		{"name":"Material","title":"Pappe","intr":"Du solltest in deinem Projekt (unter anderem) Pappe verwenden"},
+		{"name":"Material","title":"Textil","intr":"Du solltest in deinem Projekt (unter anderem) Textil verwenden"},
+		{"name":"Material","title":"Reststoffe","intr":"Du solltest in deinem Projekt (unter anderem) Reststoffe verwenden"}	
+	],
+	
+	"Farbe":[
+		{"name":"Farbe","title":"warme Farbe","intr":"Dein Produkt soll warme Farbe haben"},
+		{"name":"Farbe","title":"kalte Farbe","intr":"Dein Produkt soll kalte Farbe haben"},
+		{"name":"Farbe","title":"sehr hell","intr":"Dein Produkt soll sehr helle Farbe haben"},
+		{"name":"Farbe","title":"sehr dunkel","intr":"Dein Produkt soll sehr dunkle Farbe haben"},
+		{"name":"Farbe","title":"rot","intr":"Dein Produkt soll (unter andrem) rot sein"},
+		{"name":"Farbe","title":"hellgrün","intr":"Dein Produkt soll (unter andrem) hellgrün sein"},
+		{"name":"Farbe","title":"dunkelgrau","intr":"Dein Produkt soll (unter andrem) dunkelgrau sein"},
+		{"name":"Farbe","title":"gelb","intr":"Dein Produkt soll (unter andrem) gelb sein"},
+		{"name":"Farbe","title":"blau und orange","intr":"Dein Produkt soll blau und orange sein"},
+		{"name":"Farbe","title":"Neonfarben","intr":"Dein Produkt soll (unter anderem) Neonfarben haben"},
+		{"name":"Farbe","title":"leuchtend","intr":"Dein Produkt soll (unter anderem) leuchtende Farbe haben"}	
+	],
+	
+	"Herstellungstechnik":[
+		{"name":"Herstellungstechnik","title":"Gekantet","intr":"Dein Produkt ist gekantet"},
+		{"name":"Herstellungstechnik","title":"Geschweißt","intr":"Dein Produkt ist geschweißt"},
+		{"name":"Herstellungstechnik","title":"Gedrückt","intr":"Dein Produkt ist gedrückt"},
+		{"name":"Herstellungstechnik","title":"Getrieben","intr":"Dein Produkt ist getrieben"},
+		{"name":"Herstellungstechnik","title":"Gelasert","intr":"Dein Produkt ist gelasert"},
+		{"name":"Herstellungstechnik","title":"Gedreht oder gedrechselt","intr":"Dein Produkt ist gedrechselt oder gedreht"},
+		{"name":"Herstellungstechnik","title":"3D Druck","intr":"Dein Produkt ist 3D gedruckt"},
+		{"name":"Herstellungstechnik","title":"gefräst","intr":"Dein Produkt ist gefräst"},
+		{"name":"Herstellungstechnik","title":"mit Negativform","intr":"Dein Produkt ist mit Hilfe einer Negativform hergestellt"}
+	],
+	
+	"Kosten":[
+		{"name":"Kosten","title":"0€","intr":"Dein Produkt soll kein Geld kosten"},
+		{"name":"Kosten","title":"1 Monatseinkommen","intr":"Der Preis deines Produkts ist ein Monatseinkommen"},
+		{"name":"Kosten","title":"100€","intr":"Dein Produkt soll 100€ kosten"},
+		{"name":"Kosten","title":"10,000€","intr":"Dein Produkt soll 10.000€ kosten"},
+		{"name":"Kosten","title":"unbegrenzt","intr":"Dein Produkt kostet soviel, wie es eben kostet. Es gibt keine Beschränkung. "},
+		{"name":"Kosten","title":"2.50€","intr":"Dein Produkt soll 2,50€ kosten"},
+		{"name":"Kosten","title":"Ikea Preisrahmen","intr":"Der Preis deines Produkts orientiert sich am Ikea Preisrahmen"},
+		{"name":"Kosten","title":"20 – 49 €","intr":"Der Preis deines Produkts liegt zwischen 20-49€"}
+	],
+	
+	"Auflage":[
+		{"name":"Auflage","title":"1","intr":"Dein Produkt solltest du für eine Auflage von einem Exemplar gestalten. Je nach Auflage wird die Gestaltung bestimmt anders."},
+		{"name":"Auflage","title":"100","intr":"Dein Produkt solltest du für eine Auflage von 100 Exemplaren gestalten. Je nach Auflage wird die Gestaltung bestimmt anders."},
+		{"name":"Auflage","title":"50000","intr":"Dein Produkt solltest du für eine Auflage von 5000 Exemplaren gestalten. Je nach Auflage wird die Gestaltung bestimmt anders."},
+		{"name":"Auflage","title":"7,77 Milliarden","intr":"Dein Produkt solltest du für eine Auflage von 7,77 Milliarden Exemplaren gestalten. Je nach Auflage wird die Gestaltung bestimmt anders."},
+		{"name":"Auflage","title":"81 Millionen","intr":"Dein Produkt solltest du für eine Auflage von 81 Millionen Exemplaren gestalten. Je nach Auflage wird die Gestaltung bestimmt anders."},
+		{"name":"Auflage","title":"500","intr":"Dein Produkt solltest du für eine Auflage von 500 Exemplaren gestalten. Je nach Auflage wird die Gestaltung bestimmt anders."},
+		{"name":"Auflage","title":"20","intr":"Dein Produkt solltest du für eine Auflage von 20 Exemplaren gestalten. Je nach Auflage wird die Gestaltung bestimmt anders."},
+		{"name":"Auflage","title":"10","intr":"Dein Produkt solltest du für eine Auflage von 10 Exemplaren gestalten. Je nach Auflage wird die Gestaltung bestimmt anders."}	
+	],
+	
+	"Formsprache":[
+		{"name":"Formsprache","title":"rund","intr":"Die Formen deines Produktes sollen eher rund sein"},
+		{"name":"Formsprache","title":"rechteckig","intr":"Die Formen deines Produktes sollen eher rechteckig sein"},
+		{"name":"Formsprache","title":"dreieckig","intr":"Die Formen deines Produktes sollen eher dreieckig sein"},
+		{"name":"Formsprache","title":"quadratisch","intr":"Die Formen deines Produktes sollen eher quadratisch sein"},
+		{"name":"Formsprache","title":"oval","intr":"Die Formen deines Produktes sollen eher oval sein"}
+	],
+	
+	"Textur und Oberfläche":[
+		{"name":"Textur und Oberfläche","title":"glatt","intr":"Die Oberfläche deines Produktes soll glatt sein"},
+		{"name":"Textur und Oberfläche","title":"lackiert","intr":"Die Oberfläche deines Produktes soll lackiert sein"},
+		{"name":"Textur und Oberfläche","title":"rau","intr":"Die Oberfläche deines Produktes soll rau sein"},
+		{"name":"Textur und Oberfläche","title":"lasiert","intr":"Die Oberfläche deines Produktes soll lasiert sein"},
+		{"name":"Textur und Oberfläche","title":"opak","intr":"Die Oberfläche deines Produktes soll opak sein"},
+		{"name":"Textur und Oberfläche","title":"transparent","intr":"Die Oberfläche deines Produktes soll transparent sein"},
+		{"name":"Textur und Oberfläche","title":"gebeitzt","intr":"Die Oberfläche deines Produktes soll gebeitzt sein"},
+		{"name":"Textur und Oberfläche","title":"geflammt","intr":"Die Oberfläche deines Produktes soll geflammt sein"},
+		{"name":"Textur und Oberfläche","title":"samtig","intr":"Die Oberfläche deines Produktes soll samtig sein"},
+		{"name":"Textur und Oberfläche","title":"Spuren der Herstellung","intr":"Die Oberfläche deines Produktes soll Spuren der Herstellung haben"}
+	],
+	
+	"Abilities":[
+		{"name":"Abilities","title":"Leseschwache","intr":"Dein Produkt soll auch für Leseschwache gut nutzbar sein"},
+		{"name":"Abilities","title":"Analphabeten","intr":"Dein Produkt soll auch für Analphabeten gut nutzbar sein"},
+		{"name":"Abilities","title":"Brillenträger:innen","intr":"Dein Produkt soll auch für Brillenträger*innen gut nutzbar sein"},
+		{"name":"Abilities","title":"Kleine Menschen","intr":"Dein Produkt soll auch für kleine Menschen gut nutzbar sein"},
+		{"name":"Abilities","title":"Nichtdeutschsprachig","intr":"Dein Produkt soll auch für Nichtdeutschsprachige gut nutzbar sein"}
+	],
+	
+	"Auftraggeberin":[
+		{"name":"Auftraggeberin","title":"die HBK","intr":"Person oder Firma, die dich dazu beantragt, dieses Produkt zu gestalten"},
+		{"name":"Auftraggeberin","title":"ein berühmter Designer","intr":"Person oder Firma, die dich dazu beantragt, dieses Produkt zu gestalten"},
+		{"name":"Auftraggeberin","title":"ein berühmter Künstler","intr":"Person oder Firma, die dich dazu beantragt, dieses Produkt zu gestalten"},
+		{"name":"Auftraggeberin","title":"die Stadt Saarbrücken","intr":"Person oder Firma, die dich dazu beantragt, dieses Produkt zu gestalten"},
+		{"name":"Auftraggeberin","title":"die Deutsche Bahn","intr":"Person oder Firma, die dich dazu beantragt, dieses Produkt zu gestalten"},
+		{"name":"Auftraggeberin","title":"Mercedes","intr":"Person oder Firma, die dich dazu beantragt, dieses Produkt zu gestalten"},
+		{"name":"Auftraggeberin","title":"Apple","intr":"Person oder Firma, die dich dazu beantragt, dieses Produkt zu gestalten"}
+	],
+	
+	"Vermarktung":[
+		{"name":"Vermarktung","title":"Onlineshop","intr":"Die Vermarktung durch welche dein Produkt sich in erster Linie verkaufen soll"},
+		{"name":"Vermarktung","title":"Ladenlokal","intr":"Die Vermarktung durch welche dein Produkt sich in erster Linie verkaufen soll"},
+		{"name":"Vermarktung","title":"Pop-up Store","intr":"Die Vermarktung durch welche dein Produkt sich in erster Linie verkaufen soll"},
+		{"name":"Vermarktung","title":"Messestand","intr":"Die Vermarktung durch welche dein Produkt sich in erster Linie verkaufen soll"},
+		{"name":"Vermarktung","title":"Supermarkt","intr":"Die Vermarktung durch welche dein Produkt sich in erster Linie verkaufen soll"}
+	]
+}

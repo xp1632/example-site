@@ -1,77 +1,156 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{	
+
+	"keys":[
+		"Thema",
+		"Herstellungstechnik",
+		"Formsprache",
+		"Format",
+		"Material",
+		"Praesentationsort",
+		"Farbe",
+		"Textur und oberfläche"
+	],
+	
+	"Thema":[
+		{"name":"Thema","title":"Menschen","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Mensch auseinandersetzen"},
+		{"name":"Thema","title":"Landschaft","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Landschaft auseinandersetzen"},
+		{"name":"Thema","title":"Portrait","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Portrait auseinandersetzen"},
+		{"name":"Thema","title":"Stilleben","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Stilleben auseinandersetzen"},
+		{"name":"Thema","title":"Technik","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Technik auseinandersetzen"},
+		{"name":"Thema","title":"Wissen","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Wissen auseinandersetzen"},
+		{"name":"Thema","title":"Spaß","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Spaß auseinandersetzen"},
+		{"name":"Thema","title":"Arbeit","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Arbeit auseinandersetzen"},
+		{"name":"Thema","title":"Tod","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Tod auseinandersetzen"},
+		{"name":"Thema","title":"Courage","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Courage auseinandersetzen"},
+		{"name":"Thema","title":"Mitleid","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Mitleid auseinandersetzen"},
+		{"name":"Thema","title":"Ehre","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Ehre auseinandersetzen"},
+		{"name":"Thema","title":"Ehrlichkeit","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Ehrlichkeit auseinandersetzen"},
+		{"name":"Thema","title":"Treue","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Treue auseinandersetzen"},
+		{"name":"Thema","title":"Ausdauer","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Ausdauer auseinandersetzen"},
+		{"name":"Thema","title":"Familie","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Familie auseinandersetzen"},
+		{"name":"Thema","title":"Generationen","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Generationen auseinandersetzen"},
+		{"name":"Thema","title":"Liebe","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Liebe auseinandersetzen"},
+		{"name":"Thema","title":"Freundschaft","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Freundschaft auseinandersetzen"},
+		{"name":"Thema","title":"Revanche","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Revanche auseinandersetzen"},
+		{"name":"Thema","title":"Macht","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Macht auseinandersetzen"},
+		{"name":"Thema","title":"Vetrauen","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Vertrauen auseinandersetzen"},
+		{"name":"Thema","title":"Kriminalität","intr":"Deine Arbeit sollte sich (unter anderem) mit der Kriminalität auseinandersetzen"},
+		{"name":"Thema","title":"Individuum","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Individuum auseinandersetzen"},
+		{"name":"Thema","title":"Gesellschaft","intr":"Deine Arbeit sollte sich (unter anderem) mit der Gesellschaft auseinandersetzen"},
+		{"name":"Thema","title":"Schuld","intr":"Deine Arbeit sollte sich (unter anderem) mit dem Thema Schuld auseinandersetzen"}
+	],
+	
+	"Herstellungstechnik":[
+		{"name":"Herstellungstechnik","title":"Pinsel","intr":"Verwende den Pinsel als Herstellungstechnik"},
+		{"name":"Herstellungstechnik","title":"Bleistift","intr":"Verwende den Bleistift als Herstellungstechnik"},
+		{"name":"Herstellungstechnik","title":"Buntstift","intr":"Verwende Buntstifte als Herstellungstechnik"},
+		{"name":"Herstellungstechnik","title":"Marker","intr":"Verwende Marker als Herstellungstechnik"},
+		{"name":"Herstellungstechnik","title":"Tusche","intr":"Verwende Tusche als Herstellungstechnik"},
+		{"name":"Herstellungstechnik","title":"Tablet","intr":"Verwende das Tablet als Herstellungstechnik"},
+		{"name":"Herstellungstechnik","title":"Gezeichnet","intr":"Deine Arbeit muss gezeichnet sein"},
+		{"name":"Herstellungstechnik","title":"Aqaurell","intr":"Verwende die Aquarelltechnik bei deiner Arbeit"},
+		{"name":"Herstellungstechnik","title":"Acrylfarbe","intr":"Verwende Acrylfarbe bei deiner Arbeit"},
+		{"name":"Herstellungstechnik","title":"Wasserfarbe","intr":"Verwende Wasserfarbe bei deiner Arbeit"},
+		{"name":"Herstellungstechnik","title":"Wachskreide","intr":"Verwende Wachskreide bei deiner Arbeit"},
+		{"name":"Herstellungstechnik","title":"Pastellkreide","intr":"Verwende Pastellkreide bei deiner Arbeit"},
+		{"name":"Herstellungstechnik","title":"Ölfarbe","intr":"Verwende Ölfarbe bei deiner Arbeit"},
+		{"name":"Herstellungstechnik","title":"Sketchboard","intr":"Verwende das Sketchboard als Herstellungstechnik"}
+	],
+	
+	"Formsprache":[
+		{"name":"Formsprache","title":"rund","intr":"Die Formensprache deiner Arbeit sollte rund sein"},
+		{"name":"Formsprache","title":"rechteckig","intr":"Die Formensprache deiner Arbeit sollte rechteckig sein"},
+		{"name":"Formsprache","title":"dreieckig","intr":"Die Formensprache deiner Arbeit sollte dreieckig sein"},
+		{"name":"Formsprache","title":"quadratisch","intr":"Die Formensprache deiner Arbeit sollte quadratisch sein"},
+		{"name":"Formsprache","title":"oval","intr":"Die Formensprache deiner Arbeit sollte oval sein"},
+		{"name":"Formsprache","title":"vieleckig","intr":"Die Formensprache deiner Arbeit sollte vieleckig sein"}
+	],
+	
+	"Format":[
+		{"name":"Format","title":"quadratisch","intr":"Das Format deiner Arbeit ist quadratisch"},
+		{"name":"Format","title":"dreieckig","intr":"Das Format deiner Arbeit ist dreieckig"},
+		{"name":"Format","title":"oktaedrisch","intr":"Das Format deiner Arbeit ist oktaedrisch"},
+		{"name":"Format","title":"rechteckig","intr":"Das Format deiner Arbeit ist rechteckig"},
+		{"name":"Format","title":"4D","intr":"Deine Arbeit ist 4D"},
+		{"name":"Format","title":"Reklambuch-Format","intr":"Das Reklambuch-Format bestimmt deine Arbeit"},
+		{"name":"Format","title":"Visitenkartenformat","intr":"Das Visitenkartenformat bestimmt deine Arbeit"},
+		{"name":"Format","title":"A6","intr":"Das Format deiner Arbeit ist A6"},
+		{"name":"Format","title":"A5","intr":"Das Format deiner Arbeit ist A5"},
+		{"name":"Format","title":"A4","intr":"Das Format deiner Arbeit ist A4"},
+		{"name":"Format","title":"A3","intr":"Das Format deiner Arbeit ist A3"},
+		{"name":"Format","title":"A2","intr":"Das Format deiner Arbeit ist A2"},
+		{"name":"Format","title":"A1","intr":"Das Format deiner Arbeit ist A1"},
+		{"name":"Format","title":"17 × 24 cm","intr":"Das Format deiner Arbeit ist 17 x 24 cm"},
+		{"name":"Format","title":"Langspielplatte","intr":"Die Langspielplatte bestimmt das Format deiner Arbeit"},
+		{"name":"Format","title":"Briefmarkengröße","intr":"Die Briefmarkengröße bestimmt deine Arbeit"},
+		{"name":"Format","title":"600 x 800 px","intr":"Das Format deiner Arbeit ist 600 x 800 px"},
+		{"name":"Format","title":"Skala Mensch","intr":"Skala Mensch bestimmt das Format deiner Arbeit"},
+		{"name":"Format","title":"Paketmaß","intr":"Das Paketmaß bestimmt das Format deiner Arbeit"},
+		{"name":"Format","title":"Kubikmeter","intr":"Der Kubikmeter bestimmt das Format deiner Arbeit"},
+		{"name":"Format","title":"Was dein Material hergibt","intr":"Das verwendete Material bestimmt das Format deiner Arbeit"}
+	],
+	
+	"Material":[
+		{"name":"Material","title":"Holz","intr":"Du solltest bei deiner Arbeit (unter anderem) Holz verwenden"},
+		{"name":"Material","title":"Metall","intr":"Du solltest bei deiner Arbeit(unter anderem) Metall verwenden"},
+		{"name":"Material","title":"Glas","intr":"Du solltest bei deiner Arbeit (unter anderem) Glas verwenden"},
+		{"name":"Material","title":"Papier","intr":"Du solltest bei deiner Arbeit (unter anderem) Holz verwenden"},
+		{"name":"Material","title":"Schaumstoff","intr":"Du solltest bei deiner Arbeit (unter anderem) Schaumstoff verwenden"},
+		{"name":"Material","title":"Porzellan","intr":"Du solltest bei deiner Arbeit (unter anderem) Porzellan verwenden"},
+		{"name":"Material","title":"Ton","intr":"Du solltest bei deiner Arbeit (unter anderem) Ton verwenden"},
+		{"name":"Material","title":"Kunsstoff","intr":"Du solltest bei deiner Arbeit (unter anderem) Kunststoff verwenden"},
+		{"name":"Material","title":"leicht","intr":"Du solltest bei deiner Arbeit (unter anderem) leichtes Material verwenden"},
+		{"name":"Material","title":"schwer","intr":"Du solltest bei deiner Arbeit (unter anderem) schweres Material verwenden"},
+		{"name":"Material","title":"Pappe","intr":"Du solltest bei deiner Arbeit (unter anderem) Pappe verwenden"},
+		{"name":"Material","title":"Textil","intr":"Du solltest bei deiner Arbeit (unter anderem) Textil verwenden"},
+		{"name":"Material","title":"Reststoffe","intr":"Du solltest bei deiner Arbeit (unter anderem) Reststoffe verwenden"}
+	],
+	
+	"Praesentationsort":[
+		{"name":"Praesentationsort","title":"Museum","intr":"Präsentationsort deiner Arbeit ist das Museum"},
+		{"name":"Praesentationsort","title":"Marktplatz","intr":"Präsentationsort deiner Arbeit ist der Marktplatz"},
+		{"name":"Praesentationsort","title":"Garten","intr":"Präsentationsort deiner Arbeit ist der Garten"},
+		{"name":"Praesentationsort","title":"Neben der Autobahn","intr":"Präsentationsort deiner Arbeit ist neben der Autobahn"},
+		{"name":"Praesentationsort","title":"Galerie der Hbksaar","intr":"Präsentationsort deiner Arbeit ist die Galerie der Hbksaar"},
+		{"name":"Praesentationsort","title":"Stadtgalerie Saarbrücken","intr":"Präsentationsort deiner Arbeit ist die Stadtgalerie Saarbrücken"},
+		{"name":"Praesentationsort","title":"Bahnhof","intr":"Präsentationsort deiner Arbeit ist der Bahnhof"},
+		{"name":"Praesentationsort","title":"Eingangshalle einer großen Firma","intr":"Präsentationsort deiner Arbeit ist eine Eingangshalle einer großen Firma"},
+		{"name":"Praesentationsort","title":"Altelier/Entstehungsort","intr":"Präsentationsort deiner Arbeit ist das Atelier oder der Entstehungsort deiner Arbeit"},
+		{"name":"Praesentationsort","title":"Leere Wohnung","intr":"Präsentationsort deiner Arbeit ist eine leere Wohnung"},
+		{"name":"Praesentationsort","title":"White cube","intr":"Präsentationsort deiner Arbeit ist ein White cube"},
+		{"name":"Praesentationsort","title":"Theater","intr":"Präsentationsort deiner Arbeit ist das Theater"},
+		{"name":"Praesentationsort","title":"Wald","intr":"Präsentationsort deiner Arbeit ist der Wald"}
+	],
+	
+	"Farbe":[
+		{"name":"Farbe","title":"warme Farbe","intr":"Warme Farben bestimmen optisch deine Arbeit"},
+		{"name":"Farbe","title":"kalte Farbe","intr":"Kalte Farben bestimmen optisch deine Arbeit"},
+		{"name":"Farbe","title":"sehr hell","intr":"Sehr helle Farben bestimmen optisch deine Arbeit"},
+		{"name":"Farbe","title":"sehr dunkel","intr":"Sehr dunkle Farben bestimmen optisch deine Arbeit"},
+		{"name":"Farbe","title":"rot","intr":"Deine Arbeit ist rot"},
+		{"name":"Farbe","title":"hellgrün","intr":"Deine Arbeit ist hellgrün"},
+		{"name":"Farbe","title":"dunkelgrau","intr":"Deine Arbeit ist dunkelgrau"},
+		{"name":"Farbe","title":"gelb","intr":"Deine Arbeit ist gelb"},
+		{"name":"Farbe","title":"blau und orange","intr":"Deine Arbeit ist blau und orange"},
+		{"name":"Farbe","title":"neonfarben","intr":"Deine Arbeit ist neonfarben"},
+		{"name":"Farbe","title":"leuchtend","intr":"Leuchtende Farben bestimmen optisch deine Arbeit"},
+		{"name":"Farbe","title":"Komplementärkontrast","intr":"Komplementärkontraste bestimmen optisch deine Arbeit"},
+		{"name":"Farbe","title":"Pastellfarben","intr":"Deine Arbeit ist pastellfarben"},
+		{"name":"Farbe","title":"Einfarbig","intr":"Deine Arbeit ist einfarbig"},
+		{"name":"Farbe","title":"Material Farben","intr":"Die von dir genutzten Materialien bestimmen die Farbigkeit deiner Arbeit"},
+		{"name":"Farbe","title":"Durchsichtig","intr":"Deine Arbeit ist durchsichtig"}
+	],
+	
+	"Textur und oberfläche":[
+		{"name":"Textur und oberfläche","title":"glatt","intr":"Die Textur/Oberfläche deiner Arbeit ist glatt"},
+		{"name":"Textur und oberfläche","title":"lackiert","intr":"Die Oberfläche deiner Arbeit ist lackiert"},
+		{"name":"Textur und oberfläche","title":"rau","intr":"Die Textur/Oberfläche deiner Arbeit ist rau"},
+		{"name":"Textur und oberfläche","title":"lasiert","intr":"Die Oberfläche deiner Arbeit ist lasiert"},
+		{"name":"Textur und oberfläche","title":"opak","intr":"Die Textur/Oberfläche deiner Arbeit ist opak"},
+		{"name":"Textur und oberfläche","title":"transparent","intr":"Die Oberfläche deiner Arbeit ist transparent"},
+		{"name":"Textur und oberfläche","title":"gebeitzt","intr":"Die Oberfläche deiner Arbeit ist gebeizt"},
+		{"name":"Textur und oberfläche","title":"geflammt","intr":"Die Oberfläche deiner Arbeit ist geflammt"},
+		{"name":"Textur und oberfläche","title":"samtig","intr":"Die Oberfläche deiner Arbeit ist samtig"},
+		{"name":"Textur und oberfläche","title":"Spuren der Herstellung","intr":"Die Textur/Oberfläche deiner Arbeit weist die Spuren der Herstellung auf"}
+	]	
+}

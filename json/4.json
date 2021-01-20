@@ -1,77 +1,127 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{
+
+	"keys":[
+		"Thema",
+		"Dauer",
+		"Personenanzahl",
+		"Praesentationsort",
+		"Musik",
+		"Farbe",
+		"Licht"
+	],
+	
+	"Thema":[
+		{"name":"Thema","title":"Menschen","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Mensch auseinandersetzen"},
+		{"name":"Thema","title":"Landschaft","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Landschaft auseinandersetzen"},
+		{"name":"Thema","title":"Portrait","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Portraits auseinandersetzen"},
+		{"name":"Thema","title":"Stilleben","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Stilleben auseinandersetzen"},
+		{"name":"Thema","title":"Technik","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Technik auseinandersetzen"},
+		{"name":"Thema","title":"Wissen","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Wissen auseinandersetzen"},
+		{"name":"Thema","title":"Spaß","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Spaß auseinandersetzen"},
+		{"name":"Thema","title":"Arbeit","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Arbeit auseinandersetzen"},
+		{"name":"Thema","title":"Tod","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Tod auseinandersetzen"},
+		{"name":"Thema","title":"Courage","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Courage auseinandersetzen"},
+		{"name":"Thema","title":"Mitleid","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Mitleid auseinandersetzen"},
+		{"name":"Thema","title":"Ehre","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Ehre auseinandersetzen"},
+		{"name":"Thema","title":"Ehrlichkeit","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Ehrlichkeit auseinandersetzen"},
+		{"name":"Thema","title":"Treue","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Treue auseinandersetzen"},
+		{"name":"Thema","title":"Ausdauer","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Ausdauer auseinandersetzen"},
+		{"name":"Thema","title":"Familie","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Familie auseinandersetzen"},
+		{"name":"Thema","title":"Generationen","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Generationen auseinandersetzen"},
+		{"name":"Thema","title":"Liebe","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Liebe auseinandersetzen"},
+		{"name":"Thema","title":"Freundschaft","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Freundschaft auseinandersetzen"},
+		{"name":"Thema","title":"Revanche","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Revanche auseinandersetzen"},
+		{"name":"Thema","title":"Macht","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Macht auseinandersetzen"},
+		{"name":"Thema","title":"Vetrauen","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Vertrauen auseinandersetzen"},
+		{"name":"Thema","title":"Kriminalität","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Kriminalität auseinandersetzen"},
+		{"name":"Thema","title":"Individuum","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Individuum auseinandersetzen"},
+		{"name":"Thema","title":"Gesellschaft","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Gesellschaft auseinandersetzen"},
+		{"name":"Thema","title":"Schuld","description":"Deine Performance sollte sich (unter anderem) mit dem Thema Schuld auseinandersetzen"}
+	],
+	
+	"Dauer":[
+		{"name":"Dauer","title":"30 Sekunden","description":"Deiner Performance sollte 30 Sekunden dauern"},
+		{"name":"Dauer","title":"1 Minute","description":"Deiner Performance sollte eine Minute dauern"},
+		{"name":"Dauer","title":"5 Minuten","description":"Deiner Performance sollte fünf Minuten dauern"},
+		{"name":"Dauer","title":"1 Stunde","description":"Deiner Performance sollte eine Stunde dauern"},
+		{"name":"Dauer","title":"Dauer der Mittagspause","description":"Deiner Performance sollte so lange wie die Mittagspause dauern"},
+		{"name":"Dauer","title":"Dauer deiner Lieblingssendung","description":"Deiner Performance sollte so lange wie deine Liebingssendung dauern"}
+	],
+	
+	"Personenanzahl":[
+		{"name":"Personenanzahl","title":"1","description":"Maximal eine Person ist an deiner Performance beteiligt"},
+		{"name":"Personenanzahl","title":"2","description":"Maximal zwei Personen sind an deiner Performance beteiligt"},
+		{"name":"Personenanzahl","title":"3","description":"Maximal drei Personen sind an deiner Performance beteiligt"},
+		{"name":"Personenanzahl","title":"5","description":"Maximal fünf Personen sind an deiner Performance beteiligt"},
+		{"name":"Personenanzahl","title":"10","description":"Maximal zehn Personen sind an deiner Performance beteiligt"},
+		{"name":"Personenanzahl","title":"50","description":"Maximal 50 Personen sind an deiner Performance beteiligt"},
+		{"name":"Personenanzahl","title":"0","description":"Keine Person ist an deiner Performance beteiligt"}
+	],
+	
+	"Praesentationsort":[
+		{"name":"Praesentationsort","title":"Museum","description":"Präsentationsort deiner Performance ist ein Museum"},
+		{"name":"Praesentationsort","title":"Marktplatz","description":"Präsentationsort deiner Performance ist ein Marktplatz"},
+		{"name":"Praesentationsort","title":"Garten","description":"Präsentationsort deiner Performance ist der Garten"},
+		{"name":"Praesentationsort","title":"Neben der Autobahn","description":"Präsentationsort deiner Performance ist neben der Autobahn"},
+		{"name":"Praesentationsort","title":"Galerie der Hbksaar","description":"Präsentationsort deiner Performance ist die Galerie der Hbksaar"},
+		{"name":"Praesentationsort","title":"Stadtgalerie Saarbrücken","description":"Präsentationsort deiner Performance ist die Stadtgalerie Saarbrücken"},
+		{"name":"Praesentationsort","title":"Bahnhof","description":"Präsentationsort deiner Performance der Bahnhof"},
+		{"name":"Praesentationsort","title":"Eingangshalle einer großen Firma","description":"Präsentationsort deiner Performance ist die Eingangshalle einer großen Firma"},
+		{"name":"Praesentationsort","title":"Altelier/Entstehungsort","description":"Präsentationsort deiner Performance ist das Atelier/der Enstehungsort"},
+		{"name":"Praesentationsort","title":"Leere Wohnung","description":"Präsentationsort deiner Performance ist eine leere Wohnung"},
+		{"name":"Praesentationsort","title":"White cube","description":"Präsentationsort deiner Performance ist ein White cube"},
+		{"name":"Praesentationsort","title":"Theater","description":"Präsentationsort deiner Performance ist das Theater"},
+		{"name":"Praesentationsort","title":"Wald","description":"Präsentationsort deiner Performance ist der Wald"}
+	],
+	
+	"Musik":[
+		{"name":"Musik","title":"Live Band","description":"Du brauchst eine Live Band für deine Performance"},
+		{"name":"Musik","title":"Klassische Musik","description":"Klassische Musik ist Teil deiner Performance"},
+		{"name":"Musik","title":"Jazz","description":"Jazz ist Teil deiner Performance"},
+		{"name":"Musik","title":"Blues","description":"Blues ist Teil deiner Performance"},
+		{"name":"Musik","title":"Nur Stimme","description":"Die Stimme ist das einzige akustische Ausdrucksmittel deiner Performance"},
+		{"name":"Musik","title":"Schlaginstrumente","description":"Schlaginstrumente sind Teil deiner Performance"},
+		{"name":"Musik","title":"Indie-Folk Künstler","description":"Indie-Folk Künstler sind Teil deiner Performance"},
+		{"name":"Musik","title":"DJ","description":"Ein DJ ist Teil deiner Performance"},
+		{"name":"Musik","title":"Rapstar","description":"Ein Rapstar ist Teil deiner Performance"},
+		{"name":"Musik","title":"miku","description":"Miku ist Teil deiner Performance"},
+		{"name":"Musik","title":"Amazon Alexa","description":"Amazon Alexa ist Teil deiner Performance"},
+		{"name":"Musik","title":"Chor","description":"Ein Chor ist Teil deiner Performance"},
+		{"name":"Musik","title":"Popular spotify lists","description":"Eine beliebte Spotify Playlist ist Teil deiner Performance"},
+		{"name":"Musik","title":"Deine taubstummen Freunde","description":"Deine taubstummen Freunde sind Teil deiner Performance"},
+		{"name":"Musik","title":"Synchronisation","description":"Musikalische Synchronisation ist Teil deiner Performance"}
+	],
+	
+	"Farbe":[
+		{"name":"Farbe","title":"warme Farbe","description":"Warme Farben bestimmen optisch deine Performance"},
+		{"name":"Farbe","title":"kalte Farbe","description":"Kalte Farben bestimmen optisch deine Performance"},
+		{"name":"Farbe","title":"sehr hell","description":"Sehr helle Farben bestimmen optisch deine Performance"},
+		{"name":"Farbe","title":"sehr dunkel","description":"Sehr dunkle Farben bestimmen optisch deine Performance"},
+		{"name":"Farbe","title":"rot","description":"Deine Performance ist rot"},
+		{"name":"Farbe","title":"hellgrün","description":"Deine Performance ist hellgrün"},
+		{"name":"Farbe","title":"dunkelgrau","description":"Deine Performance ist dunkelgrau"},
+		{"name":"Farbe","title":"gelb","description":"Deine Performance ist gelb"},
+		{"name":"Farbe","title":"blau und orange","description":"Deine Performance ist blau und orange"},
+		{"name":"Farbe","title":"neonfarben","description":"Deine Performance ist neonfarben"},
+		{"name":"Farbe","title":"leuchtend","description":"Leuchtende Farben bestimmen optisch deine Performance"},
+		{"name":"Farbe","title":"Komplementärkontrast","description":"Komplementärkontrast bestimmen optisch deine Performance"},
+		{"name":"Farbe","title":"Pastellfarben","description":"Deine Performance ist pastellfarben"},
+		{"name":"Farbe","title":"Einfarbig","description":"Deine Performance ist einfarbig"},
+		{"name":"Farbe","title":"Material Farben","description":"Die von dir genutzten Materialien bestimmen die Farbe deiner Performance"},
+		{"name":"Farbe","title":"Durchsichtig","description":"Deine Performance ist durchsichtig"}
+	],
+	
+	"Licht":[
+		{"name":"Licht","title":"Direktes Sonnenlicht","description":"Direktes Sonnenlicht ist Teil deiner Performance"},
+		{"name":"Licht","title":"Bewölkt","description":"Das Licht eine bewölkten Himmels ist Teil deiner Performance"},
+		{"name":"Licht","title":"direkter Blitz","description":"Ein direkter Blitz ist Teil deiner Performance"},
+		{"name":"Licht","title":"Schreibtischlampe","description":"Das Licht deiner Schreibtischlampe ist Teil deiner Performance"},
+		{"name":"Licht","title":"Kerzenlicht","description":"Kerzenlicht ist Teil deiner Performance"},
+		{"name":"Licht","title":"Backofenlicht","description":"Das Licht deines Backofens ist Teil deiner Performance"},
+		{"name":"Licht","title":"Sonnenuntergang","description":"Das Licht eines Sonnenuntergangs ist Teil deiner Performance"},
+		{"name":"Licht","title":"Taschenlampe","description":"Das Licht deiner Taschenlampe ist Teil deiner Performance"},
+		{"name":"Licht","title":"Blitz mit Diffusor","description":"Ein Blitz mit Diffusor ist Teil deiner Performance"},
+		{"name":"Licht","title":"Indirektes Sonnenlicht","description":"Indirektes Sonnenlicht ist Teil deiner Performance"}
+	]
+	
+}

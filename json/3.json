@@ -1,77 +1,228 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{
+	"keys":[
+		"Branche",
+		"Farbe",
+		"Look & Feel",
+		"Zielgruppe",
+		"Output-Format",
+		"UI Element",
+		"Auftraggeberinnen",
+		"Abilities",
+		"Anordnung",
+		"Einschränkung"
+	],
+	
+	"Branche":[
+		{"name":"Branche","title":"Möbel","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Umwelt","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Werbung","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Essen und Trinken","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Kunst","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Architektur","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Automobilindustrie","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Bildung","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Mode","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Spiele","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Gesundheit & Fitness","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Politik","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Religion","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Wissenschaft","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Technologie","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"IT","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Nachrichten","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Bier","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Immobilien","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Sport-Team","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Landschaftsgestaltung","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Industrie","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Veranstaltungen","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Film","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"Fotographie","intr":"Add a fitting description here"},
+		{"name":"Branche","title":"unser Leben","intr":"Add a fitting description here"}
+	],
+
+	"Farbe":[
+		{"name":"Farbe","title":"warme Farbe","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"kalte Farbe","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"sehr hell","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"sehr dunkel","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"rot","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"hellgrün","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"dunkelgrau","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"gelb","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"blau und orange","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"neonfarben","intr":"Add a fitting description here"},
+		{"name":"Farbe","title":"leuchtend","intr":"Add a fitting description here"}
+	],
+
+	"Look & Feel":[
+		{"name":"Look & Feel","title":"Minimal","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Vintage","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"bunt","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Dunkel","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Licht","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Schwar Weiß","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Spaß","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Luxus","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"3D","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Sauber","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Bio","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Full screen","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Flat Design","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Art & Illustration","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"warmherzig","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"zugänglich","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"freundlich","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"günstig","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"leicht bedienbar","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"edel","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"modisch","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"zeitgenössisch","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"state of the art","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"zeitlos","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"chic","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"elitär","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"gut lesbar","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"einfach","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"kompliziert","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"kafkaesk","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"traurig","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"famös","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"funny","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"peinlich","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Natural","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Curiosity","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Dreamy","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Magical","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Fresh","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Solitude","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Romantic","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Mysterious","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Retro","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Tranquility","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Playful","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Delicate","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Trendy","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Nostalgia","intr":"Add a fitting description here"},
+		{"name":"Look & Feel","title":"Lush","intr":"Add a fitting description here"}
+	],
+
+	"Zielgruppe":[
+		{"name":"Zielgruppe","title":"alle über 65 Jahre","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Kindergartenkinder","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Jugendliche","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Frauen","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Männer","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Hausfraien bis 50","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Vegetarieerinnen","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Veganerinnen","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"frisch Verheiratete","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Studierende","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Eletern mit kleinkindern","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Autofahrerinnen","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Fahrradfahrerinnen","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Körperlich eingeschränkte Personen","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Geistig eingeschränkte Personen","intr":"Add a fitting description here"},
+		{"name":"Zielgruppe","title":"Linkshänder","intr":"Add a fitting description here"}
+	],
+
+	"Output-Format":[
+		{"name":"Output-Format","title":"Watch","intr":"Add a fitting description here"},
+		{"name":"Output-Format","title":"Mobile","intr":"Add a fitting description here"},
+		{"name":"Output-Format","title":"Desktop","intr":"Add a fitting description here"},
+		{"name":"Output-Format","title":"Laptop","intr":"Add a fitting description here"},
+		{"name":"Output-Format","title":"Tablet","intr":"Add a fitting description here"},
+		{"name":"Output-Format","title":"Wall","intr":"Add a fitting description here"},
+		{"name":"Output-Format","title":"Großfläche","intr":"Add a fitting description here"},
+		{"name":"Output-Format","title":"TV","intr":"Add a fitting description here"}
+	],
+
+	"UI Element":[
+		{"name":"UI Element","title":"Navigation","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"User-Input","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Onboarding","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Wizard","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Form","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Settings","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Tabelle","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Preisgestaltung","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Komplette Webseite","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Styleguide","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Liste","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Karte","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Sortieren & Filtern","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Suche","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Testimonials","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"FAQ","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"icon","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Bar","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Gallerie","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"404 Page","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Hero-Section","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Navigationsleiste","intr":"Add a fitting description here"},
+		{"name":"UI Element","title":"Feature-Section","intr":"Add a fitting description here"}
+	],
+
+	"Auftraggeberinnen":[
+		{"name":"Auftraggeberinnen","title":"die HBK","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"ein berühmter Designer","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"ein berühmter Künstler","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"die Stadt Saarbrücken","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"die Deutsche Bahn","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"Mercedes","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"Apple","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"Karstadt","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"Taschen Verlag","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"ein Krankenhaus","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"ein berühmter Grafiker","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"eine Waldorfschule","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"das Gesundheitsamt","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"CIAV Meisenthal","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"die Menschheit","intr":"Add a fitting description here"},
+		{"name":"Auftraggeberinnen","title":"deine lieblings NGO","intr":"Add a fitting description here"}		
+	],
+
+	"Abilities":[
+		{"name":"Abilities","title":"Leseschwache","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Sehschwache","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Raucher·innen","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Analphabeten","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Nichtschwimmer","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Vorerkrankt","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Brillenträger·innen","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Hörgeschädigte","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Kleine Menschen","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Gedächnisprobleme","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Nichtdeutschsprachig","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"leichte Sprache","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Mit Corona","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"taubstumm","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"große Menschen","intr":"Add a fitting description here"},
+		{"name":"Abilities","title":"Geheingeschränkte","intr":"Add a fitting description here"}
+	],
+	
+
+	"Anordnung":[
+		{"name":"Anordnung","title":"frei","intr":"Add a fitting description here"},
+		{"name":"Anordnung","title":"organisch","intr":"Add a fitting description here"},
+		{"name":"Anordnung","title":"geordnet","intr":"Add a fitting description here"},
+		{"name":"Anordnung","title":"Raster","intr":"Add a fitting description here"},
+		{"name":"Anordnung","title":"mit horizontaler Spiegelachse","intr":"Add a fitting description here"},
+		{"name":"Anordnung","title":"Layout","intr":"Add a fitting description here"}
+	
+	],
+
+	"Einschränkung":[
+		{"name":"Einschränkung","title":"Anzahl der Farben","intr":"Add a fitting description here"},
+		{"name":"Einschränkung","title":"Anzahl der Schriftgrößen","intr":"Add a fitting description here"},
+		{"name":"Einschränkung","title":"Keine Bilder","intr":"Add a fitting description here"},
+		{"name":"Einschränkung","title":"Keine Icons","intr":"Add a fitting description here"},
+		{"name":"Einschränkung","title":"Use Design System: Material Design","intr":"Add a fitting description here"},
+		{"name":"Einschränkung","title":"Use Design System: Shopify","intr":"Add a fitting description here"},
+		{"name":"Einschränkung","title":"Use Design System: Uber","intr":"Add a fitting description here"},
+		{"name":"Einschränkung","title":"iOS Guidelines nutzen","intr":"Add a fitting description here"},
+		{"name":"Einschränkung","title":"Android Guidelines nutzen","intr":"Add a fitting description here"}
+	]
+
+}

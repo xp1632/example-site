@@ -1,77 +1,134 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{
+
+
+	"keys":[
+		"Thema",
+		"Technik Malerei",
+		"Farbe",
+		"Formsprache",
+		"Format",
+		"Praesentationsort",
+		"Einschraenkung"
+	],
+	
+	"Thema":[
+		{"name":"Thema","title":"Menschen","intr":"Thema deines Bildes ist (unter anderem) der Mensch"},
+		{"name":"Thema","title":"Landschaft","intr":"Thema deines Bildes ist (unter anderem) die Landschaft"},
+		{"name":"Thema","title":"Portrait","intr":"Thema deines Bildes ist (unter anderem) das Portrait"},
+		{"name":"Thema","title":"Stilleben","intr":"Thema deines Bildes ist (unter anderem) Stilleben"},
+		{"name":"Thema","title":"Technik","intr":"Thema deines Bildes ist (unter anderem) die Technik"},
+		{"name":"Thema","title":"Wissen","intr":"Thema deines Bildes ist (unter anderem) das Wissen"},
+		{"name":"Thema","title":"Spaß","intr":"Thema deines Bildes ist (unter anderem) der Spaß"},
+		{"name":"Thema","title":"Arbeit","intr":"Thema deines Bildes ist (unter anderem) die Arbeit"},
+		{"name":"Thema","title":"Tod","intr":"Thema deines Bildes ist (unter anderem) der Tod"},
+		{"name":"Thema","title":"Courage","intr":"Thema deines Bildes ist (unter anderem) die Courage"},
+		{"name":"Thema","title":"Mitleid","intr":"Thema deines Bildes ist (unter anderem) das Mitleid"},
+		{"name":"Thema","title":"Ehre","intr":"Thema deines Bildes ist (unter anderem) die Ehre"},
+		{"name":"Thema","title":"Ehrlichkeit","intr":"Thema deines Bildes ist (unter anderem) die Ehrlichkeit"},
+		{"name":"Thema","title":"Treue","intr":"Thema deines Bildes ist (unter anderem) die Treue"},
+		{"name":"Thema","title":"Ausdauer","intr":"Thema deines Bildes ist (unter anderem) die Ausdauer"},
+		{"name":"Thema","title":"Familie","intr":"Thema deines Bildes ist (unter anderem) die Familie"},
+		{"name":"Thema","title":"Generationen","intr":"Thema deines Bildes sind (unter anderem) Generationen"},
+		{"name":"Thema","title":"Liebe","intr":"Thema deines Bildes ist (unter anderem) die Liebe"},
+		{"name":"Thema","title":"Freundschaft","intr":"Thema deines Bildes ist (unter anderem) die Freundschaft"},
+		{"name":"Thema","title":"Revanche","intr":"Thema deines Bildes ist (unter anderem) die Revanche"},
+		{"name":"Thema","title":"Macht","intr":"Thema deines Bildes ist (unter anderem) die Macht"},
+		{"name":"Thema","title":"Vetrauen","intr":"Thema deines Bildes ist (unter anderem) das Vertrauen"},
+		{"name":"Thema","title":"Kriminalität","intr":"Thema deines Bildes ist (unter anderem) die Kriminalität"},
+		{"name":"Thema","title":"Individuum","intr":"Thema deines Bildes ist (unter anderem) das Individuum"},
+		{"name":"Thema","title":"Gesellschaft","intr":"Thema deines Bildes ist (unter anderem) die Gesellschaft"},
+		{"name":"Thema","title":"Schuld","intr":"Thema deines Bildes ist (unter anderem) die Schuld"}
+	],
+	
+	"Technik Malerei":[
+		{"name":"Technik Malerei","title":"Pinsel","intr":"Verwende den Pinsel als Herstellungstechnik"},
+		{"name":"Technik Malerei","title":"Bleistift","intr":"Verwende den Bleistift als Herstellungstechnik"},
+		{"name":"Technik Malerei","title":"Buntstift","intr":"Verwende Buntstifte als Herstellungstechnik"},
+		{"name":"Technik Malerei","title":"Marker","intr":"Verwende Marker als Herstellungstechnik"},
+		{"name":"Technik Malerei","title":"Tusche","intr":"Verwende Tusche als Herstellungstechnik"},
+		{"name":"Technik Malerei","title":"Tablet","intr":"Verwende das Tablet als Herstellungstechnik"},
+		{"name":"Technik Malerei","title":"Gezeichnet","intr":"Deine Arbeit muss gezeichnet sein"},
+		{"name":"Technik Malerei","title":"Aqaurell","intr":"Verwende die Aquarelltechnik bei deiner Arbeit"},
+		{"name":"Technik Malerei","title":"Acrylfarbe","intr":"Verwende Acrylfarbe bei deiner Arbeit"},
+		{"name":"Technik Malerei","title":"Wasserfarbe","intr":"Verwende Wasserfarbe bei deiner Arbeit"},
+		{"name":"Technik Malerei","title":"Wachskreide","intr":"Verwende Wachskreide bei deiner Arbeit"},
+		{"name":"Technik Malerei","title":"Pastellkreide","intr":"Verwende Pastellkreide bei deiner Arbeit"},
+		{"name":"Technik Malerei","title":"Ölfarbe","intr":"Verwende Ölfarbe bei deiner Arbeit"},
+		{"name":"Technik Malerei","title":"Sketchboard","intr":"Verwende das Sketchboard als Herstellungstechnik"}
+	],
+	
+	"Farbe":[
+		{"name":"Farbe","title":"warme Farbe","intr":"Warme Farben bestimmen dein Bild"},
+		{"name":"Farbe","title":"kalte Farbe","intr":"Kalte Farben bestimmen dein Bild"},
+		{"name":"Farbe","title":"sehr hell","intr":"Sehr helle Farben bestimmen dein Bild"},
+		{"name":"Farbe","title":"sehr dunkel","intr":"Sehr dunkle Farben bestimmen dein Bild"},
+		{"name":"Farbe","title":"rot","intr":"Rot ist die Hauptfarbe im Bild"},
+		{"name":"Farbe","title":"hellgrün","intr":"Hellgrün ist die Hauptfarbe im Bild"},
+		{"name":"Farbe","title":"dunkelgrau","intr":"Dunkelgrau ist die Hauptfarbe im Bild"},
+		{"name":"Farbe","title":"gelb","intr":"Gelb ist die Hauptfarbe im Bild"},
+		{"name":"Farbe","title":"blau und orange","intr":"Blau und orange sind die Hauptfarben im Bild"},
+		{"name":"Farbe","title":"neonfarben","intr":"Neonfarben bestimmen dein Bild"},
+		{"name":"Farbe","title":"leuchtend","intr":"Leuchtende Farben bestimmen dein Bild"},
+		{"name":"Farbe","title":"Komplementärkontrast","intr":"Komplementärkontraste bestimmen dein Bild"},
+		{"name":"Farbe","title":"Pastellfarben","intr":"Pastellfarben bestimmen dein Bild"},
+		{"name":"Farbe","title":"Einfarbig","intr":"Dein Bild ist einfarbig"},
+		{"name":"Farbe","title":"Material Farben","intr":"Die von dir genutzten Materialien bestimmen die Farbigkeit deines Bildes"},
+		{"name":"Farbe","title":"Durchsichtig","intr":"Deine Bild ist durchsichtig"}
+	],
+	
+	"Formsprache":[
+		{"name":"Formsprache","title":"rund","intr":"Die Formensprache deines Bildes sollte rund sein"},
+		{"name":"Formsprache","title":"rechteckig","intr":"Die Formensprache deines Bildes sollte rechteckig sein"},
+		{"name":"Formsprache","title":"dreieckig","intr":"Die Formensprache deines Bildes sollte dreieckig sein"},
+		{"name":"Formsprache","title":"quadratisch","intr":"Die Formensprache deines Bildes sollte quadratisch sein"},
+		{"name":"Formsprache","title":"oval","intr":"Die Formensprache deines Bildes sollte oval sein"},
+		{"name":"Formsprache","title":"vieleckig","intr":"Die Formensprache deines Bildes sollte vieleckig sein"}
+	],
+	
+	"Format":[
+		{"name":"Format","title":"quadratisch","intr":"Das Format deines Bildes ist quadratisch"},
+		{"name":"Format","title":"dreieckig","intr":"Das Format deines Bildes ist dreieckig"},
+		{"name":"Format","title":"oktaedrisch","intr":"Das Format deines Bildes ist oktaedrisch"},
+		{"name":"Format","title":"rechteckig","intr":"Das Format deines Bildes ist rechteckig"},
+		{"name":"Format","title":"4D","intr":"Dein Bild ist 4D"},
+		{"name":"Format","title":"Reklambuch-Format","intr":"Das Reklambuch-Format bestimmt dein Bildformat"},
+		{"name":"Format","title":"Visitenkartenformat","intr":"Das Visitenkartenformat bestimmt dein Bildformat"},
+		{"name":"Format","title":"A6","intr":"Das Format deines Bildes ist A6"},
+		{"name":"Format","title":"A5","intr":"Das Format deines Bildes ist A5"},
+		{"name":"Format","title":"A4","intr":"Das Format deines Bildes ist A4"},
+		{"name":"Format","title":"A3","intr":"Das Format deines Bildes ist A3"},
+		{"name":"Format","title":"A2","intr":"Das Format deines Bildes ist A2"},
+		{"name":"Format","title":"A1","intr":"Das Format deines Bildes ist A1"},
+		{"name":"Format","title":"17 × 24 cm","intr":"Das Format deines Bildes ist 17 x 24 cm"},
+		{"name":"Format","title":"Langspielplatte","intr":"Die Langspielplatte bestimmt dein Bildformat"},
+		{"name":"Format","title":"Briefmarkengröße","intr":"Die Briefmarkengröße bestimmt dein Bildformat"},
+		{"name":"Format","title":"600 x 800 px","intr":"Das Format deines Bildes ist 600 x 800 px"},
+		{"name":"Format","title":"Skala Mensch","intr":"Skala Mensch bestimmt dein Bildformat"},
+		{"name":"Format","title":"Paketmaß","intr":"Das Paketmaß bestimmt dein Bildformat"},
+		{"name":"Format","title":"Kubikmeter","intr":"Der Kubikmeter bestimmt dein Bildformat"},
+		{"name":"Format","title":"Was dein Material hergibt","intr":"Das verwendete Material bestimmt dein Bildformat"}
+	],
+	
+	"Praesentationsort":[
+		{"name":"Praesentationsort","title":"Museum","intr":"Präsentationsort deines Bildes ist das Museum"},
+		{"name":"Praesentationsort","title":"Marktplatz","intr":"Präsentationsort deines Bildes ist der Marktplatz"},
+		{"name":"Praesentationsort","title":"Garten","intr":"Präsentationsort deines Bildes ist der Garten"},
+		{"name":"Praesentationsort","title":"Neben der Autobahn","intr":"Präsentationsort deines Bildes ist neben der Autobahn"},
+		{"name":"Praesentationsort","title":"Galerie der Hbksaar","intr":"Präsentationsort deines Bildes ist die Galerie der Hbksaar"},
+		{"name":"Praesentationsort","title":"Stadtgalerie Saarbrücken","intr":"Präsentationsort deines Bildes ist die Stadtgalerie Saarbrücken"},
+		{"name":"Praesentationsort","title":"Bahnhof","intr":"Präsentationsort deines Bildes ist der Bahnhof"},
+		{"name":"Praesentationsort","title":"Eingangshalle einer großen Firma","intr":"Präsentationsort deines Bildes ist die Eingangshalle einer großen Firma"},
+		{"name":"Praesentationsort","title":"Altelier/Entstehungsort","intr":"Präsentationsort deines Bildes ist das Atelier/der Entstehungsort"},
+		{"name":"Praesentationsort","title":"Leere Wohnung","intr":"Präsentationsort deines Bildes ist eine leere Wohnung"},
+		{"name":"Praesentationsort","title":"White cube","intr":"Präsentationsort deines Bildes ist ein White cube"},
+		{"name":"Praesentationsort","title":"Theater","intr":"Präsentationsort deines Bildes ist das Theater"},
+		{"name":"Praesentationsort","title":"Wald","intr":"Präsentationsort deines Bildes ist der Wald"}
+	],
+	
+	"Einschraenkung":[
+		{"name":"Einschraenkung","title":"Mit geschlossenen Augen","intr":"Arbeite mit geschlossenen Augen"},
+		{"name":"Einschraenkung","title":"Mit der nicht dominanten Hand","intr":"Arbeite mit der nicht dominanten Hand"},
+		{"name":"Einschraenkung","title":"Mit dem Mund ","intr":"Arbeite mit dem Mund"},
+		{"name":"Einschraenkung","title":"Mit den Zehen","intr":"Arbeite mit den Zehen"}
+	]	
+}

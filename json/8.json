@@ -1,77 +1,197 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{
+	"keys":[
+		"Thema",
+		"Character",
+		"Genre",
+		"Scene Setting",
+		"Charactereigenschaft",
+		"Konflikt",
+		"Time Setting",
+		"Struktur ",
+		"Tone/Emotion",
+		"Standpunkt/Erzählung"
+	],
+	
+	"Thema":[
+		{"name":"Thema","title":"Spaß","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Mitleid","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Familie","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Tod","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Vertrauen","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Liebe","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Arbeit","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Ehrlichkeit","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Courage","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Treue","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Ausdauer","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Angst","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Einsamkeit","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Schuld","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Freundschaft","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Revanche","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Redemption","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Verzeihung","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Kriminalität und Strafe","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Macht und Korruption","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Entfremdung und Zugehörigkeit","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"},
+		{"name":"Thema","title":"Individuum und Gesellschaft","intr":"Thematik, mit der du dich in deiner Geschichte beschäftigen sollst"}
+	],
+	
+	"Character":[
+		{"name":"Character","title":"Direktor/Direktorin","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Frau","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Freund","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Mann","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Mitarbeiter","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Tänzer/Tänzerin","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Artiste","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Gauner","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Zigeuner/Zigeunerin","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Sänger/Sängerin","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Darsteller/ Darstellerin","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Seemann/Seefrau","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Häftling","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Spieler","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Sklave","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Könige","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Randalierer","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Polizisten","intr":"Der Charakter der Geschichte, die du schreiben sollst."},
+		{"name":"Character","title":"Angel","intr":"Der Charakter der Geschichte, die du schreiben sollst."}
+	],
+	
+	"Genre":[
+		{"name":"Genre ","title":"Klassisch","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Legend","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Epos","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Fable","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Märchen","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Fantasie","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Folktale","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Short story","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Gothic Fiction oder Gothic Romanticism","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Magischer Realismus","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Historical fiction","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Horror Geschichte","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Humor","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Romantik","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Verbrechen / Detektiv","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Science-Fiction","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Realistic fiction","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Geheimnis","intr":"Das Genre  von Geschichten, die du schreiben sollst."},
+		{"name":"Genre ","title":"Mythologie","intr":"Das Genre  von Geschichten, die du schreiben sollst."}
+	],
+	
+	"Scene Setting":[
+		{"name":"Scene Setting","title":"Hinterhof","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Kirche","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Universität","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Dach","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"eigenes Zuhause","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"seaside / beach","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Schneeberg","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Scheune","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Schloss","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Zoo","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Ballsaal","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Aquarium","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"London","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"New York ","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Hong Kong","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Paris","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Online","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Mond","intr":"Die Scene Setting, die du schreiben sollst."},
+		{"name":"Scene Setting","title":"Kliff","intr":"Die Scene Setting, die du schreiben sollst."}
+	],
+	
+	"Charactereigenschaft":[
+		{"name":"Charactereigenschaft","title":"aggressive","intr":"Der Charakter in deiner Geschichte sollte aggressive sein."},
+		{"name":"Charactereigenschaft","title":"Agoraphobisch","intr":"Der Charakter in deiner Geschichte sollte ehrgeizig sein."},
+		{"name":"Charactereigenschaft","title":"beidhändig","intr":"Der Charakter in deiner Geschichte sollte Agoraphobisch sein."},
+		{"name":"Charactereigenschaft","title":"ehrgeizig","intr":"Der Charakter in deiner Geschichte sollte ehrgeizig sein."},
+		{"name":"Charactereigenschaft","title":"amoralisch","intr":"Der Charakter in deiner Geschichte sollte amoralisch sein."},
+		{"name":"Charactereigenschaft","title":"angelic","intr":"Der Charakter in deiner Geschichte sollte angelic sein."},
+		{"name":"Charactereigenschaft","title":"gescheit","intr":"Der Charakter in deiner Geschichte sollte gescheit sein."},
+		{"name":"Charactereigenschaft","title":"atemlos","intr":"Der Charakter in deiner Geschichte sollte atemlos sein."},
+		{"name":"Charactereigenschaft","title":"beschäftigt","intr":"Der Charakter in deiner Geschichte sollte beschäftigt sein."},
+		{"name":"Charactereigenschaft","title":"Ruhe","intr":"Der Charakter in deiner Geschichte sollte ruhig sein."},
+		{"name":"Charactereigenschaft","title":"leichtsinnig","intr":"Der Charakter in deiner Geschichte sollte leichtsinnig sein."},
+		{"name":"Charactereigenschaft","title":"Vorsichtig","intr":"Der Charakter in deiner Geschichte sollte ehrgeizig sein."},
+		{"name":"Charactereigenschaft","title":"Cheerful ","intr":"Der Charakter in deiner Geschichte sollte Cheerful  sein."},
+		{"name":"Charactereigenschaft","title":"klug","intr":"Der Charakter in deiner Geschichte sollte klug sein."},
+		{"name":"Charactereigenschaft","title":"gemeinsam","intr":"Der Charakter in deiner Geschichte sollte gemeinsam sein."},
+		{"name":"Charactereigenschaft","title":"komplett","intr":"Der Charakter in deiner Geschichte sollte komplett sein."},
+		{"name":"Charactereigenschaft","title":"neugierig","intr":"Der Charakter in deiner Geschichte sollte neugierig sein."},
+		{"name":"Charactereigenschaft","title":"besorgt","intr":"Der Charakter der Geschichte, die du schreibst, sollte sich um andere kümmern."},
+		{"name":"Charactereigenschaft","title":"verrückt","intr":"Der Charakter in deiner Geschichte sollte verrückt sein."}
+	],
+	
+	"Konflikt":[
+		{"name":"Konflikt","title":"Familienkonflikt","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Paarkonflikt","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Freund Konflikt","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Unternehmenskonflikt","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit Chef","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit Mitarbeitern","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit den Eltern","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit Kindern","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit dem Krieg","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit dem König","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit Soldaten","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit dem Traum","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit der Gesellschaft","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit Fremden","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Konflikt mit dem Schicksal","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."},
+		{"name":"Konflikt","title":"Ideenkonflikt","intr":"Dies ist die Story des Konflikts, die du beschreiben sollst."}
+	],
+	
+	"Time Setting":[
+		{"name":"Time Setting ","title":"vor einer langen Zeit","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"Dinosaurierzeitalter","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"wenn Alien die Welt regiert","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"im Moment des Herzschmerzes","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"Vor 5 Minuten","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"Heutzutage ","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"Nach 5 Jahren","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"vor dem Tod","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"Utopie Alter","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"Jahr 2120","intr":"Die Zeit, die du die Geschichte schreiben sollst."},
+		{"name":"Time Setting ","title":"während deiner ersten Liebe","intr":"Die Zeit, die du die Geschichte schreiben sollst."}
+	],
+	
+
+	"Struktur ":[
+		{"name":"Struktur ","title":"Lineare Erzählung","intr":"Die Struktur deiner Geschichte sollte eine lineare Erzählung sein."},
+		{"name":"Struktur ","title":"Nichtlineare Erzählung","intr":"Die Struktur deiner Geschichte sollte eine nichtlineare Erzählung sein."},
+		{"name":"Struktur ","title":"Interaktive Erzählung","intr":"Die Struktur deiner Geschichte sollte eine interaktive Erzählung sein."}
+	],
+	
+	"Tone/Emotion":[
+		{"name":"Tone/Emotion","title":"abrupt","intr":"Der Ton / die Emotion deiner Geschichte sollte abrupt sein."},
+		{"name":"Tone/Emotion","title":"Angst","intr":"Der Ton / die Emotion deiner Geschichte sollte beängstigend sein."},
+		{"name":"Tone/Emotion","title":"angenehm","intr":"Der Ton / die Emotion deiner Geschichte sollte angenehm sein."},
+		{"name":"Tone/Emotion","title":"aggressive","intr":"Der Ton / die Emotion deiner Geschichte sollte aggressive sein."},
+		{"name":"Tone/Emotion","title":"liebenswürdig","intr":"Der Ton / die Emotion deiner Geschichte sollte liebenswürdig sein."},
+		{"name":"Tone/Emotion","title":"amüsiert","intr":"Der Ton / die Emotion deiner Geschichte sollte amüsiert sein."},
+		{"name":"Tone/Emotion","title":"wütend","intr":"Der Ton / die Emotion deiner Geschichte sollte wütend sein."},
+		{"name":"Tone/Emotion","title":"genervt","intr":"Der Ton / die Emotion deiner Geschichte sollte genervt sein."},
+		{"name":"Tone/Emotion","title":"beschämt","intr":"Der Ton / die Emotion deiner Geschichte sollte beschämt sein."},
+		{"name":"Tone/Emotion","title":"schlecht","intr":"Der Ton / die Emotion deiner Geschichte sollte schlecht sein."},
+		{"name":"Tone/Emotion","title":"bitter","intr":"Der Ton / die Emotion deiner Geschichte sollte bitter sein."},
+		{"name":"Tone/Emotion","title":"verwirrt","intr":"Der Ton / die Emotion deiner Geschichte sollte verwirrt sein."},
+		{"name":"Tone/Emotion","title":"langweilig","intr":"Der Ton / die Emotion deiner Geschichte sollte langweilig sein."},
+		{"name":"Tone/Emotion","title":"mutig","intr":"Der Ton / die Emotion deiner Geschichte sollte mutig sein."},
+		{"name":"Tone/Emotion","title":"gefühllos","intr":"Der Ton / die Emotion deiner Geschichte sollte ruhig sein."},
+		{"name":"Tone/Emotion","title":"Ruhe","intr":"Der Ton / die Emotion deiner Geschichte sollte angenehm sein."},
+		{"name":"Tone/Emotion","title":"beruhigend","intr":"Der Ton / die Emotion deiner Geschichte sollte beruhigend sein."},
+		{"name":"Tone/Emotion","title":"kämpferisch","intr":"Der Ton / die Emotion deiner Geschichte sollte kämpferisch sein."},
+		{"name":"Tone/Emotion","title":"gemütlich","intr":"Der Ton / die Emotion deiner Geschichte sollte gemütlich sein."}	
+	],
+	
+	"Standpunkt/Erzählung":[
+		{"name":"Standpunkt/Erzählung","title":"Erste Person","intr":"Der Standpunkt / die Erzählung, in der du die Geschichte schreibst, sollte in der ersten Person sein."},
+		{"name":"Standpunkt/Erzählung","title":"Zweite Person","intr":"Der Standpunkt / die Erzählung, in der du die Geschichte schreibst, sollte in der zweiten Person sein"},
+		{"name":"Standpunkt/Erzählung","title":"Dritte Person mit begrenztem Umfang","intr":"Der Standpunkt / die Erzählung, in der du die Geschichte schreibst,  sollte in der zweiten Person sein."},
+		{"name":"Standpunkt/Erzählung","title":"Dritte Person mit allwissendem Geltungsbereich","intr":"Der Standpunkt / die Erzählung, in der du die Geschichte schreibst, sollte eine dritte Person mit einem allwissenden Bereich sein."}
+	]
+	
+}

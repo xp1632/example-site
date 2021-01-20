@@ -1,77 +1,122 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{
+
+	"keys":[
+		"Thema",
+		"Licht",
+		"Farbe",
+		"Perspektive",
+		"Kameraeinstellungen",
+		"Brennweite",
+		"Foto stil",
+		"Foto-output"
+	],
+	
+	"Thema":[
+		{"name":"Thema","title":"Stilleben","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Menschen","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Heute in der Zeitung","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Hand","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Bücher","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"auf dem Markt","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Was im Umkreis von 1m liegt","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Was direkt vor dir liegt","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Portraits","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Tier","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Natur","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"im Bus","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"meine Nachberschaft","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Flusslandschaft","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Freundschaft","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Liebe","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Spaß","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Wichtigkeit der Familie","intr":"Thematik, die du fotografieren sollst."},
+		{"name":"Thema","title":"Vertrauen","intr":"Thematik, die du fotografieren sollst."}
+	],
+	
+	"Licht":[
+		{"name":"Licht","title":"Direktes Sonnenlicht","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"Bewölkt","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"direkter Blitz","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"Schreibtischlampe","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"Kerzenlicht","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"Backofenlicht","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"Sonnenuntergang","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"Taschenlampe","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"Blitz mit Diffusor","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
+		{"name":"Licht","title":"Indirektes Sonnenlicht","intr":"Das Licht, das du in der Fotografie verwenden sollst."}
+	],
+	
+	"Farbe":[
+		{"name":"Farbe","title":"warme Farbe","intr":"Die Farbe deines Fotos sollte warm sein."},
+		{"name":"Farbe","title":"kalte Farbe","intr":"Die Farbe deines Fotos sollte kühl sein."},
+		{"name":"Farbe","title":"hell","intr":"Die Farbe deines Fotos sollte hell sein."},
+		{"name":"Farbe","title":"dunkel","intr":"Die Farbe deines Fotos sollte dunkel sein."},
+		{"name":"Farbe","title":"bunt","intr":"Die Farbe deines Fotos sollte bunt sein."},
+		{"name":"Farbe","title":"hellgrün","intr":"Die Farbe deines Fotos sollte hellgrün sein."},
+		{"name":"Farbe","title":"dunkelgrau","intr":"Die Farbe deines Fotos sollte dunkelgrau sein."},
+		{"name":"Farbe","title":"gelb","intr":"Die Farbe deines Fotos sollte gelb sein."},
+		{"name":"Farbe","title":"blau und orange","intr":"Die Farbe deines Fotos sollte blau und orange sein."},
+		{"name":"Farbe","title":"neonfarben","intr":"Die Farbe deines Fotos sollte neonfarben sein."},
+		{"name":"Farbe","title":"leuchtend","intr":"Die Farbe deines Fotos sollte leuchtend sein."},
+		{"name":"Farbe","title":"Komplementärkontrast","intr":"Die Farbe deines Fotos sollte Komplementärkontrast sein."},
+		{"name":"Farbe","title":"sehr dunkel","intr":"Die Farbe deines Fotos sollte sehr dunkel sein."},
+		{"name":"Farbe","title":"sehr hell","intr":"Die Farbe deines Fotos sollte sehr hell sein."},
+		{"name":"Farbe","title":"pastellfarben","intr":"Die Farbe deines Fotos sollte pastellfarben sein."},
+		{"name":"Farbe","title":"einfarbig","intr":"Die Farbe deines Fotos sollte einfarbig sein."},
+		{"name":"Farbe","title":"rot","intr":"Die Farbe deines Fotos sollte rot sein."},
+		{"name":"Farbe","title":"schwarz-weiß","intr":"Die Farbe deines Fotos sollte schwarz-weiß sein."},
+		{"name":"Farbe","title":"duchsichtig","intr":"Die Farbe deines Fotos sollte duchsichtig sein."}
+	],
+	
+	"Perspektive":[
+		{"name":"Perspektive","title":"Froschperspektive","intr":"Deine Perspektive sollte Froschperspektive sein."},
+		{"name":"Perspektive","title":"Vogelperspektive","intr":"Deine Perspektive sollte Vogelperspektive sein."},
+		{"name":"Perspektive","title":"auf Augenhöhe","intr":"Du sollst auf Augenhöhe fotografieren."},
+		{"name":"Perspektive","title":"Beobachter*innen Perspektive","intr":"Du sollst aus der Perspektive von Beobachtern fotografieren."}
+	],
+	
+	"Kameraeinstellungen":[
+		{"name":"Kameraeinstellungen","title":"Blende 11","intr":"Die Blende, die du beim Fotografieren verwenden sollst, ist Blende 11."},
+		{"name":"Kameraeinstellungen","title":"0,5 Sekunden Belichtungszeit","intr":"Die Belichtungszeit, die du beim Fotografieren verwenden sollst, beträgt 0,5 Sekunden."},
+		{"name":"Kameraeinstellungen","title":"Weißabgleich bewölkt","intr":"Die Kameraeinstellungen, die du in der Fotografie verwenden sollst."},
+		{"name":"Kameraeinstellungen","title":"1/1000 Belichtungszeit","intr":"Die Belichtungszeit, die du beim Fotografieren verwenden sollst, beträgt 1/1000 ."},
+		{"name":"Kameraeinstellungen","title":"ISO 100","intr":"IOS, das du beim Fotografieren verwenden sollst, ist IOS 100."},
+		{"name":"Kameraeinstellungen","title":"höchster ISO-Wert","intr":"IOS, das du beim Fotografieren verwenden sollst, ist höchster ISO-Wert."},
+		{"name":"Kameraeinstellungen","title":"5 Sekunden Belichtungszeit","intr":"Die Belichtungszeit, die du beim Fotografieren verwenden sollst, beträgt 5 Sekunden."},
+		{"name":"Kameraeinstellungen","title":"Weißabgleich Kunstlicht","intr":"Beim Fotografieren sollst du das Licht Weißabgleich Kunstlicht verwenden."},
+		{"name":"Kameraeinstellungen","title":"Offene Blende","intr":"Die Blende, die du beim Fotografieren verwenden sollst, ist Offene Blende."},
+		{"name":"Kameraeinstellungen","title":"Geschlossenen Blende","intr":"Die Blende, die du beim Fotografieren verwenden sollst, ist Geschlossenen Blende."}	
+	],
+	
+	"Brennweite":[
+		{"name":"Brennweite","title":"Normalbrennweite","intr":"Du sollst Normalbrennweite in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Weitwinkel","intr":"Du sollst Weitwinkel in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Tele","intr":"Du sollst Tele in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Maximale Brennweite","intr":"Du sollst die maximale Brennweite in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Minimale Brennweite","intr":"Du sollst die minimale Brennweite Brennweite in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Fischauge","intr":"Du sollst Fischaugen in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Supertele","intr":"Du sollst Super-Tele in der Fotografie verwenden."}	
+	],
+	
+	"Foto stil":[
+		{"name":"Foto stil","title":"Reportage","intr":"Der Stil des Fotos, den du fotografieren sollst."},
+		{"name":"Foto stil","title":"Studio","intr":"Der Stil des Fotos, den du fotografieren sollst."},
+		{"name":"Foto stil","title":"Vintage","intr":"Der Stil des Fotos, den du fotografieren sollst."},
+		{"name":"Foto stil","title":"Inszieniert","intr":"Der Stil des Fotos, den du fotografieren sollst."},
+		{"name":"Foto stil","title":"Spontan","intr":"Der Stil des Fotos, den du fotografieren sollst."},
+		{"name":"Foto stil","title":"Futuristisch","intr":"Der Stil des Fotos, den du fotografieren sollst."},
+		{"name":"Foto stil","title":"Impressionistisch","intr":"Der Stil des Fotos, den du fotografieren sollst."},
+		{"name":"Foto stil","title":"point and shoot","intr":"Der Stil des Fotos, den du fotografieren sollst."}
+	],
+	
+	"Foto-output":[
+		{"name":"Foto-output","title":"Ein gerahmtes Bild","intr":"Die Fotos, die du ausgeben sollst, ist ein gerahmtes Bildn."},
+		{"name":"Foto-output","title":"Poster-Print","intr":"Die Fotos, die du ausgeben sollst, sind für den Posterdruck bestimmt."},
+		{"name":"Foto-output","title":"Instagram-Seite","intr":"Die Fotos, die du ausgeben sollst, sind Instagram-Seiten."},
+		{"name":"Foto-output","title":"Postkarten-Set","intr":"Die Fotos, die du ausgeben sollst, sind Postkartensets.."},
+		{"name":"Foto-output","title":"Foto-Kalender","intr":"Die Fotos, die du ausgeben sollst, sind Fotokalender."},
+		{"name":"Foto-output","title":"Download als Bildschirmhintergrund","intr":"Die Fotos, die du ausgeben sollst, werden als Hintergrundbild heruntergeladen."},
+		{"name":"Foto-output","title":"Austellung","intr":"Die Fotos, die du ausgeben sollst, werden im illustrierten Buch geliefert."}	
+	]
+	
+}

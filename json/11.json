@@ -1,77 +1,103 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{
+	"keys":[
+		"Thema Theorie",
+		"Fragestellung",
+		"Quelle",
+		"Autor",
+		"Person",
+		"Sprache"
+	],
+
+	"Thema Theorie":[
+		{"name":"Thema Theorie","title":"das Bauhaus","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Darstellung der Natur","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Künstlich und künstlerisch","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Ausstellungsdesign von Museen","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Industrialisierung","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Die Farbe Rot","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"die Farbe Blau","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Die Farbe schwarz","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Kunststoff in der Kunst","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Frauen im Design","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Tiefdruck","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Rotationskörper im Design","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Digitalisierung","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Künstliche Intelligenz","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"die Gesellschaft in 2050","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Stuhl und Sitzglegenheiten","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Leinwand und die Kunst","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Politik und Kunst","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"},
+		{"name":"Thema Theorie","title":"Politik und Design","intr":"Thematik, mit der du dich in deiner Theoriearbeit beschäftigen sollst"}
+	],
+	
+	"Fragestellung":[
+		{"name":"Fragestellung","title":"ist das gut oder schlecht ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"welcher Einfluss hat dies auf seiner Zeit?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"welcher Einfluss hat dies auf der heutigen Zeit ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"inwiefern ist das ein gesellschaftlich relevantes Thema ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"für wen ist es besonders Relevant ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"Welche Aspekte dieser Thematik kann man mit der Kunstgeschichte verbinden ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"Welche Aspekte dieser Thematik kann man mit der Designgeschichte verbinden ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"Welche Parameter führt zu der Entstehung dieser Thematik ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"Welche Rolle spielt das Thema Farbe in dieser Thematik?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"Inwiefern steht das in Verbindung zum Bauhaus ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"War es angesichts seiner Zeit/einer definierten Zeit wirklich avantgardistisch ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"},
+		{"name":"Fragestellung","title":"Welche seiner Merkmale sind am Wichtigsten ?","intr":"Frage, durch die du dich mit dem Thema befassen sollst"}
+	],
+	
+	"Quelle":[
+		{"name":"Quelle","title":"Buch der HBK Bibliothek - Bereich Kunst","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Buch der HBK Bibliothek - Bereich Produktdesign","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Buch der HBK Bibliothek - Bereich Kommunikationsdesign","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Buch der HBK Bibliothek - Bereich Handwerk","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Neues Buch der HBK Bibliothek","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Arte","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Form Magazin","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Bücher von Taschen Verlag ","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Design Report","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Novum","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Spotify Podcast","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Webseite eines Museums","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Netflix","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Wörterbuch","intr":"diese Quelle in deiner Arbeit verwenden"},
+		{"name":"Quelle","title":"Dezeen","intr":"diese Quelle in deiner Arbeit verwenden"}
+	],
+	
+	"Autor":[
+		{"name":"Autor","title":"Braungart, Michael","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Baudrillard, Jean","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Fiell, Charlotte,","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Marx, Karl","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Norman, Donald","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Benjamin, Walter","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Barthes, Roland","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Sudjic, Deyan","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Morris, William","intr":"diesen Autor als Quelle deiner Arbeit verwenden"},
+		{"name":"Autor","title":"Orwell, George","intr":"diesen Autor als Quelle deiner Arbeit verwenden"}
+	],
+	
+	"Person":[
+		{"name":"Person","title":"Karl Marx","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Aby Warburg","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Papanek","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"William Morris","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Henry Ford","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Walter Gropius","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Le Corbusier","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Mies van der Rohe","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Leonardo da Vinci","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Dieter Rams","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Claude Monnet","intr":"Diese Person in deiner Arbeit zitieren"},
+		{"name":"Person","title":"Gustav Klimt","intr":"Diese Person in deiner Arbeit zitieren"}
+	],
+	
+	"Sprache":[
+		{"name":"Sprache","title":"Deutsch","intr":"Deine Theoriearbeit sollte auf Deutsch geschrieben werden"},
+		{"name":"Sprache","title":"Saarländisch","intr":"Deine Theoriearbeit sollte auf Saarländisch geschrieben werden"},
+		{"name":"Sprache","title":"Englisch","intr":"Deine Theoriearbeit sollte auf Englisch geschrieben werden"},
+		{"name":"Sprache","title":"Esperanto","intr":"Deine Theoriearbeit sollte auf Esperanto geschrieben werden"},
+		{"name":"Sprache","title":"Französisch","intr":"Deine Theoriearbeit sollte auf Französisch geschrieben werden"},
+		{"name":"Sprache","title":"Spanisch","intr":"Deine Theoriearbeit sollte auf Spanisch geschrieben werden"},
+		{"name":"Sprache","title":"Chinesisch","intr":"Deine Theoriearbeit sollte auf Chinesisch geschrieben werden"}
+	]
+}

@@ -36,26 +36,81 @@
       $(".reload-btn").click(function(){
         listFun()
       })
-      function listFun(){
-        var randonlist = []
-        for (let i = 0; i < 1000; i++) {
-          if(number>randonlist.length){
-            var randonnumber = Math.floor(Math.random()*number)
-            if(randonlist.indexOf(randonnumber)==-1){
-              randonlist.push(randonnumber)
+      function listFun()
+      {
+        function randomNoRepeatIntValueFromZeroToMax(counts, maxValue)
+        {
+          var values = []
+          //max time step
+          for (let i = 0; i < 1000; i++)
+          {
+            if (values.length >= counts)
+              return values
+            var newValue = Math.floor(Math.random() * maxValue)
+            if(values.indexOf(newValue) == -1)
+            {
+               values.push(newValue)
             }
           }
+          throw 'cannot get enough random value'
         }
-        $.getJSON("../json/" + localStorage.json + ".json", function (res) {
-          var listLength = res.length
+
+        function randomRepeatIntValueFromZeroToMax(counts, maxValue)
+        {
+          var values = []
+          var minValue = 0;
+          for(let i = 0; i < Math.floor(counts / maxValue); i++)
+          {
+            for(let v = minValue; v < maxValue; v++)
+            {
+              values.push(v)
+            }
+          }
+          var remainder = counts % maxValue
+          var vs = randomNoRepeatIntValueFromZeroToMax(remainder, maxValue)
+          vs.forEach(v => 
+          {
+            values.push(v)
+          });
+          return values
+        }
+        
+        $.getJSON("../json/" + localStorage.json + ".json", function (res) 
+        {
+          var keyArr = []
+          //constructor replace???
+          for(let i = 0; i < res.keys.length; i++)
+          {
+            keyArr.push(0)
+          }
+
+          var keysArr = randomRepeatIntValueFromZeroToMax(number, res.keys.length)
+          keysArr.forEach(key =>
+          {
+            keyArr[key] +=1
+          });
+
+          var endArr = []
+          var keys = res.keys
+          keyArr.forEach((element, index) => 
+          {
+            var listArr = res[keys[index]]
+            var indexArr = randomRepeatIntValueFromZeroToMax(element, listArr.length)
+            indexArr.forEach(idx =>
+            {
+              endArr.push(listArr[idx])
+            });
+          });
+          
+          // var listLength = res.length
           $(".output-wrapper").empty()
-          for (let i = 0; i < number; i++) {
+          for (let i = 0; i < endArr.length; i++) {
             $(".output-wrapper").append(`
               <div class="output">
-                <h4 class="output--name">${res[randonlist[i]].name}</h4>
+                <h4 class="output--name">${endArr[i].name}</h4>
                 <div class="output--main">
-                  <h2>${res[randonlist[i]].title}</h2>
-                  <a href="#" class="tooltip"><span class="tooltiptext">${res[randonlist[i]].intr}</span>
+                  <h2>${endArr[i].title}</h2>
+                  <a href="#" class="tooltip"><span class="tooltiptext">${endArr[i].intr}</span>
                     <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
                 </div>
               </div>

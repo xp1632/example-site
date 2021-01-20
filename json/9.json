@@ -1,77 +1,119 @@
-[
-    {
-        "name": "Branche",
-        "title": "Umwelt",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "UI-Element",
-        "title": "Settings",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Format",
-        "title": "Mobile",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Farbe",
-        "title": "Schwarz-Weiss",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Ziel",
-        "title": "Verkauf",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Zielgruppe",
-        "title": "Frauen",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Look & Feel",
-        "title": "7 Stunden",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    },
-    {
-        "name": "Use-Abilities",
-        "title": "Leichte Sprache",
-        "intr": "Hier steht eine tolle Beschreibung!!!"
-    }
-]
+{
+	"keys":[
+		"Zutaten",
+		"Budget",
+		"Zielgruppe",
+		"Richtung cuisine",
+		"Kochtechnik",
+		"Farbe"
+	],
+	
+	"Zutaten":[
+		{"name":"Zutaten","title":"Reste aus dem Kühlschrank","intr":"In deinem Gericht solltest du (unter anderem) Reste aus dem Kühlschrank nutzen"},
+		{"name":"Zutaten","title":"Reste aus Food Saving","intr":"In deinem Gericht solltest du (unter anderem) Reste aus Food Saving nutzen"},
+		{"name":"Zutaten","title":"Saisonal","intr":"In deinem Gericht solltest du (unter anderem) saisonale Produkte nutzen"},
+		{"name":"Zutaten","title":"Lokal","intr":"In deinem Gericht solltest du (unter anderem) lokake Produkte nutzen"},
+		{"name":"Zutaten","title":"Kartoffel","intr":"In deinem Gericht solltest du (unter anderem) Kartoffel nutzen"},
+		{"name":"Zutaten","title":"Zucker","intr":"In deinem Gericht solltest du (unter anderem) Zucker nutzen"},
+		{"name":"Zutaten","title":"Obst","intr":"In deinem Gericht solltest du (unter anderem) Obst nutzen"},
+		{"name":"Zutaten","title":"Hülsenfrucht","intr":"In deinem Gericht solltest du (unter anderem) Hülsenfrucht nutzen"},
+		{"name":"Zutaten","title":"Wurzelgemüse","intr":"In deinem Gericht solltest du (unter anderem) Wurzelgemüse nutzen"},
+		{"name":"Zutaten","title":"3 Pasta Sorten","intr":"In deinem Gericht solltest du (unter anderem) 3 Pasta Sorten nutzen"},
+		{"name":"Zutaten","title":"Teig","intr":"In deinem Gericht solltest du (unter anderem) Teig nutzen"},
+		{"name":"Zutaten","title":"Schokolade","intr":"In deinem Gericht solltest du (unter anderem) Schokolade nutzen"}
+	],
+	
+	"Budget":[
+		{"name":"Budget","title":"2.50€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"exakt 1,76€","intr":"Kosten Pro Person"},
+		{"name":"Budget","title":"10€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"5€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"unbegrenzt","intr":"Traumprojekt, unbegrenztes Budget"},
+		{"name":"Budget","title":"unter 20€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"Mc Donald's Preisrahmen","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"Ikea Preisrahmen","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"5 Pfandflaschen","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"0.50€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"0€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"100€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"1€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"0.50€","intr":"Maximale Kosten Pro Person"}
+	],
+	
+	"Zielgruppe":[
+		{"name":"Zielgruppe","title":"Jugendliche","intr":"Dein Essen sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Vegetarier:innen","intr":"Dein Essen sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Frauen","intr":"Dein Essen sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Studierende","intr":"Dein Essen sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Hausfrauen bis 50","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"alle über 65","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Kindergartenkinder","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Männer","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Veganer:innen","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Autofahrer:innen","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Fahrradfahrer:innen","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"frisch Verheiratete","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"wenig Einkommen","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Hipster","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Singels ü60","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"über 85","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Hunde/Hundebesitzer","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Eltern mit Kleinkindern","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
+		{"name":"Zielgruppe","title":"Saarländer:innen","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"}
+	
+	],
+	
+	"Richtung cuisine":[
+		{"name":"Richtung cuisine","title":"Saarland","intr":"Für dein Gericht sollst du dich von der saarländischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"USA","intr":"Für dein Gericht sollst du dich von der amerikanischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Gratin","intr":"Du sollst ein Gratin kochen (überbackenes Gericht)"},
+		{"name":"Richtung cuisine","title":"Italien","intr":"Für dein Gericht sollst du dich von der italienischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Asien","intr":"Für dein Gericht sollst du dich von der asiatischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"China","intr":"Für dein Gericht sollst du dich von der chinesischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Korea","intr":"Für dein Gericht sollst du dich von der koreanischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Japan","intr":"Für dein Gericht sollst du dich von der japanischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Indien","intr":"Für dein Gericht sollst du dich von der indischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Südamerika","intr":"Für dein Gericht sollst du dich von der südamerikanischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Nordeuropa","intr":"Für dein Gericht sollst du dich von der nordeuropäischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Russland","intr":"Für dein Gericht sollst du dich von der russischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Großbritannien","intr":"Für dein Gericht sollst du dich von der britischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Frankreich","intr":"Für dein Gericht sollst du dich von der französischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Spanien","intr":"Für dein Gericht sollst du dich von der spanischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Flüssig","intr":"Du sollst ein flüssiges Gericht kochen"},
+		{"name":"Richtung cuisine","title":"Türkei","intr":"Für dein Gericht sollst du dich von der türkischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Nachspeise","intr":"Du sollst eine Nachspeise kochen"}
+	],
+	
+	"Kochtechnik":[
+		{"name":"Kochtechnik","title":"Mikrowelle","intr":"wie du dein Gericht kochen sollst"},
+		{"name":"Kochtechnik","title":"Schwenker","intr":"wie du dein Gericht kochen sollst"},
+		{"name":"Kochtechnik","title":"Backofen","intr":"wie du dein Gericht kochen sollst"},
+		{"name":"Kochtechnik","title":"Wasserbad","intr":"wie du dein Gericht kochen sollst"},
+		{"name":"Kochtechnik","title":"braten","intr":"wie du dein Gericht kochen sollst"},
+		{"name":"Kochtechnik","title":"Dampfgarer","intr":"wie du dein Gericht kochen sollst"},
+		{"name":"Kochtechnik","title":"frittiert","intr":"wie du dein Gericht kochen sollst"},
+		{"name":"Kochtechnik","title":"rau (nichts gekochtes)","intr":"wie du dein Gericht kochen sollst"}
+	],
+	
+	"Farbe":[
+		{"name":"Farbe","title":"warme Farbe","intr":"Die Farben deines Essens sollen warme Farben sein"},
+		{"name":"Farbe","title":"kalte Farbe","intr":"Die Farben deines Essens sollen kalte Farben sein"},
+		{"name":"Farbe","title":"Abstufung von Grün","intr":"Die Farben deines Gerichts sollen alle unterschiedliche Grüntöne sein"},
+		{"name":"Farbe","title":"orange","intr":"Die dominante Farbe deines Gerichts"},
+		{"name":"Farbe","title":"rot","intr":"Die dominante Farbe deines Gerichts"},
+		{"name":"Farbe","title":"hellgrün","intr":"Die dominante Farbe deines Gerichts"},
+		{"name":"Farbe","title":"dunkelgrün","intr":"Die dominante Farbe deines Gerichts"},
+		{"name":"Farbe","title":"gelb","intr":"Die dominante Farbe deines Gerichts"},
+		{"name":"Farbe","title":"weiß","intr":"Die dominante Farbe deines Gerichts"},
+		{"name":"Farbe","title":"in den Farben deiner Socken","intr":"Dein Gericht soll die Farben deiner Socken haben"},
+		{"name":"Farbe","title":"Hauttöne","intr":"Dein Gericht soll Farben von hauttöne haben"},
+		{"name":"Farbe","title":"Komplementärkontrast","intr":"Die Farben deines Gerichts sollen komplämentärkontrast sein"},
+		{"name":"Farbe","title":"dunkel","intr":"Die Farben deines Gerichts sollen dunkel sein"},
+		{"name":"Farbe","title":"hell","intr":"Die Farben deines Gerichts sollen hell sein"},
+		{"name":"Farbe","title":"pastellfarben","intr":"Die Farben deines Gerichts sollen pastellfarbig sein"},
+		{"name":"Farbe","title":"einfarbig","intr":"Dein Gericht soll monochrom sein"},
+		{"name":"Farbe","title":"bunt","intr":"Die Farben deines Gerichts sollen bunt sein"},
+		{"name":"Farbe","title":"schwarz-weiß","intr":"Die Farben deines Gerichts sollen schwarz und weiß sein"}
+	]
+	
+}

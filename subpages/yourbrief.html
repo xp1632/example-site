@@ -111,7 +111,9 @@
                 <div class="output--main">
                   <h2>${endArr[i].title}</h2>
                   <a href="#" class="tooltip"><span class="tooltiptext">${endArr[i].intr}</span>
-                    <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
+                    <span class="i-icon">i</span> 
+                    
+                    </a>
                 </div>
               </div>
             `);
@@ -126,15 +128,18 @@
     <!-- Navbar -->
     <nav class="nav">
       <div class="nav-container">
-        <img
-          src="../briefy_images/slotmachine0.gif"
-          loading="lazy"
-          alt=""
-          class="image"
-        />
-        <a href="/index.html" class="website-link">
-          <div class="website-name">briefing maschine</div>
-        </a>
+        <div class="logo-wrapper">
+          <img
+            src="../briefy_images/slotmachine0.gif"
+            loading="lazy"
+            alt=""
+            class="image"
+          />
+          <a href="/index.html" class="website-link">
+            <div class="website-name">briefing maschine</div>
+          </a>
+        </div>
+
         <ul role="list" class="nav--list">
           <li class="nav--item">
             <a href="/subpages/about.html" class="nav-link">
@@ -186,6 +191,7 @@
           /></a>
         </div>
         <div class="output-wrapper">
+          <!-- Hardcoded stuff -->
           <!-- <div class="output">
           <h4 class="output--name">Branche</h4>
           <div class="output--main">

@@ -2,8 +2,16 @@
 
 @font-face {
   font-family: "Input Mono";
-  src: url("../briefy_fonts/InputMono-Medium-Testing.ttf");
+  src: url("../briefy_fonts/InputMono-Medium-Edu.woff");
+  src: url("../briefy_fonts/InputMono-Medium-Edu.woff2");
 }
+
+@font-face {
+  font-family: "Input Mono Regular";
+  src: url("../briefy_fonts/InputMono-Regular-Edu.woff");
+  src: url("../briefy_fonts/InputMono-Regular-Edu.woff2");
+}
+
 @font-face {
   font-family: "Output Sans";
   src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
@@ -107,10 +115,16 @@ h4 {
 }
 
 .website-name {
-  color: #121212;
-  font-size: 1.5em;
+  color: #333;
+  font-size: 1.4em;
   line-height: 100%;
   font-family: "Input Mono";
+  margin-left: 1em;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .nav-link-text {
@@ -240,12 +254,19 @@ h4 {
 }
 
 .tooltip {
+  background-color: #bbbbbf;
+  color: #fff;
+  text-decoration: none;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  min-width: 1.4em;
+  min-height: 1.4em;
   width: 1.4em;
   height: 1.4em;
+  max-width: 1.4em;
+  max-height: 1.4em;
   margin-left: 1em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -255,7 +276,6 @@ h4 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 2px solid #000;
   border-radius: 100%;
   position: relative;
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -265,8 +285,14 @@ h4 {
   background-color: #121212;
 }
 
-.tooltip:hover .i-icon {
-  filter: brightness(0) invert(1);
+span.i-icon {
+  font-weight: 800;
+  font-size: 1.2em;
+  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.tooltip:hover span.i-icon {
+  color: white;
 }
 
 /* Tooltip text */
@@ -340,6 +366,7 @@ h4 {
 }
 
 .output--name {
+  font-family: "Input Mono Regular";
   text-transform: none;
 }
 
@@ -361,7 +388,7 @@ h4 {
   h1 {
     font-size: 2em;
   }
-  .output-wrapper{
+  .output-wrapper {
     grid-template-columns: 1fr 1fr;
   }
   .body {
@@ -404,7 +431,7 @@ h4 {
 }
 
 @media screen and (max-width: 479px) {
-  .output-wrapper{
+  .output-wrapper {
     grid-template-columns: 1fr 1fr;
   }
   h1 {

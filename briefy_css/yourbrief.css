@@ -125,6 +125,7 @@ h4 {
 .logo-wrapper {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 
 .nav-link-text {
@@ -368,6 +369,7 @@ span.i-icon {
 .output--name {
   font-family: "Input Mono Regular";
   text-transform: none;
+  margin-bottom: 0.4em;
 }
 
 @media screen and (max-width: 991px) {

@@ -1,157 +1,136 @@
+@font-face {
+  font-family: "Input Mono";
+  src: url("../briefy_fonts/InputMono-Medium-Testing.ttf");
+}
+@font-face {
+  font-family: "Output Sans";
+  src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
+}
 
 @font-face {
-    font-family: "Input Mono";
-    src: url("../briefy_fonts/InputMono-Medium-Testing.ttf");
-}
- @font-face {
-    font-family: "Output Sans";
-    src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
-}
-
- @font-face {
-    font-family: "Output Sans Medium";
-    src: url("../briefy_fonts/OutputSans-Medium-Edu.otf");
+  font-family: "Output Sans Medium";
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.otf");
 }
 
 /*pageContainer for mainbody,a 3-part column flexbox, include header,level,content_container */
 .pageContainer {
-    display: flex;
-    /* align-items: center; */
-    height: 50%;
-    flex-direction: column;
-    /* font-size: 1rem; */
-    padding-top: 1%;
-    padding-left: 7%;
-    padding-right: 7%;
-
+  display: flex;
+  /* align-items: center; */
+  height: 50%;
+  flex-direction: column;
+  /* font-size: 1rem; */
+  padding-top: 1%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
-.pageContainer #header{
-    width: 100%;
-    /* border: solid 1px #000000; */
+.pageContainer #header {
+  width: 100%;
+  /* border: solid 1px #000000; */
 }
 
-.pageContainer #level{
-    width: 100%;
-    margin-top: 50px;
-    
+.pageContainer #level {
+  width: 100%;
+  margin-top: 50px;
 }
 
-.pageContainer #content_container{
-    width: 100%;
-    height: 50%;
-    /* border: solid 1px #000000; */
-    margin-top: 30px;
+.pageContainer #content_container {
+  width: 100%;
+  height: 50%;
+  /* border: solid 1px #000000; */
+  margin-top: 30px;
 }
 /*pageContainer for mainbody,a 3-part column flexbox */
 
-
 /*flexHeader for header, a 3-part row flexbox,include logoImg, title, sidemenu */
 .flexHeader {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100%;
-/* 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  /* 
     background-color:#fff; */
-    justify-content: space-between;
-
-
+  justify-content: space-between;
 }
-.flexHeader li{
+.flexHeader li {
+  flex-direction: row;
+  text-align: center;
+  /* flex-basis: 30%; */
 
-    flex-direction: row;
-    text-align: center;
-    /* flex-basis: 30%; */
-
-    /* background-color: blanchedalmond;
+  /* background-color: blanchedalmond;
     border: solid 1px #000; */
 }
 
-
-#logoImg{
-    flex:1;
-    margin-left: -3%;
+#logoImg {
+  flex: 1;
+  margin-left: -3%;
 }
 
-.logoImage{
-    width: 35%;
+.logoImage {
+  width: 35%;
 }
-
 
 @media screen and (max-width: 767px) {
-   .logoImage{
-      width: 70%;
-    }
-
+  .logoImage {
+    width: 70%;
+  }
 }
 
-@media screen and (max-width:380px){
-    .logoImage{
-        width: 100%;
-      }
-
+@media screen and (max-width: 380px) {
+  .logoImage {
+    width: 100%;
+  }
 }
 
-#title{
-    flex:3;
+#title {
+  flex: 3;
 }
 
-#sidemenu{
-    flex:1;
+#sidemenu {
+  flex: 1;
 }
-
 
 /*a inside row-flexbox for menubutton in sidemenu*/
-.buttonGroup{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    background-color:#fff;
-    flex-wrap: wrap;
-
-
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #fff;
+  flex-wrap: wrap;
 }
 
-.buttonGroup li{
-    flex:1;
+.buttonGroup li {
+  flex: 1;
 }
 /*a inside row-flexbox for menubutton in sidemenu*/
 
 /*flexHeader for header, a 3-part row flexbox,include logoImg, title, sidemenu */
 
-
-
 /*flexbox foe levelgroup, a 5-part for flexbox, include level1---level5*/
-.levelGroup{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 60%;
+.levelGroup {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 60%;
 
-    padding: 1rem 2rem 1rem 2rem;
-    
-    /* flex-basis: 20%; */
-    flex-wrap: wrap;
-    justify-content: flex-start;
- 
+  padding: 1rem 2rem 1rem 2rem;
+
+  /* flex-basis: 20%; */
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
+.levelGroup li {
+  padding: 1rem 2rem 1rem 2rem;
 
+  border-radius: 5px;
+  margin-bottom: 4%;
+  margin-right: 2%;
 
-.levelGroup li{
-    padding: 1rem 2rem 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
 
-
-    border-radius: 5px;
-    margin-bottom: 4%;
-    margin-right: 2%;
-
-    background-color: rgba(0, 0, 0,0.1);
-
-    transition-property: color, background-color;
-    transition-duration: 1s;
-
+  transition-property: color, background-color;
+  transition-duration: 1s;
 }
 
 /* .levelGroup li:nth-child(2){
@@ -164,68 +143,63 @@
     color: white;
 } */
 
-.levelGroup li:hover{
-    color: white;
-    background-color: rgb(0, 0, 0);
-    cursor: pointer;
+.levelGroup li:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
 }
 
-.levelOn{
-    color: white!important;
-    background-color: rgb(0, 0, 0)!important;
+.levelOn {
+  color: white !important;
+  background-color: rgb(0, 0, 0) !important;
 }
 
 /* hover effect */
 
 @media screen and (max-width: 1280px) {
-
-    .levelGroup{
-        width: 90%;
-        flex-basis: 15%;
-    }
-    .levelGroup li{
-        padding: 1rem 1.5rem 1rem 1.5rem;
-    }
-    
+  .levelGroup {
+    width: 90%;
+    flex-basis: 15%;
+  }
+  .levelGroup li {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+  }
 }
-
 
 /*To fit tablet*/
 @media screen and (max-width: 767px) {
-
-    #sidemenu{
-        position: absolute;
-        right: 12px;
-        top: 26px;
-    }
-    .levelGroup{
-        width: 90%;
-        flex-basis: 15%;
-    }
-    .levelGroup li{
-        padding: 1rem 1.5rem 1rem 1.5rem;
-    }
-    
+  #sidemenu {
+    position: absolute;
+    right: 12px;
+    top: 26px;
+  }
+  .levelGroup {
+    width: 90%;
+    flex-basis: 15%;
+  }
+  .levelGroup li {
+    padding: 1rem 1.5rem 1rem 1.5rem;
+  }
 }
 /*To fit moblie*/
-@media screen and (max-width:380px){
-    #sidemenu{
-        position: absolute;
-        right: 12px;
-        top: 26px;
-    }
-    .levelGroup{
-        flex-direction: inherit;
-        width: 80%;
-        flex-basis: 30%;
-    }
-    .levelGroup li{
-        /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
-        flex-grow: 1;
-        margin-right: 1%;
-    }
+@media screen and (max-width: 380px) {
+  #sidemenu {
+    position: absolute;
+    right: 12px;
+    top: 26px;
+  }
+  .levelGroup {
+    flex-direction: inherit;
+    width: 80%;
+    flex-basis: 30%;
+  }
+  .levelGroup li {
+    /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
+    flex-grow: 1;
+    margin-right: 1%;
+  }
 
-    /* .levelGroup li:nth-child(2){
+  /* .levelGroup li:nth-child(2){
     
 
         flex-grow: 1;
@@ -244,151 +218,129 @@
         flex-grow: 1;
         }
      */
-
 }
-
 
 /*flexbox foe levelgroup, a 5-part for flexbox, include level1---level5*/
 
-
-
 /*flexbox for area_content, flexbox includes 15 elements, for large screen 3 column,5 each, for tablet, 2 columns, for mobile 1 column*/
-.content_container{
-    margin-top:3rem ;
+.content_container {
+  margin-top: 3rem;
 }
 
+.contentGroup {
+  display: flex;
+  /* flex-direction: row; */
+  text-align: center;
+  /* width: 80%; */
+  align-items: center;
+  padding: 1rem 2rem 2rem 2rem;
 
-.contentGroup{
-    display: flex;
-    /* flex-direction: row; */
-    text-align: center;
-    /* width: 80%; */
-    align-items: center;
-    padding: 1rem 2rem 2rem 2rem;
-    
-
-    /* flex-basis: 33%; */
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-
+  /* flex-basis: 33%; */
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.contentGroup li{
-    word-wrap:break-word;
-    width: 30%;
-    height: 15%;
+.contentGroup li {
+  word-wrap: break-word;
+  width: 30%;
+  height: 15%;
 
-    padding: 1rem 0.5rem 1rem 0.5rem;
-    
-    margin-bottom: 1rem;
-    margin-right: -1rem;
-    box-sizing: border-box;
+  padding: 1rem 0.5rem 1rem 0.5rem;
 
-    background-color: rgba(0, 0, 0,0.1);
+  margin-bottom: 1rem;
+  margin-right: -1rem;
+  box-sizing: border-box;
 
-    /* border:  solid 1px #000; */
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.1);
 
-    transition-property: color, background-color;
-    transition-duration: 1s;
-    cursor: pointer;
+  /* border:  solid 1px #000; */
+  border-radius: 5px;
 
+  transition-property: color, background-color;
+  transition-duration: 1s;
+  cursor: pointer;
 }
 
 /* hover effect */
 
-.contentGroup a:hover{
-    color: white;
+.contentGroup a:hover {
+  color: white;
 }
 
-.contentGroup li:hover{
-    color: white;
-    background-color: rgb(0, 0, 0);
+.contentGroup li:hover {
+  color: white;
+  background-color: rgb(0, 0, 0);
 }
 /* hover effect */
-
 
 @media screen and (max-width: 767px) {
-    .contentGroup li{
-        width: 45%;
-    }
+  .contentGroup li {
+    width: 45%;
+  }
 }
 
-@media screen and (max-width:380px){
-    .contentGroup li{
-        width: 100%;
-    }
-
+@media screen and (max-width: 380px) {
+  .contentGroup li {
+    width: 100%;
+  }
 }
 /*flexbox for area_content, flexbox includes 15 elements, for large screen 3 column,5 each, for tablet, 2 columns, for mobile 1 column*/
 
-
 /*font area*/
-a{
-    text-decoration:none;
-    color:#333;
-    }
-
-.mono_Font{
-    font-family: "Input Mono";
-    font-style: normal;
-    font-weight: medium;
-    font-size: 1.4rem;
+a {
+  text-decoration: none;
+  color: #333;
 }
 
-.sans_Font{
-    font-family: "Output Sans";
-    font-style: normal;
-    font-size: 1.2rem;
-
-    /* font-weight: medium; */
+.mono_Font {
+  font-family: "Input Mono";
+  font-style: normal;
+  font-weight: medium;
+  font-size: 1.4rem;
 }
 
-.sans_Font_Medium{
-    font-family: "Output Sans";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.2rem;
-    
+.sans_Font {
+  font-family: "Output Sans";
+  font-style: normal;
+  font-size: 1.2rem;
+
+  /* font-weight: medium; */
+}
+
+.sans_Font_Medium {
+  font-family: "Output Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /*small font style for levels and categories*/
 
-.small_title{
-
-    letter-spacing:1px;
-    font-family: "Input Mono";
-    font-style: normal;
-    font-weight: bold;
-    padding-left: 2rem;
-    font-size: 0.6rem;
+.small_title {
+  padding-left: 2rem;
 }
 
 /*Reveal and Hide Styles*/
 
-.toggle-btn{
+.toggle-btn {
+  display: none;
+}
+@media screen and (max-width: 770px) {
+  .toggle-btn-visible {
+    display: block;
+  }
+
+  .toggle-target-hidden {
     display: none;
+  }
+
+  .toggle-target-expanded {
+    display: block;
+  }
+
+  .buttonGroup li {
+    width: 100%;
+    margin-bottom: 3%;
+    flex-grow: 1;
+  }
 }
-@media screen and (max-width:770px){
-
-    .toggle-btn-visible{
-        display: block;
-    }
-    
-    .toggle-target-hidden{
-        display: none;
-    }
-    
-    .toggle-target-expanded{
-        display: block;
-    }
-    
-    .buttonGroup li{
-        width: 100%;
-        margin-bottom: 3%;
-        flex-grow: 1;
-    }
-}
-
-

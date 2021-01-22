@@ -36,6 +36,12 @@
           img.src = imgArr[index];
         };
       };
+      // // Animations
+      function rotate() {
+        document.getElementByClass("reloadtn").className = "rotateIt";
+      }
+
+      // Main Logic
       $(function () {
         $(".second-menu-title").html(localStorage.firstMenu);
         $(".first-menu-title").html(localStorage.secondMenu);
@@ -173,7 +179,7 @@
                   <h1 class="second-menu-title">schwer</h1>
                 </div>
               </div>
-              <a href="#" class="reload-btn" id="reloadBtn"
+              <a href="#" class="reload-btn" id="reloadBtn" onclick="rotate()"
                 ><img
                   src="../briefy_images/icons/reload-icon.svg"
                   loading="lazy"
@@ -190,89 +196,8 @@
               class="image-4"
           /></a>
         </div>
-        <div class="output-wrapper">
-          <!-- Hardcoded stuff -->
-          <!-- <div class="output">
-          <h4 class="output--name">Branche</h4>
-          <div class="output--main">
-            <h2>Umwelt</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div>
 
-        <div class="output">
-          <h4 class="output--name">UI-Element</h4>
-          <div class="output--main">
-            <h2>Settings</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div>
-
-        <div class="output">
-          <h4 class="output--name">Format</h4>
-          <div class="output--main">
-            <h2>Mobile</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div>
-
-        <div class="output">
-          <h4 class="output--name">Farbe</h4>
-          <div class="output--main">
-            <h2>Schwarz-Weiss</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div>
-
-        <div class="output">
-          <h4 class="output--name">Ziel</h4>
-          <div class="output--main">
-            <h2>Verkauf</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div>
-
-        <div class="output">
-          <h4 class="output--name">Zielgruppe</h4>
-          <div class="output--main">
-            <h2>Frauen</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div>
-
-        <div class="output">
-          <h4 class="output--name">Look & Feel</h4>
-          <div class="output--main">
-            <h2>Vintage</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div>
-
-        <div class="output">
-          <h4 class="output--name">Zeit</h4>
-          <div class="output--main">
-            <h2>7 Stunden</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div>
-
-        <div class="output">
-          <h4 class="output--name">Use-Abilities</h4>
-          <div class="output--main">
-            <h2>Leichte Sprache</h2>
-            <a href="#" class="tooltip"><span class="tooltiptext">Hier steht eine tolle Beschreibung!!!</span>
-              <img src="../briefy_images/icons/info-i.svg" loading="lazy" alt="" class="i-icon" /></a>
-          </div>
-        </div> -->
-        </div>
+        <div class="output-wrapper"></div>
       </div>
     </div>
   </body>

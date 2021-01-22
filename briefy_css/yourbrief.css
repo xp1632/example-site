@@ -137,6 +137,13 @@ h4 {
   margin-right: 0em;
 }
 
+.print-footer {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .image {
   height: 70%;
 }
@@ -386,6 +393,10 @@ span.i-icon {
   }
 }
 
+.print-footer {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 2em;
@@ -515,5 +526,36 @@ span.i-icon {
 
   .output--name {
     font-size: 0.9em;
+  }
+}
+
+/* Druck-Styles */
+@media print {
+  * {
+    background: transparent;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  .print-footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .nav-container {
+    justify-content: center;
+  }
+
+  .nav--list,
+  .print-button,
+  .tooltip,
+  .reload-btn {
+    display: none;
+  }
+
+  @page {
+    margin: 0.5cm;
   }
 }

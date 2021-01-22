@@ -237,11 +237,21 @@ h4 {
   background-color: #000;
 }
 
-.output-wrapper {
+/* .output-wrapper {
   margin-top: 6em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
+  grid-column-gap: 2em;
+  grid-row-gap: 4em;
+} */
+
+/* Implicit Grid */
+
+.output-wrapper {
+  margin-top: 6em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 2em;
   grid-row-gap: 4em;
 }

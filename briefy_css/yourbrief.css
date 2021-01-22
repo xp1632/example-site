@@ -54,6 +54,24 @@ h4 {
   text-transform: uppercase;
 }
 
+/* Animations */
+
+.rotateIt {
+  animation: rotationAnimation 0.6s 1 0s linear;
+}
+
+@keyframes rotationAnimation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
 .nav--list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -125,6 +143,7 @@ h4 {
 .logo-wrapper {
   display: flex;
   align-items: center;
+  height: 100%;
 }
 
 .nav-link-text {
@@ -335,11 +354,6 @@ span.i-icon {
   opacity: 1;
 }
 
-.i-icon {
-  width: auto;
-  height: 81%;
-}
-
 .reload-btn {
   margin-left: 2em;
 }
@@ -460,6 +474,12 @@ span.i-icon {
 
   .image {
     height: 80%;
+  }
+
+  span.i-icon {
+    font-weight: 800;
+    font-size: 1em;
+    padding-top: 0.3em;
   }
 
   .mobile-hamburger {

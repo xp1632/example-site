@@ -36,12 +36,6 @@
           img.src = imgArr[index];
         };
       };
-      // // Animations
-      function rotate() {
-        document.getElementByClass("reload-btn").className = "rotateIt";
-      }
-
-      // Main Logic
       $(function () {
         $(".second-menu-title").html(localStorage.firstMenu);
         $(".first-menu-title").html(localStorage.secondMenu);
@@ -179,7 +173,7 @@
                   <h1 class="second-menu-title">schwer</h1>
                 </div>
               </div>
-              <a href="#" class="reload-btn" id="reloadBtn" onclick="rotate()"
+              <a href="#" class="reload-btn" id="reloadBtn"
                 ><img
                   src="../briefy_images/icons/reload-icon.svg"
                   loading="lazy"

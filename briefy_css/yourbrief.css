@@ -2,8 +2,16 @@
 
 @font-face {
   font-family: "Input Mono";
-  src: url("../briefy_fonts/InputMono-Medium-Testing.ttf");
+  src: url("../briefy_fonts/InputMono-Medium-Edu.woff");
+  src: url("../briefy_fonts/InputMono-Medium-Edu.woff2");
 }
+
+@font-face {
+  font-family: "Input Mono Regular";
+  src: url("../briefy_fonts/InputMono-Regular-Edu.woff");
+  src: url("../briefy_fonts/InputMono-Regular-Edu.woff2");
+}
+
 @font-face {
   font-family: "Output Sans";
   src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
@@ -32,7 +40,7 @@ h2 {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 2em;
-  line-height: 100%;
+  line-height: 110%;
   font-weight: 700;
 }
 
@@ -44,6 +52,10 @@ h4 {
   font-weight: 700;
   font-family: "Input Mono";
   text-transform: uppercase;
+}
+
+.insta-link {
+  margin: 6em 3em;
 }
 
 .nav--list {
@@ -74,14 +86,14 @@ h4 {
 }
 
 .nav-link {
-  -webkit-transition: all 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition: all 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -webkit-transition: all 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: all 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
   color: #131313;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  color: #0a70ff;
+  text-decoration: underline;
 }
 
 .nav-container {
@@ -107,10 +119,17 @@ h4 {
 }
 
 .website-name {
-  color: #121212;
-  font-size: 1.5em;
+  color: #333;
+  font-size: 1.4em;
   line-height: 100%;
   font-family: "Input Mono";
+  margin-left: 1em;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .nav-link-text {
@@ -120,6 +139,13 @@ h4 {
 
 .nav-link-text.right {
   margin-right: 0em;
+}
+
+.print-footer {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image {
@@ -213,15 +239,31 @@ h4 {
   align-items: center;
   border-radius: 100%;
   background-color: #000;
+  transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
-.output-wrapper {
+.print-button:hover {
+  background-color: #bbbbbf;
+}
+
+/* .output-wrapper {
   margin-top: 6em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-column-gap: 2em;
   grid-row-gap: 4em;
+} */
+
+/* Implicit Grid */
+
+.output-wrapper {
+  margin-top: 6em;
+  margin-bottom: 6em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 4em;
+  grid-row-gap: 3em;
 }
 
 .output--main {
@@ -240,12 +282,19 @@ h4 {
 }
 
 .tooltip {
+  background-color: #bbbbbf;
+  color: #fff;
+  text-decoration: none;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  min-width: 1.4em;
+  min-height: 1.4em;
   width: 1.4em;
   height: 1.4em;
+  max-width: 1.4em;
+  max-height: 1.4em;
   margin-left: 1em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -255,7 +304,6 @@ h4 {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 2px solid #000;
   border-radius: 100%;
   position: relative;
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -265,8 +313,14 @@ h4 {
   background-color: #121212;
 }
 
-.tooltip:hover .i-icon {
-  filter: brightness(0) invert(1);
+span.i-icon {
+  font-weight: 800;
+  font-size: 1.2em;
+  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.tooltip:hover span.i-icon {
+  color: white;
 }
 
 /* Tooltip text */
@@ -340,7 +394,9 @@ h4 {
 }
 
 .output--name {
+  font-family: "Input Mono Regular";
   text-transform: none;
+  margin-bottom: 0.4em;
 }
 
 @media screen and (max-width: 991px) {
@@ -349,7 +405,6 @@ h4 {
   }
 
   .output-wrapper {
-    margin-top: 6em;
   }
 
   .output--name {
@@ -357,11 +412,15 @@ h4 {
   }
 }
 
+.print-footer {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 2em;
   }
-  .output-wrapper{
+  .output-wrapper {
     grid-template-columns: 1fr 1fr;
   }
   .body {
@@ -404,7 +463,7 @@ h4 {
 }
 
 @media screen and (max-width: 479px) {
-  .output-wrapper{
+  .output-wrapper {
     grid-template-columns: 1fr 1fr;
   }
   h1 {
@@ -486,5 +545,67 @@ h4 {
 
   .output--name {
     font-size: 0.9em;
+  }
+}
+
+/* Druck-Styles */
+@media print {
+  * {
+    background: transparent;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* Print-Font Styles */
+
+  h4 {
+    font-size: 12pt;
+  }
+
+  h1 {
+    font-size: 32pt;
+  }
+
+  h2 {
+    font-size: 20pt;
+  }
+
+  .output--name {
+    font-size: 12pt;
+  }
+
+  .print-hashstag {
+  }
+
+  .output-wrapper {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 4em;
+    grid-row-gap: 2em;
+  }
+
+  .print-footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .nav-container {
+    justify-content: center;
+  }
+
+  .nav--list,
+  .print-button,
+  .tooltip,
+  .reload-btn {
+    display: none;
+  }
+
+  @page {
+    margin: 0.5cm;
   }
 }

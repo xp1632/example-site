@@ -1,70 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <!--Xiuzhu's about page, A NAV BAR is needed on the top-->
 
-<!--Xiuzhu's about page, A NAV BAR is needed on the top-->
-
-    <meta charset="UTF-8">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <title>About</title>
     <style type="text/css">
-    @font-face {
-               font-family: "Input Mono";
-               src: url("img/InputMono-Medium-Testing.ttf");
-            }
-    @font-face {
-               font-family: "Output Sans";
-               src: url("img/OutputSans-Regular-Edu.otf");
-            }
- 
-    @font-face {
-               font-family: "Input Mono Medium";
-               src: url("img/InputMono-Medium-Testing.ttf");
-            }
-    @font-face {
-               font-family: "Input Mono Bold";
-               src: url("img/InputMono-Bold-Testing.ttf");
-            }
-    @font-face {
-               font-family: "Output Sans Medium";
-               src: url("img/OutputSans-Medium-Edu.otf");
-            }        
-     #top1{position: absolute;width: 564px;height: 124px;left: 131px;top: 202px;
-         font-family: Output Sans Medium;font-style: normal;font-weight: 500;
-           font-size: 25px;line-height: 125%;letter-spacing: 0.02em;}
-     #top2{position: absolute;width: 104px;height: 27px;left: 131px;top: 386px;
-           font-family: Input Mono Bold;font-style: normal;
-           font-weight: 900;font-size: 22px;line-height: 135%;}      
-     #top3{position: absolute;width: 429px;height: 34px;left: 131px;top: 422px;font-family: Output Sans Medium;
-           font-style: normal;font-weight: 500;font-size: 25px;line-height: 135%;
-           text-decoration-line: underline;}
-     #top4{position: absolute;width: 500px;height: 102px;left: 131px;top: 460px;
-           font-family: Output Sans Medium;font-style: normal;font-weight: 500;font-size: 25px;
-           line-height: 135%;}
-     #top5{position: absolute;width: 134px;height: 27px;left: 131px;top: 617px;
-           font-family: Input Mono Bold;font-style: normal;font-weight: 900;font-size: 22px;line-height: 135%;
-           text-decoration-line: underline;}
-     #top6{position: absolute;width: 119px;height: 27px;left: 131px;top: 659px;
-           font-family: Input Mono Bold;font-style: normal;font-weight: 900;font-size: 22px;
-           line-height: 135%;text-decoration-line: underline;}      
+      @font-face {
+        font-family: "Input Mono";
+        src: url("img/InputMono-Medium-Testing.ttf");
+      }
+      @font-face {
+        font-family: "Output Sans";
+        src: url("img/OutputSans-Regular-Edu.otf");
+      }
+
+      @font-face {
+        font-family: "Input Mono Medium";
+        src: url("img/InputMono-Medium-Testing.ttf");
+      }
+      @font-face {
+        font-family: "Input Mono Bold";
+        src: url("img/InputMono-Bold-Testing.ttf");
+      }
+      @font-face {
+        font-family: "Output Sans Medium";
+        src: url("img/OutputSans-Medium-Edu.otf");
+      }
+      #top1 {
+        position: absolute;
+        width: 564px;
+        height: 124px;
+        left: 131px;
+        top: 202px;
+        font-family: Output Sans Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 125%;
+        letter-spacing: 0.02em;
+      }
+      #top2 {
+        position: absolute;
+        width: 104px;
+        height: 27px;
+        left: 131px;
+        top: 386px;
+        font-family: Input Mono Bold;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 135%;
+      }
+      #top3 {
+        position: absolute;
+        width: 429px;
+        height: 34px;
+        left: 131px;
+        top: 422px;
+        font-family: Output Sans Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 135%;
+        text-decoration-line: underline;
+      }
+      #top4 {
+        position: absolute;
+        width: 500px;
+        height: 102px;
+        left: 131px;
+        top: 460px;
+        font-family: Output Sans Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 135%;
+      }
+      #top5 {
+        position: absolute;
+        width: 134px;
+        height: 27px;
+        left: 131px;
+        top: 617px;
+        font-family: Input Mono Bold;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 135%;
+        text-decoration-line: underline;
+      }
+      #top6 {
+        position: absolute;
+        width: 119px;
+        height: 27px;
+        left: 131px;
+        top: 659px;
+        font-family: Input Mono Bold;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 135%;
+        text-decoration-line: underline;
+      }
     </style>
-</head>
-<body>
-   <div id="top0"></div>
-  <div id="top1">
-    Hi! If you don’t know how to do your own design work, Briefingmaschine can provide you with some inspiration. Try to match as many parameters as possible.
-  </div>
+    <link rel="stylesheet" href="../briefy_css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="../briefy_css/yourbrief.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="nav-container">
+        <div class="logo-wrapper">
+          <img
+            src="../briefy_images/slotmachine0.gif"
+            loading="lazy"
+            alt=""
+            class="image"
+          />
+          <a href="/index.html" class="website-link">
+            <div class="website-name">briefing maschine</div>
+          </a>
+        </div>
 
-  <div id="top2">Kontakt</div>
-  <div id="top3">
-    briefingmaschine@hbksaar.de
-  </div>
-  <div id="top4">
-    <span style="display: block">Hochschule der Bildenden Künste Saar</span>
-    <span style="display: block">Keplerstraße 3–5</span>
-    <span style="display: block">66117 Saarbrücken</span>
+        <ul role="list" class="nav--list">
+          <li class="nav--item">
+            <a href="/subpages/about.html" class="nav-link">
+              <div class="nav-link-text">About</div>
+            </a>
+          </li>
+          <li class="nav--item">
+            <a href="/subpages/gallery.html" class="nav-link">
+              <div class="nav-link-text right">Galerie</div>
+            </a>
+          </li>
+        </ul>
+        <div class="mobile-hamburger"></div>
+      </div>
+    </nav>
+    <div id="top0"></div>
+    <div id="top1">
+      Hi! If you don’t know how to do your own design work, Briefingmaschine can
+      provide you with some inspiration. Try to match as many parameters as
+      possible.
+    </div>
 
-  </div>
-  <div id="top5">Instagram</div>
-  <div id="top6">Facebook</div>
-</body>
+    <div id="top2">Kontakt</div>
+    <div id="top3">
+      <a href="mailto:briefingmaschine@hbksaar.de">
+        briefingmaschine@hbksaar.de
+      </a>
+    </div>
+    <div id="top4">
+      <span style="display: block">Hochschule der Bildenden Künste Saar</span>
+      <span style="display: block">Keplerstraße 3–5</span>
+      <span style="display: block">66117 Saarbrücken</span>
+    </div>
+    <div id="top5">Instagram</div>
+    <div id="top6">Facebook</div>
+  </body>
 </html>

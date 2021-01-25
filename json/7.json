@@ -12,38 +12,38 @@
 	],
 	
 	"Thema":[
-		{"name":"Thema","title":"Stilleben","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Menschen","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Heute in der Zeitung","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Hand","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Bücher","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"auf dem Markt","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Was im Umkreis von 1m liegt","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Was direkt vor dir liegt","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Portraits","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Tier","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Natur","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"im Bus","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"meine Nachberschaft","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Flusslandschaft","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Freundschaft","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Liebe","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Spaß","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Wichtigkeit der Familie","intr":"Thematik, die du fotografieren sollst."},
-		{"name":"Thema","title":"Vertrauen","intr":"Thematik, die du fotografieren sollst."}
+		{"name":"Thema","title":"Stilleben","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Stilleben auseinandersetzen"},
+		{"name":"Thema","title":"Menschen","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Mensch auseinandersetzen"},
+		{"name":"Thema","title":"Heute in der Zeitung","intr":"Dein Foto sollte sich (unter anderem) mit den Themen der heutigen Zeitungsausgabe auseinandersetzen"},
+		{"name":"Thema","title":"Hand","intr":"Dein Foto sollte sich (unter anderem) mit der Hand auseinandersetzen"},
+		{"name":"Thema","title":"Bücher","intr":"Dein Foto sollte sich (unter anderem) mit Büchern auseinandersetzen"},
+		{"name":"Thema","title":"auf dem Markt","intr":"Dein Foto sollte sich (unter anderem) mit der Situation auf einem Markt/Wochenmarkt auseinandersetzen"},
+		{"name":"Thema","title":"Was im Umkreis von 1m liegt","intr":"Fotografiere was sich im Umkreis von 1m von dir befindet"},
+		{"name":"Thema","title":"Was direkt vor dir liegt","intr":"Fotografiere was direkt vor dir liegt"},
+		{"name":"Thema","title":"Portraits","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Portrait auseinandersetzen"},
+		{"name":"Thema","title":"Tier","intr":"Dein Foto sollte sich (unter anderem) mit Tieren auseinandersetzen"},
+		{"name":"Thema","title":"Natur","intr":"Dein Foto sollte sich (unter anderem) mit der Natur auseinandersetzen"},
+		{"name":"Thema","title":"im Bus","intr":"Dein Foto sollte sich (unter anderem) mit der Situation in einem Bus auseinandersetzen"},
+		{"name":"Thema","title":"meine Nachbarschaft","intr":"Dein Foto sollte sich (unter anderem) mit deiner Nachbarschaft auseinandersetzen"},
+		{"name":"Thema","title":"Flusslandschaft","intr":"Dein Foto sollte (unter anderem) eine Flusslandschaft abbilden"},
+		{"name":"Thema","title":"Freundschaft","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Freundschaft auseinandersetzen"},
+		{"name":"Thema","title":"Liebe","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Liebe auseinandersetzen"},
+		{"name":"Thema","title":"Spaß","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Spaß auseinandersetzen"},
+		{"name":"Thema","title":"Wichtigkeit der Familie","intr":"Dein Foto sollte sich (unter anderem) mit der Wichtigkeit der Familie auseinandersetzen"},
+		{"name":"Thema","title":"Vertrauen","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Vertrauen auseinandersetzen "}
 	],
 	
 	"Licht":[
-		{"name":"Licht","title":"Direktes Sonnenlicht","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"Bewölkt","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"direkter Blitz","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"Schreibtischlampe","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"Kerzenlicht","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"Backofenlicht","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"Sonnenuntergang","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"Taschenlampe","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"Blitz mit Diffusor","intr":"Das Licht, das du in der Fotografie verwenden sollst."},
-		{"name":"Licht","title":"Indirektes Sonnenlicht","intr":"Das Licht, das du in der Fotografie verwenden sollst."}
+		{"name":"Licht","title":"Direktes Sonnenlicht","intr":"Du solltest im direkten Sonnenlicht fotografieren"},
+		{"name":"Licht","title":"Bewölkt","intr":"Du solltest bei Bewölkung fotografieren"},
+		{"name":"Licht","title":"direkter Blitz","intr":"Du solltest mit Blitz fotografieren"},
+		{"name":"Licht","title":"Schreibtischlampe","intr":"Eine Schreibtischlampe dient dir als Lichtquelle für dein Foto"},
+		{"name":"Licht","title":"Kerzenlicht","intr":"Kerzenlicht dient dir als Lichtquelle für dein Foto"},
+		{"name":"Licht","title":"Backofenlicht","intr":"Das Licht des Backofens dient dir als LIchtquelle für dein Foto"},
+		{"name":"Licht","title":"Sonnenuntergang","intr":"Du solltest beim Sonnenuntergang fotografieren"},
+		{"name":"Licht","title":"Taschenlampe","intr":"Das Licht einer Taschenlampe dient dir als Lichtquelle für dein Foto"},
+		{"name":"Licht","title":"Blitz mit Diffusor","intr":"Du solltest mit einem Blitz mit Diffusor fotografieren"},
+		{"name":"Licht","title":"Indirektes Sonnenlicht","intr":"Du solltest im indirekten Sonnenlicht fotografieren"}
 	],
 	
 	"Farbe":[
@@ -99,14 +99,14 @@
 	],
 	
 	"Foto stil":[
-		{"name":"Foto stil","title":"Reportage","intr":"Der Stil des Fotos, den du fotografieren sollst."},
-		{"name":"Foto stil","title":"Studio","intr":"Der Stil des Fotos, den du fotografieren sollst."},
-		{"name":"Foto stil","title":"Vintage","intr":"Der Stil des Fotos, den du fotografieren sollst."},
-		{"name":"Foto stil","title":"Inszieniert","intr":"Der Stil des Fotos, den du fotografieren sollst."},
-		{"name":"Foto stil","title":"Spontan","intr":"Der Stil des Fotos, den du fotografieren sollst."},
-		{"name":"Foto stil","title":"Futuristisch","intr":"Der Stil des Fotos, den du fotografieren sollst."},
-		{"name":"Foto stil","title":"Impressionistisch","intr":"Der Stil des Fotos, den du fotografieren sollst."},
-		{"name":"Foto stil","title":"point and shoot","intr":"Der Stil des Fotos, den du fotografieren sollst."}
+		{"name":"Foto stil","title":"Reportage","intr":"Du solltest im Stil einer Reportage fotografieren"},
+		{"name":"Foto stil","title":"Studio","intr":"Fotografiere wie in einem Studio"},
+		{"name":"Foto stil","title":"Vintage","intr":"Fotografiere im VIntage-Stil"},
+		{"name":"Foto stil","title":"Inszeniert","intr":"Du solltest dein Foto inszenieren"},
+		{"name":"Foto stil","title":"Spontan","intr":"Dein Foto sollte einen spontanen Eindruck vermitteln"},
+		{"name":"Foto stil","title":"Futuristisch","intr":"Dein Foto sollte einen futuristischen Eindruck vermitteln"},
+		{"name":"Foto stil","title":"Impressionistisch","intr":"Dein Foto sollte einen impressionistischen Eindruck vermitteln"},
+		{"name":"Foto stil","title":"point and shoot","intr":"Überleg nicht lange, fokussiere und fotografiere!"}
 	],
 	
 	"Foto-output":[

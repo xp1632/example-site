@@ -13,10 +13,10 @@
 		{"name":"Zutaten","title":"Reste aus Food Saving","intr":"In deinem Gericht solltest du (unter anderem) Reste aus Food Saving nutzen"},
 		{"name":"Zutaten","title":"Saisonal","intr":"In deinem Gericht solltest du (unter anderem) saisonale Produkte nutzen"},
 		{"name":"Zutaten","title":"Lokal","intr":"In deinem Gericht solltest du (unter anderem) lokake Produkte nutzen"},
-		{"name":"Zutaten","title":"Kartoffel","intr":"In deinem Gericht solltest du (unter anderem) Kartoffel nutzen"},
+		{"name":"Zutaten","title":"Kartoffel","intr":"In deinem Gericht solltest du (unter anderem) Kartoffeln nutzen"},
 		{"name":"Zutaten","title":"Zucker","intr":"In deinem Gericht solltest du (unter anderem) Zucker nutzen"},
 		{"name":"Zutaten","title":"Obst","intr":"In deinem Gericht solltest du (unter anderem) Obst nutzen"},
-		{"name":"Zutaten","title":"Hülsenfrucht","intr":"In deinem Gericht solltest du (unter anderem) Hülsenfrucht nutzen"},
+		{"name":"Zutaten","title":"Hülsenfrucht","intr":"In deinem Gericht solltest du (unter anderem) Hülsenfrüchte nutzen"},
 		{"name":"Zutaten","title":"Wurzelgemüse","intr":"In deinem Gericht solltest du (unter anderem) Wurzelgemüse nutzen"},
 		{"name":"Zutaten","title":"3 Pasta Sorten","intr":"In deinem Gericht solltest du (unter anderem) 3 Pasta Sorten nutzen"},
 		{"name":"Zutaten","title":"Teig","intr":"In deinem Gericht solltest du (unter anderem) Teig nutzen"},
@@ -24,7 +24,7 @@
 	],
 	
 	"Budget":[
-		{"name":"Budget","title":"2.50€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"2,50€","intr":"Maximale Kosten Pro Person"},
 		{"name":"Budget","title":"exakt 1,76€","intr":"Kosten Pro Person"},
 		{"name":"Budget","title":"10€","intr":"Maximale Kosten Pro Person"},
 		{"name":"Budget","title":"5€","intr":"Maximale Kosten Pro Person"},
@@ -33,11 +33,11 @@
 		{"name":"Budget","title":"Mc Donald's Preisrahmen","intr":"Maximale Kosten Pro Person"},
 		{"name":"Budget","title":"Ikea Preisrahmen","intr":"Maximale Kosten Pro Person"},
 		{"name":"Budget","title":"5 Pfandflaschen","intr":"Maximale Kosten Pro Person"},
-		{"name":"Budget","title":"0.50€","intr":"Maximale Kosten Pro Person"},
+		{"name":"Budget","title":"0,50€","intr":"Maximale Kosten Pro Person"},
 		{"name":"Budget","title":"0€","intr":"Maximale Kosten Pro Person"},
 		{"name":"Budget","title":"100€","intr":"Maximale Kosten Pro Person"},
 		{"name":"Budget","title":"1€","intr":"Maximale Kosten Pro Person"},
-		{"name":"Budget","title":"0.50€","intr":"Maximale Kosten Pro Person"}
+		{"name":"Budget","title":"0,50€","intr":"Maximale Kosten Pro Person"}
 	],
 	
 	"Zielgruppe":[
@@ -60,45 +60,44 @@
 		{"name":"Zielgruppe","title":"Hunde/Hundebesitzer","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
 		{"name":"Zielgruppe","title":"Eltern mit Kleinkindern","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"},
 		{"name":"Zielgruppe","title":"Saarländer:innen","intr":"Dein Gericht sollte sich in erster Linie an diese Zielgruppe richten"}
-	
 	],
 	
 	"Richtung cuisine":[
-		{"name":"Richtung cuisine","title":"Saarland","intr":"Für dein Gericht sollst du dich von der saarländischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"USA","intr":"Für dein Gericht sollst du dich von der amerikanischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Saarland","intr":"Für dein Gericht sollst du dich von der saarländischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"USA","intr":"Für dein Gericht sollst du dich von der amerikanischen Küche inspirieren lassen"},
 		{"name":"Richtung cuisine","title":"Gratin","intr":"Du sollst ein Gratin kochen (überbackenes Gericht)"},
-		{"name":"Richtung cuisine","title":"Italien","intr":"Für dein Gericht sollst du dich von der italienischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Asien","intr":"Für dein Gericht sollst du dich von der asiatischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"China","intr":"Für dein Gericht sollst du dich von der chinesischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Korea","intr":"Für dein Gericht sollst du dich von der koreanischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Japan","intr":"Für dein Gericht sollst du dich von der japanischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Indien","intr":"Für dein Gericht sollst du dich von der indischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Südamerika","intr":"Für dein Gericht sollst du dich von der südamerikanischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Nordeuropa","intr":"Für dein Gericht sollst du dich von der nordeuropäischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Russland","intr":"Für dein Gericht sollst du dich von der russischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Großbritannien","intr":"Für dein Gericht sollst du dich von der britischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Frankreich","intr":"Für dein Gericht sollst du dich von der französischen Küche inspieren lassen"},
-		{"name":"Richtung cuisine","title":"Spanien","intr":"Für dein Gericht sollst du dich von der spanischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Italien","intr":"Für dein Gericht sollst du dich von der italienischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Asien","intr":"Für dein Gericht sollst du dich von der asiatischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"China","intr":"Für dein Gericht sollst du dich von der chinesischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Korea","intr":"Für dein Gericht sollst du dich von der koreanischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Japan","intr":"Für dein Gericht sollst du dich von der japanischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Indien","intr":"Für dein Gericht sollst du dich von der indischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Südamerika","intr":"Für dein Gericht sollst du dich von der südamerikanischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Nordeuropa","intr":"Für dein Gericht sollst du dich von der nordeuropäischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Russland","intr":"Für dein Gericht sollst du dich von der russischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Großbritannien","intr":"Für dein Gericht sollst du dich von der britischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Frankreich","intr":"Für dein Gericht sollst du dich von der französischen Küche inspirieren lassen"},
+		{"name":"Richtung cuisine","title":"Spanien","intr":"Für dein Gericht sollst du dich von der spanischen Küche inspirieren lassen"},
 		{"name":"Richtung cuisine","title":"Flüssig","intr":"Du sollst ein flüssiges Gericht kochen"},
-		{"name":"Richtung cuisine","title":"Türkei","intr":"Für dein Gericht sollst du dich von der türkischen Küche inspieren lassen"},
+		{"name":"Richtung cuisine","title":"Türkei","intr":"Für dein Gericht sollst du dich von der türkischen Küche inspirieren lassen"},
 		{"name":"Richtung cuisine","title":"Nachspeise","intr":"Du sollst eine Nachspeise kochen"}
 	],
 	
 	"Kochtechnik":[
-		{"name":"Kochtechnik","title":"Mikrowelle","intr":"wie du dein Gericht kochen sollst"},
-		{"name":"Kochtechnik","title":"Schwenker","intr":"wie du dein Gericht kochen sollst"},
-		{"name":"Kochtechnik","title":"Backofen","intr":"wie du dein Gericht kochen sollst"},
-		{"name":"Kochtechnik","title":"Wasserbad","intr":"wie du dein Gericht kochen sollst"},
-		{"name":"Kochtechnik","title":"braten","intr":"wie du dein Gericht kochen sollst"},
-		{"name":"Kochtechnik","title":"Dampfgarer","intr":"wie du dein Gericht kochen sollst"},
-		{"name":"Kochtechnik","title":"frittiert","intr":"wie du dein Gericht kochen sollst"},
-		{"name":"Kochtechnik","title":"rau (nichts gekochtes)","intr":"wie du dein Gericht kochen sollst"}
+		{"name":"Kochtechnik","title":"Mikrowelle","intr":"das Gericht soll mit der Mikrowelle gekocht werden"},
+		{"name":"Kochtechnik","title":"Schwenker","intr":"das Gericht soll auf dem Schwenker gegrillt werden"},
+		{"name":"Kochtechnik","title":"Backofen","intr":"das Gericht soll im Backofen gebacken werden"},
+		{"name":"Kochtechnik","title":"Wasserbad","intr":"das Gericht soll in einem Wasserbad gekocht werden"},
+		{"name":"Kochtechnik","title":"braten","intr":"das Gericht soll gebraten sein"},
+		{"name":"Kochtechnik","title":"Dampfgarer","intr":"das Gericht soll mit einem Dampfgarer gekocht werden"},
+		{"name":"Kochtechnik","title":"frittiert","intr":"das Gericht soll frittiert sein"},
+		{"name":"Kochtechnik","title":"rau (nichts gekochtes)","intr":"das Gericht soll ungekocht sein"}
 	],
 	
 	"Farbe":[
-		{"name":"Farbe","title":"warme Farbe","intr":"Die Farben deines Essens sollen warme Farben sein"},
-		{"name":"Farbe","title":"kalte Farbe","intr":"Die Farben deines Essens sollen kalte Farben sein"},
-		{"name":"Farbe","title":"Abstufung von Grün","intr":"Die Farben deines Gerichts sollen alle unterschiedliche Grüntöne sein"},
+		{"name":"Farbe","title":"warme Farbe","intr":"Warme Farben dominieren die Farbigkeit deines Gerichts"},
+		{"name":"Farbe","title":"kalte Farbe","intr":"Kalte Farben dominieren die Farbigkeit deines Gerichts"},
+		{"name":"Farbe","title":"Abstufung von Grün","intr":"Die Farbigkeit deines Gerichts soll unterschiedliche Grüntöne beinhalten"},
 		{"name":"Farbe","title":"orange","intr":"Die dominante Farbe deines Gerichts"},
 		{"name":"Farbe","title":"rot","intr":"Die dominante Farbe deines Gerichts"},
 		{"name":"Farbe","title":"hellgrün","intr":"Die dominante Farbe deines Gerichts"},
@@ -106,14 +105,15 @@
 		{"name":"Farbe","title":"gelb","intr":"Die dominante Farbe deines Gerichts"},
 		{"name":"Farbe","title":"weiß","intr":"Die dominante Farbe deines Gerichts"},
 		{"name":"Farbe","title":"in den Farben deiner Socken","intr":"Dein Gericht soll die Farben deiner Socken haben"},
-		{"name":"Farbe","title":"Hauttöne","intr":"Dein Gericht soll Farben von hauttöne haben"},
-		{"name":"Farbe","title":"Komplementärkontrast","intr":"Die Farben deines Gerichts sollen komplämentärkontrast sein"},
-		{"name":"Farbe","title":"dunkel","intr":"Die Farben deines Gerichts sollen dunkel sein"},
-		{"name":"Farbe","title":"hell","intr":"Die Farben deines Gerichts sollen hell sein"},
-		{"name":"Farbe","title":"pastellfarben","intr":"Die Farben deines Gerichts sollen pastellfarbig sein"},
+		{"name":"Farbe","title":"Hauttöne","intr":"Dein Gericht soll Hautfarben sein"},
+		{"name":"Farbe","title":"Komplementärkontrast","intr":"Die Farben deines Gerichts sollen Komplämentärkontraste aufzeigen"},
+		{"name":"Farbe","title":"dunkel","intr":"Dunkle Farben dominieren die Farbigkeit deines Gerichts"},
+		{"name":"Farbe","title":"hell","intr":"Helle Farben dominieren die Farbigkeit deines Gerichts"},
+		{"name":"Farbe","title":"pastellfarben","intr":"Pastellfarben dominieren die Farbigkeit deines Gerichts"},
 		{"name":"Farbe","title":"einfarbig","intr":"Dein Gericht soll monochrom sein"},
-		{"name":"Farbe","title":"bunt","intr":"Die Farben deines Gerichts sollen bunt sein"},
-		{"name":"Farbe","title":"schwarz-weiß","intr":"Die Farben deines Gerichts sollen schwarz und weiß sein"}
-	]
-	
+		{"name":"Farbe","title":"bunt","intr":"Die Farbigkeit deines Gerichts ist möglichst bunt"},
+		{"name":"Farbe","title":"schwarz-weiß","intr":"Die Farbigkeit deines Gerichts ist Schwarz und Weiß"},
+		{"name":"Farbe","title":"Bauhaus-Farben","intr":"Die Farbigkeit deines Gerichts orientiert sich an den Bauhaus-Farben"}
+		]
+		
 }

@@ -1,22 +1,32 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="briefy_css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="briefy_css/yourbrief.css" type="text/css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="briefy_css/reset.css" type="text/css" />
-  <link rel="stylesheet" href="briefy_css/brief_mainStyle.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="briefy_css/brief_mainStyle.css"
+      type="text/css"
+    />
 
-  <script type="text/javascript" src="briefy_js/jquery.js"></script>
-  <script type="text/javascript" src="briefy_js/declarativeToggle.js"></script>
+    <script type="text/javascript" src="briefy_js/jquery.js"></script>
+    <script
+      type="text/javascript"
+      src="briefy_js/declarativeToggle.js"
+    ></script>
 
-  <title>brief machine</title>
-</head>
+=======
+    <title>brief machine</title>
+  </head>
+>>>>>>> b211f4131194982f4a45f5dcb8e995d160f73d8a
 
-<body>
-  <!--pageContainer-->
-  <div class="pageContainer">
-    <!--header-->
-    <div id="header">
+  <body>
+    <!--pageContainer-->
+    <div class="pageContainer">
+      <!--header OLD-->
+      <!-- <div id="header">
       <ul class="flexHeader">
         <li id="logoImg">
           <img src="briefy_images/slotmachine0.gif" class="logoImage" alt="BriefLogo" />
@@ -26,91 +36,146 @@
           <h2>briefing machine</h2>
         </li>
 
-        <li id="sidemenu" class="sans_Font">
-          <!--sidemenu-->
-          <nav class="site-nav">
+        <li id="sidemenu" class="sans_Font"> -->
+      <!--sidemenu-->
+      <!-- <nav class="site-nav">
             <div id="sidemenu">
               <ul class="buttonGroup">
                 <li>About</a></li>
                 <li>Galerie</a></li>
               </ul>
             </div>
-          </nav>
-          <!--sidemenu-->
-        </li>
+          </nav> -->
+      <!--sidemenu-->
+      <!-- </li>
 
         <input type="image" src="briefy_images/icons/side_menu.svg" width="30px" data-toggle-target=".site-nav"
           class="toggle-btn" />
 
       </ul>
+    </div> -->
+      <!--header-->
+      <!-- Navbar -->
+      <nav class="nav">
+        <div class="nav-container">
+          <div class="logo-wrapper">
+            <img
+              src="../briefy_images/slotmachine0.gif"
+              loading="lazy"
+              alt=""
+              class="image"
+            />
+            <a href="/index.html" class="website-link">
+              <div class="website-name">briefing maschine</div>
+            </a>
+          </div>
+
+          <ul role="list" class="nav--list">
+            <li class="nav--item">
+              <a href="/subpages/about.html" class="nav-link">
+                <div class="nav-link-text">About</div>
+              </a>
+            </li>
+            <li class="nav--item">
+              <a href="/subpages/gallery.html" class="nav-link">
+                <div class="nav-link-text right">Galerie</div>
+              </a>
+            </li>
+          </ul>
+          <div class="mobile-hamburger"></div>
+        </div>
+      </nav>
+
+      <!--diff_level-->
+      <div id="level">
+        <h4 class="small_title">SCHWIERIGKEIT</h4>
+
+        <ul id="levels" class="levelGroup sans_Font_Medium">
+          <!-- <li id="level1">leicht</li> -->
+        </ul>
+      </div>
+
+      <!--content_container-->
+      <div id="content_container">
+        <h4 class="small_title">BEREICHE</h4>
+
+        <ul class="contentGroup sans_Font_Medium">
+          <!-- <li><a href="subpages/yourbrief.html">Zeichnen & Malerei</a></li> -->
+          <!-- <li><a href="subpages/yourbrief.html">Mensa</a></li> -->
+        </ul>
+      </div>
+      <!--content_container-->
     </div>
-    <!--header-->
-
-    <!--diff_level-->
-    <div id="level">
-      <h2 class="small_title">SCHWIERIGKEIT</h2>
-
-      <ul id="levels" class="levelGroup sans_Font_Medium">
-        <!-- <li id="level1">leicht</li> -->
-      </ul>
-    </div>
-
-    <!--content_container-->
-    <div id="content_container">
-      <h2 class="small_title">BERERCHE</h2>
-
-      <ul class="contentGroup sans_Font_Medium">
-        <!-- <li><a href="subpages/yourbrief.html">Zeichnen & Malerei</a></li> -->
-        <!-- <li><a href="subpages/yourbrief.html">Mensa</a></li> -->
-      </ul>
-    </div>
-    <!--content_container-->
-  </div>
-  <!--pageContainer-->
-  <!-- script -->
-  <script>
-    $(function () {
-      // firstMenu
-      var firstMenu = [{ "title": "leicht", "value": "level1", "number": "3" }, { "title": "mittel", "value": "level2", "number": "5" }, { "title": "schwer", "value": "level3", "number": "7" }, { "title": "profi", "value": "level4", "number": "9" }, { "title": "extrem", "value": "level5", "number": "11" }]
-      firstMenu.forEach(element => {
-        $(".levelGroup").append('<li name="' + element.number + '" id="' + element.value + '">' + element.title + '</li>')
-      });
-      $(".levelGroup li").eq(0).addClass("levelOn")
-      localStorage.firstMenu = $(".levelGroup li").eq(0).text()
-      localStorage.number = $(".levelGroup li").eq(0).attr("name")
-      $(".levelGroup li").click(function () {
-        $(".levelGroup li").removeClass("levelOn")
-        $(this).addClass("levelOn")
-        secondMenuFun($(this).attr("id"))
-        // localStorage firstMenu
-        localStorage.firstMenu = $(this).text()
-        localStorage.number = $(this).attr("name")
-      })
-      // secondMenu
-      secondMenuFun("level1")
-      function secondMenuFun(type) {
-        //var secondMenu = [{ "title": "Zeichnen & Malerei", "type": "level1" }, { "title": "Performance", "type": "level1" }, { "title": "Bildhauerei & Plastik", "type": "level1" }, { "title": "Product-Design", "type": "level1" }, { "title": "UI & Web Design", "type": "level1" }, { "title": "Editorial", "type": "level1" }, { "title": "Fotografie", "type": "level1" }, { "title": "Kampagne", "type": "level1" }, { "title": "Atelier-Ausstattung", "type": "level1" }, { "title": "Erscheinungsbild", "type": "level1" }, { "title": "Informationsdesign", "type": "level1" }, { "title": "Logo Design", "type": "level1" }, { "title": "Publikationsdesign", "type": "level1" }, { "title": "Theoriearbeit", "type": "level1" }, { "title": "Storydesign", "type": "level1" }, { "title": "Bewegtbild", "type": "level1" }, { "title": "Bibliotheksausleihe", "type": "level1" }, { "title": "Mensa", "type": "level1" }]
-
-        var secondMenu = [{ "title": "Kampagne", "type": "level1" },{ "title": "Publikationsdesign", "type": "level1" }, { "title": "UI & Web Design", "type": "level1" },
-          { "title": "Performance", "type": "level1" }, { "title": "Bildhauerei", "type": "level1" }, { "title": "Zeichnen / Malerei", "type": "level1" }, 
-          { "title": "Fotografie", "type": "level1" }, { "title": "Storydesign", "type": "level1" }, { "title": "Mensa", "type": "level1" }, 
-          { "title": "Produktdesign", "type": "level1" },{ "title": "Theoriearbeit", "type": "level1" },{"title":"Audio","type":"level1"}]
-
-        $(".contentGroup").empty()
-        secondMenu.forEach((element, index) => {
-          $(".contentGroup").append('<li id="' + index + '">' + element.title + '</li>')
+    <!--pageContainer-->
+    <!-- script -->
+    <script>
+      $(function () {
+        // firstMenu
+        var firstMenu = [
+          { title: "leicht", value: "level1", number: "3" },
+          { title: "mittel", value: "level2", number: "5" },
+          { title: "schwer", value: "level3", number: "7" },
+          { title: "profi", value: "level4", number: "9" },
+          { title: "extrem", value: "level5", number: "11" },
+        ];
+        firstMenu.forEach((element) => {
+          $(".levelGroup").append(
+            '<li name="' +
+              element.number +
+              '" id="' +
+              element.value +
+              '">' +
+              element.title +
+              "</li>"
+          );
         });
-        $(".contentGroup li").click(function () {
-          $(".contentGroup li").removeClass("levelOn")
-          $(this).addClass("levelOn")
-          // localStorage secondMenu
-          localStorage.secondMenu = $(this).text()
-          localStorage.json = Number($(this).attr("id")) + 1
-          window.location.href = "subpages/yourbrief.html"
-        })
-      }
-    })
-  </script>
-</body>
+        $(".levelGroup li").eq(0).addClass("levelOn");
+        localStorage.firstMenu = $(".levelGroup li").eq(0).text();
+        localStorage.number = $(".levelGroup li").eq(0).attr("name");
+        $(".levelGroup li").click(function () {
+          $(".levelGroup li").removeClass("levelOn");
+          $(this).addClass("levelOn");
+          secondMenuFun($(this).attr("id"));
+          // localStorage firstMenu
+          localStorage.firstMenu = $(this).text();
+          localStorage.number = $(this).attr("name");
+        });
+        // secondMenu
+        secondMenuFun("level1");
+        function secondMenuFun(type) {
+          //var secondMenu = [{ "title": "Zeichnen & Malerei", "type": "level1" }, { "title": "Performance", "type": "level1" }, { "title": "Bildhauerei & Plastik", "type": "level1" }, { "title": "Product-Design", "type": "level1" }, { "title": "UI & Web Design", "type": "level1" }, { "title": "Editorial", "type": "level1" }, { "title": "Fotografie", "type": "level1" }, { "title": "Kampagne", "type": "level1" }, { "title": "Atelier-Ausstattung", "type": "level1" }, { "title": "Erscheinungsbild", "type": "level1" }, { "title": "Informationsdesign", "type": "level1" }, { "title": "Logo Design", "type": "level1" }, { "title": "Publikationsdesign", "type": "level1" }, { "title": "Theoriearbeit", "type": "level1" }, { "title": "Storydesign", "type": "level1" }, { "title": "Bewegtbild", "type": "level1" }, { "title": "Bibliotheksausleihe", "type": "level1" }, { "title": "Mensa", "type": "level1" }]
 
+          var secondMenu = [
+            { title: "Kampagne", type: "level1" },
+            { title: "Publikationsdesign", type: "level1" },
+            { title: "UI & Web Design", type: "level1" },
+            { title: "Performance", type: "level1" },
+            { title: "Bildhauerei", type: "level1" },
+            { title: "Zeichnen / Malerei", type: "level1" },
+            { title: "Fotografie", type: "level1" },
+            { title: "Storydesign", type: "level1" },
+            { title: "Mensa", type: "level1" },
+            { title: "Produktdesign", type: "level1" },
+            { title: "Theoriearbeit", type: "level1" },
+            { title: "Audio", type: "level1" },
+          ];
+
+          $(".contentGroup").empty();
+          secondMenu.forEach((element, index) => {
+            $(".contentGroup").append(
+              '<li id="' + index + '">' + element.title + "</li>"
+            );
+          });
+          $(".contentGroup li").click(function () {
+            $(".contentGroup li").removeClass("levelOn");
+            $(this).addClass("levelOn");
+            // localStorage secondMenu
+            localStorage.secondMenu = $(this).text();
+            localStorage.json = Number($(this).attr("id")) + 1;
+            window.location.href = "subpages/yourbrief.html";
+          });
+        }
+      });
+    </script>
+  </body>
 </html>

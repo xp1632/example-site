@@ -113,7 +113,7 @@
   text-align: center;
   width: 60%;
 
-  padding: 1rem 2rem 1rem 2rem;
+  padding: 1rem 0rem;
 
   /* flex-basis: 20%; */
   flex-wrap: wrap;
@@ -233,7 +233,7 @@
   text-align: center;
   /* width: 80%; */
   align-items: center;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 0;
 
   /* flex-basis: 33%; */
   flex-wrap: wrap;
@@ -317,7 +317,6 @@ a {
 /*small font style for levels and categories*/
 
 .small_title {
-  padding-left: 2rem;
 }
 
 /*Reveal and Hide Styles*/

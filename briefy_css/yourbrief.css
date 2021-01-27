@@ -114,6 +114,31 @@ h4 {
   align-items: center;
 }
 
+.innerWrapper {
+  width: 50%;
+}
+
+.contact-txt {
+  font-size: 1.5em;
+  line-height: 130%;
+}
+
+.insta-link--About {
+  display: block;
+  font-size: 1.5em;
+  line-height: 130%;
+  margin-top: 2em;
+}
+
+.kontakt-headline {
+  margin: 2em 0 1em 0;
+}
+
+.about-txt {
+  font-size: 1.3em;
+  line-height: 130%;
+}
+
 .body {
   font-size: 16px;
 }
@@ -401,6 +426,10 @@ span.i-icon {
 @media screen and (max-width: 991px) {
   .nav {
     height: 6em;
+  }
+
+  .innerWrapper {
+    width: 100%;
   }
 
   .output-wrapper {

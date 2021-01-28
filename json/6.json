@@ -126,9 +126,12 @@
 	],
 	
 	"Einschraenkung":[
-		{"name":"Einschraenkung","title":"Mit geschlossenen Augen","intr":"Arbeite mit geschlossenen Augen"},
-		{"name":"Einschraenkung","title":"Mit der nicht dominanten Hand","intr":"Arbeite mit der nicht dominanten Hand"},
-		{"name":"Einschraenkung","title":"Mit dem Mund ","intr":"Arbeite mit dem Mund"},
-		{"name":"Einschraenkung","title":"Mit den Zehen","intr":"Arbeite mit den Zehen"}
+		{"name":"Einschraenkung","title":"Mit geschlossenen Augen","intr":"Arbeite mit geschlossenen Augen."},
+		{"name":"Einschraenkung","title":"Mit der nicht-dominanten Hand","intr":"Arbeite mit der nicht dominanten Hand."},
+		{"name":"Einschraenkung","title":"Mit dem Mund ","intr":"Arbeite mit dem Mund."},
+		{"name":"Einschraenkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
+		{"name":"Einschraenkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
+		{"name":"Einschraenkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
+		{"name":"Einschraenkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."}
 	]	
 }

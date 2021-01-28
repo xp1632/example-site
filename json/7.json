@@ -7,116 +7,120 @@
 		"Perspektive",
 		"Kameraeinstellungen",
 		"Brennweite",
-		"Foto stil",
-		"Foto-output"
+		"Fotostil",
+		"Medium"
 	],
 	
 	"Thema":[
-		{"name":"Thema","title":"Stilleben","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Stilleben auseinandersetzen"},
-		{"name":"Thema","title":"Menschen","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Mensch auseinandersetzen"},
-		{"name":"Thema","title":"Heute in der Zeitung","intr":"Dein Foto sollte sich (unter anderem) mit den Themen der heutigen Zeitungsausgabe auseinandersetzen"},
-		{"name":"Thema","title":"Hand","intr":"Dein Foto sollte sich (unter anderem) mit der Hand auseinandersetzen"},
-		{"name":"Thema","title":"Bücher","intr":"Dein Foto sollte sich (unter anderem) mit Büchern auseinandersetzen"},
-		{"name":"Thema","title":"auf dem Markt","intr":"Dein Foto sollte sich (unter anderem) mit der Situation auf einem Markt/Wochenmarkt auseinandersetzen"},
-		{"name":"Thema","title":"Was im Umkreis von 1m liegt","intr":"Fotografiere was sich im Umkreis von 1m von dir befindet"},
-		{"name":"Thema","title":"Was direkt vor dir liegt","intr":"Fotografiere was direkt vor dir liegt"},
-		{"name":"Thema","title":"Portraits","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Portrait auseinandersetzen"},
-		{"name":"Thema","title":"Tier","intr":"Dein Foto sollte sich (unter anderem) mit Tieren auseinandersetzen"},
-		{"name":"Thema","title":"Natur","intr":"Dein Foto sollte sich (unter anderem) mit der Natur auseinandersetzen"},
-		{"name":"Thema","title":"im Bus","intr":"Dein Foto sollte sich (unter anderem) mit der Situation in einem Bus auseinandersetzen"},
-		{"name":"Thema","title":"meine Nachbarschaft","intr":"Dein Foto sollte sich (unter anderem) mit deiner Nachbarschaft auseinandersetzen"},
-		{"name":"Thema","title":"Flusslandschaft","intr":"Dein Foto sollte (unter anderem) eine Flusslandschaft abbilden"},
-		{"name":"Thema","title":"Freundschaft","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Freundschaft auseinandersetzen"},
-		{"name":"Thema","title":"Liebe","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Liebe auseinandersetzen"},
-		{"name":"Thema","title":"Spaß","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Spaß auseinandersetzen"},
-		{"name":"Thema","title":"Wichtigkeit der Familie","intr":"Dein Foto sollte sich (unter anderem) mit der Wichtigkeit der Familie auseinandersetzen"},
-		{"name":"Thema","title":"Vertrauen","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Vertrauen auseinandersetzen "}
+		{"name":"Thema","title":"Stilleben","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Stilleben auseinandersetzen."},
+		{"name":"Thema","title":"Menschen","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Menschen auseinandersetzen."},
+		{"name":"Thema","title":"Heute in der Zeitung","intr":"Dein Foto sollte sich (unter anderem) mit den Themen der heutigen Zeitungsausgaben auseinandersetzen."},
+		{"name":"Thema","title":"Hand","intr":"Dein Foto sollte sich (unter anderem) mit der Hand auseinandersetzen."},
+		{"name":"Thema","title":"Bücher","intr":"Dein Foto sollte sich (unter anderem) mit Büchern auseinandersetzen."},
+		{"name":"Thema","title":"Auf dem Markt","intr":"Dein Foto sollte sich (unter anderem) mit der Situation auf einem Markt/Wochenmarkt auseinandersetzen."},
+		{"name":"Thema","title":"Etwas im Umkreis von 1 m","intr":"Fotografiere etwas, das sich im Umkreis von 1 m von dir befindet."},
+		{"name":"Thema","title":"Etwas direkt vor dir","intr":"Fotografiere etwas, das direkt vor dir liegt."},
+		{"name":"Thema","title":"Portraits","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Portrait auseinandersetzen."},
+		{"name":"Thema","title":"Tier","intr":"Dein Foto sollte sich (unter anderem) mit Tieren auseinandersetzen."},
+		{"name":"Thema","title":"Natur","intr":"Dein Foto sollte sich (unter anderem) mit der Natur auseinandersetzen."},
+		{"name":"Thema","title":"Im Bus","intr":"Dein Foto sollte sich (unter anderem) mit der Situation in einem Bus auseinandersetzen."},
+		{"name":"Thema","title":"Nachbarschaft","intr":"Dein Foto sollte sich (unter anderem) mit deiner Nachbarschaft auseinandersetzen."},
+		{"name":"Thema","title":"Flusslandschaft","intr":"Dein Foto sollte (unter anderem) eine Flusslandschaft abbilden."},
+		{"name":"Thema","title":"Freundschaft","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Freundschaft auseinandersetzen."},
+		{"name":"Thema","title":"Liebe","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Liebe auseinandersetzen."},
+		{"name":"Thema","title":"Spaß","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Spaß auseinandersetzen."},
+		{"name":"Thema","title":"Familie","intr":"Dein Foto sollte sich (unter anderem) mit der Wichtigkeit der Familie auseinandersetzen."},
+		{"name":"Thema","title":"Vertrauen","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Vertrauen auseinandersetzen."},
+		{"name":"Thema","title":"Arbeit","intr":"Dein Foto sollte sich (unter anderem) mit dem Thema Arbeit auseinandersetzen."}
 	],
 	
 	"Licht":[
-		{"name":"Licht","title":"Direktes Sonnenlicht","intr":"Du solltest im direkten Sonnenlicht fotografieren"},
-		{"name":"Licht","title":"Bewölkt","intr":"Du solltest bei Bewölkung fotografieren"},
-		{"name":"Licht","title":"direkter Blitz","intr":"Du solltest mit Blitz fotografieren"},
-		{"name":"Licht","title":"Schreibtischlampe","intr":"Eine Schreibtischlampe dient dir als Lichtquelle für dein Foto"},
-		{"name":"Licht","title":"Kerzenlicht","intr":"Kerzenlicht dient dir als Lichtquelle für dein Foto"},
-		{"name":"Licht","title":"Backofenlicht","intr":"Das Licht des Backofens dient dir als LIchtquelle für dein Foto"},
-		{"name":"Licht","title":"Sonnenuntergang","intr":"Du solltest beim Sonnenuntergang fotografieren"},
-		{"name":"Licht","title":"Taschenlampe","intr":"Das Licht einer Taschenlampe dient dir als Lichtquelle für dein Foto"},
-		{"name":"Licht","title":"Blitz mit Diffusor","intr":"Du solltest mit einem Blitz mit Diffusor fotografieren"},
-		{"name":"Licht","title":"Indirektes Sonnenlicht","intr":"Du solltest im indirekten Sonnenlicht fotografieren"}
+		{"name":"Licht","title":"Direktes Sonnenlicht","intr":"Du solltest im direkten Sonnenlicht fotografieren."},
+		{"name":"Licht","title":"Indirektes Sonnenlicht","intr":"Du solltest im indirekten Sonnenlicht fotografieren."},
+		{"name":"Licht","title":"Bewölkt","intr":"Du solltest bei Bewölkung fotografieren."},
+		{"name":"Licht","title":"Direkter Blitz","intr":"Du solltest mit Blitz fotografieren."},
+		{"name":"Licht","title":"Blitz mit Diffusor","intr":"Du solltest mit einem Blitz mit Diffusor fotografieren."},
+		{"name":"Licht","title":"Schreibtischlampe","intr":"Eine Schreibtischlampe dient dir als Lichtquelle für dein Foto."},
+		{"name":"Licht","title":"Kerzenlicht","intr":"Kerzenlicht dient dir als Lichtquelle für dein Foto."},
+		{"name":"Licht","title":"Backofenlicht","intr":"Das Licht des Backofens dient dir als LIchtquelle für dein Foto."},
+		{"name":"Licht","title":"Sonnenuntergang","intr":"Du solltest beim Sonnenuntergang fotografieren."},
+		{"name":"Licht","title":"Taschenlampe","intr":"Das Licht einer Taschenlampe dient dir als Lichtquelle für dein Foto."}
 	],
 	
 	"Farbe":[
-		{"name":"Farbe","title":"warme Farbe","intr":"Die Farbe deines Fotos sollte warm sein."},
-		{"name":"Farbe","title":"kalte Farbe","intr":"Die Farbe deines Fotos sollte kühl sein."},
-		{"name":"Farbe","title":"hell","intr":"Die Farbe deines Fotos sollte hell sein."},
-		{"name":"Farbe","title":"dunkel","intr":"Die Farbe deines Fotos sollte dunkel sein."},
-		{"name":"Farbe","title":"bunt","intr":"Die Farbe deines Fotos sollte bunt sein."},
-		{"name":"Farbe","title":"hellgrün","intr":"Die Farbe deines Fotos sollte hellgrün sein."},
-		{"name":"Farbe","title":"dunkelgrau","intr":"Die Farbe deines Fotos sollte dunkelgrau sein."},
-		{"name":"Farbe","title":"gelb","intr":"Die Farbe deines Fotos sollte gelb sein."},
-		{"name":"Farbe","title":"blau und orange","intr":"Die Farbe deines Fotos sollte blau und orange sein."},
-		{"name":"Farbe","title":"neonfarben","intr":"Die Farbe deines Fotos sollte neonfarben sein."},
-		{"name":"Farbe","title":"leuchtend","intr":"Die Farbe deines Fotos sollte leuchtend sein."},
-		{"name":"Farbe","title":"Komplementärkontrast","intr":"Die Farbe deines Fotos sollte Komplementärkontrast sein."},
-		{"name":"Farbe","title":"sehr dunkel","intr":"Die Farbe deines Fotos sollte sehr dunkel sein."},
-		{"name":"Farbe","title":"sehr hell","intr":"Die Farbe deines Fotos sollte sehr hell sein."},
-		{"name":"Farbe","title":"pastellfarben","intr":"Die Farbe deines Fotos sollte pastellfarben sein."},
-		{"name":"Farbe","title":"einfarbig","intr":"Die Farbe deines Fotos sollte einfarbig sein."},
-		{"name":"Farbe","title":"rot","intr":"Die Farbe deines Fotos sollte rot sein."},
-		{"name":"Farbe","title":"schwarz-weiß","intr":"Die Farbe deines Fotos sollte schwarz-weiß sein."},
-		{"name":"Farbe","title":"duchsichtig","intr":"Die Farbe deines Fotos sollte duchsichtig sein."}
+		{"name":"Farbe","title":"Warme Farben","intr":"Die Farben deines Fotos sollten warm sein."},
+		{"name":"Farbe","title":"Kalte Farben","intr":"Die Farben deines Fotos sollten kühl sein."},
+		{"name":"Farbe","title":"Hell","intr":"Die Farben deines Fotos sollten hell sein."},
+		{"name":"Farbe","title":"Dunkel","intr":"Die Farben deines Fotos sollten dunkel sein."},
+		{"name":"Farbe","title":"Bunt","intr":"Die Farben deines Fotos sollten bunt sein."},
+		{"name":"Farbe","title":"Hellgrün","intr":"Die Farbe deines Fotos sollte hellgrün sein."},
+		{"name":"Farbe","title":"Dunkelgrau","intr":"Die Farbe deines Fotos sollte dunkelgrau sein."},
+		{"name":"Farbe","title":"Gelb","intr":"Die Farbe deines Fotos sollte gelb sein."},
+		{"name":"Farbe","title":"Blau und orange","intr":"Die Farben deines Fotos sollten blau und orange sein."},
+		{"name":"Farbe","title":"Neonfarben","intr":"Die Farbe deines Fotos sollte neonfarben sein."},
+		{"name":"Farbe","title":"Leuchtend","intr":"Die Farben deines Fotos sollten leuchtend sein."},
+		{"name":"Farbe","title":"Komplementärkontrast","intr":"Die Farben deines Fotos sollten im Komplementärkontrast sein."},
+		{"name":"Farbe","title":"Sehr dunkel","intr":"Die Farben deines Fotos sollten sehr dunkel sein."},
+		{"name":"Farbe","title":"Sehr hell","intr":"Die Farben deines Fotos sollten sehr hell sein."},
+		{"name":"Farbe","title":"Pastellfarben","intr":"Die Farben deines Fotos sollten pastellfarben sein."},
+		{"name":"Farbe","title":"Einfarbig","intr":"Die Farbe deines Fotos sollte einfarbig sein."},
+		{"name":"Farbe","title":"Rot","intr":"Die Farbe deines Fotos sollte rot sein."},
+		{"name":"Farbe","title":"Schwarz-weiß","intr":"Die Farbe deines Fotos sollte schwarz-weiß sein."},
+		{"name":"Farbe","title":"Transparent","intr":"Dein Foto sollte transparente Objekte enthalten."}
 	],
 	
 	"Perspektive":[
 		{"name":"Perspektive","title":"Froschperspektive","intr":"Deine Perspektive sollte Froschperspektive sein."},
 		{"name":"Perspektive","title":"Vogelperspektive","intr":"Deine Perspektive sollte Vogelperspektive sein."},
-		{"name":"Perspektive","title":"auf Augenhöhe","intr":"Du sollst auf Augenhöhe fotografieren."},
-		{"name":"Perspektive","title":"Beobachter*innen Perspektive","intr":"Du sollst aus der Perspektive von Beobachtern fotografieren."}
+		{"name":"Perspektive","title":"Auf Augenhöhe","intr":"Du sollst auf Augenhöhe fotografieren."},
+		{"name":"Perspektive","title":"Beobachter:innen Perspektive","intr":"Du sollst aus der Perspektive von Beobachter:innen fotografieren."}
 	],
 	
 	"Kameraeinstellungen":[
 		{"name":"Kameraeinstellungen","title":"Blende 11","intr":"Die Blende, die du beim Fotografieren verwenden sollst, ist Blende 11."},
 		{"name":"Kameraeinstellungen","title":"0,5 Sekunden Belichtungszeit","intr":"Die Belichtungszeit, die du beim Fotografieren verwenden sollst, beträgt 0,5 Sekunden."},
 		{"name":"Kameraeinstellungen","title":"Weißabgleich bewölkt","intr":"Die Kameraeinstellungen, die du in der Fotografie verwenden sollst."},
-		{"name":"Kameraeinstellungen","title":"1/1000 Belichtungszeit","intr":"Die Belichtungszeit, die du beim Fotografieren verwenden sollst, beträgt 1/1000 ."},
-		{"name":"Kameraeinstellungen","title":"ISO 100","intr":"IOS, das du beim Fotografieren verwenden sollst, ist IOS 100."},
-		{"name":"Kameraeinstellungen","title":"höchster ISO-Wert","intr":"IOS, das du beim Fotografieren verwenden sollst, ist höchster ISO-Wert."},
+		{"name":"Kameraeinstellungen","title":"1/1000 Belichtungszeit","intr":"Die Belichtungszeit, die du beim Fotografieren verwenden sollst, beträgt 1/1000."},
+		{"name":"Kameraeinstellungen","title":"ISO 100","intr":"Die ISO-Einstellung, die du beim Fotografieren verwenden sollst, ist ISO 100."},
+		{"name":"Kameraeinstellungen","title":"Höchster ISO-Wert","intr":"Du sollst beim Fotografieren den höchsten ISO-Wert verwenden."},
 		{"name":"Kameraeinstellungen","title":"5 Sekunden Belichtungszeit","intr":"Die Belichtungszeit, die du beim Fotografieren verwenden sollst, beträgt 5 Sekunden."},
-		{"name":"Kameraeinstellungen","title":"Weißabgleich Kunstlicht","intr":"Beim Fotografieren sollst du das Licht Weißabgleich Kunstlicht verwenden."},
-		{"name":"Kameraeinstellungen","title":"Offene Blende","intr":"Die Blende, die du beim Fotografieren verwenden sollst, ist Offene Blende."},
-		{"name":"Kameraeinstellungen","title":"Geschlossenen Blende","intr":"Die Blende, die du beim Fotografieren verwenden sollst, ist Geschlossenen Blende."}	
+		{"name":"Kameraeinstellungen","title":"Weißabgleich Kunstlicht","intr":"Beim Fotografieren sollst du einen Weißabgleich für Kunstlicht vornehmen."},
+		{"name":"Kameraeinstellungen","title":"Offene Blende","intr":"Du solltest beim Fotografieren eine offene Blende verwenden."},
+		{"name":"Kameraeinstellungen","title":"Geschlossenen Blende","intr":"Du solltest beim Fotografieren eine geschlossene Blende verwenden."}
 	],
 	
 	"Brennweite":[
 		{"name":"Brennweite","title":"Normalbrennweite","intr":"Du sollst Normalbrennweite in der Fotografie verwenden."},
-		{"name":"Brennweite","title":"Weitwinkel","intr":"Du sollst Weitwinkel in der Fotografie verwenden."},
-		{"name":"Brennweite","title":"Tele","intr":"Du sollst Tele in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Weitwinkel","intr":"Du sollst einen Weitwinkel in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Tele","intr":"Du sollst ein Teleobjektiv in der Fotografie verwenden."},
 		{"name":"Brennweite","title":"Maximale Brennweite","intr":"Du sollst die maximale Brennweite in der Fotografie verwenden."},
 		{"name":"Brennweite","title":"Minimale Brennweite","intr":"Du sollst die minimale Brennweite Brennweite in der Fotografie verwenden."},
-		{"name":"Brennweite","title":"Fischauge","intr":"Du sollst Fischaugen in der Fotografie verwenden."},
-		{"name":"Brennweite","title":"Supertele","intr":"Du sollst Super-Tele in der Fotografie verwenden."}	
+		{"name":"Brennweite","title":"Fischauge","intr":"Du sollst ein Fischauge-Objektiv in der Fotografie verwenden."},
+		{"name":"Brennweite","title":"Supertele","intr":"Du sollst ein Super-Tele in der Fotografie verwenden."}
 	],
 	
-	"Foto stil":[
-		{"name":"Foto stil","title":"Reportage","intr":"Du solltest im Stil einer Reportage fotografieren"},
-		{"name":"Foto stil","title":"Studio","intr":"Fotografiere wie in einem Studio"},
-		{"name":"Foto stil","title":"Vintage","intr":"Fotografiere im VIntage-Stil"},
-		{"name":"Foto stil","title":"Inszeniert","intr":"Du solltest dein Foto inszenieren"},
-		{"name":"Foto stil","title":"Spontan","intr":"Dein Foto sollte einen spontanen Eindruck vermitteln"},
-		{"name":"Foto stil","title":"Futuristisch","intr":"Dein Foto sollte einen futuristischen Eindruck vermitteln"},
-		{"name":"Foto stil","title":"Impressionistisch","intr":"Dein Foto sollte einen impressionistischen Eindruck vermitteln"},
-		{"name":"Foto stil","title":"point and shoot","intr":"Überleg nicht lange, fokussiere und fotografiere!"}
+	"Fotostil":[
+		{"name":"Fotostil","title":"Reportage","intr":"Du solltest im Stil einer Reportage fotografieren."},
+		{"name":"Fotostil","title":"Studio","intr":"Fotografiere wie in einem Studio."},
+		{"name":"Fotostil","title":"Vintage","intr":"Fotografiere im VIntage-Stil."},
+		{"name":"Fotostil","title":"Inszeniert","intr":"Du solltest dein Foto inszenieren."},
+		{"name":"Fotostil","title":"Spontan","intr":"Dein Foto sollte einen spontanen Eindruck vermitteln."},
+		{"name":"Fotostil","title":"Futuristisch","intr":"Dein Foto sollte einen futuristischen Eindruck vermitteln."},
+		{"name":"Fotostil","title":"Impressionistisch","intr":"Dein Foto sollte einen impressionistischen Eindruck vermitteln."},
+		{"name":"Fotostil","title":"Schnappschuss","intr":"Überleg nicht lange, fokussiere und fotografiere los."},
+		{"name":"Fotostil","title":"Typo-Foto","intr":"Dein Bild soll im Stil von Typo-Foto sein."},
+		{"name":"Fotostil","title":"Polaroid","intr":"Dein Foto soll im Stil alter Polaroid Fotos sein."}
 	],
 	
-	"Foto-output":[
-		{"name":"Foto-output","title":"Ein gerahmtes Bild","intr":"Die Fotos, die du ausgeben sollst, ist ein gerahmtes Bildn."},
-		{"name":"Foto-output","title":"Poster-Print","intr":"Die Fotos, die du ausgeben sollst, sind für den Posterdruck bestimmt."},
-		{"name":"Foto-output","title":"Instagram-Seite","intr":"Die Fotos, die du ausgeben sollst, sind Instagram-Seiten."},
-		{"name":"Foto-output","title":"Postkarten-Set","intr":"Die Fotos, die du ausgeben sollst, sind Postkartensets.."},
-		{"name":"Foto-output","title":"Foto-Kalender","intr":"Die Fotos, die du ausgeben sollst, sind Fotokalender."},
-		{"name":"Foto-output","title":"Download als Bildschirmhintergrund","intr":"Die Fotos, die du ausgeben sollst, werden als Hintergrundbild heruntergeladen."},
-		{"name":"Foto-output","title":"Austellung","intr":"Die Fotos, die du ausgeben sollst, werden im illustrierten Buch geliefert."}	
+	"Medium":[
+		{"name":"Medium","title":"Ein gerahmtes Bild","intr":"Die Fotos, die du ausgeben sollst, sollen als Bild gerahmt werden."},
+		{"name":"Medium","title":"Posterdruck","intr":"Die Fotos, die du ausgeben sollst, sind für den Posterdruck bestimmt."},
+		{"name":"Medium","title":"Instagram-Seite","intr":"Die Fotos, die du ausgeben sollst, sind für Instagram-Seiten."},
+		{"name":"Medium","title":"Postkartenset","intr":"Die Fotos, die du ausgeben sollst, sind für Postkartensets."},
+		{"name":"Medium","title":"Fotokalender","intr":"Die Fotos, die du ausgeben sollst, sind für Fotokalender."},
+		{"name":"Medium","title":"Bildschirmhintergrund","intr":"Die Fotos, die du ausgeben sollst, werden als Hintergrundbild heruntergeladen."},
+		{"name":"Medium","title":"Ausstellung","intr":"Die Fotos, die du ausgeben sollst, sind für eine Ausstellung"},
+		{"name":"Medium","title":"Foto-Buch","intr":"Die Fotos, die du ausgeben sollst, sind für ein Foto-Buch."}
 	]
 	
 }

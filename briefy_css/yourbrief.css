@@ -491,9 +491,9 @@ span.i-icon {
 
 /* Mobile Styles */
 @media screen and (max-width: 479px) {
-  .output-wrapper {
+  /* .output-wrapper {
     grid-template-columns: 1fr 1fr;
-  }
+  } */
   h1 {
     font-size: 1.3em;
   }
@@ -598,7 +598,7 @@ span.i-icon {
     margin-top: 80px;
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 4em;
     grid-row-gap: 2em;
   }

@@ -66,6 +66,7 @@ h4 {
   margin-bottom: 0px;
   padding-left: 0px;
   list-style-type: none;
+  margin-top: 0.6em;
 }
 
 .nav {
@@ -285,8 +286,8 @@ h4 {
   margin-top: 6em;
   margin-bottom: 6em;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-column-gap: 4em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 3em;
   grid-row-gap: 3em;
 }
 
@@ -447,9 +448,19 @@ span.i-icon {
   h1 {
     font-size: 2em;
   }
-  /* .output-wrapper {
-    grid-template-columns: 1fr 1fr;
-  } */
+  .output-wrapper {
+    margin-top: 3em;
+  }
+
+  .output-wrapper {
+    margin-top: 6em;
+    margin-bottom: 6em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-column-gap: 4em;
+    grid-row-gap: 3em;
+  }
+
   .body {
     font-size: 15px;
   }
@@ -491,24 +502,22 @@ span.i-icon {
 
 /* Mobile Styles */
 @media screen and (max-width: 479px) {
-  /* .output-wrapper {
-    grid-template-columns: 1fr 1fr;
-  } */
+  .output-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 1.5em;
+    grid-row-gap: 1.5em;
+  }
   h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   h2 {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   h4 {
     font-size: 1em;
-    letter-spacing: 0.2em;
-  }
-
-  .nav--list {
-    display: none;
+    letter-spacing: 0.05em;
   }
 
   .nav {
@@ -538,7 +547,7 @@ span.i-icon {
   }
 
   .output-wrapper {
-    margin-top: 1em;
+    margin-top: 2em;
   }
 
   .tooltip {
@@ -546,7 +555,7 @@ span.i-icon {
     display: inline-block;
     width: 1.2em;
     height: 1.2em;
-    margin-left: 0.8em;
+    margin-left: 0.2em;
     text-align: center;
   }
 

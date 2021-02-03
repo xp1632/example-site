@@ -131,6 +131,13 @@ h4 {
   margin-top: 2em;
 }
 
+.insta-link--FB {
+  display: block;
+  font-size: 1.5em;
+  line-height: 130%;
+  margin-top: 0.5em;
+}
+
 .kontakt-headline {
   margin: 2em 0 1em 0;
 }

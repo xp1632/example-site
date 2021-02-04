@@ -6,7 +6,7 @@
 		"Zielgruppe",
 		"Medium",
 		"UI-Elemente",
-		"Auftraggeberinnen",
+		"Auftraggeber:inner",
 		"Barrierefreiheit",
 		"Anordnung",
 		"Einschränkung"
@@ -164,23 +164,23 @@
 		{"name":"UI-Elemente","title":"Marquee","intr":"Dein User Interface/Webdesign soll ein Marquee enthalten."}
 	],
 
-	"Auftraggeberinnen":[
-		{"name":"Auftraggeberinnen","title":"HBKsaar","intr":"Dein User Interface/Webdesign soll für die HBKsaar sein, die Kunsthochschule in Saarbrücken."},
-		{"name":"Auftraggeberinnen","title":"Berühmte:r Designer:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Designer:in sein. "},
-		{"name":"Auftraggeberinnen","title":"Berühmte:r Künstler:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Künstler:in sein. "},
-		{"name":"Auftraggeberinnen","title":"Stadt Saarbrücken","intr":"Dein User Interface/Webdesign soll für die Stadt Saarbrücken sein. "},
-		{"name":"Auftraggeberinnen","title":"Deutsche Bahn","intr":"Dein User Interface/Webdesign soll für die Deutsche Bahn sein. "},
-		{"name":"Auftraggeberinnen","title":"Jaguar","intr":"Dein User Interface/Webdesign soll für Jaguar sein. "},
-		{"name":"Auftraggeberinnen","title":"Apple","intr":"Dein User Interface/Webdesign soll für Apple sein. "},
-		{"name":"Auftraggeberinnen","title":"Karstadt","intr":"Dein User Interface/Webdesign soll für Karstadt sein. "},
-		{"name":"Auftraggeberinnen","title":"Verlag","intr":"Dein User Interface/Webdesign soll für einen Verlag sein. "},
-		{"name":"Auftraggeberinnen","title":"Krankenhaus","intr":"Dein User Interface/Webdesign soll für ein Krankenhaus sein. "},
-		{"name":"Auftraggeberinnen","title":"Berühmte:r Grafiker:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Grafiker:in sein. "},
-		{"name":"Auftraggeberinnen","title":"Waldorfschule","intr":"Dein User Interface/Webdesign soll für eine Waldorfschule sein. "},
-		{"name":"Auftraggeberinnen","title":"Gesundheitsamt","intr":"Dein User Interface/Webdesign soll für das Gesundheitsamt sein. "},
-		{"name":"Auftraggeberinnen","title":"CIAV Meisenthal","intr":"Dein User Interface/Webdesign soll für das CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."},
-		{"name":"Auftraggeberinnen","title":"Die Menschheit","intr":"Dein User Interface/Webdesign soll für die Menschheit sein. "},
-		{"name":"Auftraggeberinnen","title":"Lieblings-NGO","intr":"Dein User Interface/Webdesign soll für deine Lieblings-Nicht-Regierungsorganisation sein. "}
+	"Auftraggeber:inner":[
+		{"name":"Auftraggeber:inner","title":"HBKsaar","intr":"Dein User Interface/Webdesign soll für die HBKsaar sein, die Kunsthochschule in Saarbrücken."},
+		{"name":"Auftraggeber:inner","title":"Berühmte:r Designer:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Designer:in sein. "},
+		{"name":"Auftraggeber:inner","title":"Berühmte:r Künstler:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Künstler:in sein. "},
+		{"name":"Auftraggeber:inner","title":"Stadt Saarbrücken","intr":"Dein User Interface/Webdesign soll für die Stadt Saarbrücken sein. "},
+		{"name":"Auftraggeber:inner","title":"Deutsche Bahn","intr":"Dein User Interface/Webdesign soll für die Deutsche Bahn sein. "},
+		{"name":"Auftraggeber:inner","title":"Jaguar","intr":"Dein User Interface/Webdesign soll für Jaguar sein. "},
+		{"name":"Auftraggeber:inner","title":"Apple","intr":"Dein User Interface/Webdesign soll für Apple sein. "},
+		{"name":"Auftraggeber:inner","title":"Karstadt","intr":"Dein User Interface/Webdesign soll für Karstadt sein. "},
+		{"name":"Auftraggeber:inner","title":"Verlag","intr":"Dein User Interface/Webdesign soll für einen Verlag sein. "},
+		{"name":"Auftraggeber:inner","title":"Krankenhaus","intr":"Dein User Interface/Webdesign soll für ein Krankenhaus sein. "},
+		{"name":"Auftraggeber:inner","title":"Berühmte:r Grafiker:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Grafiker:in sein. "},
+		{"name":"Auftraggeber:inner","title":"Waldorfschule","intr":"Dein User Interface/Webdesign soll für eine Waldorfschule sein. "},
+		{"name":"Auftraggeber:inner","title":"Gesundheitsamt","intr":"Dein User Interface/Webdesign soll für das Gesundheitsamt sein. "},
+		{"name":"Auftraggeber:inner","title":"CIAV Meisenthal","intr":"Dein User Interface/Webdesign soll für das CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."},
+		{"name":"Auftraggeber:inner","title":"Die Menschheit","intr":"Dein User Interface/Webdesign soll für die Menschheit sein. "},
+		{"name":"Auftraggeber:inner","title":"Lieblings-NGO","intr":"Dein User Interface/Webdesign soll für deine Lieblings-Nicht-Regierungsorganisation sein. "}
 	],
 
 	"Barrierefreiheit":[

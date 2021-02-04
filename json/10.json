@@ -11,7 +11,7 @@
 		"Formsprache",
 		"Textur und Oberfläche",
 		"Barrierefreiheit",
-		"Auftraggeberinnen",
+		"Auftraggeber:inner",
 		"Vermarktung"
 	],
 	
@@ -178,14 +178,14 @@
 		{"name":"Barrierefreiheit","title":"Nicht-deutschsprachige","intr":"Dein Produkt soll auch für nicht-deutschsprachige Menschen gut nutzbar sein."}
 	],
 	
-	"Auftraggeberinnen":[
-		{"name":"Auftraggeberinnen","title":"Die HBKsaar","intr":"Das Produkt ist für die HBKsaar, die Kunsthochschule in Saarbrücken."},
-		{"name":"Auftraggeberinnen","title":"Ein:e berühmte:r Designer:in","intr":"Das Produkt ist ein:e berühmte:r Designer:in deiner Wahl."},
-		{"name":"Auftraggeberinnen","title":"Ein:e berühmte:r Künstler:in","intr":"Das Produkt ist ein:e berühmte:r Künstler:in deiner Wahl."},
-		{"name":"Auftraggeberinnen","title":"Die Stadt Saarbrücken","intr":"Das Produkt ist für die Stadt Saarbrücken."},
-		{"name":"Auftraggeberinnen","title":"Die Deutsche Bahn","intr":"Das Produkt ist für die Deutsche Bahn."},
-		{"name":"Auftraggeberinnen","title":"Mercedes","intr":"Das Produkt ist für Mercedes."},
-		{"name":"Auftraggeberinnen","title":"Apple","intr":"Das Produkt ist für Apple ist."}
+	"Auftraggeber:inner":[
+		{"name":"Auftraggeber:inner","title":"Die HBKsaar","intr":"Das Produkt ist für die HBKsaar, die Kunsthochschule in Saarbrücken."},
+		{"name":"Auftraggeber:inner","title":"Ein:e berühmte:r Designer:in","intr":"Das Produkt ist ein:e berühmte:r Designer:in deiner Wahl."},
+		{"name":"Auftraggeber:inner","title":"Ein:e berühmte:r Künstler:in","intr":"Das Produkt ist ein:e berühmte:r Künstler:in deiner Wahl."},
+		{"name":"Auftraggeber:inner","title":"Die Stadt Saarbrücken","intr":"Das Produkt ist für die Stadt Saarbrücken."},
+		{"name":"Auftraggeber:inner","title":"Die Deutsche Bahn","intr":"Das Produkt ist für die Deutsche Bahn."},
+		{"name":"Auftraggeber:inner","title":"Mercedes","intr":"Das Produkt ist für Mercedes."},
+		{"name":"Auftraggeber:inner","title":"Apple","intr":"Das Produkt ist für Apple ist."}
 	],
 	
 	"Vermarktung":[

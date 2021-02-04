@@ -60,7 +60,6 @@ h4 {
 
 .nav--list {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 0px;
@@ -71,23 +70,21 @@ h4 {
 
 .nav {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 6em;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
 .nav-link {
   -webkit-transition: all 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -o-transition: all 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: all 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
   color: #131313;
   text-decoration: none;
@@ -99,18 +96,15 @@ h4 {
 
 .nav-container {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 90vw;
   height: 100%;
   max-width: 1280px;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -160,8 +154,14 @@ h4 {
 }
 
 .logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
   height: 100%;
   margin-left: -1em;
@@ -178,8 +178,14 @@ h4 {
 
 .print-footer {
   margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
@@ -208,26 +214,21 @@ h4 {
 
 .headline-wrapper {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: end;
-  -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
 }
 
 .headline-main-wrapper {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
@@ -256,21 +257,20 @@ h4 {
 
 .print-button {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 3.5em;
   height: 3.5em;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100%;
   background-color: #000;
+  -webkit-transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  -o-transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
   transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
@@ -292,6 +292,7 @@ h4 {
 .output-wrapper {
   margin-top: 6em;
   margin-bottom: 6em;
+  display: -ms-grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-column-gap: 3em;
@@ -316,7 +317,6 @@ h2.output--main--text {
   color: #fff;
   text-decoration: none;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   min-width: 1.4em;
@@ -327,15 +327,15 @@ h2.output--main--text {
   max-height: 1.4em;
   margin-left: 1em;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100%;
   position: relative;
+  -webkit-transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   margin-left: 0.4em;
 }
@@ -348,6 +348,8 @@ span.i-icon {
   font-family: "Input Mono Regular";
   font-weight: 800;
   font-size: 1em !important;
+  -webkit-transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  -o-transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -358,7 +360,8 @@ span.i-icon {
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  min-width: 120px;
+  max-width: 150px;
   background-color: #121212d5;
   color: #fff;
   text-align: center;
@@ -374,6 +377,8 @@ span.i-icon {
 
   /* Fade in tooltip */
   opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
   transition: opacity 0.3s;
 }
 
@@ -406,17 +411,16 @@ span.i-icon {
 
 .headline-text-wrapper {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
 .website-link {
   -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
   transition: all 300ms ease;
   text-decoration: none;
 }
@@ -447,6 +451,8 @@ span.i-icon {
 }
 
 .print-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -462,6 +468,7 @@ span.i-icon {
   .output-wrapper {
     margin-top: 6em;
     margin-bottom: 6em;
+    display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     grid-column-gap: 4em;
@@ -599,6 +606,7 @@ span.i-icon {
   * {
     background: transparent;
     color: #000 !important;
+    -webkit-box-shadow: none !important;
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -624,14 +632,20 @@ span.i-icon {
   .output-wrapper {
     margin-top: 80px;
     margin-bottom: 50px;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 4em 1fr;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 4em;
     grid-row-gap: 2em;
   }
 
   .print-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: fixed;
     bottom: 0;

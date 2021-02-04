@@ -509,10 +509,21 @@ span.i-icon {
 
 /* Mobile Styles */
 @media screen and (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
   .output-wrapper {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-column-gap: 1.5em;
     grid-row-gap: 1.5em;
+  }
+
+  .nav-container {
+    width: 85vw;
+  }
+
+  .container {
+    width: 85vw;
   }
   h1 {
     font-size: 1.5em;
@@ -532,7 +543,7 @@ span.i-icon {
   }
 
   .website-name {
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
 
   .image {

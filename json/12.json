@@ -2,73 +2,90 @@
     "keys":[
 		"Thema",
 		"Dauer",
-		"Inhalt der Aufnahmen",
 		"Art",
-		"Veröffentlichung"
+		"Veröffentlichung",
+        "Geräuscheausschnitt",
+        "Stimmenausschnitt",
+        "Instrumentausschnitt"
     ],
 
     "Thema":[
-        {"name":"Thema","title":"Stillleben","intr":"Thema deines Projektes ist (unter anderem) Stillleben"},
-        {"name":"Thema","title":"Tiere","intr":"Thema deines Projektes sind (unter anderem) Tiere"},
-        {"name":"Thema","title":"Was im Umkreis von 1 m liegt","intr":"Thema deines Projektes ist (unter anderem) was im Umkreis von 1 m liegt"},
-        {"name":"Thema","title":"Was direkt vor dir liegt","intr":"Thema deines Projektes ist (unter anderem) was direkt vor dir liegt"},
-        {"name":"Thema","title":"Menschen","intr":"Thema deines Projektes sind (unter anderem) Menschen"},
-        {"name":"Thema","title":"Portraits","intr":"Thema deines Projektes sind (unter anderem) Portraits"},
-        {"name":"Thema","title":"Natur","intr":"Thema deines Projektes ist (unter anderem) die Natur"},
-        {"name":"Thema","title":"Im Bus","intr":"Thema deines Projektes ist (unter anderem) was im Bus passiert"},
-        {"name":"Thema","title":"Landschaft","intr":"Thema deines Projektes ist (unter anderem) die Landschaft"},
-        {"name":"Thema","title":"Auf dem Markt","intr":"Thema deines Projektes ist (unter anderem) was auf dem Markt passiert"},
-        {"name":"Thema","title":"Technik","intr":"Thema deines Projektes ist (unter anderem) die Technik"},
-        {"name":"Thema","title":"Wissen","intr":"Thema deines Projektes ist (unter anderem) das Wissen"},
-        {"name":"Thema","title":"Aktuelle Nachrichten","intr":"Thema deines Projektes sind (unter anderem) die aktuelle Nachrichten"},
-        {"name":"Thema","title":"Kochen","intr":"Thema deines Projektes ist (unter anderem) Kochen"},
-        {"name":"Thema","title":"Urlaub","intr":"Thema deines Projektes ist (unter anderem) Urlaub"}
+        {"name":"Thema","title":"Stillleben","intr":"Thema deines Projektes ist (unter anderem) Stillleben."},
+        {"name":"Thema","title":"Tiere","intr":"Thema deines Projektes sind (unter anderem) Tiere."},
+        {"name":"Thema","title":"Was im Umkreis von 1 m liegt","intr":"Thema deines Projektes ist (unter anderem) was im Umkreis von 1 m liegt."},
+        {"name":"Thema","title":"Was direkt vor dir liegt","intr":"Thema deines Projektes ist (unter anderem) was direkt vor dir liegt."},
+        {"name":"Thema","title":"Menschen","intr":"Thema deines Projektes sind (unter anderem) Menschen."},
+        {"name":"Thema","title":"Portraits","intr":"Thema deines Projektes sind (unter anderem) Portraits."},
+        {"name":"Thema","title":"Natur","intr":"Thema deines Projektes ist (unter anderem) die Natur."},
+        {"name":"Thema","title":"Im Bus","intr":"Thema deines Projektes ist (unter anderem) was im Bus passiert."},
+        {"name":"Thema","title":"Landschaft","intr":"Thema deines Projektes ist (unter anderem) die Landschaft."},
+        {"name":"Thema","title":"Auf dem Markt","intr":"Thema deines Projektes ist (unter anderem) was auf dem Markt passiert."},
+        {"name":"Thema","title":"Technik","intr":"Thema deines Projektes ist (unter anderem) die Technik."},
+        {"name":"Thema","title":"Wissen","intr":"Thema deines Projektes ist (unter anderem) das Wissen."},
+        {"name":"Thema","title":"Aktuelle Nachrichten","intr":"Thema deines Projektes sind (unter anderem) die aktuellen Nachrichten."},
+        {"name":"Thema","title":"Kochen","intr":"Thema deines Projektes ist (unter anderem) Kochen."},
+        {"name":"Thema","title":"Urlaub","intr":"Thema deines Projektes ist (unter anderem) Urlaub."}
     ],
 
 	"Dauer":[
-        {"name":"Dauer","title":"30 Sekunden ","intr":"Deine Audiodatei sollte 30 Sekunden dauern"},
-        {"name":"Dauer","title":"1 Minute","intr":"Deine Audiodatei sollte eine Minute dauern"},
-        {"name":"Dauer","title":"5 Minuten","intr":"Deine Audiodatei sollte fünf Minuten dauern"},
-        {"name":"Dauer","title":"Eine halbe Stunde","intr":"Deine Audiodatei sollte eine halbe Stunde dauern"},
-        {"name":"Dauer","title":"Dauer der Mittagspause","intr":"Deine Audiodatei sollte so lang wie deine Mittagspause sein"},
-        {"name":"Dauer","title":"Dauer deiner Lieblingsendung","intr":"Deine Audiodatei sollte so lang wie deine Lieblingssendung sein"}
-    ],
-
-	"Inhalt der Aufnahmen":[
-        {"name":"Inhalt der Aufnahmen","title":"Frauenstimme","intr":"Deine Aufnahmen sollen Frauenstimmen beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Männerstimme","intr":"Deine Aufnahmen sollen Männerstimmen beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Kinderstimme","intr":"Deine Aufnahmen sollen Kinderstimmen beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Eine Fremdsprache","intr":"Deine Aufnahmen sollen eine Fremdsprache beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Klassische Musik","intr":"Deine Aufnahmen sollen klassische Musik beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Straßengeräusche","intr":"Deine Aufnahmen sollen Straßengeräusche beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Jazz","intr":"Deine Aufnahmen sollen Jazz Ausschnitte beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Beat Box","intr":"Deine Aufnahmen sollen Beat Box Ausschnitte beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Ausschnitt deiner Lieblingsmusik","intr":"Deine Aufnahmen sollen Ausschnitte deiner Lieblingsmusik beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Ausschnitt der Tagesschau","intr":"Deine Aufnahmen sollen Ausschnitte der Tagesschau beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Schlaginstrumente","intr":"Deine Aufnahmen sollen Schlaginstrumente beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Streichinstrumente","intr":"Deine Aufnahmen sollen Streichinstrumente beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Alltagsgeräusche","intr":"Deine Aufnahmen sollen Alltagsgeräusche beinhalten"},
-        {"name":"Inhalt der Aufnahmen","title":"Meeresrauschen","intr":"Deine Aufnahmen sollen Meeresrauschen beinhalten"}
+        {"name":"Dauer","title":"30 Sekunden ","intr":"Deine Audiodatei sollte 30 Sekunden lang seinn"},
+        {"name":"Dauer","title":"1 Minute","intr":"Deine Audiodatei sollte eine Minute lang sein."},
+        {"name":"Dauer","title":"5 Minuten","intr":"Deine Audiodatei sollte fünf Minuten lang sein."},
+        {"name":"Dauer","title":"Eine halbe Stunde","intr":"Deine Audiodatei sollte eine halbe Stunde lang sein."},
+        {"name":"Dauer","title":"Dauer der Mittagspause","intr":"Deine Audiodatei sollte so lang wie deine Mittagspause sein."},
+        {"name":"Dauer","title":"Dauer deiner Lieblingsendung","intr":"Deine Audiodatei sollte so lang wie deine Lieblingssendung sein."}
     ],
 
 	"Art":[
-        {"name":"Art","title":"Interview","intr":"Ein Interview ist eine Form der Befragung mit dem Ziel."},
+        {"name":"Art","title":"Interview","intr":"Ein Interview ist eine Form der Befragung mit dem Ziel (persönliche) Informationen oder Meinungen zu ermitteln."},
         {"name":"Art","title":"Abstraktes Audiowerk","intr":"Musik ist der Mittler zwischen dem Leben der Sinne und dem Leben des Geistes."},
         {"name":"Art","title":"Reportage","intr":"Als Reportage bezeichnet man im Journalismus die Berichterstattung über ein bestimmtes Thema."},
-        {"name":"Art","title":"DJ-Set","intr":"Der Begriff bezeichnet im Musikerjargon einen DJ-Liveact mit selbst produzierter Musik vor Publikum im Gegensatz zur Tonaufnahme im Studio"},
-        {"name":"Art","title":"Musikstück","intr":"Ein Musikalisches Werk ist eine Komposition oder eine Sammlung von Kompositionen."}
+        {"name":"Art","title":"DJ-Set","intr":"Der Begriff bezeichnet im Musikerjargon einen DJ-Liveact mit selbst produzierter Musik vor Publikum im Gegensatz zur Tonaufnahme im Studio."},
+        {"name":"Art","title":"Musikstück","intr":"Ein musikalisches Werk ist eine Komposition oder eine Sammlung von Kompositionen."}
     ],
 
 	"Veröffentlichung":[
         {"name":"Veröffentlichung","title":"Radio","intr":"Deine Audiodatei soll im Radio veröffentlicht werden."},
-        {"name":"Veröffentlichung","title":"Museum","intr":"Deine Audiodatei soll in einem Museum veröffentlicht werden."},
+        {"name":"Veröffentlichung","title":"Museum","intr":"Deine Audiodatei soll in einem Museum abgespielt werden."},
         {"name":"Veröffentlichung","title":"Begleitung einer Fotoausstellung","intr":"Deine Audiodatei soll eine Fotoausstellung begleiten."},
         {"name":"Veröffentlichung","title":"Belgeitung einer Performance","intr":"Deine Audiodatei soll eine Performance begleiten."},
         {"name":"Veröffentlichung","title":"Podcast","intr":"Deine Audiodatei soll in einem Podcast veröffentlicht werden."},
-        {"name":"Veröffentlichung","title":"Party","intr":"Deine Audiodatei soll während einer Party veröffentlicht werden."},
+        {"name":"Veröffentlichung","title":"Party","intr":"Deine Audiodatei soll während einer Party abgespielt werden."},
         {"name":"Veröffentlichung","title":"Konzert","intr":"Deine Audiodatei soll in einem Konzert veröffentlicht werden."},
         {"name":"Veröffentlichung","title":"Begleitung eines Kurzfilmes","intr":"Deine Audiodatei soll einen Kurzfilm begleiten."},
         {"name":"Veröffentlichung","title":"Geschäft","intr":"Deine Audiodatei soll in einem Geschäft abgespielt werden."},
         {"name":"Veröffentlichung","title":"Im öffentlichen Raum","intr":"Deine Audiodatei soll im öffentlichen Raum abgespielt werden."}
+    ],
+
+    "Geräuscheausschnitt":[
+        {"name":"Geräuscheausschnitt","title":"Straßengeräusche","intr":"Deine Aufnahmen sollen Straßengeräusche beinhalten."},
+        {"name":"Geräuscheausschnitt","title":"Alltagsgeräusche","intr":"Deine Aufnahmen sollen Alltagsgeräusche beinhalten."},
+        {"name":"Geräuscheausschnitt","title":"Meeresrauschen","intr":"Deine Aufnahmen sollen Meeresrauschen beinhalten."},
+        {"name":"Geräuscheausschnitt","title":"Keine Geräusche","intr":"Deine Aufnahmen sollen keine Geräuscheaufnahmen beinhalten."},
+        {"name":"Geräuscheausschnitt","title":"Wetter","intr":"Deine Aufnahmen sollen Wind, Regen (oder Ähnliches) beinhalten."},
+        {"name":"Geräuscheausschnitt","title":"Naturgeräusche","intr":"Deine Aufnahmen sollen Naturgeräusche beinhalten."}
+    ],
+
+    "Stimmenausschnitt":[
+        {"name":"Stimmenausschnitt","title":"Frauenstimme","intr":"Deine Aufnahmen sollen Frauenstimmen beinhalten."},
+        {"name":"Stimmenausschnitt","title":"Männerstimme","intr":"Deine Aufnahmen sollen Männerstimmen beinhalten."},
+        {"name":"Stimmenausschnitt","title":"Kinderstimme","intr":"Deine Aufnahmen sollen Kinderstimmen beinhalten."},
+        {"name":"Stimmenausschnitt","title":"Eine Fremdsprache","intr":"Deine Aufnahmen sollen eine Fremdsprache beinhalten."},
+        {"name":"Stimmenausschnitt","title":"Beat Box","intr":"Deine Aufnahmen sollen Beat Box Ausschnitte beinhalten."},
+        {"name":"Stimmenausschnitt","title":"Ausschnitt der Tagesschau","intr":"Deine Aufnahmen sollen Ausschnitte der Tagesschau beinhalten."},
+        {"name":"Stimmenausschnitt","title":"A Capella Gesang","intr":"Deine Aufnahmen sollen A Capella Gesang (Gesang ohne instrumentalische Begleitung) beinhalten."},
+        {"name":"Stimmenausschnitt","title":"Keine Stimme","intr":"Deine Aufnahmen sollen keine menschlichen Stimmen beinhalten."}
+    ],
+
+    "Instrumentausschnitt":[
+        {"name":"Instrumentausschnitt","title":"Klassische Musik","intr":"Deine Aufnahmen sollen klassische Musik beinhalten."},
+        {"name":"Instrumentausschnitt","title":"Ausschnitt deiner Lieblingsmusik","intr":"Deine Aufnahmen sollen Ausschnitte deiner Lieblingsmusik beinhalten."},
+        {"name":"Instrumentausschnitt","title":"Schlaginstrumente","intr":"Deine Aufnahmen sollen Schlaginstrumente beinhalten."},
+        {"name":"Instrumentausschnitt","title":"Streichinstrumente","intr":"Deine Aufnahmen sollen Streichinstrumente beinhalten."},
+        {"name":"Instrumentausschnitt","title":"Jazz","intr":"Deine Aufnahmen sollen Jazz-Ausschnitte beinhalten."},
+        {"name":"Instrumentausschnitt","title":"Blechinstrumente","intr":"Deine Aufnahmen sollen Blechinstrumente beinhalten."},
+        {"name":"Instrumentausschnitt","title":"Traditionnelle Musikinstrumente","intr":"Deine Aufnahmen sollen traditionnelle Musikinstrumente beinhalten."},
+        {"name":"Instrumentausschnitt","title":"Elektronische Musikinstrumente","intr":"Deine Aufnahmen sollen elektronische Musikinstrumente beinhalten."}
     ]
+
 }

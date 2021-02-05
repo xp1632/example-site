@@ -672,6 +672,10 @@ span.i-icon {
     display: none;
   }
 
+  .print-footer--right {
+    margin-bottom: 1cm;
+  }
+
   @page {
     margin: 2cm;
   }

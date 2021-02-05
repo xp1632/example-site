@@ -611,6 +611,12 @@ span.i-icon {
     text-shadow: none !important;
   }
 
+  .container {
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 5em;
+  }
+
   /* Print-Font Styles */
 
   h4 {
@@ -659,6 +665,6 @@ span.i-icon {
   }
 
   @page {
-    margin: 80pt;
+    margin: 2cm;
   }
 }

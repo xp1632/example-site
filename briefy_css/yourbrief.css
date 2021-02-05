@@ -456,6 +456,10 @@ span.i-icon {
   display: flex;
 }
 
+.print-footer--right {
+  margin-bottom: 5em;
+}
+
 /* Tablet Styles */
 @media screen and (max-width: 800px) {
   h1 {

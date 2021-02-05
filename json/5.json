@@ -49,7 +49,7 @@
 		{"name":"Herstellungstechnik","title":"Gewebt","intr":"Dein Werk sollte (unter anderem) gewebt sein."},
 		{"name":"Herstellungstechnik","title":"Gegossen","intr":"Dein Werk sollte (unter anderem) gegossen sein."},
 		{"name":"Herstellungstechnik","title":"Genäht","intr":"Dein Werk sollte (unter anderem) genäht sein."},
-		{"name":"Herstellungstechnik","title":"Gedreht/drechselt/töpfert","intr":"Dein Werk sollte (unter anderem) einen Rotationskörper beinhalten, der auf einer Maschine hergestellt wird."},
+		{"name":"Herstellungstechnik","title":"Gedreht<wbr/drechselt<wbr>/getöpfert","intr":"Dein Werk sollte (unter anderem) einen Rotationskörper beinhalten, der auf einer Maschine hergestellt wird."},
 		{"name":"Herstellungstechnik","title":"Mit Negativform","intr":"Dein Werk sollte (unter anderem) mit einer Negativform hergestellt sein."},
 		{"name":"Herstellungstechnik","title":"Mit den Händen geformt","intr":"Dein Werk sollte (unter anderem) mit deinen Händen geformt sein."},
 		{"name":"Herstellungstechnik","title":"Geschmiedet","intr":"Dein Werk sollte (unter anderem) geschmiedet sein."},

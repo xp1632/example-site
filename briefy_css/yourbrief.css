@@ -367,6 +367,7 @@ span.i-icon {
   text-align: center;
   padding: 1em;
   border-radius: 6px;
+  line-height: 130%;
 
   /* Position the tooltip text */
   position: absolute;
@@ -464,6 +465,10 @@ span.i-icon {
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
   }
   .output-wrapper {
     margin-top: 3em;

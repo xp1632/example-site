@@ -294,7 +294,7 @@ h4 {
   margin-bottom: 6em;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-column-gap: 3em;
   grid-row-gap: 3em;
 }
@@ -655,14 +655,7 @@ span.i-icon {
     height: 100%;
   }
   .print-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
+    margin: 1cm 0 2cm 0;
   }
 
   .nav--list,

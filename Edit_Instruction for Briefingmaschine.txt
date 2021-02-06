@@ -1,5 +1,5 @@
 -- · Change number of parameters needed for different difficulty level:
-       0. Remember all fields shares the same setting.
+       0. Remember all fields share the same setting.
        1. Find index.html
        2. Find the following code around line 100 or so.
 

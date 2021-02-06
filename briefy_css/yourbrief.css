@@ -534,6 +534,15 @@ span.i-icon {
     grid-row-gap: 1.5em;
   }
 
+  .headline-text-wrapper {
+    flex-wrap: wrap;
+    line-height: 130%;
+  }
+
+  .reload-btn {
+    margin: 1em 0.5em;
+  }
+
   .nav-container {
     width: 85vw;
   }

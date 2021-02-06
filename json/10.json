@@ -49,12 +49,12 @@
     {
       "name": "Thema",
       "title": "Trend alles selber machen",
-      "intr": "Zurzeit wollen Konsument:inner immer mehr selbst zu Hause machen. Dein Produkt sollte entweder dazu beitragen oder auf diese Thematik aufmerksam machen."
+      "intr": "Zurzeit wollen Konsument:innen immer mehr selbst zu Hause machen. Dein Produkt sollte entweder dazu beitragen oder auf diese Thematik aufmerksam machen."
     },
     {
       "name": "Thema",
       "title": "Trend Pflanzen zuhause",
-      "intr": "Zurzeit wollen Stadtbewohner:inner zunehmend ihr kleines Zuhause begrünen. Dein Produkt sollte entweder dazu beitragen oder auf diese Thematik aufmerksam machen."
+      "intr": "Zurzeit wollen Stadtbewohner:innen zunehmend ihr kleines Zuhause begrünen. Dein Produkt sollte entweder dazu beitragen oder auf diese Thematik aufmerksam machen."
     },
     {
       "name": "Thema",
@@ -63,8 +63,8 @@
     },
     {
       "name": "Thema",
-      "title": "Sich vor Nachbar:inner verstecken",
-      "intr": "Dein Projekt sollte dabei helfen, sich vor den Nachbar:inner zu verstecken."
+      "title": "Sich vor Nachbar:innen verstecken",
+      "intr": "Dein Projekt sollte dabei helfen, sich vor den Nachbar:innen zu verstecken."
     },
     {
       "name": "Thema",
@@ -254,12 +254,12 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Vegetarier:inner",
+      "title": "Vegetarier:innen",
       "intr": "Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."
     },
     {
       "name": "Zielgruppe",
-      "title": "Veganer:inner",
+      "title": "Veganer:innen",
       "intr": "Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."
     },
     {
@@ -274,7 +274,7 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Hunde oder Hundebesitzer:inner",
+      "title": "Hunde oder Hundebesitzer:innen",
       "intr": "Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."
     },
     {
@@ -284,12 +284,12 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Autofahrer:inner",
+      "title": "Autofahrer:innen",
       "intr": "Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."
     },
     {
       "name": "Zielgruppe",
-      "title": "Fahrradfahrer:inner",
+      "title": "Fahrradfahrer:innen",
       "intr": "Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."
     },
     {
@@ -314,7 +314,7 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Moderne Nomad:inner",
+      "title": "Moderne Nomad:innen",
       "intr": "Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."
     }
   ],
@@ -678,13 +678,13 @@
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Analphabet:inner",
-      "intr": "Dein Produkt soll auch für Analphabet:inner gut nutzbar sein."
+      "title": "Für Analphabet:innen",
+      "intr": "Dein Produkt soll auch für Analphabet:innen gut nutzbar sein."
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Brillenträger:inner",
-      "intr": "Dein Produkt soll auch für Brillenträger:inner gut nutzbar sein."
+      "title": "Für Brillenträger:innen",
+      "intr": "Dein Produkt soll auch für Brillenträger:innen gut nutzbar sein."
     },
     {
       "name": "Barrierefreiheit",

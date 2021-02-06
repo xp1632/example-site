@@ -502,7 +502,7 @@
     {
       "name": "Medium",
       "title": "Uniform",
-      "intr": "Deine Kampagne sollte Uniformen bzw. Mitarbeiter:inner-Kleidung enthalten."
+      "intr": "Deine Kampagne sollte Uniformen bzw. Mitarbeiter:innen-Kleidung enthalten."
     },
     {
       "name": "Medium",
@@ -512,7 +512,7 @@
     {
       "name": "Medium",
       "title": "Uniform",
-      "intr": "Deine Kampagne sollte Uniformen bzw. Mitarbeiter:inner-Kleidung enthalten."
+      "intr": "Deine Kampagne sollte Uniformen bzw. Mitarbeiter:innen-Kleidung enthalten."
     }
   ],
 
@@ -549,13 +549,13 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Vegetarier:inner",
-      "intr": "Die Zielgruppe deiner Kampagne sollten Vegetarier:inner sein. "
+      "title": "Vegetarier:innen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Vegetarier:innen sein. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Veganer:inner",
-      "intr": "Die Zielgruppe deiner Kampagne sollten Veganer:inner sein. "
+      "title": "Veganer:innen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Veganer:innen sein. "
     },
     {
       "name": "Zielgruppe",
@@ -569,8 +569,8 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Hunde oder Hundebesitzer:inner",
-      "intr": "Die Zielgruppe deiner Kampagne sollten Hunde oder Hundebesitzer:inner sein. "
+      "title": "Hunde oder Hundebesitzer:innen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Hunde oder Hundebesitzer:innen sein. "
     },
     {
       "name": "Zielgruppe",
@@ -579,13 +579,13 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Autofahrer:inner",
-      "intr": "Die Zielgruppe deiner Kampagne sollten Autofahrer:inner sein. "
+      "title": "Autofahrer:innen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Autofahrer:innen sein. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Fahrradfahrer:inner",
-      "intr": "Die Zielgruppe deiner Kampagne sollten Fahrradfahrer:inner sein. "
+      "title": "Fahrradfahrer:innen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Fahrradfahrer:innen sein. "
     },
     {
       "name": "Zielgruppe",
@@ -599,13 +599,13 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Linkshänder:inner",
-      "intr": "Die Zielgruppe deiner Kampagne sollten Linkshänder:inner sein. "
+      "title": "Linkshänder:innen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Linkshänder:innen sein. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Designer:inner",
-      "intr": "Die Zielgruppe deiner Kampagne sollten Designer:inner sein. "
+      "title": "Designer:innen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Designer:innen sein. "
     },
     {
       "name": "Zielgruppe",
@@ -1102,18 +1102,18 @@
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Raucher:inner",
-      "intr": "Deine Kampagne sollte für Raucher:inner geeignet sein. "
+      "title": "Für Raucher:innen",
+      "intr": "Deine Kampagne sollte für Raucher:innen geeignet sein. "
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Analphabet:inner",
-      "intr": "Deine Kampagne sollte für Analphabet:inner geeignet sein. "
+      "title": "Für Analphabet:innen",
+      "intr": "Deine Kampagne sollte für Analphabet:innen geeignet sein. "
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Nichtschwimmer:inner",
-      "intr": "Deine Kampagne sollte für Nichtschwimmer:inner geeignet sein. "
+      "title": "Für Nichtschwimmer:innen",
+      "intr": "Deine Kampagne sollte für Nichtschwimmer:innen geeignet sein. "
     },
     {
       "name": "Barrierefreiheit",
@@ -1122,8 +1122,8 @@
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Brillenträger:inner",
-      "intr": "Deine Kampagne sollte für Brillenträger:inner geeignet sein. "
+      "title": "Für Brillenträger:innen",
+      "intr": "Deine Kampagne sollte für Brillenträger:innen geeignet sein. "
     },
     {
       "name": "Barrierefreiheit",

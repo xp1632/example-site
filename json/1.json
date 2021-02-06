@@ -1,276 +1,1179 @@
 {
-	"keys":[
+  "keys": [
+    "Branche",
+    "Look & Feel",
+    "Medium",
+    "Zielgruppe",
+    "Auftraggeber:innen",
+    "Formsprache",
+    "Farbe",
+    "Einschränkungen",
+    "Technik",
+    "Barrierefreiheit"
+  ],
 
-		"Branche",
-		"Look & Feel",
-		"Medium",
-		"Zielgruppe",
-		"Auftraggeber:inner",
-		"Formsprache",
-		"Farbe",
-		"Einschränkungen",
-		"Technik",
-		"Barrierefreiheit"
-	],
-	
-	"Branche":[
-		{"name":"Branche","title":"Möbel","intr":"Deine Kampagne sollte sich (unter anderem) auf Möbel beziehen."},
-		{"name":"Branche","title":"Umwelt","intr":"Deine Kampagne sollte sich (unter anderem) mit der Umwelt auseinandersetzen."},
-		{"name":"Branche","title":"Essen und Trinken","intr":"Deine Kampagne sollte sich (unter anderem) auf Essen und Trinken beziehen."},
-		{"name":"Branche","title":"Kunst","intr":"Deine Kampagne sollte sich (unter anderem) mit der Kunst auseinandersetzen."},
-		{"name":"Branche","title":"Architektur","intr":"Deine Kampagne sollte sich (unter anderem) mit Architektur auseinandersetzen."},
-		{"name":"Branche","title":"Automobilindustrie","intr":"Deine Kampagne sollte sich (unter anderem) mit der Automobilindustrie befassen."},
-		{"name":"Branche","title":"Bildung","intr":"Deine Kampagne sollte (unter anderem) das Thema Bildung behandeln."},
-		{"name":"Branche","title":"Mode","intr":"Deine Kampagne sollte sich (unter anderem) mit der Mode auseinandersetzen."},
-		{"name":"Branche","title":"Spiele","intr":"Deine Kampagne sollte sich (unter anderem) auf Spiele beziehen."},
-		{"name":"Branche","title":"Gesundheit und Fitness","intr":"Deine Kampagne sollte sich (unter anderem) mit dem Thema Gesundheit und Fitness auseinandersetzen."},
-		{"name":"Branche","title":"Politik","intr":"Deine Kampagne sollte sich (unter anderem) mit der Politik befassen."},
-		{"name":"Branche","title":"Religion","intr":"Deine Kampagne sollte sich (unter anderem) mit der Religion auseinandersetzen."},
-		{"name":"Branche","title":"Wissenschaft","intr":"Deine Kampagne sollte sich (unter anderem) mit der Wissenschaft auseinandersetzen."},
-		{"name":"Branche","title":"Technologie","intr":"Deine Kampagne sollte sich (unter anderem) mit Technologie auseinandersetzen."},
-		{"name":"Branche","title":"IT","intr":"Deine Kampagne sollte sich (unter anderem) auf Informationstechnik beziehen."},
-		{"name":"Branche","title":"Nachrichten","intr":"Deine Kampagne sollte sich (unter anderem) mit den Nachrichten auseinandersetzen."},
-		{"name":"Branche","title":"Bier","intr":"Deine Kampagne sollte (unter anderem) mit Bier zu tun haben."},
-		{"name":"Branche","title":"Immobilien","intr":"Deine Kampagne sollte (unter anderem) mit Immobilien zu tun haben."},
-		{"name":"Branche","title":"Sport-Team","intr":"Deine Kampagne sollte sich (unter anderem) mit einem Sport-Team auseinandersetzen."},
-		{"name":"Branche","title":"Landschaftsgestaltung","intr":"Deine Kampagne sollte sich (unter anderem) auf Landschaftsgestaltung beziehen."},
-		{"name":"Branche","title":"Industrie","intr":"Deine Kampagne sollte sich (unter anderem) mit der Industrie auseinandersetzen."},
-		{"name":"Branche","title":"Veranstaltungen","intr":"Deine Kampagne sollte sich (unter anderem) auf Veranstaltungen beziehen."},
-		{"name":"Branche","title":"Film","intr":"Deine Kampagne sollte sich (unter anderem) auf das Themenfeld Film beziehen."},
-		{"name":"Branche","title":"Fotografie","intr":"Deine Kampagne sollte sich (unter anderem) mit der Fotografie auseinandersetzen."},
-		{"name":"Branche","title":"Unser Leben","intr":"Deine Kampagne sollte sich (unter anderem) auf unser Leben beziehen."},
-		{"name":"Branche","title":"Erziehung","intr":"Deine Kampagne sollte sich (unter anderem) dem Thema der Erziehung widmen."},
-		{"name":"Branche","title":"Meereswelt","intr":"Deine Kampagne sollte sich (unter anderem) auf die Meere und Ozeane beziehen."},
-		{"name":"Branche","title":"Tierwelt","intr":"Deine Kampagne sollte sich (unter anderem) auf die Tierwelt beziehen."},
-		{"name":"Branche","title":"Nachhaltige Entwicklung","intr":"Deine Kampagne sollte sich (unter anderem) auf nachhaltige Entwicklung beziehen."},
-		{"name":"Branche","title":"Design","intr":"Deine Kampagne sollte sich (unter anderem) auf Design beziehen."}
-	],
-	
+  "Branche": [
+    {
+      "name": "Branche",
+      "title": "Möbel",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf Möbel beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Umwelt",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Umwelt auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Essen und Trinken",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf Essen und Trinken beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Kunst",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Kunst auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Architektur",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit Architektur auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Automobilindustrie",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Automobilindustrie befassen."
+    },
+    {
+      "name": "Branche",
+      "title": "Bildung",
+      "intr": "Deine Kampagne sollte (unter anderem) das Thema Bildung behandeln."
+    },
+    {
+      "name": "Branche",
+      "title": "Mode",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Mode auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Spiele",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf Spiele beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Gesundheit und Fitness",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit dem Thema Gesundheit und Fitness auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Politik",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Politik befassen."
+    },
+    {
+      "name": "Branche",
+      "title": "Religion",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Religion auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Wissenschaft",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Wissenschaft auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Technologie",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit Technologie auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "IT",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf Informationstechnik beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Nachrichten",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit den Nachrichten auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Bier",
+      "intr": "Deine Kampagne sollte (unter anderem) mit Bier zu tun haben."
+    },
+    {
+      "name": "Branche",
+      "title": "Immobilien",
+      "intr": "Deine Kampagne sollte (unter anderem) mit Immobilien zu tun haben."
+    },
+    {
+      "name": "Branche",
+      "title": "Sport-Team",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit einem Sport-Team auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Landschaftsgestaltung",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf Landschaftsgestaltung beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Industrie",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Industrie auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Veranstaltungen",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf Veranstaltungen beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Film",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf das Themenfeld Film beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Fotografie",
+      "intr": "Deine Kampagne sollte sich (unter anderem) mit der Fotografie auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Unser Leben",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf unser Leben beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Erziehung",
+      "intr": "Deine Kampagne sollte sich (unter anderem) dem Thema der Erziehung widmen."
+    },
+    {
+      "name": "Branche",
+      "title": "Meereswelt",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf die Meere und Ozeane beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Tierwelt",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf die Tierwelt beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Nachhaltige Entwicklung",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf nachhaltige Entwicklung beziehen."
+    },
+    {
+      "name": "Branche",
+      "title": "Design",
+      "intr": "Deine Kampagne sollte sich (unter anderem) auf Design beziehen."
+    }
+  ],
 
-	"Look & Feel":[
-		{"name":"Look & Feel","title":"Minimalistisch","intr":"Deine Kampagne sollte minimalistisch sein."},
-		{"name":"Look & Feel","title":"Vintage","intr":"Deine Kampagne sollte vintage sein oder wirken."},
-		{"name":"Look & Feel","title":"Bunt","intr":"Deine Kampagne sollte bunt sein."},
-		{"name":"Look & Feel","title":"Düster","intr":"Deine Kampagne sollte düster sein."},
-		{"name":"Look & Feel","title":"Schwarz-weiß","intr":"Deine Kampagne sollte schwarz-weiß sein."},
-		{"name":"Look & Feel","title":"Spaß","intr":"Deine Kampagne sollte Spaß machen."},
-		{"name":"Look & Feel","title":"Luxus","intr":"Deine Kampagne sollte luxuriös sein."},
-		{"name":"Look & Feel","title":"3D","intr":"Deine Kampagne sollte dreidimensional sein oder wirken."},
-		{"name":"Look & Feel","title":"1970er Jahre","intr":"Deine Kampagne sollte im Stil der 1970er Jahre sein."},
-		{"name":"Look & Feel","title":"Full-screen","intr":"Deine Kampagne sollte full-screen sein."},
-		{"name":"Look & Feel","title":"Flat Design","intr":"Deine Kampagne sollte flat designed sein."},
-		{"name":"Look & Feel","title":"Künstlerisch-illustrativ","intr":"Deine Kampagne sollte künstlerisch-illustrativ sein."},
-		{"name":"Look & Feel","title":"Warmherzig","intr":"Deine Kampagne sollte warmherzig sein."},
-		{"name":"Look & Feel","title":"Zugänglich","intr":"Deine Kampagne sollte leicht zugänglich sein."},
-		{"name":"Look & Feel","title":"Handgemacht","intr":"Deine Kampagne sollte handgemacht wirken. "},
-		{"name":"Look & Feel","title":"Günstig","intr":"Deine Kampagne sollte günstig sein."},
-		{"name":"Look & Feel","title":"Leicht bedienbar","intr":"Deine Kampagne sollte leicht bedienbar sein."},
-		{"name":"Look & Feel","title":"Edel","intr":"Deine Kampagne sollte edel sein."},
-		{"name":"Look & Feel","title":"Modisch","intr":"Deine Kampagne sollte modisch sein."},
-		{"name":"Look & Feel","title":"Zeitgenössisch","intr":"Deine Kampagne sollte zeitgenössisch sein."},
-		{"name":"Look & Feel","title":"State-of-the-art","intr":"Deine Kampagne sollte state-of-the-art sein."},
-		{"name":"Look & Feel","title":"Zeitlos","intr":"Deine Kampagne sollte zeitlos sein."},
-		{"name":"Look & Feel","title":"Chic","intr":"Deine Kampagne sollte chic sein."},
-		{"name":"Look & Feel","title":"Exklusiv","intr":"Deine Kampagne sollte exklusiv wirken und sein."},
-		{"name":"Look & Feel","title":"Gut lesbar","intr":"Deine Kampagne sollte gut lesbar sein."},
-		{"name":"Look & Feel","title":"Einfach","intr":"Deine Kampagne sollte einfach sein."},
-		{"name":"Look & Feel","title":"Kompliziert","intr":"Deine Kampagne sollte kompliziert sein."},
-		{"name":"Look & Feel","title":"1920er","intr":"Deine Kampagne sollte im Stil der 1920er Jahre sein."},
-		{"name":"Look & Feel","title":"Arts and Crafts","intr":"Deine Kampagne sollte von der Arts and Crafts Bewegung oder dem Jugendstil inspiriert sein."},
-		{"name":"Look & Feel","title":"Witzig","intr":"Deine Kampagne sollte witzig sein."},
-		{"name":"Look & Feel","title":"Natürlich","intr":"Deine Kampagne sollte natürlich sein."},
-		{"name":"Look & Feel","title":"Neugierig","intr":"Deine Kampagne sollte neugierig machen."},
-		{"name":"Look & Feel","title":"Frisch","intr":"Deine Kampagne sollte innovativ neu wirken."},
-		{"name":"Look & Feel","title":"Romantisch","intr":"Deine Kampagne sollte romatisch sein."},
-		{"name":"Look & Feel","title":"Computergraphics","intr":"Deine Kampagne sollte im Stil von Computergrafiken sein."},
-		{"name":"Look & Feel","title":"Futuristisch","intr":"Deine Kampagne sollte futuristisch sein oder wirken."},
-		{"name":"Look & Feel","title":"Ruhig","intr":"Deine Kampagne sollte ruhig wirken."},
-		{"name":"Look & Feel","title":"Verspielt","intr":"Deine Kampagne sollte verspielt sein."},
-		{"name":"Look & Feel","title":"Clean","intr":"Deine Kampagne sollte clean sein."},
-		{"name":"Look & Feel","title":"Nostalgisch","intr":"Deine Kampagne sollte nostalgisch sein."},
-		{"name":"Look & Feel","title":"Üppig","intr":"Deine Kampagne sollte üppig wirken."}
-	],
-	
-    
-	"Medium":[
-		{"name":"Medium","title":"Webseite","intr":"Deine Kampagne sollte eine Webseite beeinhalten."},
-		{"name":"Medium","title":"Flyer","intr":"Deine Kampagne sollte einen Flyer beeinhalten."},
-		{"name":"Medium","title":"Postkarten","intr":"Deine Kampagne sollte (kostenlose) Postkarten beeinhalten."},
-		{"name":"Medium","title":"Firmenfassade","intr":"Deine Kampagne sollte für eine Firmenfassade konzipiert sein. "},
-		{"name":"Medium","title":"Social-Media","intr":"Deine Kampagne sollte in Social Media Profilen und Heroimages abgebildet werden."},
-		{"name":"Medium","title":"T-Shirts","intr":"Deine Kampagne sollte auf T-Shirts verwendet werden."},
-		{"name":"Medium","title":"Plakate","intr":"Deine Kampagne sollte mit Plakaten umgesetzt werden."},
-		{"name":"Medium","title":"Logo","intr":"Deine Kampagne sollte ein Logo beeinhalten."},
-		{"name":"Medium","title":"Logo und Plakat","intr":"Deine Kampagne sollte auf Logos und Plakaten basieren."},
-		{"name":"Medium","title":"Online-Kampagne","intr":"Deine Kampagne sollte ausschließlich online platziert werden."},
-		{"name":"Medium","title":"Geschäftsausstattung ","intr":"Deine Kampagne sollte Elemente einer Geschäftsausstattung wie Logo, Briefpapier und Visitenkarte beeinhalten."},
-		{"name":"Medium","title":"Ballons","intr":"Deine Kampagne sollte Ballons beeinhalten."},
-		{"name":"Medium","title":"Webbanner","intr":"Deine Kampagne sollte Web-Banner beeinhalten."},
-		{"name":"Medium","title":"Flugblätter","intr":"Deine Kampagne sollte Flugblätter beeinhalten."},
-		{"name":"Medium","title":"Großflächenplakate","intr":"Deine Kampagne sollte Großflächenplakate in der Stadt beeinhalten."},
-		{"name":"Medium","title":"Citylights","intr":"Deine Kampagne sollte Citylight-Plakate in der Stadt beeinhalten."},
-		{"name":"Medium","title":"Digitale Werbetafel","intr":"Deine Kampagne sollte auf digitalen Werbetafeln laufen."},
-		{"name":"Medium","title":"Fernsehspot","intr":"Deine Kampagne sollte einen Fernsehspot beeinhalten."},
-		{"name":"Medium","title":"Radiospot","intr":"Deine Kampagne sollte einen Radiospot beeinhalten."},
-		{"name":"Medium","title":"Messestand","intr":"Deine Kampagne sollte auf einem Messestand laufen."},
-		{"name":"Medium","title":"Fahrzeugwerbung","intr":"Deine Kampagne sollte beschriftete/beklebte Fahrzeuge und/oder Züge beeinhalten."},
-		{"name":"Medium","title":"Fernsehspot","intr":"Deine Kampagne sollte auf digitalen Werbetafeln laufen."},
-		{"name":"Medium","title":"Merchandise","intr":"Deine Kampagne sollte übliche Merchandise-Artikel enthalten."},
-		{"name":"Medium","title":"Print-Anzeigen","intr":"Deine Kampagne sollte Print-Anzeigen in Zeitungen oder Magazinen beinhalten."},
-		{"name":"Medium","title":"Jingle","intr":"Deine Kampagne sollte einen Jingel bzw. Audiologo beinhalten."},
-		{"name":"Medium","title":"Uniform","intr":"Deine Kampagne sollte Uniformen bzw. Mitarbeiter:inner-Kleidung enthalten."},
-		{"name":"Medium","title":"Aufkleber","intr":"Deine Kampagne sollte eine Serie von Aufklebern enthalten."},
-		{"name":"Medium","title":"Uniform","intr":"Deine Kampagne sollte Uniformen bzw. Mitarbeiter:inner-Kleidung enthalten."}
-	],
+  "Look & Feel": [
+    {
+      "name": "Look & Feel",
+      "title": "Minimalistisch",
+      "intr": "Deine Kampagne sollte minimalistisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Vintage",
+      "intr": "Deine Kampagne sollte vintage sein oder wirken."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Bunt",
+      "intr": "Deine Kampagne sollte bunt sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Düster",
+      "intr": "Deine Kampagne sollte düster sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Schwarz-weiß",
+      "intr": "Deine Kampagne sollte schwarz-weiß sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Spaß",
+      "intr": "Deine Kampagne sollte Spaß machen."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Luxus",
+      "intr": "Deine Kampagne sollte luxuriös sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "3D",
+      "intr": "Deine Kampagne sollte dreidimensional sein oder wirken."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "1970er Jahre",
+      "intr": "Deine Kampagne sollte im Stil der 1970er Jahre sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Full-screen",
+      "intr": "Deine Kampagne sollte full-screen sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Flat Design",
+      "intr": "Deine Kampagne sollte flat designed sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Künstlerisch-illustrativ",
+      "intr": "Deine Kampagne sollte künstlerisch-illustrativ sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Warmherzig",
+      "intr": "Deine Kampagne sollte warmherzig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zugänglich",
+      "intr": "Deine Kampagne sollte leicht zugänglich sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Handgemacht",
+      "intr": "Deine Kampagne sollte handgemacht wirken. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Günstig",
+      "intr": "Deine Kampagne sollte günstig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Leicht bedienbar",
+      "intr": "Deine Kampagne sollte leicht bedienbar sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Edel",
+      "intr": "Deine Kampagne sollte edel sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Modisch",
+      "intr": "Deine Kampagne sollte modisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zeitgenössisch",
+      "intr": "Deine Kampagne sollte zeitgenössisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "State-of-the-art",
+      "intr": "Deine Kampagne sollte state-of-the-art sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zeitlos",
+      "intr": "Deine Kampagne sollte zeitlos sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Chic",
+      "intr": "Deine Kampagne sollte chic sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Exklusiv",
+      "intr": "Deine Kampagne sollte exklusiv wirken und sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Gut lesbar",
+      "intr": "Deine Kampagne sollte gut lesbar sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Einfach",
+      "intr": "Deine Kampagne sollte einfach sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Kompliziert",
+      "intr": "Deine Kampagne sollte kompliziert sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "1920er",
+      "intr": "Deine Kampagne sollte im Stil der 1920er Jahre sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Arts and Crafts",
+      "intr": "Deine Kampagne sollte von der Arts and Crafts Bewegung oder dem Jugendstil inspiriert sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Witzig",
+      "intr": "Deine Kampagne sollte witzig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Natürlich",
+      "intr": "Deine Kampagne sollte natürlich sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Neugierig",
+      "intr": "Deine Kampagne sollte neugierig machen."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Frisch",
+      "intr": "Deine Kampagne sollte innovativ neu wirken."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Romantisch",
+      "intr": "Deine Kampagne sollte romatisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Computergraphics",
+      "intr": "Deine Kampagne sollte im Stil von Computergrafiken sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Futuristisch",
+      "intr": "Deine Kampagne sollte futuristisch sein oder wirken."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Ruhig",
+      "intr": "Deine Kampagne sollte ruhig wirken."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Verspielt",
+      "intr": "Deine Kampagne sollte verspielt sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Clean",
+      "intr": "Deine Kampagne sollte clean sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Nostalgisch",
+      "intr": "Deine Kampagne sollte nostalgisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Üppig",
+      "intr": "Deine Kampagne sollte üppig wirken."
+    }
+  ],
 
-	"Zielgruppe":[
-		{"name":"Zielgruppe","title":"Alle über 65 Jahre","intr":"Die Zielgruppe deiner Kampagne sollten Menschen über 65 Jahre sein. "},
-		{"name":"Zielgruppe","title":"Kindergartenkinder","intr":"Die Zielgruppe deiner Kampagne sollten Kindergartenkinder sein. "},
-		{"name":"Zielgruppe","title":"Jugendliche","intr":"Die Zielgruppe deiner Kampagne sollten Jugendliche sein. "},
-		{"name":"Zielgruppe","title":"Frauen","intr":"Die Zielgruppe deiner Kampagne sollten Frauen sein. "},
-		{"name":"Zielgruppe","title":"Männer","intr":"Die Zielgruppe deiner Kampagne sollten Männer sein. "},
-		{"name":"Zielgruppe","title":"Hausfrauen bis 50","intr":"Die Zielgruppe deiner Kampagne sollten Hausfrauen bis 50 Jahre sein. "},
-		{"name":"Zielgruppe","title":"Vegetarier:inner","intr":"Die Zielgruppe deiner Kampagne sollten Vegetarier:inner sein. "},
-		{"name":"Zielgruppe","title":"Veganer:inner","intr":"Die Zielgruppe deiner Kampagne sollten Veganer:inner sein. "},
-		{"name":"Zielgruppe","title":"Frisch Verliebte","intr":"Die Zielgruppe deiner Kampagne sollten frisch Verliebte sein. "},
-		{"name":"Zielgruppe","title":"Studierende","intr":"Die Zielgruppe deiner Kampagne sollten Studierende sein. "},
-		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer:inner","intr":"Die Zielgruppe deiner Kampagne sollten Hunde oder Hundebesitzer:inner sein. "},
-		{"name":"Zielgruppe","title":"Eltern mit Kleinkindern","intr":"Die Zielgruppe deiner Kampagne sollten Eltern mit Kleinkindern sein. "},
-		{"name":"Zielgruppe","title":"Autofahrer:inner","intr":"Die Zielgruppe deiner Kampagne sollten Autofahrer:inner sein. "},
-		{"name":"Zielgruppe","title":"Fahrradfahrer:inner","intr":"Die Zielgruppe deiner Kampagne sollten Fahrradfahrer:inner sein. "},
-		{"name":"Zielgruppe","title":"Körperlich eingeschränkte Personen","intr":"Die Zielgruppe deiner Kampagne sollten körperlich eingeschränkte Personen sein. "},
-		{"name":"Zielgruppe","title":"Geistig eingeschränkte Personen","intr":"Die Zielgruppe deiner Kampagne sollten geistig eingeschränkte Personen sein. "},
-		{"name":"Zielgruppe","title":"Linkshänder:inner","intr":"Die Zielgruppe deiner Kampagne sollten Linkshänder:inner sein. "},
-		{"name":"Zielgruppe","title":"Designer:inner","intr":"Die Zielgruppe deiner Kampagne sollten Designer:inner sein. "},
-		{"name":"Zielgruppe","title":"Zwillinge","intr":"Die Zielgruppe deiner Kampagne sollten Zwillinge sein. "},
-		{"name":"Zielgruppe","title":"Sehbehinderte","intr":"Die Zielgruppe deiner Kampagne sollten Sehbehinderte sein. "},
-		{"name":"Zielgruppe","title":"Finanziell Schwache","intr":"Die Zielgruppe deiner Kampagne sollten finanziell eingeschränkte Menschen sein. "},
-		{"name":"Zielgruppe","title":"Eingewanderte","intr":"Die Zielgruppe deiner Kampagne sollten eingewanderte Menschen sein. "},
-		{"name":"Zielgruppe","title":"Wohlhabende","intr":"Die Zielgruppe deiner Kampagne sollten wohlhabende Menschen sein. "}
-	],
+  "Medium": [
+    {
+      "name": "Medium",
+      "title": "Webseite",
+      "intr": "Deine Kampagne sollte eine Webseite beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Flyer",
+      "intr": "Deine Kampagne sollte einen Flyer beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Postkarten",
+      "intr": "Deine Kampagne sollte (kostenlose) Postkarten beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Firmenfassade",
+      "intr": "Deine Kampagne sollte für eine Firmenfassade konzipiert sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Social-Media",
+      "intr": "Deine Kampagne sollte in Social Media Profilen und Heroimages abgebildet werden."
+    },
+    {
+      "name": "Medium",
+      "title": "T-Shirts",
+      "intr": "Deine Kampagne sollte auf T-Shirts verwendet werden."
+    },
+    {
+      "name": "Medium",
+      "title": "Plakate",
+      "intr": "Deine Kampagne sollte mit Plakaten umgesetzt werden."
+    },
+    {
+      "name": "Medium",
+      "title": "Logo",
+      "intr": "Deine Kampagne sollte ein Logo beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Logo und Plakat",
+      "intr": "Deine Kampagne sollte auf Logos und Plakaten basieren."
+    },
+    {
+      "name": "Medium",
+      "title": "Online-Kampagne",
+      "intr": "Deine Kampagne sollte ausschließlich online platziert werden."
+    },
+    {
+      "name": "Medium",
+      "title": "Geschäftsausstattung ",
+      "intr": "Deine Kampagne sollte Elemente einer Geschäftsausstattung wie Logo, Briefpapier und Visitenkarte beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Ballons",
+      "intr": "Deine Kampagne sollte Ballons beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Webbanner",
+      "intr": "Deine Kampagne sollte Web-Banner beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Flugblätter",
+      "intr": "Deine Kampagne sollte Flugblätter beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Großflächenplakate",
+      "intr": "Deine Kampagne sollte Großflächenplakate in der Stadt beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Citylights",
+      "intr": "Deine Kampagne sollte Citylight-Plakate in der Stadt beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Digitale Werbetafel",
+      "intr": "Deine Kampagne sollte auf digitalen Werbetafeln laufen."
+    },
+    {
+      "name": "Medium",
+      "title": "Fernsehspot",
+      "intr": "Deine Kampagne sollte einen Fernsehspot beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Radiospot",
+      "intr": "Deine Kampagne sollte einen Radiospot beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Messestand",
+      "intr": "Deine Kampagne sollte auf einem Messestand laufen."
+    },
+    {
+      "name": "Medium",
+      "title": "Fahrzeugwerbung",
+      "intr": "Deine Kampagne sollte beschriftete/beklebte Fahrzeuge und/oder Züge beeinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Fernsehspot",
+      "intr": "Deine Kampagne sollte auf digitalen Werbetafeln laufen."
+    },
+    {
+      "name": "Medium",
+      "title": "Merchandise",
+      "intr": "Deine Kampagne sollte übliche Merchandise-Artikel enthalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Print-Anzeigen",
+      "intr": "Deine Kampagne sollte Print-Anzeigen in Zeitungen oder Magazinen beinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Jingle",
+      "intr": "Deine Kampagne sollte einen Jingel bzw. Audiologo beinhalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Uniform",
+      "intr": "Deine Kampagne sollte Uniformen bzw. Mitarbeiter:inner-Kleidung enthalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Aufkleber",
+      "intr": "Deine Kampagne sollte eine Serie von Aufklebern enthalten."
+    },
+    {
+      "name": "Medium",
+      "title": "Uniform",
+      "intr": "Deine Kampagne sollte Uniformen bzw. Mitarbeiter:inner-Kleidung enthalten."
+    }
+  ],
 
-	"Auftraggeber:inner":[
-		{"name":"Auftraggeber:inner","title":"Die HBKsaar","intr":"Auftraggeber:inner deiner Kampagne sollte die HBKsaar sein, die Kunsthochschule in Saarbrücken."},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Designer:in","intr":"Auftraggeber:inner deiner Kampagne sollte ein:e berühmte:r Designer:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Künstler:in","intr":"Auftraggeber:inner deiner Kampagne sollte ein:e berühmte:r Künstler:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Stadt Saarbrücken","intr":"Auftraggeber:inner deiner Kampagne sollte die Stadt Saarbrücken sein. "},
-		{"name":"Auftraggeber:inner","title":"Die Deutsche Bahn","intr":"Auftraggeber:inner deiner Kampagne sollte die Deutsche Bahn sein. "},
-		{"name":"Auftraggeber:inner","title":"Fahrradhersteller","intr":"Auftraggeber:inner deiner Kampagne sollte ein Fahrradhersteller sein. "},
-		{"name":"Auftraggeber:inner","title":"Computerhersteller","intr":"Auftraggeber:inner deiner Kampagne sollte ein Computerhersteller sein. "},
-		{"name":"Auftraggeber:inner","title":"Kaufhaus","intr":"Auftraggeber:inner deiner Kampagne sollte ein Kaufhaus sein. "},
-		{"name":"Auftraggeber:inner","title":"Ein Verlag","intr":"Auftraggeber:inner deiner Kampagne sollte ein Verlag sein. "},
-		{"name":"Auftraggeber:inner","title":"Ein Krankenhaus","intr":"Auftraggeber:inner deiner Kampagne sollte ein Krankenhaus sein. "},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Grafiker:in","intr":"Auftraggeber:inner deiner Kampagne sollte ein:e berühmte:r Grafiker:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Waldorfschule","intr":"Auftraggeber:inner deiner Kampagne sollte eine Waldorfsschule sein. "},
-		{"name":"Auftraggeber:inner","title":"Gesundheitsamt","intr":"Auftraggeber:inner deiner Kampagne sollte das Gesundheitsamt sein. "},
-		{"name":"Auftraggeber:inner","title":"CIAV Meisenthal","intr":"Auftraggeber:inner deiner Kampagne sollte CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."},
-		{"name":"Auftraggeber:inner","title":"Die Menschheit","intr":"Auftraggeber:inner deiner Kampagne sollte die Menschheit sein. "},
-		{"name":"Auftraggeber:inner","title":"Deine Lieblings-NGO","intr":"Auftraggeber:inner deiner Kampagne sollte deine lieblings Nicht-Regierungsorganisation sein. "},
-		{"name":"Auftraggeber:inner","title":"Bundesregierung","intr":"Auftraggeber:inner deiner Kampagne ist die Bundesregierung."},
-		{"name":"Auftraggeber:inner","title":"Das Saarland","intr":"Auftraggeber:inner deiner Kampagne ist das Saarland."},
-		{"name":"Auftraggeber:inner","title":"Start-up","intr":"Auftraggeber:inner deiner Kampagne ist ein Start-up Unternehmen."},
-		{"name":"Auftraggeber:inner","title":"Mäzen:in","intr":"Auftraggeber:inner deiner Kampagne ist ein:e Mäzen:in."},
-		{"name":"Auftraggeber:inner","title":"Partei","intr":"Auftraggeber:inner deiner Kampagne ist eine Partei."}
-	],
-	
+  "Zielgruppe": [
+    {
+      "name": "Zielgruppe",
+      "title": "Alle über 65 Jahre",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Menschen über 65 Jahre sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Kindergartenkinder",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Kindergartenkinder sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Jugendliche",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Jugendliche sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Frauen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Frauen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Männer",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Männer sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Hausfrauen bis 50",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Hausfrauen bis 50 Jahre sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Vegetarier:inner",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Vegetarier:inner sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Veganer:inner",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Veganer:inner sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Frisch Verliebte",
+      "intr": "Die Zielgruppe deiner Kampagne sollten frisch Verliebte sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Studierende",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Studierende sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Hunde oder Hundebesitzer:inner",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Hunde oder Hundebesitzer:inner sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Eltern mit Kleinkindern",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Eltern mit Kleinkindern sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Autofahrer:inner",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Autofahrer:inner sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Fahrradfahrer:inner",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Fahrradfahrer:inner sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Körperlich eingeschränkte Personen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten körperlich eingeschränkte Personen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Geistig eingeschränkte Personen",
+      "intr": "Die Zielgruppe deiner Kampagne sollten geistig eingeschränkte Personen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Linkshänder:inner",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Linkshänder:inner sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Designer:inner",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Designer:inner sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Zwillinge",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Zwillinge sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Sehbehinderte",
+      "intr": "Die Zielgruppe deiner Kampagne sollten Sehbehinderte sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Finanziell Schwache",
+      "intr": "Die Zielgruppe deiner Kampagne sollten finanziell eingeschränkte Menschen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Eingewanderte",
+      "intr": "Die Zielgruppe deiner Kampagne sollten eingewanderte Menschen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Wohlhabende",
+      "intr": "Die Zielgruppe deiner Kampagne sollten wohlhabende Menschen sein. "
+    }
+  ],
 
-	"Formsprache":[
-		{"name":"Formsprache","title":"Rund","intr":"Die verwendeten Formen in deiner Kampagne sollten rund sein. "},
-		{"name":"Formsprache","title":"Rechteckig","intr":"Die verwendeten Formen in deiner Kampagne sollten rechteckig sein. "},
-		{"name":"Formsprache","title":"Dreieckig","intr":"Die verwendeten Formen in deiner Kampagne sollten dreieckig sein. "},
-		{"name":"Formsprache","title":"Quadratisch","intr":"Die verwendeten Formen in deiner Kampagne sollten quadratisch sein. "},
-		{"name":"Formsprache","title":"Oval","intr":"Die verwendeten Formen in deiner Kampagne sollten oval sein. "},
-		{"name":"Formsprache ","title":"Organisch","intr":"Die verwendeten Formen in deiner Kampangne sollten in der Natur vorkommen"},
-		{"name":"Formsprache","title":"Vieleckig","intr":"Die verwendeten Formen in deiner Kampagne sollten mehr als vier Ecken haben."},
-		{"name":"Formsprache","title":"Abgerundet","intr":"Die verwendeten Formen in deiner Kampagne sollten eckige Grundformen haben, die abgerundet sind."}
-	],
+  "Auftraggeber:innen": [
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Die HBKsaar",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte die HBKsaar sein, die Kunsthochschule in Saarbrücken."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Designer:in",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte ein:e berühmte:r Designer:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Künstler:in",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte ein:e berühmte:r Künstler:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Stadt Saarbrücken",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte die Stadt Saarbrücken sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Die Deutsche Bahn",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte die Deutsche Bahn sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Fahrradhersteller",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte ein Fahrradhersteller sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Computerhersteller",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte ein Computerhersteller sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Kaufhaus",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte ein Kaufhaus sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Ein Verlag",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte ein Verlag sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Ein Krankenhaus",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte ein Krankenhaus sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Grafiker:in",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte ein:e berühmte:r Grafiker:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Waldorfschule",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte eine Waldorfsschule sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Gesundheitsamt",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte das Gesundheitsamt sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "CIAV Meisenthal",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Die Menschheit",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte die Menschheit sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Deine Lieblings-NGO",
+      "intr": "Auftraggeber:innen deiner Kampagne sollte deine lieblings Nicht-Regierungsorganisation sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Bundesregierung",
+      "intr": "Auftraggeber:innen deiner Kampagne ist die Bundesregierung."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Das Saarland",
+      "intr": "Auftraggeber:innen deiner Kampagne ist das Saarland."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Start-up",
+      "intr": "Auftraggeber:innen deiner Kampagne ist ein Start-up Unternehmen."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Mäzen:in",
+      "intr": "Auftraggeber:innen deiner Kampagne ist ein:e Mäzen:in."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Partei",
+      "intr": "Auftraggeber:innen deiner Kampagne ist eine Partei."
+    }
+  ],
 
-	"Farbe":[
-		{"name":"Farbe","title":"Warme Farben","intr":"Deine Kampagne sollte mit warmen Farben arbeiten. Beispielsweise Rot, Gelb und Orange."},
-		{"name":"Farbe","title":"Kalte Farben","intr":"Deine Kampagne sollte mit kalten Farben arbeiten. Beispielsweise Blau, Türkis und Violett."},
-		{"name":"Farbe","title":"Sehr hell","intr":"Deine Kampagne sollte sehr hell gehalten sein. Trotzdem sollen die wesentlichen Inhalte erkennbar bleiben."},
-		{"name":"Farbe","title":"Sehr dunkel","intr":"Deine Kampagne sollte sehr dunkel gehalten sein. Trotzdem sollen die wesentlichen Inhalte erkennbar bleiben."},
-		{"name":"Farbe","title":"Rot","intr":"Deine Kampagne sollte hauptsächlich rot sein. Bedenke, dass es Menschen mit Rot-Grün-Sehschwäche gibt. "},
-		{"name":"Farbe","title":"Hellgrün","intr":"Deine Kampagne sollte hauptsächlich hellgrün sein. Bedenke das es Menschen mit Rot-Grün-Sehschwäche gibt. "},
-		{"name":"Farbe","title":"Dunkelgrau","intr":"Deine Kampagne sollte aus dunkelgrauen Farbtönen bestehen. "},
-		{"name":"Farbe","title":"Gelb","intr":"Deine Kampagne sollte hauptsächlich gelb sein. "},
-		{"name":"Farbe","title":"Blau und Orange","intr":"Deine Kampagne sollte hauptsächlich blau und orange sein. "},
-		{"name":"Farbe","title":"Neonfarben","intr":"Deine Kampagne sollte mit Neonfarben arbeiten. "},
-		{"name":"Farbe","title":"Leuchtend","intr":"Deine Kampagne sollte leuchtend sein und dabei am besten mit großen Helligkeitskontrasten arbeiten."},
-		{"name":"Farbe","title":"Beigefarben","intr":"Deine Kampagne sollte mit matten Brauntönen und Cremefarbe arbeiten."},
-		{"name":"Farbe","title":"Metallische Farben","intr":"Deine Kampagne sollte mit metallischen Farbe arbeiten."},
-		{"name":"Farbe","title":"Komplementärkontrast","intr":"Deine Kampagne sollte mit Komplementärfarbe arbeiten. Beispielsweise Gelb und Blau."},
-		{"name":"Farbe","title":"Farbverlauf","intr":"Deine Kampagne sollte (mindestens) einen Farbverlauf enthalten."},
-		{"name":"Farbe","title":"Graustufen","intr":"Deine Kampagne sollte nur in Graustufen gehalten sein."}
-	],
-    
-	"Einschränkungen":[
-		{"name":"Einschränkungen","title":"Nur ein Schriftschnitt","intr":"Deine Kampagne ist nur mit einem Schriftschnitt gestaltet."},
-		{"name":"Einschränkungen","title":"Nur eine Schriftgröße","intr":"Deine Kampagne verwendet nur eine Schriftgröße für alles."},
-		{"name":"Einschränkungen","title":"Fünf Schriftfamilien","intr":"Deine Kampagne verwendet fünf verschiedene Schriftfamilien."},
-		{"name":"Einschränkungen","title":"Zehn Schriftfamilien","intr":"Deine Kampagne verwendet zehn verschiedene Schriftfamilien."},
-		{"name":"Einschränkungen","title":"Ohne Text","intr":"Deine Kampagne enthält kein Text sondern ausschließlich Bilder, Zeichnungen und Piktogramme."},
-		{"name":"Einschränkungen","title":"Ohne Bilder","intr":"Deine Kampagne enthält keine Bilder, Zeichnungen oder Piktogramme sondern ausschließlich Text"},
-		{"name":"Einschränkungen","title":"Drei Schriftschnitte","intr":"Deine Kampagne verwendet drei verschiedene Schriftschnitte."},
-		{"name":"Einschränkungen","title":"Versalsatz","intr":"Deine Kampagne ist ausschließlich in Großbuchstaben gesetzt."},
-		{"name":"Einschränkungen","title":"Nur Kleinbuchstaben","intr":"Deine Kampagne verwendet ausschließlich Kleinbuchstaben."},
-		{"name":"Einschränkungen","title":"Keine Sätze","intr":"Deine Kampagne verwendet nur Stichwörter, Listen o.ä. und keine ganzen Sätze."},
-		{"name":"Einschränkungen","title":"Drei Sprachen","intr":"Deine Kampagne ist in drei Sprachen gleichzeitig gesetzt."},
-		{"name":"Einschränkungen","title":"Deutsch und Russisch","intr":"Deine Kampagne ist in Deutsch und russischer Sprache gesetzt."},
-		{"name":"Einschränkungen","title":"Deutsch und Chinesisch","intr":"Deine Kampagne ist in Deutsch und chinesischer Sprache gesetzt."},
-		{"name":"Einschränkungen","title":"Nur Bold-Text","intr":"Deine Kampagne verwendet ausschließlich fette Schriftschnitte"},
-		{"name":"Einschränkungen","title":"Kapitälchen","intr":"Deine Kampagne verwendet ausschließlich echte Kapitälchen für alle Texte."},
-		{"name":"Einschränkungen","title":"Kursiv gesetzt","intr":"Deine Kampagne verwendet ausschließlich echte Kursive Schriftschnitte für alle Texte."},
-		{"name":"Einschränkungen","title":"Zwei Schriftgrößen","intr":"Deine Kampagne verwendet nur zwei Schriftgrößen für alles."},
-		{"name":"Einschränkungen","title":"Nur Piktogramme","intr":"Deine Kampagne verwendet nur Piktogramme, keinen Text."},
-		{"name":"Einschränkungen","title":"Schreibschriften","intr":"Deine Kampagne sollte nur Schreibschriften verwenden."},
-		{"name":"Einschränkungen","title":"Serifenschriften","intr":"Deine Kampagne sollte nur Serifenschriften verwenden."},
-		{"name":"Einschränkungen","title":"Serifenlose Schriften","intr":"Deine Kampagne sollte nur serifenlose Schriften verwenden."},
-		{"name":"Einschränkungen","title":"Slab-Serifs","intr":"Deine Kampagne sollte nur serifenbetonte Slab-Serif Fonts verwenden."},
-		{"name":"Einschränkungen","title":"Stencil-Fonts","intr":"Deine Kampagne sollte nur Stencil-Fonts verwenden."},
-		{"name":"Einschränkungen","title":"Gereimt","intr":"Deine Kampagne sollte in Reimen getextet sein."},
-		{"name":"Einschränkungen","title":"Nur Ziffern","intr":"Deine Kampagne sollte nur Ziffern/Zahlen verwenden, keine Buchstaben oder Texte."}
-	],
+  "Formsprache": [
+    {
+      "name": "Formsprache",
+      "title": "Rund",
+      "intr": "Die verwendeten Formen in deiner Kampagne sollten rund sein. "
+    },
+    {
+      "name": "Formsprache",
+      "title": "Rechteckig",
+      "intr": "Die verwendeten Formen in deiner Kampagne sollten rechteckig sein. "
+    },
+    {
+      "name": "Formsprache",
+      "title": "Dreieckig",
+      "intr": "Die verwendeten Formen in deiner Kampagne sollten dreieckig sein. "
+    },
+    {
+      "name": "Formsprache",
+      "title": "Quadratisch",
+      "intr": "Die verwendeten Formen in deiner Kampagne sollten quadratisch sein. "
+    },
+    {
+      "name": "Formsprache",
+      "title": "Oval",
+      "intr": "Die verwendeten Formen in deiner Kampagne sollten oval sein. "
+    },
+    {
+      "name": "Formsprache ",
+      "title": "Organisch",
+      "intr": "Die verwendeten Formen in deiner Kampangne sollten in der Natur vorkommen"
+    },
+    {
+      "name": "Formsprache",
+      "title": "Vieleckig",
+      "intr": "Die verwendeten Formen in deiner Kampagne sollten mehr als vier Ecken haben."
+    },
+    {
+      "name": "Formsprache",
+      "title": "Abgerundet",
+      "intr": "Die verwendeten Formen in deiner Kampagne sollten eckige Grundformen haben, die abgerundet sind."
+    }
+  ],
 
-	"Technik":[
-		{"name":"Technik","title":"Aquarell","intr":"Deine Kampagne sollte (unter anderem) in der Aquarelltechnik ausgeführt sein. "},
-		{"name":"Technik","title":"Pastellkreide","intr":"Deine Kampagne sollte (unter anderem) mit Pastellkreide erstellt sein. "},
-		{"name":"Technik","title":"Bleistift","intr":"Deine Kampagne sollte (unter anderem) in Bleistift erstellt sein. "},
-		{"name":"Technik","title":"Buntstift","intr":"Deine Kampagne sollte (unter anderem) mit Buntstift ausgeführt sein. "},
-		{"name":"Technik","title":"Marker","intr":"Deine Kampagne sollte (unter anderem) mit dem Marker erstellt sein. "},
-		{"name":"Technik","title":"Vektorzeichnung","intr":"Deine Kampagne sollte (unter anderem) aus Vektorgrafiken erstellt sein. "},
-		{"name":"Technik","title":"Pinsel","intr":"Deine Kampagne sollte (unter anderem) mit dem Pinsel ausgeführt sein. "},
-		{"name":"Technik","title":"Papierschnitt","intr":"Deine Kampagne sollte (unter anderem) im Papierschnitt ausgeführt sein. "},
-		{"name":"Technik","title":"Kollage","intr":"Deine Kampagne sollte (unter anderem) mit Kollagen arbeiten. "},
-		{"name":"Technik","title":"Holzschnitt","intr":"Deine Kampagne sollte (unter anderem) im Holzschnitt ausgeführt sein. "},
-		{"name":"Technik","title":"Linolschnitt","intr":"Deine Kampagne sollte (unter anderem) im Linolschnitt ausgeführt sein. "},
-		{"name":"Technik","title":"Hochdruck","intr":"Deine Kampagne sollte (unter anderem) im Hochdruck Verfahren ausgeführt sein. "},
-		{"name":"Technik","title":"Risodruck","intr":"Deine Kampagne sollte (unter anderem) mit dem Risodrucker ausgeführt sein. "},
-		{"name":"Technik","title":"Kopierer","intr":"Deine Kampagne sollte (unter anderem) mit dem Kopierer ausgeführt sein. "},
-		{"name":"Technik","title":"ASCII-Art","intr":"Deine Kampagne sollte sich (unter anderem) der ASCII-Art Ausdrucksweise bedienen. "},
-		{"name":"Technik","title":"Tusche","intr":"Deine Kampagne sollte (unter anderem) in Tusche ausgeführt sein. "},
-		{"name":"Technik","title":"Schablonen","intr":"Deine Kampagne sollte (unter anderem) mit Schablonen arbeiten."},
-		{"name":"Technik","title":"Rein typografisch","intr":"Deine Kampagne sollte rein typografisch ausgeführt sein."}
-	],
+  "Farbe": [
+    {
+      "name": "Farbe",
+      "title": "Warme Farben",
+      "intr": "Deine Kampagne sollte mit warmen Farben arbeiten. Beispielsweise Rot, Gelb und Orange."
+    },
+    {
+      "name": "Farbe",
+      "title": "Kalte Farben",
+      "intr": "Deine Kampagne sollte mit kalten Farben arbeiten. Beispielsweise Blau, Türkis und Violett."
+    },
+    {
+      "name": "Farbe",
+      "title": "Sehr hell",
+      "intr": "Deine Kampagne sollte sehr hell gehalten sein. Trotzdem sollen die wesentlichen Inhalte erkennbar bleiben."
+    },
+    {
+      "name": "Farbe",
+      "title": "Sehr dunkel",
+      "intr": "Deine Kampagne sollte sehr dunkel gehalten sein. Trotzdem sollen die wesentlichen Inhalte erkennbar bleiben."
+    },
+    {
+      "name": "Farbe",
+      "title": "Rot",
+      "intr": "Deine Kampagne sollte hauptsächlich rot sein. Bedenke, dass es Menschen mit Rot-Grün-Sehschwäche gibt. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Hellgrün",
+      "intr": "Deine Kampagne sollte hauptsächlich hellgrün sein. Bedenke das es Menschen mit Rot-Grün-Sehschwäche gibt. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Dunkelgrau",
+      "intr": "Deine Kampagne sollte aus dunkelgrauen Farbtönen bestehen. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Gelb",
+      "intr": "Deine Kampagne sollte hauptsächlich gelb sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Blau und Orange",
+      "intr": "Deine Kampagne sollte hauptsächlich blau und orange sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Neonfarben",
+      "intr": "Deine Kampagne sollte mit Neonfarben arbeiten. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Leuchtend",
+      "intr": "Deine Kampagne sollte leuchtend sein und dabei am besten mit großen Helligkeitskontrasten arbeiten."
+    },
+    {
+      "name": "Farbe",
+      "title": "Beigefarben",
+      "intr": "Deine Kampagne sollte mit matten Brauntönen und Cremefarbe arbeiten."
+    },
+    {
+      "name": "Farbe",
+      "title": "Metallische Farben",
+      "intr": "Deine Kampagne sollte mit metallischen Farbe arbeiten."
+    },
+    {
+      "name": "Farbe",
+      "title": "Komplementärkontrast",
+      "intr": "Deine Kampagne sollte mit Komplementärfarbe arbeiten. Beispielsweise Gelb und Blau."
+    },
+    {
+      "name": "Farbe",
+      "title": "Farbverlauf",
+      "intr": "Deine Kampagne sollte (mindestens) einen Farbverlauf enthalten."
+    },
+    {
+      "name": "Farbe",
+      "title": "Graustufen",
+      "intr": "Deine Kampagne sollte nur in Graustufen gehalten sein."
+    }
+  ],
 
-	"Barrierefreiheit":[
-		{"name":"Barrierefreiheit","title":"Für Leseschwache","intr":"Deine Kampagne sollte für Leseschwache geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Sehschwache","intr":"Deine Kampagne sollte für Sehschwache geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Raucher:inner","intr":"Deine Kampagne sollte für Raucher:inner geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Analphabet:inner","intr":"Deine Kampagne sollte für Analphabet:inner geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Nichtschwimmer:inner","intr":"Deine Kampagne sollte für Nichtschwimmer:inner geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Vorerkrankt","intr":"Deine Kampagne sollte für Vorerkrankte geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Brillenträger:inner","intr":"Deine Kampagne sollte für Brillenträger:inner geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Hörgeschädigte","intr":"Deine Kampagne sollte für Hörgeschädigte geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Kleine Menschen","intr":"Deine Kampagne sollte für kleine Menschen geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Alzheimer-Patienten ","intr":"Deine Kampagne sollte für Alzheimer-Patienten geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Nicht-deutschsprachige","intr":"Deine Kampagne sollte für nicht-Deutschsprachige geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Leichte Sprache","intr":"Deine Kampagne sollte mit einfacher Sprache alle Menschen erreichen."},
-		{"name":"Barrierefreiheit","title":"Corona-Infektion","intr":"Deine Kampagne sollte für Menschen mit Corona geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Taubstumme","intr":"Deine Kampagne sollte für Taubstumme geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für große Menschen","intr":"Deine Kampagne sollte für große Menschen geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Geheingeschränkte","intr":"Deine Kampagne sollte für Geheingeschränkte geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Für Menschen mit Schlafstörung","intr":"Deine Kampagne sollte für Menschen mit Schlafstörung geeignet sein. "}
-	]
+  "Einschränkungen": [
+    {
+      "name": "Einschränkungen",
+      "title": "Nur ein Schriftschnitt",
+      "intr": "Deine Kampagne ist nur mit einem Schriftschnitt gestaltet."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Nur eine Schriftgröße",
+      "intr": "Deine Kampagne verwendet nur eine Schriftgröße für alles."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Fünf Schriftfamilien",
+      "intr": "Deine Kampagne verwendet fünf verschiedene Schriftfamilien."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Zehn Schriftfamilien",
+      "intr": "Deine Kampagne verwendet zehn verschiedene Schriftfamilien."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Ohne Text",
+      "intr": "Deine Kampagne enthält kein Text sondern ausschließlich Bilder, Zeichnungen und Piktogramme."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Ohne Bilder",
+      "intr": "Deine Kampagne enthält keine Bilder, Zeichnungen oder Piktogramme sondern ausschließlich Text"
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Drei Schriftschnitte",
+      "intr": "Deine Kampagne verwendet drei verschiedene Schriftschnitte."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Versalsatz",
+      "intr": "Deine Kampagne ist ausschließlich in Großbuchstaben gesetzt."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Nur Kleinbuchstaben",
+      "intr": "Deine Kampagne verwendet ausschließlich Kleinbuchstaben."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Keine Sätze",
+      "intr": "Deine Kampagne verwendet nur Stichwörter, Listen o.ä. und keine ganzen Sätze."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Drei Sprachen",
+      "intr": "Deine Kampagne ist in drei Sprachen gleichzeitig gesetzt."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Deutsch und Russisch",
+      "intr": "Deine Kampagne ist in Deutsch und russischer Sprache gesetzt."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Deutsch und Chinesisch",
+      "intr": "Deine Kampagne ist in Deutsch und chinesischer Sprache gesetzt."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Nur Bold-Text",
+      "intr": "Deine Kampagne verwendet ausschließlich fette Schriftschnitte"
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Kapitälchen",
+      "intr": "Deine Kampagne verwendet ausschließlich echte Kapitälchen für alle Texte."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Kursiv gesetzt",
+      "intr": "Deine Kampagne verwendet ausschließlich echte Kursive Schriftschnitte für alle Texte."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Zwei Schriftgrößen",
+      "intr": "Deine Kampagne verwendet nur zwei Schriftgrößen für alles."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Nur Piktogramme",
+      "intr": "Deine Kampagne verwendet nur Piktogramme, keinen Text."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Schreibschriften",
+      "intr": "Deine Kampagne sollte nur Schreibschriften verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Serifenschriften",
+      "intr": "Deine Kampagne sollte nur Serifenschriften verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Serifenlose Schriften",
+      "intr": "Deine Kampagne sollte nur serifenlose Schriften verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Slab-Serifs",
+      "intr": "Deine Kampagne sollte nur serifenbetonte Slab-Serif Fonts verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Stencil-Fonts",
+      "intr": "Deine Kampagne sollte nur Stencil-Fonts verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Gereimt",
+      "intr": "Deine Kampagne sollte in Reimen getextet sein."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Nur Ziffern",
+      "intr": "Deine Kampagne sollte nur Ziffern/Zahlen verwenden, keine Buchstaben oder Texte."
+    }
+  ],
 
+  "Technik": [
+    {
+      "name": "Technik",
+      "title": "Aquarell",
+      "intr": "Deine Kampagne sollte (unter anderem) in der Aquarelltechnik ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Pastellkreide",
+      "intr": "Deine Kampagne sollte (unter anderem) mit Pastellkreide erstellt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Bleistift",
+      "intr": "Deine Kampagne sollte (unter anderem) in Bleistift erstellt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Buntstift",
+      "intr": "Deine Kampagne sollte (unter anderem) mit Buntstift ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Marker",
+      "intr": "Deine Kampagne sollte (unter anderem) mit dem Marker erstellt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Vektorzeichnung",
+      "intr": "Deine Kampagne sollte (unter anderem) aus Vektorgrafiken erstellt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Pinsel",
+      "intr": "Deine Kampagne sollte (unter anderem) mit dem Pinsel ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Papierschnitt",
+      "intr": "Deine Kampagne sollte (unter anderem) im Papierschnitt ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Kollage",
+      "intr": "Deine Kampagne sollte (unter anderem) mit Kollagen arbeiten. "
+    },
+    {
+      "name": "Technik",
+      "title": "Holzschnitt",
+      "intr": "Deine Kampagne sollte (unter anderem) im Holzschnitt ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Linolschnitt",
+      "intr": "Deine Kampagne sollte (unter anderem) im Linolschnitt ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Hochdruck",
+      "intr": "Deine Kampagne sollte (unter anderem) im Hochdruck Verfahren ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Risodruck",
+      "intr": "Deine Kampagne sollte (unter anderem) mit dem Risodrucker ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Kopierer",
+      "intr": "Deine Kampagne sollte (unter anderem) mit dem Kopierer ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "ASCII-Art",
+      "intr": "Deine Kampagne sollte sich (unter anderem) der ASCII-Art Ausdrucksweise bedienen. "
+    },
+    {
+      "name": "Technik",
+      "title": "Tusche",
+      "intr": "Deine Kampagne sollte (unter anderem) in Tusche ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Schablonen",
+      "intr": "Deine Kampagne sollte (unter anderem) mit Schablonen arbeiten."
+    },
+    {
+      "name": "Technik",
+      "title": "Rein typografisch",
+      "intr": "Deine Kampagne sollte rein typografisch ausgeführt sein."
+    }
+  ],
+
+  "Barrierefreiheit": [
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Leseschwache",
+      "intr": "Deine Kampagne sollte für Leseschwache geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Sehschwache",
+      "intr": "Deine Kampagne sollte für Sehschwache geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Raucher:inner",
+      "intr": "Deine Kampagne sollte für Raucher:inner geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Analphabet:inner",
+      "intr": "Deine Kampagne sollte für Analphabet:inner geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Nichtschwimmer:inner",
+      "intr": "Deine Kampagne sollte für Nichtschwimmer:inner geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Vorerkrankt",
+      "intr": "Deine Kampagne sollte für Vorerkrankte geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Brillenträger:inner",
+      "intr": "Deine Kampagne sollte für Brillenträger:inner geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Hörgeschädigte",
+      "intr": "Deine Kampagne sollte für Hörgeschädigte geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Kleine Menschen",
+      "intr": "Deine Kampagne sollte für kleine Menschen geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Alzheimer-Patienten ",
+      "intr": "Deine Kampagne sollte für Alzheimer-Patienten geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Nicht-deutschsprachige",
+      "intr": "Deine Kampagne sollte für nicht-Deutschsprachige geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Leichte Sprache",
+      "intr": "Deine Kampagne sollte mit einfacher Sprache alle Menschen erreichen."
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Corona-Infektion",
+      "intr": "Deine Kampagne sollte für Menschen mit Corona geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Taubstumme",
+      "intr": "Deine Kampagne sollte für Taubstumme geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für große Menschen",
+      "intr": "Deine Kampagne sollte für große Menschen geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Geheingeschränkte",
+      "intr": "Deine Kampagne sollte für Geheingeschränkte geeignet sein. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Menschen mit Schlafstörung",
+      "intr": "Deine Kampagne sollte für Menschen mit Schlafstörung geeignet sein. "
+    }
+  ]
 }

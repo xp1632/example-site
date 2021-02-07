@@ -1052,6 +1052,29 @@
     }
   ],
 
+
+    "Technik" :[
+	{"name":"Technik","title":"Aquarell","intr":"Deine Publikation sollte (unter anderem) in Aquarelltechnik ausgeführt sein. "},
+	{"name":"Technik","title":"Pastellkreide","intr":"Deine Publikation sollte (unter anderem) mit Pastellkreide ausgeführt sein. "},
+	{"name":"Technik","title":"Bleistift","intr":"Deine Publikation sollte (unter anderem) mit Bleistift ausgeführt sein. "},
+	{"name":"Technik","title":"Buntstift","intr":"Deine Publikation sollte (unter anderem) mit Bunstift ausgeführt sein. "},
+	{"name":"Technik","title":"Marker","intr":"Deine Publikation sollte (unter anderem) mit Markern ausgeführt sein. "},
+	{"name":"Technik","title":"Vektorzeichnung","intr":"Deine Publikation sollte (unter anderem) Vektorzeichnungen verwenden.  "},
+	{"name":"Technik","title":"Pinsel","intr":"Deine Publikation sollte (unter anderem) mit dem Pinsel ausgeführt sein. "},
+	{"name":"Technik","title":"Papierschnitt","intr":"Deine Publikation sollte (unter anderem) im Papierschnitt ausgeführt sein. "},
+	{"name":"Technik","title":"Kollage","intr":"Deine Publikation sollte (unter anderem) als Kollage ausgeführt sein. "},
+	{"name":"Technik","title":"Holzschnitt","intr":"Deine Publikation sollte (unter anderem) im Holzschnitt ausgeführt sein. "},
+	{"name":"Technik","title":"Linolschnitt","intr":"Deine Publikation sollte (unter anderem) im Linolschnitt ausgeführt sein. "},
+	{"name":"Technik","title":"Hochdruck","intr":"Deine Publikation sollte (unter anderem) in der Hochdruck Technik hergestellt sein. "},
+	{"name":"Technik","title":"Risodruck","intr":"Deine Publikation sollte (unter anderem) in der Risodruck Technik hergestellt sein. "},
+	{"name":"Technik","title":"Kopierer","intr":"Deine Publikation sollte (unter anderem) mit dem Kopierer hergestellt sein. "},
+	{"name":"Technik","title":"Ascii-Art","intr":"Deine Publikation sollte (unter anderem) im Stil von Ascii-Art ausgeführt sein. "},
+	{"name":"Technik","title":"Tusche","intr":"Deine Publikation sollte (unter anderem) mit Tusche ausgeführt sein. "},
+	{"name":"Technik","title":"Klebelayout","intr":"Deine Publikation sollte im Klebelayout erstellt werden. "},
+	{"name":"Technik","title":"Schablonen","intr":"Deine Publikation sollte (unter anderem) mittels Schablonen ausgeführt werden."},
+	{"name":"Technik","title":"Laserdrucker","intr":"Deine Publikation sollte (unter anderem) auf dem Laserdrucker ausgegeben werden."}
+	],
+
 	"Barrierefreiheit":[
 		{"name":"Barrierefreiheit","title":"Leseschwache","intr":"Deine Publikation sollte für Leseschwache geeignet sein. "},
 		{"name":"Barrierefreiheit","title":"Sehschwache","intr":"Deine Publikation sollte für Sehschwache geeignet sein. "},
@@ -1068,103 +1091,6 @@
 		{"name":"Barrierefreiheit","title":"Corona-infizierte","intr":"Deine Publikation sollte für Menschen mit einer SARS-Cov-2 Infektion ausgelegt sein. "},
 		{"name":"Barrierefreiheit","title":"Taubstumme","intr":"Deine Publikation sollte für Taubstumme ausgelegt sein. "},
 		{"name":"Barrierefreiheit","title":"Mobilitätseingeschränkte","intr":"Deine Publikation sollte für Mobilitätseingeschränkte ausgelegt sein. "}
-	],
+	]
 
-  "Technik": [
-    {
-      "name": "Technik",
-      "title": "Aquarell",
-      "intr": "Deine Publikation sollte (unter anderem) in Aquarelltechnik ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Pastellkreide",
-      "intr": "Deine Publikation sollte (unter anderem) mit Pastellkreide ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Bleistift",
-      "intr": "Deine Publikation sollte (unter anderem) mit Bleistift ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Buntstift",
-      "intr": "Deine Publikation sollte (unter anderem) mit Bunstift ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Marker",
-      "intr": "Deine Publikation sollte (unter anderem) mit Markern ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Vektorzeichnung",
-      "intr": "Deine Publikation sollte (unter anderem) Vektorzeichnungen verwenden.  "
-    },
-    {
-      "name": "Technik",
-      "title": "Pinsel",
-      "intr": "Deine Publikation sollte (unter anderem) mit dem Pinsel ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Papierschnitt",
-      "intr": "Deine Publikation sollte (unter anderem) im Papierschnitt ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Kollage",
-      "intr": "Deine Publikation sollte (unter anderem) als Kollage ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Holzschnitt",
-      "intr": "Deine Publikation sollte (unter anderem) im Holzschnitt ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Linolschnitt",
-      "intr": "Deine Publikation sollte (unter anderem) im Linolschnitt ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Hochdruck",
-      "intr": "Deine Publikation sollte (unter anderem) in der Hochdruck Technik hergestellt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Risodruck",
-      "intr": "Deine Publikation sollte (unter anderem) in der Risodruck Technik hergestellt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Kopierer",
-      "intr": "Deine Publikation sollte (unter anderem) mit dem Kopierer hergestellt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Ascii-Art",
-      "intr": "Deine Publikation sollte (unter anderem) im Stil von Ascii-Art ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Tusche",
-      "intr": "Deine Publikation sollte (unter anderem) mit Tusche ausgeführt sein. "
-    },
-    {
-      "name": "Technik",
-      "title": "Klebelayout",
-      "intr": "Deine Publikation sollte im Klebelayout erstellt werden. "
-    },
-    {
-      "name": "Technik",
-      "title": "Schablonen",
-      "intr": "Deine Publikation sollte (unter anderem) mittels Schablonen ausgeführt werden."
-    },
-    {
-      "name": "Technik",
-      "title": "Laserdrucker",
-      "intr": "Deine Publikation sollte (unter anderem) auf dem Laserdrucker ausgegeben werden."
-    }
-  ]
 }

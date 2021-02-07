@@ -3,7 +3,7 @@
 		"Branche",
 		"Medium",
 		"Zielgruppe",
-		"Auftraggeber:inner",
+		"Auftraggeber:innen",
 		"Look & Feel",
 		"Farbe",
 		"Format",
@@ -43,235 +43,1023 @@
 	],
 	
 
-	"Medium":[
-		{"name":"Medium","title":"Wandzeitung","intr":"Das Medium deiner Publikation sollte eine Wandzeitung sein. "},
-		{"name":"Medium","title":"Fotobuch","intr":"Das Medium deiner Publikation sollte eine Fotobuch sein. "},
-		{"name":"Medium","title":"Kalender","intr":"Das Medium deiner Publikation sollte ein Kalender sein. "},
-		{"name":"Medium","title":"Flyer","intr":"Das Medium deiner Publikation sollte ein Flyer sein. "},
-		{"name":"Medium","title":"Buch","intr":"Das Medium deiner Publikation sollte ein Buch sein. "},
-		{"name":"Medium","title":"Blog","intr":"Das Medium deiner Publikation sollte ein Blog sein. "},
-		{"name":"Medium","title":"Vlog","intr":"Das Medium deiner Publikation sollte ein Videoblog sein. "},
-		{"name":"Medium","title":"Podcast","intr":"Das Medium deiner Publikation sollte ein Podcasts ein. "},
-		{"name":"Medium","title":"Buch","intr":"Das Medium deiner Publikation sollte ein Buch sein. "},
-		{"name":"Medium","title":"Magazin","intr":"Das Medium deiner Publikation sollte ein Magazin sein. "},
-		{"name":"Medium","title":"Zeitung","intr":"Das Medium deiner Publikation sollte eine Zeitung sein. "},
-		{"name":"Medium","title":"Leporello","intr":"Das Medium deiner Publikation sollte ein Leporello sein. "},
-		{"name":"Medium","title":"Heft","intr":"Das Medium deiner Publikation sollte ein Heft sein. "},
-		{"name":"Medium","title":"E-Book","intr":"Das Medium deiner Publikation sollte ein E-Book sein. "},
-		{"name":"Medium","title":"Website","intr":"Das Medium deiner Publikation sollte eine Webseite sein. "},
-		{"name":"Medium","title":"Pixie-Buch","intr":"Das Medium deiner Publikation sollte ein Pixie-Buch sein. "},
-		{"name":"Medium","title":"Bilderbuch","intr":"Das Medium deiner Publikation sollte ein Bilderbuch sein. "},
-		{"name":"Medium","title":"Lexikon","intr":"Das Medium deiner Publikation sollte ein Lexikon sein. "},
-		{"name":"Medium","title":"Reiseführer","intr":"Das Medium deiner Publikation sollte ein Lexikon sein. "},
-		{"name":"Medium","title":"Kochbuch","intr":"Das Medium deiner Publikation sollte ein Kochbuch sein. "},
-		{"name":"Medium","title":"Anzeigenblättchen","intr":"Das Medium deiner Publikation sollte ein Anzeigenblättchen sein. "},
-		{"name":"Medium","title":"Versandkatalog","intr":"Das Medium deiner Publikation sollte ein Versandkatalog sein. "},
-		{"name":"Medium","title":"Nachschlagewerk","intr":"Das Medium deiner Publikation sollte ein Nachschlagewerk sein. "},
-		{"name":"Medium","title":"Handbuch","intr":"Das Medium deiner Publikation sollte ein Handbuch sein. "},
-		{"name":"Medium","title":"Gedichtband","intr":"Das Medium deiner Publikation sollte ein Gedichtband sein. "},
-		{"name":"Medium","title":"Taschenbuch","intr":"Das Medium deiner Publikation sollte ein Taschenbuch sein. "},
-		{"name":"Medium","title":"Atlas","intr":"Das Medium deiner Publikation sollte ein Atlas sein. "},
-		{"name":"Medium","title":"Landkarte","intr":"Das Medium deiner Publikation sollte eine Landkarte sein. "},
-		{"name":"Medium","title":"Veranstaltungskalender","intr":"Das Medium deiner Publikation sollte ein Veranstaltungskalender sein. "}
-	],
+  "Medium": [
+    {
+      "name": "Medium",
+      "title": "Wandzeitung",
+      "intr": "Das Medium deiner Publikation sollte eine Wandzeitung sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Fotobuch",
+      "intr": "Das Medium deiner Publikation sollte eine Fotobuch sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Kalender",
+      "intr": "Das Medium deiner Publikation sollte ein Kalender sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Flyer",
+      "intr": "Das Medium deiner Publikation sollte ein Flyer sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Buch",
+      "intr": "Das Medium deiner Publikation sollte ein Buch sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Blog",
+      "intr": "Das Medium deiner Publikation sollte ein Blog sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Vlog",
+      "intr": "Das Medium deiner Publikation sollte ein Videoblog sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Podcast",
+      "intr": "Das Medium deiner Publikation sollte ein Podcasts ein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Buch",
+      "intr": "Das Medium deiner Publikation sollte ein Buch sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Magazin",
+      "intr": "Das Medium deiner Publikation sollte ein Magazin sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Zeitung",
+      "intr": "Das Medium deiner Publikation sollte eine Zeitung sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Leporello",
+      "intr": "Das Medium deiner Publikation sollte ein Leporello sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Heft",
+      "intr": "Das Medium deiner Publikation sollte ein Heft sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "E-Book",
+      "intr": "Das Medium deiner Publikation sollte ein E-Book sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Website",
+      "intr": "Das Medium deiner Publikation sollte eine Webseite sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Pixie-Buch",
+      "intr": "Das Medium deiner Publikation sollte ein Pixie-Buch sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Bilderbuch",
+      "intr": "Das Medium deiner Publikation sollte ein Bilderbuch sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Lexikon",
+      "intr": "Das Medium deiner Publikation sollte ein Lexikon sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Reiseführer",
+      "intr": "Das Medium deiner Publikation sollte ein Lexikon sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Kochbuch",
+      "intr": "Das Medium deiner Publikation sollte ein Kochbuch sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Anzeigenblättchen",
+      "intr": "Das Medium deiner Publikation sollte ein Anzeigenblättchen sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Versandkatalog",
+      "intr": "Das Medium deiner Publikation sollte ein Versandkatalog sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Nachschlagewerk",
+      "intr": "Das Medium deiner Publikation sollte ein Nachschlagewerk sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Handbuch",
+      "intr": "Das Medium deiner Publikation sollte ein Handbuch sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Gedichtband",
+      "intr": "Das Medium deiner Publikation sollte ein Gedichtband sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Taschenbuch",
+      "intr": "Das Medium deiner Publikation sollte ein Taschenbuch sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Atlas",
+      "intr": "Das Medium deiner Publikation sollte ein Atlas sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Landkarte",
+      "intr": "Das Medium deiner Publikation sollte eine Landkarte sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Veranstaltungskalender",
+      "intr": "Das Medium deiner Publikation sollte ein Veranstaltungskalender sein. "
+    }
+  ],
 
-	"Zielgruppe":[
-		{"name":"Zielgruppe","title":"Alle über 65 Jahre","intr":"Die Zielgruppe deiner Publikation sollten Menschen über 65 Jahre sein. "},
-		{"name":"Zielgruppe","title":"Kindergartenkinder","intr":"Die Zielgruppe deiner Publikation sollten Kindergartenkinder sein. "},
-		{"name":"Zielgruppe","title":"Jugendliche","intr":"Die Zielgruppe deiner Publikation sollten Jugendliche sein. "},
-		{"name":"Zielgruppe","title":"Frauen","intr":"Die Zielgruppe deiner Publikation sollten Frauen sein. "},
-		{"name":"Zielgruppe","title":"Männer","intr":"Die Zielgruppe deiner Publikation sollten Männer sein. "},
-		{"name":"Zielgruppe","title":"Hausfrauen bis 50","intr":"Die Zielgruppe deiner Publikation sollten Hausfrauen bis 50 Jahre sein. "},
-		{"name":"Zielgruppe","title":"Vegetarier:inner","intr":"Die Zielgruppe deiner Publikation sollten Vegetarier:inner sein. "},
-		{"name":"Zielgruppe","title":"Veganer:inner","intr":"Die Zielgruppe deiner Publikation sollten Veganer:inner sein. "},
-		{"name":"Zielgruppe","title":"Frisch Verliebte","intr":"Die Zielgruppe deiner Publikation sollten frisch Verliebte sein. "},
-		{"name":"Zielgruppe","title":"Studierende","intr":"Die Zielgruppe deiner Publikation sollten Studierende sein. "},
-		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer:inner","intr":"Die Zielgruppe deiner Publikation sollten Hunde oder Hundebesitzer:inner sein. "},
-		{"name":"Zielgruppe","title":"Eltern mit Kleinkindern","intr":"Die Zielgruppe deiner Publikation sollten Eltern mit Kleinkindern sein. "},
-		{"name":"Zielgruppe","title":"Autofahrer:inner","intr":"Die Zielgruppe deiner Publikation sollten Autofahrer:inner sein. "},
-		{"name":"Zielgruppe","title":"Fahrradfahrer:inner","intr":"Die Zielgruppe deiner Publikation sollten Fahrradfahrer:inner sein. "},
-		{"name":"Zielgruppe","title":"Körperlich eingeschränkte Personen","intr":"Die Zielgruppe deiner Publikation sollten körperlich eingeschränkte Personen sein. "},
-		{"name":"Zielgruppe","title":"Geistig eingeschränkte Personen","intr":"Die Zielgruppe deiner Publikation sollten geistig eingeschränkte Personen sein. "},
-		{"name":"Zielgruppe","title":"Linkshänder:inner","intr":"Die Zielgruppe deiner Publikation sollten Linkshänder:inner sein. "},
-		{"name":"Zielgruppe","title":"Sehbehinderte","intr":"Die Zielgruppe deiner Publikation sollten Sehbehinderte sein. "},
-		{"name":"Zielgruppe","title":"Finanziell schwache","intr":"Die Zielgruppe deiner Publikation sollten finanziell schwache Menschen sein. "},
-		{"name":"Zielgruppe","title":"Eingewanderte","intr":"Die Zielgruppe deiner Publikation sollten Eingewanderte sein. "},
-		{"name":"Zielgruppe","title":"Wohlhabende","intr":"Die Zielgruppe deiner Publikation sollten wohlhabende Menschen sein. "}
-	],
+  "Zielgruppe": [
+    {
+      "name": "Zielgruppe",
+      "title": "Alle über 65 Jahre",
+      "intr": "Die Zielgruppe deiner Publikation sollten Menschen über 65 Jahre sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Kindergartenkinder",
+      "intr": "Die Zielgruppe deiner Publikation sollten Kindergartenkinder sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Jugendliche",
+      "intr": "Die Zielgruppe deiner Publikation sollten Jugendliche sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Frauen",
+      "intr": "Die Zielgruppe deiner Publikation sollten Frauen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Männer",
+      "intr": "Die Zielgruppe deiner Publikation sollten Männer sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Hausfrauen bis 50",
+      "intr": "Die Zielgruppe deiner Publikation sollten Hausfrauen bis 50 Jahre sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Vegetarier:innen",
+      "intr": "Die Zielgruppe deiner Publikation sollten Vegetarier:innen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Veganer:innen",
+      "intr": "Die Zielgruppe deiner Publikation sollten Veganer:innen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Frisch Verliebte",
+      "intr": "Die Zielgruppe deiner Publikation sollten frisch Verliebte sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Studierende",
+      "intr": "Die Zielgruppe deiner Publikation sollten Studierende sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Hunde oder Hundebesitzer:innen",
+      "intr": "Die Zielgruppe deiner Publikation sollten Hunde oder Hundebesitzer:innen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Eltern mit Kleinkindern",
+      "intr": "Die Zielgruppe deiner Publikation sollten Eltern mit Kleinkindern sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Autofahrer:innen",
+      "intr": "Die Zielgruppe deiner Publikation sollten Autofahrer:innen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Fahrradfahrer:innen",
+      "intr": "Die Zielgruppe deiner Publikation sollten Fahrradfahrer:innen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Körperlich eingeschränkte Personen",
+      "intr": "Die Zielgruppe deiner Publikation sollten körperlich eingeschränkte Personen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Geistig eingeschränkte Personen",
+      "intr": "Die Zielgruppe deiner Publikation sollten geistig eingeschränkte Personen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Linkshänder:innen",
+      "intr": "Die Zielgruppe deiner Publikation sollten Linkshänder:innen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Sehbehinderte",
+      "intr": "Die Zielgruppe deiner Publikation sollten Sehbehinderte sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Finanziell schwache",
+      "intr": "Die Zielgruppe deiner Publikation sollten finanziell schwache Menschen sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Eingewanderte",
+      "intr": "Die Zielgruppe deiner Publikation sollten Eingewanderte sein. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Wohlhabende",
+      "intr": "Die Zielgruppe deiner Publikation sollten wohlhabende Menschen sein. "
+    }
+  ],
 
-	"Auftraggeber:inner":[
-		{"name":"Auftraggeber:inner","title":"HBKsaar","intr":"Auftraggeber deiner Publikation sollte die HBKsaar sein. "},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Designer:in","intr":"Auftraggeber:inner deiner Publikation sollten ein:e berühmte:r Designer:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Künstler:in","intr":"Auftraggeber:inner deiner Publikation sollten ein:e berühmte:r Künstler:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Stadt Saarbrücken","intr":"Auftraggeberin deiner Publikation sollte die Stadt Saarbrücken sein. "},
-		{"name":"Auftraggeber:inner","title":"Deutsche Bahn","intr":"Auftraggeberin deiner Publikation sollte die Deutsche Bahn sein. "},
-		{"name":"Auftraggeber:inner","title":"Fahrradhersteller","intr":"Auftraggeber:inner deiner Publikation sollte ein Fahrradhersteller sein. "},
-		{"name":"Auftraggeber:inner","title":"Computerhersteller","intr":"Auftraggeber:inner deiner Publikation sollte ein Computerhersteller sein. "},
-		{"name":"Auftraggeber:inner","title":"Kaufhaus","intr":"Auftraggeber:inner deiner Publikation sollte ein Kaufhaus sein. "},
-		{"name":"Auftraggeber:inner","title":"Verlag","intr":"Auftraggeber:inner deiner Publikation sollte ein Verlag sein. "},
-		{"name":"Auftraggeber:inner","title":"Ein Krankenhaus","intr":"Auftraggeber:inner deiner Publikation sollte ein Krankenhaus sein. "},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Grafiker:in","intr":"Auftraggeber:inner deiner Publikation sollte ein:e berühmte:r Grafiker:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Waldorfschule","intr":"Auftraggeber:inner deiner Publikation sollte eine Waldorfschule sein. "},
-		{"name":"Auftraggeber:inner","title":"Gesundheitsamt","intr":"Auftraggeber:inner deiner Publikation sollte das Gesundheitsamt sein. "},
-		{"name":"Auftraggeber:inner","title":"CIAV Meisenthal","intr":"Auftraggeber:inner deiner Publikation sollte CIAV Meisenthal sein. "},
-		{"name":"Auftraggeber:inner","title":"Die Menschheit","intr":"Auftraggeber:inner deiner Publikation sollte die Menschheit sein. "},
-		{"name":"Auftraggeber:inner","title":"Deine Lieblings-NGO","intr":"Auftraggeber:inner deiner Publikation sollte deine Lieblings-NGO sein. "},
-		{"name":"Auftraggeber:inner","title":"Partei","intr":"Auftraggeber:inner deiner Publikation sollte eine Partei sein. "},
-		{"name":"Auftraggeber:inner","title":"Bundesregierung","intr":"Auftraggeber:inner deiner Publikation sollte die Bundesregierung sein. "},
-		{"name":"Auftraggeber:inner","title":"Das Saarland","intr":"Auftraggeber:inner deiner Publikation ist das Saarland."},
-		{"name":"Auftraggeber:inner","title":"Mäzen:in","intr":"Auftraggeber:inner deiner Publikation ist ein:e Mäzen:in"}
-	],
+  "Auftraggeber:innen": [
+    {
+      "name": "Auftraggeber:innen",
+      "title": "HBKsaar",
+      "intr": "Auftraggeber deiner Publikation sollte die HBKsaar sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Designer:in",
+      "intr": "Auftraggeber:innen deiner Publikation sollten ein:e berühmte:r Designer:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Künstler:in",
+      "intr": "Auftraggeber:innen deiner Publikation sollten ein:e berühmte:r Künstler:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Stadt Saarbrücken",
+      "intr": "Auftraggeberin deiner Publikation sollte die Stadt Saarbrücken sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Deutsche Bahn",
+      "intr": "Auftraggeberin deiner Publikation sollte die Deutsche Bahn sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Fahrradhersteller",
+      "intr": "Auftraggeber:innen deiner Publikation sollte ein Fahrradhersteller sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Computerhersteller",
+      "intr": "Auftraggeber:innen deiner Publikation sollte ein Computerhersteller sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Kaufhaus",
+      "intr": "Auftraggeber:innen deiner Publikation sollte ein Kaufhaus sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Verlag",
+      "intr": "Auftraggeber:innen deiner Publikation sollte ein Verlag sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Ein Krankenhaus",
+      "intr": "Auftraggeber:innen deiner Publikation sollte ein Krankenhaus sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Grafiker:in",
+      "intr": "Auftraggeber:innen deiner Publikation sollte ein:e berühmte:r Grafiker:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Waldorfschule",
+      "intr": "Auftraggeber:innen deiner Publikation sollte eine Waldorfschule sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Gesundheitsamt",
+      "intr": "Auftraggeber:innen deiner Publikation sollte das Gesundheitsamt sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "CIAV Meisenthal",
+      "intr": "Auftraggeber:innen deiner Publikation sollte CIAV Meisenthal sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Die Menschheit",
+      "intr": "Auftraggeber:innen deiner Publikation sollte die Menschheit sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Deine Lieblings-NGO",
+      "intr": "Auftraggeber:innen deiner Publikation sollte deine Lieblings-NGO sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Partei",
+      "intr": "Auftraggeber:innen deiner Publikation sollte eine Partei sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Bundesregierung",
+      "intr": "Auftraggeber:innen deiner Publikation sollte die Bundesregierung sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Das Saarland",
+      "intr": "Auftraggeber:innen deiner Publikation ist das Saarland."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Mäzen:in",
+      "intr": "Auftraggeber:innen deiner Publikation ist ein:e Mäzen:in"
+    }
+  ],
 
-	"Look & Feel":[
-		{"name":"Look & Feel","title":"1920er","intr":"Deine Publikation sollte in Stil der 1920er Jahre sein. "},
-		{"name":"Look & Feel","title":"1960er","intr":"Deine Publikation sollte im Stil der 1960er Jahre sein. "},
-		{"name":"Look & Feel","title":"3D","intr":"Deine Publikation sollte 3D sein.  "},
-		{"name":"Look & Feel","title":"Bunt","intr":"Deine Publikation sollte bunt sein. "},
-		{"name":"Look & Feel","title":"Chic","intr":"Deine Publikation sollte chic sein. "},
-		{"name":"Look & Feel","title":"Clean","intr":"Deine Publikation sollte clean wirken. "},
-		{"name":"Look & Feel","title":"Dunkel","intr":"Deine Publikation sollte dunkel sein. "},
-		{"name":"Look & Feel","title":"Edel","intr":"Deine Publikation sollte edel sein. "},
-		{"name":"Look & Feel","title":"Einfach","intr":"Deine Publikation sollte einfach sein. "},
-		{"name":"Look & Feel","title":"Eklektisch","intr":"Deine Publikation sollte eklektisch, das heißt in ganz vielen verschiedenen Stilrichtungen sein. "},
-		{"name":"Look & Feel","title":"Elitär","intr":"Deine Publikation sollte elitär sein. "},
-		{"name":"Look & Feel","title":"Flat Design","intr":"Deine Publikation sollte flat designed sein. "},
-		{"name":"Look & Feel","title":"Flowerpower","intr":"Deine Publikation sollte im Stil der Flowerpower und Peace-Bewegung sein. "},
-		{"name":"Look & Feel","title":"Frisch","intr":"Deine Publikation sollte frisch sein. "},
-		{"name":"Look & Feel","title":"Fröhlich","intr":"Deine Publikation sollte fröhlich sein. "},
-		{"name":"Look & Feel","title":"Skeuomorphistisch","intr":"Deine Publikation sollte skeuomorphistisch sein, d.h. reale Gegenstände nachempfinden."},
-		{"name":"Look & Feel","title":"Futuristisch","intr":"Deine Publikation sollte futuristisch sein. "},
-		{"name":"Look & Feel","title":"Geordnet","intr":"Deine Publikation sollte geordnet sein. "},
-		{"name":"Look & Feel","title":"Günstig","intr":"Deine Publikation sollte günstig sein. "},
-		{"name":"Look & Feel","title":"Gut lesbar","intr":"Deine Publikation sollte gut lesbar sein. "},
-		{"name":"Look & Feel","title":"Komplex","intr":"Deine Publikation sollte komplex sein. "},
-		{"name":"Look & Feel","title":"Kontrastreich","intr":"Deine Publikation sollte kontrastreich sein. "},
-		{"name":"Look & Feel","title":"Künstlerisch-illustrativ","intr":"Deine Publikation sollte künstlerisch-illustrativ sein. "},
-		{"name":"Look & Feel","title":"Laut","intr":"Deine Publikation sollte laut sein. "},
-		{"name":"Look & Feel","title":"Kollagenartig","intr":"Deine Publikation sollte kollagenartig aufgebaut sein"},
-		{"name":"Look & Feel","title":"Luxus","intr":"Deine Publikation sollte luxuriös sein. "},
-		{"name":"Look & Feel","title":"Minimalistisch","intr":"Deine Publikation sollte minimalistisch sein. "},
-		{"name":"Look & Feel","title":"Modisch","intr":"Deine Publikation sollte modisch sein. "},
-		{"name":"Look & Feel","title":"Monoton","intr":"Deine Publikation sollte monoton wirken."},
-		{"name":"Look & Feel","title":"Natürlich","intr":"Deine Publikation sollte natürlich wirken. "},
-		{"name":"Look & Feel","title":"Retro","intr":"Deine Publikation sollte retro sein. "},
-		{"name":"Look & Feel","title":"Romantisch","intr":"Deine Publikation sollte romantisch sein. "},
-		{"name":"Look & Feel","title":"Ruhig","intr":"Deine Publikation sollte ruhig sein. "},
-		{"name":"Look & Feel","title":"Schwarz-weiß","intr":"Deine Publikation sollte schwarz-weiß sein. "},
-		{"name":"Look & Feel","title":"Spaß","intr":"Deine Publikation sollte Spaß verkörpern. "},
-		{"name":"Look & Feel","title":"State-of-the-art","intr":"Deine Publikation sollte state-of-the-art sein. "},
-		{"name":"Look & Feel","title":"Üppig","intr":"Deine Publikation sollte üppig sein. "},
-		{"name":"Look & Feel","title":"Verspielt","intr":"Deine Publikation sollte verspielt sein. "},
-		{"name":"Look & Feel","title":"Verträumt","intr":"Deine Publikation sollte verträumt sein. "},
-		{"name":"Look & Feel","title":"Vintage","intr":"Deine Publikation sollte vintage sein. "},
-		{"name":"Look & Feel","title":"Warmherzig","intr":"Deine Publikation sollte warmherzig sein. "},
-		{"name":"Look & Feel","title":"Zeitgenössisch","intr":"Deine Publikation sollte zeitgenössisch sein. "},
-		{"name":"Look & Feel","title":"Zeitlos","intr":"Deine Publikation sollte zeitlos sein. "},
-		{"name":"Look & Feel","title":"Zugänglich","intr":"Deine Publikation sollte zugänglich wirken."},
-		{"name":"Look & Feel","title":"Handgemacht","intr":"Deine Publikation sollte handgemacht wirken."}
-	],
+  "Look & Feel": [
+    {
+      "name": "Look & Feel",
+      "title": "1920er",
+      "intr": "Deine Publikation sollte in Stil der 1920er Jahre sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "1960er",
+      "intr": "Deine Publikation sollte im Stil der 1960er Jahre sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "3D",
+      "intr": "Deine Publikation sollte 3D sein.  "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Bunt",
+      "intr": "Deine Publikation sollte bunt sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Chic",
+      "intr": "Deine Publikation sollte chic sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Clean",
+      "intr": "Deine Publikation sollte clean wirken. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Dunkel",
+      "intr": "Deine Publikation sollte dunkel sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Edel",
+      "intr": "Deine Publikation sollte edel sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Einfach",
+      "intr": "Deine Publikation sollte einfach sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Eklektisch",
+      "intr": "Deine Publikation sollte eklektisch, das heißt in ganz vielen verschiedenen Stilrichtungen sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Elitär",
+      "intr": "Deine Publikation sollte elitär sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Flat Design",
+      "intr": "Deine Publikation sollte flat designed sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Flowerpower",
+      "intr": "Deine Publikation sollte im Stil der Flowerpower und Peace-Bewegung sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Frisch",
+      "intr": "Deine Publikation sollte frisch sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Fröhlich",
+      "intr": "Deine Publikation sollte fröhlich sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Skeuomorphistisch",
+      "intr": "Deine Publikation sollte skeuomorphistisch sein, d.h. reale Gegenstände nachempfinden."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Futuristisch",
+      "intr": "Deine Publikation sollte futuristisch sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Geordnet",
+      "intr": "Deine Publikation sollte geordnet sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Günstig",
+      "intr": "Deine Publikation sollte günstig sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Gut lesbar",
+      "intr": "Deine Publikation sollte gut lesbar sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Komplex",
+      "intr": "Deine Publikation sollte komplex sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Kontrastreich",
+      "intr": "Deine Publikation sollte kontrastreich sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Künstlerisch-illustrativ",
+      "intr": "Deine Publikation sollte künstlerisch-illustrativ sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Laut",
+      "intr": "Deine Publikation sollte laut sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Kollagenartig",
+      "intr": "Deine Publikation sollte kollagenartig aufgebaut sein"
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Luxus",
+      "intr": "Deine Publikation sollte luxuriös sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Minimalistisch",
+      "intr": "Deine Publikation sollte minimalistisch sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Modisch",
+      "intr": "Deine Publikation sollte modisch sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Monoton",
+      "intr": "Deine Publikation sollte monoton wirken."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Natürlich",
+      "intr": "Deine Publikation sollte natürlich wirken. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Retro",
+      "intr": "Deine Publikation sollte retro sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Romantisch",
+      "intr": "Deine Publikation sollte romantisch sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Ruhig",
+      "intr": "Deine Publikation sollte ruhig sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Schwarz-weiß",
+      "intr": "Deine Publikation sollte schwarz-weiß sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Spaß",
+      "intr": "Deine Publikation sollte Spaß verkörpern. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "State-of-the-art",
+      "intr": "Deine Publikation sollte state-of-the-art sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Üppig",
+      "intr": "Deine Publikation sollte üppig sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Verspielt",
+      "intr": "Deine Publikation sollte verspielt sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Verträumt",
+      "intr": "Deine Publikation sollte verträumt sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Vintage",
+      "intr": "Deine Publikation sollte vintage sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Warmherzig",
+      "intr": "Deine Publikation sollte warmherzig sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zeitgenössisch",
+      "intr": "Deine Publikation sollte zeitgenössisch sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zeitlos",
+      "intr": "Deine Publikation sollte zeitlos sein. "
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zugänglich",
+      "intr": "Deine Publikation sollte zugänglich wirken."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Handgemacht",
+      "intr": "Deine Publikation sollte handgemacht wirken."
+    }
+  ],
 
-	"Farbe":[
-		{"name":"Farbe","title":"Warme Farben","intr":"Deine Publikation sollte warme Farben verwenden. "},
-		{"name":"Farbe","title":"Kalte Farben","intr":"Deine Publikation sollte kalte Farben verwenden. "},
-		{"name":"Farbe","title":"Sehr hell","intr":"Deine Publikation sollte sehr hell sein. "},
-		{"name":"Farbe","title":"Sehr dunkel","intr":"Deine Publikation sollte sehr dunkel sein.  "},
-		{"name":"Farbe","title":"Rot","intr":"Deine Publikation sollte hauptsächlich rot sein. "},
-		{"name":"Farbe","title":"Hellgrün","intr":"Deine Publikation sollte hauptsächlich hellgrün sein. "},
-		{"name":"Farbe","title":"Dunkelgrau","intr":"Deine Publikation sollte hauptsächlich dunkelgrau sein. "},
-		{"name":"Farbe","title":"Gelb","intr":"Deine Publikation sollte hauptsächlich gelb sein. "},
-		{"name":"Farbe","title":"Blau und orange","intr":"Deine Publikation sollte hauptsächlich blau und orange sein. "},
-		{"name":"Farbe","title":"Neonfarben","intr":"Deine Publikation sollte Neonfarben verwenden. "},
-		{"name":"Farbe","title":"Leuchtend","intr":"Deine Publikation sollte sehr leuchtend sein. "},
-		{"name":"Farbe","title":"Einfarbig","intr":"Deine Publikation sollte nur eine Farbe verwenden. "},
-		{"name":"Farbe","title":"Dreifarbig","intr":"Deine Publikation sollte drei Farben verwenden. "},
-		{"name":"Farbe","title":"Komplementärkontrast","intr":"Deine Publikation sollte Farben im Komplementärkontrast verwenden. "},
-		{"name":"Farbe","title":"Graustufen","intr":"Deine Publikation sollte in Graustufen gehalten sein. "},
-		{"name":"Farbe","title":"Farbverlauf","intr":"Deine Publikation sollte (mindestens) einen Farbverlauf enthalten."}
-	],
+  "Farbe": [
+    {
+      "name": "Farbe",
+      "title": "Warme Farben",
+      "intr": "Deine Publikation sollte warme Farben verwenden. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Kalte Farben",
+      "intr": "Deine Publikation sollte kalte Farben verwenden. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Sehr hell",
+      "intr": "Deine Publikation sollte sehr hell sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Sehr dunkel",
+      "intr": "Deine Publikation sollte sehr dunkel sein.  "
+    },
+    {
+      "name": "Farbe",
+      "title": "Rot",
+      "intr": "Deine Publikation sollte hauptsächlich rot sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Hellgrün",
+      "intr": "Deine Publikation sollte hauptsächlich hellgrün sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Dunkelgrau",
+      "intr": "Deine Publikation sollte hauptsächlich dunkelgrau sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Gelb",
+      "intr": "Deine Publikation sollte hauptsächlich gelb sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Blau und orange",
+      "intr": "Deine Publikation sollte hauptsächlich blau und orange sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Neonfarben",
+      "intr": "Deine Publikation sollte Neonfarben verwenden. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Leuchtend",
+      "intr": "Deine Publikation sollte sehr leuchtend sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Einfarbig",
+      "intr": "Deine Publikation sollte nur eine Farbe verwenden. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Dreifarbig",
+      "intr": "Deine Publikation sollte drei Farben verwenden. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Komplementärkontrast",
+      "intr": "Deine Publikation sollte Farben im Komplementärkontrast verwenden. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Graustufen",
+      "intr": "Deine Publikation sollte in Graustufen gehalten sein. "
+    },
+    {
+      "name": "Farbe",
+      "title": "Farbverlauf",
+      "intr": "Deine Publikation sollte (mindestens) einen Farbverlauf enthalten."
+    }
+  ],
 
-	"Anordnung":[
-		{"name":"Anordnung","title":"Frei","intr":"Die Anordnung deiner Publikation sollte frei sein. "},
-		{"name":"Anordnung","title":"Organisch","intr":"Die Anordnung deiner Publikation sollte organisch sein. "},
-		{"name":"Anordnung","title":"Geordnet","intr":"Die Anordnung deiner Publikation sollte geordnet sein. "},
-		{"name":"Anordnung","title":"Raster","intr":"Die Anordnung deiner Publikation sollte sich an einem Raster orientieren. "},
-		{"name":"Anordnung","title":"Horizontale Spiegelachse","intr":"Die Anordnung deiner Publikation sollte sich an einer horizontalen Speigelachse orientieren. "},
-		{"name":"Anordnung","title":"Mittelachse","intr":"Die Anordnung deiner Publikation sollte mittelachsial aufgebaut sein. "},
-		{"name":"Anordnung","title":"Blocksatz","intr":"Deine Publikation sollte überall Blocksatz verwenden."},
-		{"name":"Anordnung","title":"Asymmetrie","intr":"Deine Publikation sollte asymmetrisch aufgebaut sein."},
-		{"name":"Anordnung","title":"Symmetrie","intr":"Deine Publikation sollte symmetrisch aufgebaut sein."},
-		{"name":"Anordnung","title":"Kleinteilig","intr":"Die Anordnung deiner Publikation sollte kleinteilig sein. "},
-		{"name":"Anordnung","title":"Geometrisch","intr":"Die Anordnung deiner Publikation sollte geometrisch geordnet wirken."},
-		{"name":"Anordnung","title":"Nach Größe","intr":"Die Anordnung deiner Publikation sollte nach Größe der Elemente erfolgen."},
-		{"name":"Anordnung","title":"Dynamisch","intr":"Die Anordnung deiner Publikation sollte dynamisch sein. "}
-	],
+  "Anordnung": [
+    {
+      "name": "Anordnung",
+      "title": "Frei",
+      "intr": "Die Anordnung deiner Publikation sollte frei sein. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Organisch",
+      "intr": "Die Anordnung deiner Publikation sollte organisch sein. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Geordnet",
+      "intr": "Die Anordnung deiner Publikation sollte geordnet sein. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Raster",
+      "intr": "Die Anordnung deiner Publikation sollte sich an einem Raster orientieren. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Horizontale Spiegelachse",
+      "intr": "Die Anordnung deiner Publikation sollte sich an einer horizontalen Speigelachse orientieren. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Mittelachse",
+      "intr": "Die Anordnung deiner Publikation sollte mittelachsial aufgebaut sein. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Blocksatz",
+      "intr": "Deine Publikation sollte überall Blocksatz verwenden."
+    },
+    {
+      "name": "Anordnung",
+      "title": "Asymmetrie",
+      "intr": "Deine Publikation sollte asymmetrisch aufgebaut sein."
+    },
+    {
+      "name": "Anordnung",
+      "title": "Symmetrie",
+      "intr": "Deine Publikation sollte symmetrisch aufgebaut sein."
+    },
+    {
+      "name": "Anordnung",
+      "title": "Kleinteilig",
+      "intr": "Die Anordnung deiner Publikation sollte kleinteilig sein. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Geometrisch",
+      "intr": "Die Anordnung deiner Publikation sollte geometrisch geordnet wirken."
+    },
+    {
+      "name": "Anordnung",
+      "title": "Nach Größe",
+      "intr": "Die Anordnung deiner Publikation sollte nach Größe der Elemente erfolgen."
+    },
+    {
+      "name": "Anordnung",
+      "title": "Dynamisch",
+      "intr": "Die Anordnung deiner Publikation sollte dynamisch sein. "
+    }
+  ],
 
-	"Format":[
-		{"name":"Format","title":"Quadratisch","intr":"Das Format deiner Publikation sollte quadratisch sein. "},
-		{"name":"Format","title":"Klein","intr":"Das Format deiner Publikation sollte klein sein. "},
-		{"name":"Format","title":"5 × 5 cm","intr":"Das Format deiner Publikation sollte 5 × 5 cm sein. "},
-		{"name":"Format","title":"DIN A3","intr":"Das Format deiner Publikation sollte DIN A3 sein. "},
-		{"name":"Format","title":"DIN A6","intr":"Das Format deiner Publikation sollte DIN A6 sein. "},
-		{"name":"Format","title":"Din A5","intr":"Das Format deiner Publikation sollte DIN A5 sein. "},
-		{"name":"Format","title":"18 × 24 cm","intr":"Das Format deiner Publikation sollte 18 × 24 cm sein. "},
-		{"name":"Format","title":"Langspielplatte","intr":"Das Format deiner Publikation sollte einer Langspielplatte entsprechen. "},
-		{"name":"Format","title":"Briefmarkengröße","intr":"Deine Publikation sollte Briefmarkenformat haben. "},
-		{"name":"Format","title":"600 × 800 px","intr":"Das Format deiner Publikation sollte 600 × 800 px sein. "},
-		{"name":"Format","title":"1 m hoch","intr":"Das Format deiner Publikation sollte 1 m hoch sein. "},
-		{"name":"Format","title":"10 x 10 cm","intr":"Das Format deiner Publikation sollte 10 × 10 cm sein. "},
-		{"name":"Format","title":"Groß","intr":"Das Format deiner Publikation sollte groß sein. "},
-		{"name":"Format","title":"Mittelgroß","intr":"Das Format deiner Publikation sollte mittelgroß sein. "},
-		{"name":"Format","title":"Handlich","intr":"Das Format deiner Publikation sollte so handlich sein, dass man es in einer Hand haltend lesen kann."},
-		{"name":"Format","title":"Packset M","intr":"Das Format deiner Publikation sollte sich am Paketmaß Packset M orientieren. "},
-		{"name":"Format","title":"20 × 20 × 20","intr":"Das Format deiner Publikation sollte 20 × 20 × 20 sein. "},
-		{"name":"Format","title":"Reklam-Heftchen","intr":"Das Format deiner Publikation sollte sich am Format der Reklam-Heftchen orientieren. "},
-		{"name":"Format","title":"Kubikmeter","intr":"Das Format deiner Publikation sollte ein Kubikmeter sein. "},
-		{"name":"Format","title":"Was dein Material hergibt","intr":"Das Format deiner Publikation sollte so groß sein, wie es dein Material eben hergibt. "},
-		{"name":"Format","title":"Dreieckig","intr":"Das Format deiner Publikation sollte dreieckig sein. "},
-		{"name":"Format","title":"Oktaedrisch","intr":"Das Format deiner Publikation sollte oktaedrisch sein. "},
-		{"name":"Format","title":"Kreditkarten-Format","intr":"Das Format deiner Publikation sollte dem Kreditkarten-Format entsprechen. "},
-		{"name":"Format","title":"4 qm","intr":"Das Format deiner Publikation sollte 4 qm sein. "},
-		{"name":"Format","title":"Hosentasche","intr":"Das Format deiner Publikation sollte in eine Hosentasche passen. "},
-		{"name":"Format","title":"DIN-lang","intr":"Das Format deiner Publikation sollte DIN-lang entsprechen. "},
-		{"name":"Format","title":"3:4","intr":"Das Format deiner Publikation sollte 3:4 entsprechen. "},
-		{"name":"Format","title":"5:8","intr":"Das Format deiner Publikation sollte 5:8 entsprechen. "},
-		{"name":"Format","title":"Goldener Schnitt","intr":"Die kleinere Seite soll ungefähr dasselbe Verhältnis zur größeren haben als die größere zur Gesamtlänge."},
-		{"name":"Format","title":"16:9","intr":"Das Format deiner Publikation sollte 16:9 entsprechen. "}
-	],
+  "Format": [
+    {
+      "name": "Format",
+      "title": "Quadratisch",
+      "intr": "Das Format deiner Publikation sollte quadratisch sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Klein",
+      "intr": "Das Format deiner Publikation sollte klein sein. "
+    },
+    {
+      "name": "Format",
+      "title": "5 × 5 cm",
+      "intr": "Das Format deiner Publikation sollte 5 × 5 cm sein. "
+    },
+    {
+      "name": "Format",
+      "title": "DIN A3",
+      "intr": "Das Format deiner Publikation sollte DIN A3 sein. "
+    },
+    {
+      "name": "Format",
+      "title": "DIN A6",
+      "intr": "Das Format deiner Publikation sollte DIN A6 sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Din A5",
+      "intr": "Das Format deiner Publikation sollte DIN A5 sein. "
+    },
+    {
+      "name": "Format",
+      "title": "18 × 24 cm",
+      "intr": "Das Format deiner Publikation sollte 18 × 24 cm sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Langspielplatte",
+      "intr": "Das Format deiner Publikation sollte einer Langspielplatte entsprechen. "
+    },
+    {
+      "name": "Format",
+      "title": "Briefmarkengröße",
+      "intr": "Deine Publikation sollte Briefmarkenformat haben. "
+    },
+    {
+      "name": "Format",
+      "title": "600 × 800 px",
+      "intr": "Das Format deiner Publikation sollte 600 × 800 px sein. "
+    },
+    {
+      "name": "Format",
+      "title": "1 m hoch",
+      "intr": "Das Format deiner Publikation sollte 1 m hoch sein. "
+    },
+    {
+      "name": "Format",
+      "title": "10 x 10 cm",
+      "intr": "Das Format deiner Publikation sollte 10 × 10 cm sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Groß",
+      "intr": "Das Format deiner Publikation sollte groß sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Mittelgroß",
+      "intr": "Das Format deiner Publikation sollte mittelgroß sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Handlich",
+      "intr": "Das Format deiner Publikation sollte so handlich sein, dass man es in einer Hand haltend lesen kann."
+    },
+    {
+      "name": "Format",
+      "title": "Packset M",
+      "intr": "Das Format deiner Publikation sollte sich am Paketmaß Packset M orientieren. "
+    },
+    {
+      "name": "Format",
+      "title": "20 × 20 × 20",
+      "intr": "Das Format deiner Publikation sollte 20 × 20 × 20 sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Reklam-Heftchen",
+      "intr": "Das Format deiner Publikation sollte sich am Format der Reklam-Heftchen orientieren. "
+    },
+    {
+      "name": "Format",
+      "title": "Kubikmeter",
+      "intr": "Das Format deiner Publikation sollte ein Kubikmeter sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Was dein Material hergibt",
+      "intr": "Das Format deiner Publikation sollte so groß sein, wie es dein Material eben hergibt. "
+    },
+    {
+      "name": "Format",
+      "title": "Dreieckig",
+      "intr": "Das Format deiner Publikation sollte dreieckig sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Oktaedrisch",
+      "intr": "Das Format deiner Publikation sollte oktaedrisch sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Kreditkarten-Format",
+      "intr": "Das Format deiner Publikation sollte dem Kreditkarten-Format entsprechen. "
+    },
+    {
+      "name": "Format",
+      "title": "4 qm",
+      "intr": "Das Format deiner Publikation sollte 4 qm sein. "
+    },
+    {
+      "name": "Format",
+      "title": "Hosentasche",
+      "intr": "Das Format deiner Publikation sollte in eine Hosentasche passen. "
+    },
+    {
+      "name": "Format",
+      "title": "DIN-lang",
+      "intr": "Das Format deiner Publikation sollte DIN-lang entsprechen. "
+    },
+    {
+      "name": "Format",
+      "title": "3:4",
+      "intr": "Das Format deiner Publikation sollte 3:4 entsprechen. "
+    },
+    {
+      "name": "Format",
+      "title": "5:8",
+      "intr": "Das Format deiner Publikation sollte 5:8 entsprechen. "
+    },
+    {
+      "name": "Format",
+      "title": "Goldener Schnitt",
+      "intr": "Die kleinere Seite soll ungefähr dasselbe Verhältnis zur größeren haben als die größere zur Gesamtlänge."
+    },
+    {
+      "name": "Format",
+      "title": "16:9",
+      "intr": "Das Format deiner Publikation sollte 16:9 entsprechen. "
+    }
+  ],
 
-	"Einschränkungen":[
-		{"name":"Einschränkungen","title":"Nur ein Schriftschnitt","intr":"Deine Publikation ist nur mit einem Schriftschnitt gestaltet."},
-		{"name":"Einschränkungen","title":"Nur eine Schriftgröße","intr":"Deine Publikation verwendet nur eine Schriftgröße für alles."},
-		{"name":"Einschränkungen","title":"Fünf Schriftfamilien","intr":"Deine Publikation verwendet fünf verschiedene Schriftfamilien."},
-		{"name":"Einschränkungen","title":"Zehn Schriftfamilien","intr":"Deine Publikation verwendet zehn verschiedene Schriftfamilien."},
-		{"name":"Einschränkungen","title":"Ohne Text","intr":"Deine Publikation enthält kein Text sondern ausschließlich Bilder, Zeichnungen und Piktogramme."},
-		{"name":"Einschränkungen","title":"Ohne Bilder","intr":"Deine Publikation enthält keine Bilder, Zeichnungen oder Piktogramme sondern ausschließlich Text"},
-		{"name":"Einschränkungen","title":"Drei Schriftschnitte","intr":"Deine Publikation verwendet drei verschiedene Schriftschnitte."},
-		{"name":"Einschränkungen","title":"Versalsatz","intr":"Deine Publikation ist ausschließlich in Großbuchstaben gesetzt."},
-		{"name":"Einschränkungen","title":"Nur Kleinbuchstaben","intr":"Deine Publikation verwendet ausschließlich Kleinbuchstaben."},
-		{"name":"Einschränkungen","title":"Keine Sätze","intr":"Deine Publikation verwendet nur Stichwörter, Listen o.ä. und keine ganzen Sätze."},
-		{"name":"Einschränkungen","title":"Drei Sprachen","intr":"Deine Publikation ist in drei Sprachen gleichzeitig gesetzt."},
-		{"name":"Einschränkungen","title":"Deutsch und Russisch","intr":"Deine Publikation ist in Deutsch und russischer Sprache gesetzt."},
-		{"name":"Einschränkungen","title":"Deutsch und Chinesisch","intr":"Deine Publikation ist in Deutsch und chinesischer Sprache gesetzt."},
-		{"name":"Einschränkungen","title":"Nur Bold-Text","intr":"Deine Publikation verwendet ausschließlich fette Schriftschnitte"},
-		{"name":"Einschränkungen","title":"Kapitälchen","intr":"Deine Publikation verwendet ausschließlich echte Kapitälchen für alle Texte."},
-		{"name":"Einschränkungen","title":"Kursiv gesetzt","intr":"Deine Publikation verwendet ausschließlich echte Kursive Schriftschnitte für alle Texte."},
-		{"name":"Einschränkungen","title":"Einfache Sprache","intr":"Deine Publikation ist in einfacher Sprache geschrieben."},
-		{"name":"Einschränkungen","title":"Zwei Schriftgrößen","intr":"Deine Publikation verwendet nur zwei Schriftgrößen für alles."},
-		{"name":"Einschränkungen","title":"Schreibschriften","intr":"Deine Publikation sollte nur Schreibschriften verwenden."},
-		{"name":"Einschränkungen","title":"Serifenschriften","intr":"Deine Publikation sollte nur Serifenschriften verwenden."},
-		{"name":"Einschränkungen","title":"Serifenlose Schriften","intr":"Deine Publikation sollte nur serifenlose Schriften verwenden."},
-		{"name":"Einschränkungen","title":"Slab-Serifs","intr":"Deine Publikation sollte nur Slab-Serif Fonts verwenden."},
-		{"name":"Einschränkungen","title":"Stencil-Fonts","intr":"Deine Publikation sollte nur Stencil-Fonts verwenden."}
-	],
+  "Einschränkungen": [
+    {
+      "name": "Einschränkungen",
+      "title": "Nur ein Schriftschnitt",
+      "intr": "Deine Publikation ist nur mit einem Schriftschnitt gestaltet."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Nur eine Schriftgröße",
+      "intr": "Deine Publikation verwendet nur eine Schriftgröße für alles."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Fünf Schriftfamilien",
+      "intr": "Deine Publikation verwendet fünf verschiedene Schriftfamilien."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Zehn Schriftfamilien",
+      "intr": "Deine Publikation verwendet zehn verschiedene Schriftfamilien."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Ohne Text",
+      "intr": "Deine Publikation enthält kein Text sondern ausschließlich Bilder, Zeichnungen und Piktogramme."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Ohne Bilder",
+      "intr": "Deine Publikation enthält keine Bilder, Zeichnungen oder Piktogramme sondern ausschließlich Text"
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Drei Schriftschnitte",
+      "intr": "Deine Publikation verwendet drei verschiedene Schriftschnitte."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Versalsatz",
+      "intr": "Deine Publikation ist ausschließlich in Großbuchstaben gesetzt."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Nur Kleinbuchstaben",
+      "intr": "Deine Publikation verwendet ausschließlich Kleinbuchstaben."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Keine Sätze",
+      "intr": "Deine Publikation verwendet nur Stichwörter, Listen o.ä. und keine ganzen Sätze."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Drei Sprachen",
+      "intr": "Deine Publikation ist in drei Sprachen gleichzeitig gesetzt."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Deutsch und Russisch",
+      "intr": "Deine Publikation ist in Deutsch und russischer Sprache gesetzt."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Deutsch und Chinesisch",
+      "intr": "Deine Publikation ist in Deutsch und chinesischer Sprache gesetzt."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Nur Bold-Text",
+      "intr": "Deine Publikation verwendet ausschließlich fette Schriftschnitte"
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Kapitälchen",
+      "intr": "Deine Publikation verwendet ausschließlich echte Kapitälchen für alle Texte."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Kursiv gesetzt",
+      "intr": "Deine Publikation verwendet ausschließlich echte Kursive Schriftschnitte für alle Texte."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Einfache Sprache",
+      "intr": "Deine Publikation ist in einfacher Sprache geschrieben."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Zwei Schriftgrößen",
+      "intr": "Deine Publikation verwendet nur zwei Schriftgrößen für alles."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Schreibschriften",
+      "intr": "Deine Publikation sollte nur Schreibschriften verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Serifenschriften",
+      "intr": "Deine Publikation sollte nur Serifenschriften verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Serifenlose Schriften",
+      "intr": "Deine Publikation sollte nur serifenlose Schriften verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Slab-Serifs",
+      "intr": "Deine Publikation sollte nur Slab-Serif Fonts verwenden."
+    },
+    {
+      "name": "Einschränkungen",
+      "title": "Stencil-Fonts",
+      "intr": "Deine Publikation sollte nur Stencil-Fonts verwenden."
+    }
+  ],
 
 	"Barrierefreiheit":[
 		{"name":"Barrierefreiheit","title":"Leseschwache","intr":"Deine Publikation sollte für Leseschwache geeignet sein. "},
 		{"name":"Barrierefreiheit","title":"Sehschwache","intr":"Deine Publikation sollte für Sehschwache geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Raucher:inner","intr":"Deine Publikation sollte für Raucher:inner geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Analphabet:inner","intr":"Deine Publikation sollte für Analphabet:inner geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Nichtschwimmer:inner","intr":"Deine Publikation sollte für Nichtschwimmer:inner geeignet sein. "},
+		{"name":"Barrierefreiheit","title":"Raucher:innen","intr":"Deine Publikation sollte für Raucher:innen geeignet sein. "},
+		{"name":"Barrierefreiheit","title":"Analphabet:innen","intr":"Deine Publikation sollte für Analphabet:innen geeignet sein. "},
+		{"name":"Barrierefreiheit","title":"Nichtschwimmer:innen","intr":"Deine Publikation sollte für Nichtschwimmer:innen geeignet sein. "},
 		{"name":"Barrierefreiheit","title":"Vorerkrankte","intr":"Deine Publikation sollte für Vorerkrankte geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Brillenträger:inner","intr":"Deine Publikation sollte für Brillenträger:inner ausgelegt sein. "},
+		{"name":"Barrierefreiheit","title":"Brillenträger:innen","intr":"Deine Publikation sollte für Brillenträger:innen ausgelegt sein. "},
 		{"name":"Barrierefreiheit","title":"Hörgeschädigte","intr":"Deine Publikation sollte für Hörgeschädigte ausgelegt sein. "},
 		{"name":"Barrierefreiheit","title":"Kleine Menschen","intr":"Deine Publikation sollte für kleine Menschen ausgelegt sein. "},
 		{"name":"Barrierefreiheit","title":"Große Menschen","intr":"Deine Publikation sollte für große Menschen ausgelegt sein. "},
@@ -282,25 +1070,101 @@
 		{"name":"Barrierefreiheit","title":"Mobilitätseingeschränkte","intr":"Deine Publikation sollte für Mobilitätseingeschränkte ausgelegt sein. "}
 	],
 
-	"Technik":[
-		{"name":"Technik","title":"Aquarell","intr":"Deine Publikation sollte (unter anderem) in Aquarelltechnik ausgeführt sein. "},
-		{"name":"Technik","title":"Pastellkreide","intr":"Deine Publikation sollte (unter anderem) mit Pastellkreide ausgeführt sein. "},
-		{"name":"Technik","title":"Bleistift","intr":"Deine Publikation sollte (unter anderem) mit Bleistift ausgeführt sein. "},
-		{"name":"Technik","title":"Buntstift","intr":"Deine Publikation sollte (unter anderem) mit Bunstift ausgeführt sein. "},
-		{"name":"Technik","title":"Marker","intr":"Deine Publikation sollte (unter anderem) mit Markern ausgeführt sein. "},
-		{"name":"Technik","title":"Vektorzeichnung","intr":"Deine Publikation sollte (unter anderem) Vektorzeichnungen verwenden.  "},
-		{"name":"Technik","title":"Pinsel","intr":"Deine Publikation sollte (unter anderem) mit dem Pinsel ausgeführt sein. "},
-		{"name":"Technik","title":"Papierschnitt","intr":"Deine Publikation sollte (unter anderem) im Papierschnitt ausgeführt sein. "},
-		{"name":"Technik","title":"Kollage","intr":"Deine Publikation sollte (unter anderem) als Kollage ausgeführt sein. "},
-		{"name":"Technik","title":"Holzschnitt","intr":"Deine Publikation sollte (unter anderem) im Holzschnitt ausgeführt sein. "},
-		{"name":"Technik","title":"Linolschnitt","intr":"Deine Publikation sollte (unter anderem) im Linolschnitt ausgeführt sein. "},
-		{"name":"Technik","title":"Hochdruck","intr":"Deine Publikation sollte (unter anderem) in der Hochdruck Technik hergestellt sein. "},
-		{"name":"Technik","title":"Risodruck","intr":"Deine Publikation sollte (unter anderem) in der Risodruck Technik hergestellt sein. "},
-		{"name":"Technik","title":"Kopierer","intr":"Deine Publikation sollte (unter anderem) mit dem Kopierer hergestellt sein. "},
-		{"name":"Technik","title":"Ascii-Art","intr":"Deine Publikation sollte (unter anderem) im Stil von Ascii-Art ausgeführt sein. "},
-		{"name":"Technik","title":"Tusche","intr":"Deine Publikation sollte (unter anderem) mit Tusche ausgeführt sein. "},
-		{"name":"Technik","title":"Klebelayout","intr":"Deine Publikation sollte im Klebelayout erstellt werden. "},
-		{"name":"Technik","title":"Schablonen","intr":"Deine Publikation sollte (unter anderem) mittels Schablonen ausgeführt werden."},
-		{"name":"Technik","title":"Laserdrucker","intr":"Deine Publikation sollte (unter anderem) auf dem Laserdrucker ausgegeben werden."}
-	]
+  "Technik": [
+    {
+      "name": "Technik",
+      "title": "Aquarell",
+      "intr": "Deine Publikation sollte (unter anderem) in Aquarelltechnik ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Pastellkreide",
+      "intr": "Deine Publikation sollte (unter anderem) mit Pastellkreide ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Bleistift",
+      "intr": "Deine Publikation sollte (unter anderem) mit Bleistift ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Buntstift",
+      "intr": "Deine Publikation sollte (unter anderem) mit Bunstift ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Marker",
+      "intr": "Deine Publikation sollte (unter anderem) mit Markern ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Vektorzeichnung",
+      "intr": "Deine Publikation sollte (unter anderem) Vektorzeichnungen verwenden.  "
+    },
+    {
+      "name": "Technik",
+      "title": "Pinsel",
+      "intr": "Deine Publikation sollte (unter anderem) mit dem Pinsel ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Papierschnitt",
+      "intr": "Deine Publikation sollte (unter anderem) im Papierschnitt ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Kollage",
+      "intr": "Deine Publikation sollte (unter anderem) als Kollage ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Holzschnitt",
+      "intr": "Deine Publikation sollte (unter anderem) im Holzschnitt ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Linolschnitt",
+      "intr": "Deine Publikation sollte (unter anderem) im Linolschnitt ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Hochdruck",
+      "intr": "Deine Publikation sollte (unter anderem) in der Hochdruck Technik hergestellt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Risodruck",
+      "intr": "Deine Publikation sollte (unter anderem) in der Risodruck Technik hergestellt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Kopierer",
+      "intr": "Deine Publikation sollte (unter anderem) mit dem Kopierer hergestellt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Ascii-Art",
+      "intr": "Deine Publikation sollte (unter anderem) im Stil von Ascii-Art ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Tusche",
+      "intr": "Deine Publikation sollte (unter anderem) mit Tusche ausgeführt sein. "
+    },
+    {
+      "name": "Technik",
+      "title": "Klebelayout",
+      "intr": "Deine Publikation sollte im Klebelayout erstellt werden. "
+    },
+    {
+      "name": "Technik",
+      "title": "Schablonen",
+      "intr": "Deine Publikation sollte (unter anderem) mittels Schablonen ausgeführt werden."
+    },
+    {
+      "name": "Technik",
+      "title": "Laserdrucker",
+      "intr": "Deine Publikation sollte (unter anderem) auf dem Laserdrucker ausgegeben werden."
+    }
+  ]
 }

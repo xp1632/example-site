@@ -1,0 +1,181 @@
+-- · Change number of parameters needed for different difficulty level:
+       0. Remember all fields share the same setting.
+       1. Find index.html
+       2. Find the following code around line 100 or so.
+
+          // firstMenu
+              var firstMenu = [
+                { title: "leicht", value: "level1", number: "3" },
+                { title: "mittel", value: "level2", number: "4" },
+                { title: "schwer", value: "level3", number: "5" },
+                { title: "profi", value: "level4", number: "6" },
+                { title: "extrem", value: "level5", number: "7" },
+              ];
+              
+        3. Now it's set as level1-level5 as 3,4,5,6,7 parameters. If you would like to change it , edit the corresponding 'number' of it.
+        
+        For example if we would like to use level-level5 as 4,5,6,7,8 parameters, the code would look like this:
+        
+              // firstMenu
+              var firstMenu = [
+                { title: "leicht", value: "level1", number: "4" },
+                { title: "mittel", value: "level2", number: "5" },
+                { title: "schwer", value: "level3", number: "6" },
+                { title: "profi", value: "level4", number: "7" },
+                { title: "extrem", value: "level5", number: "8" },
+              ];
+-------------------------------------------------------------------------------------------------------------------------              
+-- · Limitation for setting number of parameters :
+
+      · If the number of parameters in any json file is less than the "number" you set in the code for "level 5", there would be multiple choices.
+      For example, if you only have 6 parameters(ABCDEF) in the field Mensa, but you set 8 parameters for level 5. 
+      Apparently we don't have enough parameters to choose from, then we'll see ABBCDDEF on the briefing site. That's not what we want.
+      
+-------------------------------------------------------------------------------------------------------------------------          
+
+-- · Important Format about Json files :
+    We have 12 fields for now, thus we have 12 json files too. For simplicity, json files are named according to their order.
+    "1.json" stands for the first field in landing page,"2.json" stands for the second field....
+    
+    -How to add a brand new field and corresponding json files?
+    
+    1.Find index.html
+    2.Find the following code at around line 140:
+    
+    var secondMenu = [
+            { title: "Kampagne", type: "level1" },
+            { title: "Publikationsdesign", type: "level1" },
+            { title: "UI & Web Design", type: "level1" },
+            { title: "Performance", type: "level1" },
+            { title: "Bildhauerei", type: "level1" },
+            { title: "Zeichnen / Malerei", type: "level1" },
+            { title: "Fotografie", type: "level1" },
+            { title: "Storydesign", type: "level1" },
+            { title: "Mensa", type: "level1" },
+            { title: "Produktdesign", type: "level1" },
+            { title: "Theoriearbeit", type: "level1" },
+            { title: "Audio", type: "level1" },
+          ];
+          
+      3. If you would like to add Field called "Wedding", copy one item in [] in the end and edit the title of it, like this:
+      
+          var secondMenu = [
+            { title: "Kampagne", type: "level1" },
+            { title: "Publikationsdesign", type: "level1" },
+            { title: "UI & Web Design", type: "level1" },
+            { title: "Performance", type: "level1" },
+            { title: "Bildhauerei", type: "level1" },
+            { title: "Zeichnen / Malerei", type: "level1" },
+            { title: "Fotografie", type: "level1" },
+            { title: "Storydesign", type: "level1" },
+            { title: "Mensa", type: "level1" },
+            { title: "Produktdesign", type: "level1" },
+            { title: "Theoriearbeit", type: "level1" },
+            { title: "Audio", type: "level1" },
+            { title: "Wedding", type: "level1" },
+          ];
+    
+      4. Then you need to also put corresponding Json files for Wedding:
+        - find the folder "json"
+        - copy the the json file for Wedding there
+        - rename it according to its order , in this case, for Wedding, it's the 13th item. Then it should be named as 13.json
+        
+      5. Voila! A new field was added now.
+-------------------------------------------------------------------------------------------------------------------------           
+ - What's the format for the json file?
+ 
+    1. Find the folder "json"
+    2. Click on "1.json"
+    You can see in the front we have an array called "keys", like this:
+    
+    "keys": [
+      "Branche",
+      "Look & Feel",
+      "Medium",
+      "Zielgruppe",
+      "Auftraggeber:innen",
+      "Formsprache",
+      "Farbe",
+      "Einschränkungen",
+      "Technik",
+      "Barrierefreiheit"
+    ],
+
+    It stores all the name of parameters in this field, we need to add it manually if there're new parameters for this field are added.
+    
+   · For example, if we would like to add a new parameter called "Shape".
+    
+    Firstly, we add " Shape" in the end of "keys" array, (take care of adding comma on "Barrierfreiheit"):
+    
+      "keys": [
+        "Branche",
+        "Look & Feel",
+        "Medium",
+        "Zielgruppe",
+        "Auftraggeber:innen",
+        "Formsprache",
+        "Farbe",
+        "Einschränkungen",
+        "Technik",
+        "Barrierefreiheit",
+        "Shape"
+       ],
+  
+    Then at the end of this Json file,we add a comma at the end of "Barrierefreiheit"'s content too:
+    
+    "Barrierefreiheit": [
+        {
+          "name": "Barrierefreiheit",
+          "title": "Für Leseschwache",
+          "intr": "Deine Kampagne sollte für Leseschwache geeignet sein. "
+        },
+        {
+          "name": "Barrierefreiheit",
+          "title": "Für Sehschwache",
+          "intr": "Deine Kampagne sollte für Sehschwache geeignet sein. "
+        },
+        {
+          "name": "Barrierefreiheit",
+          "title": "Für Raucher:innen",
+          "intr": "Deine Kampagne sollte für Raucher:innen geeignet sein. "
+        },
+        {
+          "name": "Barrierefreiheit",
+          "title": "Für Analphabet:innen",
+          "intr": "Deine Kampagne sollte für Analphabet:innen geeignet sein. "
+        }
+    ],  //This is the important comma
+ 
+    
+   then we add "Shape"'s content afterwards:
+    "Shape":[
+    {
+          "name": "Shape",
+          "title": "Möbel",
+          "intr": "Deine Kampagne sollte sich (unter anderem) auf Möbel beziehen."
+        },
+        {
+          "name": "Shape",
+          "title": "Umwelt",
+          "intr": "Deine Kampagne sollte sich (unter anderem) mit der Umwelt auseinandersetzen."
+        },
+        {
+          "name": "Shape",
+          "title": "Essen und Trinken",
+          "intr": "Deine Kampagne sollte sich (unter anderem) auf Essen und Trinken beziehen."
+        },
+        {
+          "name": "Shape",
+          "title": "Kunst",
+          "intr": "Deine Kampagne sollte sich (unter anderem) mit der Kunst auseinandersetzen."
+        },
+        {
+          "name": "Shape",
+          "title": "Architektur",
+          "intr": "Deine Kampagne sollte sich (unter anderem) mit Architektur auseinandersetzen."
+        }
+    ] //no comma at the end of json file
+    -------------------------------------------------------------------------------------------------------------------------  
+  Voila, a new parameter is added in this Json file.
+  
+  

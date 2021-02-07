@@ -11,7 +11,7 @@
 		"Formsprache",
 		"Textur und Oberfläche",
 		"Barrierefreiheit",
-		"Auftraggeber:inner",
+		"Auftraggeber:innen",
 		"Vermarktung"
 	],
 	
@@ -22,10 +22,10 @@
 		{"name":"Thema","title":"Umgang mit Herstellungsresten","intr":"Dein Projekt sollte entweder aus Resten herstellbar sein oder auf die Problematik von Herstellungsreststoffen aufmerksam machen."},
 		{"name":"Thema","title":"Schnelle Lösung für Notsituation","intr":"Dein Projekt sollte schnell herstellbar oder schnell nutzbar sein, damit es schnell in Notsituationen einsetzbar ist."},
 		{"name":"Thema","title":"Eames Legacy","intr":"Dein Projekt sollte sich mit dem Erbe von Ray und Charles Eames beschäftigen."},
-		{"name":"Thema","title":"Trend alles selber machen","intr":"Zurzeit wollen Konsument:inner immer mehr selbst zu Hause machen. Dein Produkt sollte entweder dazu beitragen oder auf diese Thematik aufmerksam machen."},
-		{"name":"Thema","title":"Trend Pflanzen zuhause","intr":"Zurzeit wollen Stadtbewohner:inner zunehmend ihr kleines Zuhause begrünen. Dein Produkt sollte entweder dazu beitragen oder auf diese Thematik aufmerksam machen."},
+		{"name":"Thema","title":"Trend alles selber machen","intr":"Zurzeit wollen Konsument:innen immer mehr selbst zu Hause machen. Dein Produkt sollte entweder dazu beitragen oder auf diese Thematik aufmerksam machen."},
+		{"name":"Thema","title":"Trend Pflanzen zuhause","intr":"Zurzeit wollen Stadtbewohner:innen zunehmend ihr kleines Zuhause begrünen. Dein Produkt sollte entweder dazu beitragen oder auf diese Thematik aufmerksam machen."},
 		{"name":"Thema","title":"3 Generationen unter einem Dach","intr":"Was passiert wenn drei Generationen unter einem Dach wohnen und wie kann man als Designer:in dabei helfen oder auf diese Thematik aufmerksam machen?"},
-		{"name":"Thema","title":"Sich vor Nachbar:inner verstecken","intr":"Dein Projekt sollte dabei helfen, sich vor den Nachbar:inner zu verstecken."},
+		{"name":"Thema","title":"Sich vor Nachbar:innen verstecken","intr":"Dein Projekt sollte dabei helfen, sich vor den Nachbar:innen zu verstecken."},
 		{"name":"Thema","title":"Pandemie-Eingrenzung","intr":"Dein Projekt sollte dabei helfen, eine Pandemie eingrenzen zu können oder auf diese Thematik aufmerksam machen."},
 		{"name":"Thema","title":"Privatsphäre schützen","intr":"Dein Projekt sollte dabei helfen, die Privatsphäre zu schützen."},
 		{"name":"Thema","title":"Home Office","intr":"Dein Produkt sollte entweder das Arbeiten zuhause unterstützen oder auf diese Thematik aufmerksam machen."},
@@ -68,19 +68,19 @@
 		{"name":"Zielgruppe","title":"Frauen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"Männer","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"Hausfrauen bis 50","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
-		{"name":"Zielgruppe","title":"Vegetarier:inner","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
-		{"name":"Zielgruppe","title":"Veganer:inner","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
+		{"name":"Zielgruppe","title":"Vegetarier:innen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
+		{"name":"Zielgruppe","title":"Veganer:innen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"frisch Verheiratete","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"Studierende","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
-		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer:inner","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
+		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer:innen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"Eltern mit Kleinkindern","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
-		{"name":"Zielgruppe","title":"Autofahrer:inner","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
-		{"name":"Zielgruppe","title":"Fahrradfahrer:inner","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
+		{"name":"Zielgruppe","title":"Autofahrer:innen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
+		{"name":"Zielgruppe","title":"Fahrradfahrer:innen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"Körperlich eingeschränkte Personen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"Geistig eingeschränkte Personen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"Linkshänder","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
 		{"name":"Zielgruppe","title":"Sehbehinderte","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."},
-		{"name":"Zielgruppe","title":"Moderne Nomad:inner","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."}
+		{"name":"Zielgruppe","title":"Moderne Nomad:innen","intr":"Dein Produkt sollte sich in erster Linie an diese Zielgruppe richten."}
 	],
 	
 	"Material":[
@@ -172,20 +172,20 @@
 	
 	"Barrierefreiheit":[
 		{"name":"Barrierefreiheit","title":"Für Leseschwache","intr":"Dein Produkt soll auch für Leseschwache gut nutzbar sein."},
-		{"name":"Barrierefreiheit","title":"Für Analphabet:inner","intr":"Dein Produkt soll auch für Analphabet:inner gut nutzbar sein."},
-		{"name":"Barrierefreiheit","title":"Für Brillenträger:inner","intr":"Dein Produkt soll auch für Brillenträger:inner gut nutzbar sein."},
+		{"name":"Barrierefreiheit","title":"Für Analphabet:innen","intr":"Dein Produkt soll auch für Analphabet:innen gut nutzbar sein."},
+		{"name":"Barrierefreiheit","title":"Für Brillenträger:innen","intr":"Dein Produkt soll auch für Brillenträger:innen gut nutzbar sein."},
 		{"name":"Barrierefreiheit","title":"Für kleine Menschen","intr":"Dein Produkt soll auch für kleine Menschen gut nutzbar sein."},
 		{"name":"Barrierefreiheit","title":"Nicht-deutschsprachige","intr":"Dein Produkt soll auch für nicht-deutschsprachige Menschen gut nutzbar sein."}
 	],
 	
-	"Auftraggeber:inner":[
-		{"name":"Auftraggeber:inner","title":"Die HBKsaar","intr":"Das Produkt ist für die HBKsaar, die Kunsthochschule in Saarbrücken."},
-		{"name":"Auftraggeber:inner","title":"Ein:e berühmte:r Designer:in","intr":"Das Produkt ist ein:e berühmte:r Designer:in deiner Wahl."},
-		{"name":"Auftraggeber:inner","title":"Ein:e berühmte:r Künstler:in","intr":"Das Produkt ist ein:e berühmte:r Künstler:in deiner Wahl."},
-		{"name":"Auftraggeber:inner","title":"Die Stadt Saarbrücken","intr":"Das Produkt ist für die Stadt Saarbrücken."},
-		{"name":"Auftraggeber:inner","title":"Die Deutsche Bahn","intr":"Das Produkt ist für die Deutsche Bahn."},
-		{"name":"Auftraggeber:inner","title":"Mercedes","intr":"Das Produkt ist für Mercedes."},
-		{"name":"Auftraggeber:inner","title":"Apple","intr":"Das Produkt ist für Apple ist."}
+	"Auftraggeber:innen":[
+		{"name":"Auftraggeber:innen","title":"Die HBKsaar","intr":"Das Produkt ist für die HBKsaar, die Kunsthochschule in Saarbrücken."},
+		{"name":"Auftraggeber:innen","title":"Ein:e berühmte:r Designer:in","intr":"Das Produkt ist ein:e berühmte:r Designer:in deiner Wahl."},
+		{"name":"Auftraggeber:innen","title":"Ein:e berühmte:r Künstler:in","intr":"Das Produkt ist ein:e berühmte:r Künstler:in deiner Wahl."},
+		{"name":"Auftraggeber:innen","title":"Die Stadt Saarbrücken","intr":"Das Produkt ist für die Stadt Saarbrücken."},
+		{"name":"Auftraggeber:innen","title":"Die Deutsche Bahn","intr":"Das Produkt ist für die Deutsche Bahn."},
+		{"name":"Auftraggeber:innen","title":"Mercedes","intr":"Das Produkt ist für Mercedes."},
+		{"name":"Auftraggeber:innen","title":"Apple","intr":"Das Produkt ist für Apple ist."}
 	],
 	
 	"Vermarktung":[

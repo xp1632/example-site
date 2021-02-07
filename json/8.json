@@ -55,7 +55,7 @@
 		{"name":"Charakter","title":"Sklave:in","intr":"Der Hauptcharakter deiner Geschichte ist ein:e Sklave:in."},
 		{"name":"Charakter","title":"König:in","intr":"Der Hauptcharakter deiner Geschichte ist ein:e König:in."},
 		{"name":"Charakter","title":"Randalierer:in","intr":"Der Hauptcharakter deiner Geschichte ist ein:e Randalierer:in."},
-		{"name":"Charakter","title":"Polizist:in","intr":"Die Hauptcharaktäre deiner Geschichte sind Polizist:inner."},
+		{"name":"Charakter","title":"Polizist:in","intr":"Die Hauptcharaktäre deiner Geschichte sind Polizist:innen."},
 		{"name":"Charakter","title":"Engel","intr":"Der Hauptcharakter deiner Geschichte ist ein Engel."}
 	],
 	
@@ -129,8 +129,8 @@
 		{"name":"Konflikt","title":"Freundschaftskonflikt","intr":"Hauptkonflikt deiner Geschichte sind Konflikte in einer Freundschaft."},
 		{"name":"Konflikt","title":"Unternehmenskonflikt","intr":"Hauptkonflikt deiner Geschichte ist ein Unternehmenskonflikt."},
 		{"name":"Konflikt","title":"Konflikt mit Chef:in","intr":"Hauptkonflikt deiner Geschichte sind Konflikte mit dem/r Chef:in."},
-		{"name":"Konflikt","title":"Konflikt mit Mitarbeiter:inner","intr":"Hauptkonflikt deiner Geschichte sind Konflikte mit Mitarbeiter:inner."},
-		{"name":"Konflikt","title":"Konflikt unter Kolleg:inner","intr":"Hauptkonflikt deiner Geschichte sind Konflikte unter Kolleg:inner."},
+		{"name":"Konflikt","title":"Konflikt mit Mitarbeiter:innen","intr":"Hauptkonflikt deiner Geschichte sind Konflikte mit Mitarbeiter:innen."},
+		{"name":"Konflikt","title":"Konflikt unter Kolleg:innen","intr":"Hauptkonflikt deiner Geschichte sind Konflikte unter Kolleg:innen."},
 		{"name":"Konflikt","title":"Konflikt mit den Eltern","intr":"Hauptkonflikt deiner Geschichte sind Konflikte mit den Eltern."},
 		{"name":"Konflikt","title":"Konflikt mit Kindern","intr":"Hauptkonflikt deiner Geschichte sind Konflikte mit Kindern."},
 		{"name":"Konflikt","title":"Konflikt mit Krieg","intr":"Hauptkonflikt deiner Geschichte ist eine Kriegsauseinandersetzung."},

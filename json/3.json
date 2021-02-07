@@ -1,229 +1,964 @@
 {
-	"keys":[
-		"Branche",
-		"Farbe",
-		"Look & Feel",
-		"Zielgruppe",
-		"Medium",
-		"UI-Elemente",
-		"Auftraggeber:inner",
-		"Barrierefreiheit",
-		"Anordnung",
-		"Einschränkung"
-	],
-	
-	"Branche":[
-		{"name":"Branche","title":"Möbel","intr":"Dein User Interface/Webdesign soll sich mit Möbeln auseinandersetzen."},
-		{"name":"Branche","title":"Umwelt","intr":"Dein User Interface/Webdesign soll sich mit der Umwelt auseinandersetzen."},
-		{"name":"Branche","title":"Werbung","intr":"Dein User Interface/Webdesign soll sich mit Werbung auseinandersetzen."},
-		{"name":"Branche","title":"Essen und Trinken","intr":"Dein User Interface/Webdesign soll sich mit Essen und Trinken auseinandersetzen."},
-		{"name":"Branche","title":"Kunst","intr":"Dein User Interface/Webdesign soll sich mit Kunst auseinandersetzen."},
-		{"name":"Branche","title":"Architektur","intr":"Dein User Interface/Webdesign soll sich mit Architektur auseinandersetzen."},
-		{"name":"Branche","title":"Automobilindustrie","intr":"Dein User Interface/Webdesign soll sich mit der Automobilindustrie auseinandersetzen."},
-		{"name":"Branche","title":"Bildung","intr":"Dein User Interface/Webdesign soll sich mit Bildung auseinandersetzen."},
-		{"name":"Branche","title":"Mode","intr":"Dein User Interface/Webdesign soll sich mit Mode auseinandersetzen."},
-		{"name":"Branche","title":"Spiele","intr":"Dein User Interface/Webdesign soll sich mit Spielen auseinandersetzen."},
-		{"name":"Branche","title":"Gesundheit und Fitness","intr":"Dein User Interface/Webdesign soll sich mit Gesundheit und Fitness auseinandersetzen."},
-		{"name":"Branche","title":"Politik","intr":"Dein User Interface/Webdesign soll sich mit Politik auseinandersetzen."},
-		{"name":"Branche","title":"Religion","intr":"Dein User Interface/Webdesign soll sich mit Religion auseinandersetzen."},
-		{"name":"Branche","title":"Wissenschaft","intr":"Dein User Interface/Webdesign soll sich mit der Wissenschaft auseinandersetzen."},
-		{"name":"Branche","title":"Technologie","intr":"Dein User Interface/Webdesign soll sich mit Technologie auseinandersetzen."},
-		{"name":"Branche","title":"IT","intr":"Dein User Interface/Webdesign soll sich mit IT auseinandersetzen."},
-		{"name":"Branche","title":"Nachrichten","intr":"Dein User Interface/Webdesign soll sich mit Nachrichten auseinandersetzen."},
-		{"name":"Branche","title":"Bier","intr":"Dein User Interface/Webdesign soll sich mit Bier auseinandersetzen."},
-		{"name":"Branche","title":"Immobilien","intr":"Dein User Interface/Webdesign soll sich mit Immobilien auseinandersetzen."},
-		{"name":"Branche","title":"Sport-Team","intr":"Dein User Interface/Webdesign soll sich mit einem Sport-Team auseinandersetzen."},
-		{"name":"Branche","title":"Landschaftsgestaltung","intr":"Dein User Interface/Webdesign soll sich mit Landschaftsgestaltung auseinandersetzen."},
-		{"name":"Branche","title":"Industrie","intr":"Dein User Interface/Webdesign soll sich mit der Industrie auseinandersetzen."},
-		{"name":"Branche","title":"Veranstaltungen","intr":"Dein User Interface/Webdesign soll sich mit Veranstaltungen auseinandersetzen."},
-		{"name":"Branche","title":"Film","intr":"Dein User Interface/Webdesign soll sich mit Filmen auseinandersetzen."},
-		{"name":"Branche","title":"Fotografie","intr":"Dein User Interface/Webdesign soll sich mit der Fotografie auseinandersetzen."},
-		{"name":"Branche","title":"Unser Leben","intr":"Dein User Interface/Webdesign soll sich mit unserem Leben auseinandersetzen."}
-	],
+  "keys": [
+    "Branche",
+    "Farbe",
+    "Look & Feel",
+    "Zielgruppe",
+    "Medium",
+    "UI-Elemente",
+    "Auftraggeber:innen",
+    "Barrierefreiheit",
+    "Anordnung",
+    "Einschränkung"
+  ],
 
-	"Farbe":[
-		{"name":"Farbe","title":"Warme Farben","intr":"Dein User Interface/Webdesign soll warme Farben verwenden."},
-		{"name":"Farbe","title":"Kalte Farben","intr":"Dein User Interface/Webdesign soll kalte Farben verwenden."},
-		{"name":"Farbe","title":"Sehr hell","intr":"Dein User Interface/Webdesign soll sehr hell sein."},
-		{"name":"Farbe","title":"Sehr dunkel","intr":"Dein User Interface/Webdesign soll sehr dunkel sein."},
-		{"name":"Farbe","title":"Rot","intr":"Die Hauptfarbe deines User Interface/Webdesign soll rot sein."},
-		{"name":"Farbe","title":"Hellgrün","intr":"Die Hauptfarbe deines User Interface/Webdesign soll hellgrün sein."},
-		{"name":"Farbe","title":"Dunkelgrau","intr":"Die Hauptfarbe deines User Interface/Webdesign soll dunkelgrau sein."},
-		{"name":"Farbe","title":"Gelb","intr":"Die Hauptfarbe deines User Interface/Webdesign soll gelb sein."},
-		{"name":"Farbe","title":"Blau und orange","intr":"Die Hauptfarben deines User Interface/Webdesign sollen blau und orange sein."},
-		{"name":"Farbe","title":"Neonfarben","intr":"Neonfarben sind die Hauptfarben deines User Interface/Webdesigns."},
-		{"name":"Farbe","title":"Leuchtend","intr":"Die Farben deines User Interface/Webdesign soll fürn leuchtend sein."}
-	],
+  "Branche": [
+    {
+      "name": "Branche",
+      "title": "Möbel",
+      "intr": "Dein User Interface/Webdesign soll sich mit Möbeln auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Umwelt",
+      "intr": "Dein User Interface/Webdesign soll sich mit der Umwelt auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Werbung",
+      "intr": "Dein User Interface/Webdesign soll sich mit Werbung auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Essen und Trinken",
+      "intr": "Dein User Interface/Webdesign soll sich mit Essen und Trinken auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Kunst",
+      "intr": "Dein User Interface/Webdesign soll sich mit Kunst auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Architektur",
+      "intr": "Dein User Interface/Webdesign soll sich mit Architektur auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Automobilindustrie",
+      "intr": "Dein User Interface/Webdesign soll sich mit der Automobilindustrie auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Bildung",
+      "intr": "Dein User Interface/Webdesign soll sich mit Bildung auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Mode",
+      "intr": "Dein User Interface/Webdesign soll sich mit Mode auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Spiele",
+      "intr": "Dein User Interface/Webdesign soll sich mit Spielen auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Gesundheit und Fitness",
+      "intr": "Dein User Interface/Webdesign soll sich mit Gesundheit und Fitness auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Politik",
+      "intr": "Dein User Interface/Webdesign soll sich mit Politik auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Religion",
+      "intr": "Dein User Interface/Webdesign soll sich mit Religion auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Wissenschaft",
+      "intr": "Dein User Interface/Webdesign soll sich mit der Wissenschaft auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Technologie",
+      "intr": "Dein User Interface/Webdesign soll sich mit Technologie auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "IT",
+      "intr": "Dein User Interface/Webdesign soll sich mit IT auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Nachrichten",
+      "intr": "Dein User Interface/Webdesign soll sich mit Nachrichten auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Bier",
+      "intr": "Dein User Interface/Webdesign soll sich mit Bier auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Immobilien",
+      "intr": "Dein User Interface/Webdesign soll sich mit Immobilien auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Sport-Team",
+      "intr": "Dein User Interface/Webdesign soll sich mit einem Sport-Team auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Landschaftsgestaltung",
+      "intr": "Dein User Interface/Webdesign soll sich mit Landschaftsgestaltung auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Industrie",
+      "intr": "Dein User Interface/Webdesign soll sich mit der Industrie auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Veranstaltungen",
+      "intr": "Dein User Interface/Webdesign soll sich mit Veranstaltungen auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Film",
+      "intr": "Dein User Interface/Webdesign soll sich mit Filmen auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Fotografie",
+      "intr": "Dein User Interface/Webdesign soll sich mit der Fotografie auseinandersetzen."
+    },
+    {
+      "name": "Branche",
+      "title": "Unser Leben",
+      "intr": "Dein User Interface/Webdesign soll sich mit unserem Leben auseinandersetzen."
+    }
+  ],
 
-	"Look & Feel":[
-		{"name":"Look & Feel","title":"Minimalistisch","intr":"Dein User Interface/Webdesign soll minimalistisch sein."},
-		{"name":"Look & Feel","title":"Vintage","intr":"Dein User Interface/Webdesign soll vintage sein."},
-		{"name":"Look & Feel","title":"Bunt","intr":"Dein User Interface/Webdesign soll bunt sein."},
-		{"name":"Look & Feel","title":"Dunkel","intr":"Dein User Interface/Webdesign soll dunkel sein."},
-		{"name":"Look & Feel","title":"Licht","intr":"Dein User Interface/Webdesign arbeitet mit Licht"},
-		{"name":"Look & Feel","title":"Schwarz-weiß","intr":"Dein User Interface/Webdesign soll schwarz-weiß sein."},
-		{"name":"Look & Feel","title":"Spaß","intr":"Dein User Interface/Webdesign macht Spaß"},
-		{"name":"Look & Feel","title":"Luxus","intr":"Dein User Interface/Webdesign soll luxuriös sein."},
-		{"name":"Look & Feel","title":"3D","intr":"Dein User Interface/Webdesign soll 3D sein."},
-		{"name":"Look & Feel","title":"Sauber","intr":"Dein User Interface/Webdesign soll sauber sein."},
-		{"name":"Look & Feel","title":"Bio","intr":"Dein User Interface/Webdesign soll bio wirken"},
-		{"name":"Look & Feel","title":"Full-screen","intr":"Dein User Interface/Webdesign soll full screen sein."},
-		{"name":"Look & Feel","title":"Flat Design","intr":"Dein User Interface/Webdesign soll flat Design sein."},
-		{"name":"Look & Feel","title":"Warmherzig","intr":"Dein User Interface/Webdesign soll warmherzig sein."},
-		{"name":"Look & Feel","title":"Zugänglich","intr":"Dein User Interface/Webdesign soll einfach zugänglich sein."},
-		{"name":"Look & Feel","title":"Freundlich","intr":"Dein User Interface/Webdesign soll freundlich sein."},
-		{"name":"Look & Feel","title":"Günstig","intr":"Dein User Interface/Webdesign soll günstig sein."},
-		{"name":"Look & Feel","title":"Leicht bedienbar","intr":"Dein User Interface/Webdesign soll leicht bedienbar sein."},
-		{"name":"Look & Feel","title":"Edel","intr":"Dein User Interface/Webdesign soll edel sein."},
-		{"name":"Look & Feel","title":"Modisch","intr":"Dein User Interface/Webdesign soll modisch sein."},
-		{"name":"Look & Feel","title":"Zeitgenössisch","intr":"Dein User Interface/Webdesign soll zeitgenössisch sein."},
-		{"name":"Look & Feel","title":"State of the art","intr":"Dein User Interface/Webdesign soll state of the art sein."},
-		{"name":"Look & Feel","title":"Zeitlos","intr":"Dein User Interface/Webdesign soll zeitlos sein."},
-		{"name":"Look & Feel","title":"Chic","intr":"Dein User Interface/Webdesign soll chic sein."},
-		{"name":"Look & Feel","title":"Elitär","intr":"Dein User Interface/Webdesign soll elitär sein."},
-		{"name":"Look & Feel","title":"Gut lesbar","intr":"Dein User Interface/Webdesign soll gut lesbar sein."},
-		{"name":"Look & Feel","title":"Einfach","intr":"Dein User Interface/Webdesign soll einfach sein."},
-		{"name":"Look & Feel","title":"Komplex","intr":"Dein User Interface/Webdesign soll komplex sein."},
-		{"name":"Look & Feel","title":"Dicht gedrängt","intr":"Dein User Interface/Webdesign soll dicht gedrängt gefüllt mit Informationen sein."},
-		{"name":"Look & Feel","title":"Understated","intr":"Dein User Interface/Webdesign soll understated sein."},
-		{"name":"Look & Feel","title":"Witzig","intr":"Dein User Interface/Webdesign soll witzig sein."},
-		{"name":"Look & Feel","title":"Poppig","intr":"Dein User Interface/Webdesign soll poppig sein."},
-		{"name":"Look & Feel","title":"Natürlich","intr":"Dein User Interface/Webdesign soll natürlich sein."},
-		{"name":"Look & Feel","title":"Neugierig","intr":"Dein User Interface/Webdesign soll neugierig machen."},
-		{"name":"Look & Feel","title":"Verträumt","intr":"Dein User Interface/Webdesign soll verträumt sein."},
-		{"name":"Look & Feel","title":"Magisch","intr":"Dein User Interface/Webdesign soll magisch sein."},
-		{"name":"Look & Feel","title":"Frisch","intr":"Dein User Interface/Webdesign soll frisch sein."},
-		{"name":"Look & Feel","title":"Romantisch","intr":"Dein User Interface/Webdesign soll romantisch sein."},
-		{"name":"Look & Feel","title":"Geheimnisvoll","intr":"Dein User Interface/Webdesign soll geheimnisvoll sein."},
-		{"name":"Look & Feel","title":"Retro","intr":"Dein User Interface/Webdesign soll retro sein."},
-		{"name":"Look & Feel","title":"Ruhig","intr":"Dein User Interface/Webdesign soll ruhig sein."},
-		{"name":"Look & Feel","title":"Verspielt","intr":"Dein User Interface/Webdesign soll verspielt sein."},
-		{"name":"Look & Feel","title":"Nostalgisch","intr":"Dein User Interface/Webdesign soll nostalgisch sein."},
-		{"name":"Look & Feel","title":"Üppig","intr":"Dein User Interface/Webdesign soll üppig sein."},
-		{"name":"Look & Feel","title":"Typografisch","intr":"Dein User Interface/Webdesign soll rein typografisch sein."}
-	],
+  "Farbe": [
+    {
+      "name": "Farbe",
+      "title": "Warme Farben",
+      "intr": "Dein User Interface/Webdesign soll warme Farben verwenden."
+    },
+    {
+      "name": "Farbe",
+      "title": "Kalte Farben",
+      "intr": "Dein User Interface/Webdesign soll kalte Farben verwenden."
+    },
+    {
+      "name": "Farbe",
+      "title": "Sehr hell",
+      "intr": "Dein User Interface/Webdesign soll sehr hell sein."
+    },
+    {
+      "name": "Farbe",
+      "title": "Sehr dunkel",
+      "intr": "Dein User Interface/Webdesign soll sehr dunkel sein."
+    },
+    {
+      "name": "Farbe",
+      "title": "Rot",
+      "intr": "Die Hauptfarbe deines User Interface/Webdesign soll rot sein."
+    },
+    {
+      "name": "Farbe",
+      "title": "Hellgrün",
+      "intr": "Die Hauptfarbe deines User Interface/Webdesign soll hellgrün sein."
+    },
+    {
+      "name": "Farbe",
+      "title": "Dunkelgrau",
+      "intr": "Die Hauptfarbe deines User Interface/Webdesign soll dunkelgrau sein."
+    },
+    {
+      "name": "Farbe",
+      "title": "Gelb",
+      "intr": "Die Hauptfarbe deines User Interface/Webdesign soll gelb sein."
+    },
+    {
+      "name": "Farbe",
+      "title": "Blau und orange",
+      "intr": "Die Hauptfarben deines User Interface/Webdesign sollen blau und orange sein."
+    },
+    {
+      "name": "Farbe",
+      "title": "Neonfarben",
+      "intr": "Neonfarben sind die Hauptfarben deines User Interface/Webdesigns."
+    },
+    {
+      "name": "Farbe",
+      "title": "Leuchtend",
+      "intr": "Die Farben deines User Interface/Webdesign soll fürn leuchtend sein."
+    }
+  ],
 
-	"Zielgruppe":[
-		{"name":"Zielgruppe","title":"Über 65 Jahre","intr":"Dein User Interface/Webdesign soll sich an Menschen über 65 Jahre richten. "},
-		{"name":"Zielgruppe","title":"Kindergartenkinder","intr":"Dein User Interface/Webdesign soll sich an Kindergartenkinder richten. "},
-		{"name":"Zielgruppe","title":"Jugendliche","intr":"Dein User Interface/Webdesign soll sich an Jugendliche richten. "},
-		{"name":"Zielgruppe","title":"Frauen","intr":"Dein User Interface/Webdesign soll sich an Frauen richten. "},
-		{"name":"Zielgruppe","title":"Männer","intr":"Dein User Interface/Webdesign soll sich an Männer richten. "},
-		{"name":"Zielgruppe","title":"Hausfrauen bis 50","intr":"Dein User Interface/Webdesign soll sich an Hausfrauen bis 50 Jahre richten. "},
-		{"name":"Zielgruppe","title":"Vegetarier:inner","intr":"Dein User Interface/Webdesign soll sich an Vegetarier:inner richten. "},
-		{"name":"Zielgruppe","title":"Veganer:inner","intr":"Dein User Interface/Webdesign soll sich an Veganer:inner richten. "},
-		{"name":"Zielgruppe","title":"frisch Verheiratete","intr":"Dein User Interface/Webdesign soll sich an frisch Verheiratete richten. "},
-		{"name":"Zielgruppe","title":"Studierende","intr":"Dein User Interface/Webdesign soll sich an Studierende richten. "},
-		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer:inner","intr":"Dein User Interface/Webdesign soll sich an Hunde oder Hundebesitzer:inner richten. "},
-		{"name":"Zielgruppe","title":"Eltern mit Kleinkindern","intr":"Dein User Interface/Webdesign soll sich an Eltern mit Kleinkindern richten. "},
-		{"name":"Zielgruppe","title":"Autofahrer:inner","intr":"Dein User Interface/Webdesign soll sich an Autofahrer:inner richten. "},
-		{"name":"Zielgruppe","title":"Fahrradfahrer:inner","intr":"Dein User Interface/Webdesign soll sich an Fahrradfahrer:inner richten. "},
-		{"name":"Zielgruppe","title":"Physisch beeinträchtigte Personen","intr":"Dein User Interface/Webdesign soll sich an physisch beeinträchtigte Personen richten. "},
-		{"name":"Zielgruppe","title":"Psychisch beeinträchtigte Personen","intr":"Dein User Interface/Webdesign soll sich an psychisch beeinträchtigte Personen richten. "},
-		{"name":"Zielgruppe","title":"Linkshänder:inner","intr":"Dein User Interface/Webdesign soll sich an Linkshänder:inner richten. "},
-		{"name":"Zielgruppe","title":"Analphabet:inner","intr":"Dein User Interface/Webdesign soll sich an Analphabet:inner richten. "},
-		{"name":"Zielgruppe","title":"Nicht-Muttersprachler:inner","intr":"Dein User Interface/Webdesign soll sich an Nicht-Muttersprachler:inner richten. "},
-		{"name":"Zielgruppe","title":"Sehbehinderte","intr":"Dein User Interface/Webdesign soll sich an Sehbehinderte richten. "},
-		{"name":"Zielgruppe","title":"Menschen in großer Eile","intr":"Dein User Interface/Webdesign soll sich an Menschen in großer Eile richten. "}
-	],
+  "Look & Feel": [
+    {
+      "name": "Look & Feel",
+      "title": "Minimalistisch",
+      "intr": "Dein User Interface/Webdesign soll minimalistisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Vintage",
+      "intr": "Dein User Interface/Webdesign soll vintage sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Bunt",
+      "intr": "Dein User Interface/Webdesign soll bunt sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Dunkel",
+      "intr": "Dein User Interface/Webdesign soll dunkel sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Licht",
+      "intr": "Dein User Interface/Webdesign arbeitet mit Licht"
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Schwarz-weiß",
+      "intr": "Dein User Interface/Webdesign soll schwarz-weiß sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Spaß",
+      "intr": "Dein User Interface/Webdesign macht Spaß"
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Luxus",
+      "intr": "Dein User Interface/Webdesign soll luxuriös sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "3D",
+      "intr": "Dein User Interface/Webdesign soll 3D sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Sauber",
+      "intr": "Dein User Interface/Webdesign soll sauber sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Bio",
+      "intr": "Dein User Interface/Webdesign soll bio wirken"
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Full-screen",
+      "intr": "Dein User Interface/Webdesign soll full screen sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Flat Design",
+      "intr": "Dein User Interface/Webdesign soll flat Design sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Warmherzig",
+      "intr": "Dein User Interface/Webdesign soll warmherzig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zugänglich",
+      "intr": "Dein User Interface/Webdesign soll einfach zugänglich sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Freundlich",
+      "intr": "Dein User Interface/Webdesign soll freundlich sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Günstig",
+      "intr": "Dein User Interface/Webdesign soll günstig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Leicht bedienbar",
+      "intr": "Dein User Interface/Webdesign soll leicht bedienbar sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Edel",
+      "intr": "Dein User Interface/Webdesign soll edel sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Modisch",
+      "intr": "Dein User Interface/Webdesign soll modisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zeitgenössisch",
+      "intr": "Dein User Interface/Webdesign soll zeitgenössisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "State of the art",
+      "intr": "Dein User Interface/Webdesign soll state of the art sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Zeitlos",
+      "intr": "Dein User Interface/Webdesign soll zeitlos sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Chic",
+      "intr": "Dein User Interface/Webdesign soll chic sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Elitär",
+      "intr": "Dein User Interface/Webdesign soll elitär sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Gut lesbar",
+      "intr": "Dein User Interface/Webdesign soll gut lesbar sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Einfach",
+      "intr": "Dein User Interface/Webdesign soll einfach sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Komplex",
+      "intr": "Dein User Interface/Webdesign soll komplex sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Dicht gedrängt",
+      "intr": "Dein User Interface/Webdesign soll dicht gedrängt gefüllt mit Informationen sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Understated",
+      "intr": "Dein User Interface/Webdesign soll understated sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Witzig",
+      "intr": "Dein User Interface/Webdesign soll witzig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Poppig",
+      "intr": "Dein User Interface/Webdesign soll poppig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Natürlich",
+      "intr": "Dein User Interface/Webdesign soll natürlich sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Neugierig",
+      "intr": "Dein User Interface/Webdesign soll neugierig machen."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Verträumt",
+      "intr": "Dein User Interface/Webdesign soll verträumt sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Magisch",
+      "intr": "Dein User Interface/Webdesign soll magisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Frisch",
+      "intr": "Dein User Interface/Webdesign soll frisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Romantisch",
+      "intr": "Dein User Interface/Webdesign soll romantisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Geheimnisvoll",
+      "intr": "Dein User Interface/Webdesign soll geheimnisvoll sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Retro",
+      "intr": "Dein User Interface/Webdesign soll retro sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Ruhig",
+      "intr": "Dein User Interface/Webdesign soll ruhig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Verspielt",
+      "intr": "Dein User Interface/Webdesign soll verspielt sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Nostalgisch",
+      "intr": "Dein User Interface/Webdesign soll nostalgisch sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Üppig",
+      "intr": "Dein User Interface/Webdesign soll üppig sein."
+    },
+    {
+      "name": "Look & Feel",
+      "title": "Typografisch",
+      "intr": "Dein User Interface/Webdesign soll rein typografisch sein."
+    }
+  ],
 
-	"Medium":[
-		{"name":"Medium","title":"Smart-Watch","intr":"Dein User Interface/Webdesign soll die Smart-Watch ausgelegt sein."},
-		{"name":"Medium","title":"Mobile","intr":"Dein User Interface/Webdesign soll mobile Endgeräte ausgelegt sein. "},
-		{"name":"Medium","title":"Desktop","intr":"Dein User Interface/Webdesign soll einen großen Desktop-Rechner ausgelegt sein. "},
-		{"name":"Medium","title":"Laptop","intr":"Dein User Interface/Webdesign soll einen mittelgroßen Laptop ausgelegt sein. "},
-		{"name":"Medium","title":"Tablet","intr":"Dein User Interface/Webdesign soll das Tablet ausgelegt sein. "},
-		{"name":"Medium","title":"Wanddisplay","intr":"Dein User Interface/Webdesign soll eine großes LCD Display/Wandpanel ausgelegt sein. "},
-		{"name":"Medium","title":"Großfläche","intr":"Dein User Interface/Webdesign soll eine große digitale (Werbe-) fläche sein. "},
-		{"name":"Medium","title":"TV","intr":"Dein User Interface/Webdesign soll den Fernseher ausgelegt sein. "}
-	],
+  "Zielgruppe": [
+    {
+      "name": "Zielgruppe",
+      "title": "Über 65 Jahre",
+      "intr": "Dein User Interface/Webdesign soll sich an Menschen über 65 Jahre richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Kindergartenkinder",
+      "intr": "Dein User Interface/Webdesign soll sich an Kindergartenkinder richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Jugendliche",
+      "intr": "Dein User Interface/Webdesign soll sich an Jugendliche richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Frauen",
+      "intr": "Dein User Interface/Webdesign soll sich an Frauen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Männer",
+      "intr": "Dein User Interface/Webdesign soll sich an Männer richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Hausfrauen bis 50",
+      "intr": "Dein User Interface/Webdesign soll sich an Hausfrauen bis 50 Jahre richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Vegetarier:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Vegetarier:innen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Veganer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Veganer:innen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "frisch Verheiratete",
+      "intr": "Dein User Interface/Webdesign soll sich an frisch Verheiratete richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Studierende",
+      "intr": "Dein User Interface/Webdesign soll sich an Studierende richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Hunde oder Hundebesitzer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Hunde oder Hundebesitzer:innen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Eltern mit Kleinkindern",
+      "intr": "Dein User Interface/Webdesign soll sich an Eltern mit Kleinkindern richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Autofahrer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Autofahrer:innen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Fahrradfahrer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Fahrradfahrer:innen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Physisch beeinträchtigte Personen",
+      "intr": "Dein User Interface/Webdesign soll sich an physisch beeinträchtigte Personen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Psychisch beeinträchtigte Personen",
+      "intr": "Dein User Interface/Webdesign soll sich an psychisch beeinträchtigte Personen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Linkshänder:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Linkshänder:innen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Analphabet:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Analphabet:innen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Nicht-Muttersprachler:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Nicht-Muttersprachler:innen richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Sehbehinderte",
+      "intr": "Dein User Interface/Webdesign soll sich an Sehbehinderte richten. "
+    },
+    {
+      "name": "Zielgruppe",
+      "title": "Menschen in großer Eile",
+      "intr": "Dein User Interface/Webdesign soll sich an Menschen in großer Eile richten. "
+    }
+  ],
 
-	"UI-Elemente":[
-		{"name":"UI-Elemente","title":"Navigation","intr":"Dein User Interface/Webdesign soll eine Navigation enthalten."},
-		{"name":"UI-Elemente","title":"User-Input","intr":"Dein User Interface/Webdesign soll einen User-Input anbieten."},
-		{"name":"UI-Elemente","title":"On-boarding","intr":"Dein User Interface/Webdesign soll ein On-boarding enthalten."},
-		{"name":"UI-Elemente","title":"Wizard","intr":"Dein User Interface/Webdesign soll einen Wizards enthalten."},
-		{"name":"UI-Elemente","title":"Form","intr":"Dein User Interface/Webdesign soll eine dominierende Form enthalten."},
-		{"name":"UI-Elemente","title":"Einstellungen","intr":"Auf deinem User Interface/Webdesign sollen Einstellungen möglich sein."},
-		{"name":"UI-Elemente","title":"Tabelle","intr":"Dein User Interface/Webdesign soll eine Tabelle enthalten."},
-		{"name":"UI-Elemente","title":"Preisgestaltung","intr":"Dein User Interface/Webdesign soll sich in einem Element mit dem Thema Preisgestaltung auseinandersetzen."},
-		{"name":"UI-Elemente","title":"Styleguide","intr":"Dein User Interface/Webdesign soll einen Styleguide enthalten."},
-		{"name":"UI-Elemente","title":"Liste","intr":"Dein User Interface/Webdesign soll eine Liste enthalten."},
-		{"name":"UI-Elemente","title":"Karte","intr":"Dein User Interface/Webdesign soll eine Karte enthalten."},
-		{"name":"UI-Elemente","title":"Sortieren und Filtern","intr":"Dein User Interface/Webdesign soll Sortier- und Filterfunktion aufweisen."},
-		{"name":"UI-Elemente","title":"Suche","intr":"Dein User Interface/Webdesign soll eine Suchfunktion aufweisen."},
-		{"name":"UI-Elemente","title":"Testimonials","intr":"Dein User Interface/Webdesign soll Testimonials enthalten."},
-		{"name":"UI-Elemente","title":"FAQ","intr":"Dein User Interface/Webdesign soll einen FAQ-Bereich enthalten."},
-		{"name":"UI-Elemente","title":"Icon","intr":"Dein User Interface/Webdesign soll Icons enthalten."},
-		{"name":"UI-Elemente","title":"Menü","intr":"Dein User Interface/Webdesign soll ein Menü enthalten."},
-		{"name":"UI-Elemente","title":"Galerie","intr":"Dein User Interface/Webdesign soll eine Galerie enthalten."},
-		{"name":"UI-Elemente","title":"404 Page","intr":"Dein User Interface/Webdesign soll eine 404 Page enthalten/zeigen."},
-		{"name":"UI-Elemente","title":"Hero-Section","intr":"Dein User Interface/Webdesign soll eine Hero-Section enthalten."},
-		{"name":"UI-Elemente","title":"Navigationsleiste","intr":"Dein User Interface/Webdesign soll eine Navigationsleiste enthalten."},
-		{"name":"UI-Elemente","title":"Feature-Section","intr":"Dein User Interface/Webdesign soll eine Feature-Section enthalten."},
-		{"name":"UI-Elemente","title":"Marquee","intr":"Dein User Interface/Webdesign soll ein Marquee enthalten."}
-	],
+  "Medium": [
+    {
+      "name": "Medium",
+      "title": "Smart-Watch",
+      "intr": "Dein User Interface/Webdesign soll die Smart-Watch ausgelegt sein."
+    },
+    {
+      "name": "Medium",
+      "title": "Mobile",
+      "intr": "Dein User Interface/Webdesign soll mobile Endgeräte ausgelegt sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Desktop",
+      "intr": "Dein User Interface/Webdesign soll einen großen Desktop-Rechner ausgelegt sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Laptop",
+      "intr": "Dein User Interface/Webdesign soll einen mittelgroßen Laptop ausgelegt sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Tablet",
+      "intr": "Dein User Interface/Webdesign soll das Tablet ausgelegt sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Wanddisplay",
+      "intr": "Dein User Interface/Webdesign soll eine großes LCD Display/Wandpanel ausgelegt sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "Großfläche",
+      "intr": "Dein User Interface/Webdesign soll eine große digitale (Werbe-) fläche sein. "
+    },
+    {
+      "name": "Medium",
+      "title": "TV",
+      "intr": "Dein User Interface/Webdesign soll den Fernseher ausgelegt sein. "
+    }
+  ],
 
-	"Auftraggeber:inner":[
-		{"name":"Auftraggeber:inner","title":"HBKsaar","intr":"Dein User Interface/Webdesign soll für die HBKsaar sein, die Kunsthochschule in Saarbrücken."},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Designer:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Designer:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Künstler:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Künstler:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Stadt Saarbrücken","intr":"Dein User Interface/Webdesign soll für die Stadt Saarbrücken sein. "},
-		{"name":"Auftraggeber:inner","title":"Deutsche Bahn","intr":"Dein User Interface/Webdesign soll für die Deutsche Bahn sein. "},
-		{"name":"Auftraggeber:inner","title":"Jaguar","intr":"Dein User Interface/Webdesign soll für Jaguar sein. "},
-		{"name":"Auftraggeber:inner","title":"Apple","intr":"Dein User Interface/Webdesign soll für Apple sein. "},
-		{"name":"Auftraggeber:inner","title":"Karstadt","intr":"Dein User Interface/Webdesign soll für Karstadt sein. "},
-		{"name":"Auftraggeber:inner","title":"Verlag","intr":"Dein User Interface/Webdesign soll für einen Verlag sein. "},
-		{"name":"Auftraggeber:inner","title":"Krankenhaus","intr":"Dein User Interface/Webdesign soll für ein Krankenhaus sein. "},
-		{"name":"Auftraggeber:inner","title":"Berühmte:r Grafiker:in","intr":"Dein User Interface/Webdesign soll für ein:e berühmte:r Grafiker:in sein. "},
-		{"name":"Auftraggeber:inner","title":"Waldorfschule","intr":"Dein User Interface/Webdesign soll für eine Waldorfschule sein. "},
-		{"name":"Auftraggeber:inner","title":"Gesundheitsamt","intr":"Dein User Interface/Webdesign soll für das Gesundheitsamt sein. "},
-		{"name":"Auftraggeber:inner","title":"CIAV Meisenthal","intr":"Dein User Interface/Webdesign soll für das CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."},
-		{"name":"Auftraggeber:inner","title":"Die Menschheit","intr":"Dein User Interface/Webdesign soll für die Menschheit sein. "},
-		{"name":"Auftraggeber:inner","title":"Lieblings-NGO","intr":"Dein User Interface/Webdesign soll für deine Lieblings-Nicht-Regierungsorganisation sein. "}
-	],
+  "UI-Elemente": [
+    {
+      "name": "UI-Elemente",
+      "title": "Navigation",
+      "intr": "Dein User Interface/Webdesign soll eine Navigation enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "User-Input",
+      "intr": "Dein User Interface/Webdesign soll einen User-Input anbieten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "On-boarding",
+      "intr": "Dein User Interface/Webdesign soll ein On-boarding enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Wizard",
+      "intr": "Dein User Interface/Webdesign soll einen Wizards enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Form",
+      "intr": "Dein User Interface/Webdesign soll eine dominierende Form enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Einstellungen",
+      "intr": "Auf deinem User Interface/Webdesign sollen Einstellungen möglich sein."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Tabelle",
+      "intr": "Dein User Interface/Webdesign soll eine Tabelle enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Preisgestaltung",
+      "intr": "Dein User Interface/Webdesign soll sich in einem Element mit dem Thema Preisgestaltung auseinandersetzen."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Styleguide",
+      "intr": "Dein User Interface/Webdesign soll einen Styleguide enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Liste",
+      "intr": "Dein User Interface/Webdesign soll eine Liste enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Karte",
+      "intr": "Dein User Interface/Webdesign soll eine Karte enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Sortieren und Filtern",
+      "intr": "Dein User Interface/Webdesign soll Sortier- und Filterfunktion aufweisen."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Suche",
+      "intr": "Dein User Interface/Webdesign soll eine Suchfunktion aufweisen."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Testimonials",
+      "intr": "Dein User Interface/Webdesign soll Testimonials enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "FAQ",
+      "intr": "Dein User Interface/Webdesign soll einen FAQ-Bereich enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Icon",
+      "intr": "Dein User Interface/Webdesign soll Icons enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Menü",
+      "intr": "Dein User Interface/Webdesign soll ein Menü enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Galerie",
+      "intr": "Dein User Interface/Webdesign soll eine Galerie enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "404 Page",
+      "intr": "Dein User Interface/Webdesign soll eine 404 Page enthalten/zeigen."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Hero-Section",
+      "intr": "Dein User Interface/Webdesign soll eine Hero-Section enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Navigationsleiste",
+      "intr": "Dein User Interface/Webdesign soll eine Navigationsleiste enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Feature-Section",
+      "intr": "Dein User Interface/Webdesign soll eine Feature-Section enthalten."
+    },
+    {
+      "name": "UI-Elemente",
+      "title": "Marquee",
+      "intr": "Dein User Interface/Webdesign soll ein Marquee enthalten."
+    }
+  ],
 
-	"Barrierefreiheit":[
-		{"name":"Barrierefreiheit","title":"Leseschwäche","intr":"Dein User Interface/Webdesign soll sich an Leseschwache richten. "},
-		{"name":"Barrierefreiheit","title":"Sehschwäche","intr":"Dein User Interface/Webdesign soll sich an Sehschwache richten. "},
-		{"name":"Barrierefreiheit","title":"Ohne Hände","intr":"Dein User Interface/Webdesign sollte ohne Hände bedient werden können."},
-		{"name":"Barrierefreiheit","title":"Für Analphabet:inner","intr":"Dein User Interface/Webdesign soll sich an Analphabet:inner richten. "},
-		{"name":"Barrierefreiheit","title":"Für Nichtschwimmer:inner","intr":"Dein User Interface/Webdesign soll sich an Nichtschwimmer:inner richten. "},
-		{"name":"Barrierefreiheit","title":"Brillenträger:inner","intr":"Dein User Interface/Webdesign soll sich an Brillenträger:inner richten. "},
-		{"name":"Barrierefreiheit","title":"Hörgeschädigte","intr":"Dein User Interface/Webdesign soll sich an Hörgeschädigte richten. "},
-		{"name":"Barrierefreiheit","title":"Kleine Menschen","intr":"Dein User Interface/Webdesign soll sich an kleine Menschen richten. "},
-		{"name":"Barrierefreiheit","title":"Menschen mit Gedächtnisproblemen","intr":"Dein User Interface/Webdesign soll sich an Menschen mit Gedächtnisproblemen richten. "},
-		{"name":"Barrierefreiheit","title":"Nicht-deutschsprachige","intr":"Dein User Interface/Webdesign soll sich an nicht Deutschsprachige richten. "},
-		{"name":"Barrierefreiheit","title":"Mit Corona-Infektion","intr":"Dein User Interface/Webdesign soll sich an Menschen mit einer Corona-Infektion richten. "},
-		{"name":"Barrierefreiheit","title":"Taubstumme","intr":"Dein User Interface/Webdesign soll sich an Taubstumme richten. "},
-		{"name":"Barrierefreiheit","title":"Große Menschen","intr":"Dein User Interface/Webdesign soll sich an große Menschen richten. "},
-		{"name":"Barrierefreiheit","title":"Mobile Einschränkung","intr":"Dein User Interface/Webdesign soll sich an mobil eingeschränkte Menschen richten. "}
-	],
-	
-	"Anordnung":[
-		{"name":"Anordnung","title":"Frei","intr":"Die Anordnung deines User Interface/Webdesign soll frei sein. "},
-		{"name":"Anordnung","title":"Organisch","intr":"Die Anordnung deines User Interface/Webdesign soll organisch sein. "},
-		{"name":"Anordnung","title":"Geordnet","intr":"Die Anordnung deines User Interface/Webdesign soll geordnet sein. "},
-		{"name":"Anordnung","title":"Raster","intr":"Die Anordnung deines User Interface/Webdesign soll sich an einem Raster orientieren. "},
-		{"name":"Anordnung","title":"Mit horizontaler Spiegelachse","intr":"Die Anordnung deines User Interface/Webdesign soll sich an einer horizontalen Spiegelachse orientieren. "},
-		{"name":"Anordnung","title":"Mittelachsial","intr":"Die Anordnung deines User Interface/Webdesign soll sich an einer Mittelachse orientieren. "}
-	],
+  "Auftraggeber:innen": [
+    {
+      "name": "Auftraggeber:innen",
+      "title": "HBKsaar",
+      "intr": "Dein User Interface/Webdesign soll für die HBKsaar sein, die Kunsthochschule in Saarbrücken."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Designer:in",
+      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Designer:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Künstler:in",
+      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Künstler:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Stadt Saarbrücken",
+      "intr": "Dein User Interface/Webdesign soll für die Stadt Saarbrücken sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Deutsche Bahn",
+      "intr": "Dein User Interface/Webdesign soll für die Deutsche Bahn sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Jaguar",
+      "intr": "Dein User Interface/Webdesign soll für Jaguar sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Apple",
+      "intr": "Dein User Interface/Webdesign soll für Apple sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Karstadt",
+      "intr": "Dein User Interface/Webdesign soll für Karstadt sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Verlag",
+      "intr": "Dein User Interface/Webdesign soll für einen Verlag sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Krankenhaus",
+      "intr": "Dein User Interface/Webdesign soll für ein Krankenhaus sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Grafiker:in",
+      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Grafiker:in sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Waldorfschule",
+      "intr": "Dein User Interface/Webdesign soll für eine Waldorfschule sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Gesundheitsamt",
+      "intr": "Dein User Interface/Webdesign soll für das Gesundheitsamt sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "CIAV Meisenthal",
+      "intr": "Dein User Interface/Webdesign soll für das CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Die Menschheit",
+      "intr": "Dein User Interface/Webdesign soll für die Menschheit sein. "
+    },
+    {
+      "name": "Auftraggeber:innen",
+      "title": "Lieblings-NGO",
+      "intr": "Dein User Interface/Webdesign soll für deine Lieblings-Nicht-Regierungsorganisation sein. "
+    }
+  ],
 
-	"Einschränkung":[
-		{"name":"Einschränkung","title":"Zwei Farben","intr":"Dein User Interface/Webdesign soll nur zwei verschiedene Farben enthalten. "},
-		{"name":"Einschränkung","title":"Zwei Schriftgrößen","intr":"Dein User Interface/Webdesign soll zwei verschiedene Schriftgrößen enthalten. "},
-		{"name":"Einschränkung","title":"Zwei Schriftschnitte","intr":"Dein User Interface/Webdesign soll zwei Schriftschnitte (fonts) verwenden."},
-		{"name":"Einschränkung","title":"Monospaced Fonts","intr":"Dein User Interface/Webdesign soll nur monospaced Schriften verwenden."},
-		{"name":"Einschränkung","title":"Bitmap/Pixel Fonts","intr":"Dein User Interface/Webdesign soll nur bitmapped Pixelschriften verwenden."},
-		{"name":"Einschränkung","title":"all-caps/Versalsatz","intr":"Dein User Interface/Webdesign soll nur Großbuchstaben verwenden."},
-		{"name":"Einschränkung","title":"Max. 50 KB Webfonts","intr":"Dein User Interface/Webdesign soll nur maximal 50 KB an Webfontfiles laden."},
-		{"name":"Einschränkung","title":"Keine Bilder","intr":"Dein User Interface/Webdesign soll für keine Bilder enthalten. "},
-		{"name":"Einschränkung","title":"Dithered Bitmaps","intr":"Dein User Interface/Webdesign soll für Bilder nur monochrome Diffusion Dither Bitmaps verwenden. "},
-		{"name":"Einschränkung","title":"Keine Icons","intr":"Dein User Interface/Webdesign soll für keine Icons enthalten. "},
-		{"name":"Einschränkung","title":"Use Design System: Material Design","intr":"Dein User Interface/Webdesign soll sich an die Material Design Richtlinien halten. "},
-		{"name":"Einschränkung","title":"Use Design System: Shopify","intr":"Dein User Interface/Webdesign soll für die Shopify Plattform gedacht sein. "},
-		{"name":"Einschränkung","title":"iOS Guidelines nutzen","intr":"Dein User Interface/Webdesign soll sich an die Design-Richtlinien für iOS halten. "},
-		{"name":"Einschränkung","title":"Android Guidelines nutzen","intr":"Dein User Interface/Webdesign soll sich an die Design-Richtlinien für Android halten. "}
-	]
-	
+  "Barrierefreiheit": [
+    {
+      "name": "Barrierefreiheit",
+      "title": "Leseschwäche",
+      "intr": "Dein User Interface/Webdesign soll sich an Leseschwache richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Sehschwäche",
+      "intr": "Dein User Interface/Webdesign soll sich an Sehschwache richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Ohne Hände",
+      "intr": "Dein User Interface/Webdesign sollte ohne Hände bedient werden können."
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Analphabet:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Analphabet:innen richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Für Nichtschwimmer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Nichtschwimmer:innen richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Brillenträger:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Brillenträger:innen richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Hörgeschädigte",
+      "intr": "Dein User Interface/Webdesign soll sich an Hörgeschädigte richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Kleine Menschen",
+      "intr": "Dein User Interface/Webdesign soll sich an kleine Menschen richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Menschen mit Gedächtnisproblemen",
+      "intr": "Dein User Interface/Webdesign soll sich an Menschen mit Gedächtnisproblemen richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Nicht-deutschsprachige",
+      "intr": "Dein User Interface/Webdesign soll sich an nicht Deutschsprachige richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Mit Corona-Infektion",
+      "intr": "Dein User Interface/Webdesign soll sich an Menschen mit einer Corona-Infektion richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Taubstumme",
+      "intr": "Dein User Interface/Webdesign soll sich an Taubstumme richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Große Menschen",
+      "intr": "Dein User Interface/Webdesign soll sich an große Menschen richten. "
+    },
+    {
+      "name": "Barrierefreiheit",
+      "title": "Mobile Einschränkung",
+      "intr": "Dein User Interface/Webdesign soll sich an mobil eingeschränkte Menschen richten. "
+    }
+  ],
+
+  "Anordnung": [
+    {
+      "name": "Anordnung",
+      "title": "Frei",
+      "intr": "Die Anordnung deines User Interface/Webdesign soll frei sein. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Organisch",
+      "intr": "Die Anordnung deines User Interface/Webdesign soll organisch sein. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Geordnet",
+      "intr": "Die Anordnung deines User Interface/Webdesign soll geordnet sein. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Raster",
+      "intr": "Die Anordnung deines User Interface/Webdesign soll sich an einem Raster orientieren. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Mit horizontaler Spiegelachse",
+      "intr": "Die Anordnung deines User Interface/Webdesign soll sich an einer horizontalen Spiegelachse orientieren. "
+    },
+    {
+      "name": "Anordnung",
+      "title": "Mittelachsial",
+      "intr": "Die Anordnung deines User Interface/Webdesign soll sich an einer Mittelachse orientieren. "
+    }
+  ],
+
+  "Einschränkung": [
+    {
+      "name": "Einschränkung",
+      "title": "Zwei Farben",
+      "intr": "Dein User Interface/Webdesign soll nur zwei verschiedene Farben enthalten. "
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Zwei Schriftgrößen",
+      "intr": "Dein User Interface/Webdesign soll zwei verschiedene Schriftgrößen enthalten. "
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Zwei Schriftschnitte",
+      "intr": "Dein User Interface/Webdesign soll zwei Schriftschnitte (fonts) verwenden."
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Monospaced Fonts",
+      "intr": "Dein User Interface/Webdesign soll nur monospaced Schriften verwenden."
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Bitmap/Pixel Fonts",
+      "intr": "Dein User Interface/Webdesign soll nur bitmapped Pixelschriften verwenden."
+    },
+    {
+      "name": "Einschränkung",
+      "title": "all-caps/Versalsatz",
+      "intr": "Dein User Interface/Webdesign soll nur Großbuchstaben verwenden."
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Max. 50 KB Webfonts",
+      "intr": "Dein User Interface/Webdesign soll nur maximal 50 KB an Webfontfiles laden."
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Keine Bilder",
+      "intr": "Dein User Interface/Webdesign soll für keine Bilder enthalten. "
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Dithered Bitmaps",
+      "intr": "Dein User Interface/Webdesign soll für Bilder nur monochrome Diffusion Dither Bitmaps verwenden. "
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Keine Icons",
+      "intr": "Dein User Interface/Webdesign soll für keine Icons enthalten. "
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Use Design System: Material Design",
+      "intr": "Dein User Interface/Webdesign soll sich an die Material Design Richtlinien halten. "
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Use Design System: Shopify",
+      "intr": "Dein User Interface/Webdesign soll für die Shopify Plattform gedacht sein. "
+    },
+    {
+      "name": "Einschränkung",
+      "title": "iOS Guidelines nutzen",
+      "intr": "Dein User Interface/Webdesign soll sich an die Design-Richtlinien für iOS halten. "
+    },
+    {
+      "name": "Einschränkung",
+      "title": "Android Guidelines nutzen",
+      "intr": "Dein User Interface/Webdesign soll sich an die Design-Richtlinien für Android halten. "
+    }
+  ]
 }

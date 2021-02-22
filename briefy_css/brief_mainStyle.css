@@ -1,12 +1,43 @@
-
+/* Fonts */
 @font-face {
-  src: url("../briefy_fonts/OutputSans-Regular-Edu.otf") format('opentype');
-  /*please load .woff2 fonts to the server and change the path and file type info here*/
-  font-family: "Output Sans";
-  font-weight: 400;
+  font-family: "Input Mono";
+  src: url("../briefy_fonts/InputMono-Regular-Edu.woff");
+  src: url("../briefy_fonts/InputMono-Regular-Edu.woff2");
   font-style: normal;
+  font-weight: 400;
 }
 
+@font-face {
+  font-family: "Input Mono";
+  src: url("../briefy_fonts/InputMono-Medium-Edu.woff");
+  src: url("../briefy_fonts/InputMono-Medium-Edu.woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Output Sans";
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff");
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Output Sans";
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff");
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Output Sans";
+  src: url("../briefy_fonts/OutputSans-Bold.woff");
+  src: url("../briefy_fonts/OutputSans-Bold.woff2");
+  font-style: normal;
+  font-weight: 700;
+}
 
 /*pageContainer for mainbody,a 3-part column flexbox, include header,level,content_container */
 .pageContainer {
@@ -218,10 +249,6 @@
   #level5 {
     width: calc(50% - 0.4em);
   }
-
-
-
- 
 }
 /*To fit moblie*/
 /* @media screen and (max-width: 380px) {
@@ -237,11 +264,11 @@
   }
   .levelGroup li {
     /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
-    /* flex-grow: 1;
+/* flex-grow: 1;
     margin-right: 1%;
-  } */ 
+  } */
 
-  /* .levelGroup li:nth-child(2){
+/* .levelGroup li:nth-child(2){
     
 
         flex-grow: 1;
@@ -260,7 +287,6 @@
         flex-grow: 1;
         }
      */
-
 
 /*flexbox foe levelgroup, a 5-part for flexbox, include level1---level5*/
 
@@ -305,7 +331,6 @@
 /* hover effect */
 
 /*flexbox for area_content, flexbox includes 15 elements, for large screen 3 column,5 each, for tablet, 2 columns, for mobile 1 column*/
-
 
 a {
   text-decoration: none;

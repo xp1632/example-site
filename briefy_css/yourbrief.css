@@ -2,24 +2,42 @@
 
 @font-face {
   font-family: "Input Mono";
-  src: url("../briefy_fonts/InputMono-Medium-Edu.woff");
-  src: url("../briefy_fonts/InputMono-Medium-Edu.woff2");
+  src: url("../briefy_fonts/InputMono-Regular-Edu.woff");
+  src: url("../briefy_fonts/InputMono-Regular-Edu.woff2");
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "Input Mono Regular";
-  src: url("../briefy_fonts/InputMono-Regular-Edu.woff");
-  src: url("../briefy_fonts/InputMono-Regular-Edu.woff2");
+  font-family: "Input Mono";
+  src: url("../briefy_fonts/InputMono-Medium-Edu.woff");
+  src: url("../briefy_fonts/InputMono-Medium-Edu.woff2");
+  font-style: normal;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: "Output Sans";
-  src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff");
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff2");
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "Output Sans Medium";
-  src: url("../briefy_fonts/OutputSans-Medium-Edu.otf");
+  font-family: "Output Sans";
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff");
+  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Output Sans";
+  src: url("../briefy_fonts/OutputSans-Bold.woff");
+  src: url("../briefy_fonts/OutputSans-Bold.woff2");
+  font-style: normal;
+  font-weight: 700;
 }
 
 /* Styles */
@@ -49,7 +67,8 @@ h4 {
   margin-bottom: 0px;
   font-size: 0.9em;
   line-height: 24px;
-  font-weight: 700;
+  letter-spacing: 0.2em;
+  font-weight: 500;
   font-family: "Input Mono";
   text-transform: uppercase;
 }

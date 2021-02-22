@@ -51,7 +51,7 @@ h1 {
   margin-bottom: 0px;
   font-size: 3em;
   line-height: 100%;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h2 {
@@ -59,7 +59,7 @@ h2 {
   margin-bottom: 0px;
   font-size: 2em;
   line-height: 110%;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 h4 {
@@ -67,7 +67,7 @@ h4 {
   margin-bottom: 0px;
   font-size: 0.9em;
   line-height: 24px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
   font-weight: 500;
   font-family: "Input Mono";
   text-transform: uppercase;
@@ -456,6 +456,7 @@ span.i-icon {
   text-transform: none;
   margin-bottom: 0.4em;
   line-height: 110%;
+  letter-spacing: 0em;
 }
 
 @media screen and (max-width: 991px) {

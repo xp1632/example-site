@@ -430,6 +430,21 @@ span.i-icon {
   margin-left: 2em;
 }
 
+.reload-btn:hover {
+  animation: rotateIt 600ms 1 0s ease-in-out;
+  -webkit-animation: rotateIt 600ms 1 0s ease-in-out;
+}
+
+/* Rotation Animation */
+@keyframes rotateIt {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .headline-text-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;

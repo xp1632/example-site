@@ -67,7 +67,7 @@ h4 {
   margin-bottom: 0px;
   font-size: 0.9em;
   line-height: 24px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.05em;
   font-weight: 500;
   font-family: "Input Mono";
   text-transform: uppercase;
@@ -169,6 +169,7 @@ h4 {
   font-size: 1.4em;
   line-height: 100%;
   font-family: "Input Mono";
+  font-weight: 500;
   margin-left: 1em;
 }
 
@@ -364,8 +365,8 @@ h2.output--main--text {
 }
 
 span.i-icon {
-  font-family: "Input Mono Regular";
-  font-weight: 800;
+  font-family: "Input Mono";
+  font-weight: 400;
   font-size: 1em !important;
   -webkit-transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
   -o-transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -450,7 +451,8 @@ span.i-icon {
 }
 
 .output--name {
-  font-family: "Input Mono Regular";
+  font-family: "Input Mono";
+  font-weight: 400;
   text-transform: none;
   margin-bottom: 0.4em;
   line-height: 110%;

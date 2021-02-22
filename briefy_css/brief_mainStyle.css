@@ -340,7 +340,7 @@ a {
 .sans_Font_Medium {
   font-family: "Output Sans";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.2rem;
 }
 

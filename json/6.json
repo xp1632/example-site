@@ -8,7 +8,7 @@
 		"Formsprache",
 		"Format",
 		"Praesentationsort",
-		"Einschraenkung"
+		"Einschränkung"
 	],
 	
 	"Thema":[
@@ -128,13 +128,13 @@
 		{"name":"Praesentationsort","title":"City Light Plakate","intr":"Präsentationsort deines Bildes sind die City Light Plakate in der Stadt, z.B. an Bushaltestellen."}
 	],
 	
-	"Einschraenkung":[
-		{"name":"Einschraenkung","title":"Mit geschlossenen Augen","intr":"Arbeite mit geschlossenen Augen."},
-		{"name":"Einschraenkung","title":"Mit der nicht-dominanten Hand","intr":"Arbeite mit der nicht dominanten Hand."},
-		{"name":"Einschraenkung","title":"Mit dem Mund ","intr":"Arbeite mit dem Mund."},
-		{"name":"Einschraenkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
-		{"name":"Einschraenkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
-		{"name":"Einschraenkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
-		{"name":"Einschraenkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."}
+	"Einschränkung":[
+		{"name":"Einschränkung","title":"Mit geschlossenen Augen","intr":"Arbeite mit geschlossenen Augen."},
+		{"name":"Einschränkung","title":"Mit der nicht-dominanten Hand","intr":"Arbeite mit der nicht dominanten Hand."},
+		{"name":"Einschränkung","title":"Mit dem Mund ","intr":"Arbeite mit dem Mund."},
+		{"name":"Einschränkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
+		{"name":"Einschränkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
+		{"name":"Einschränkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."},
+		{"name":"Einschränkung","title":"Keine Einschränkung","intr":"Du kannst arbeiten, wie Du magst."}
 	]	
 }

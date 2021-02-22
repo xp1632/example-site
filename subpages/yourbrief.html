@@ -10,11 +10,6 @@
     <script type="text/javascript" src="../briefy_js/logoAnimation.js"></script>
 
     <script type="text/javascript">
-      // Animations
-      function rotate() {
-        document.getElementByClass("reloadtn").className = "rotateIt";
-      }
-
       // Main Logic
       $(function () {
         $(".second-menu-title").html(localStorage.firstMenu);
@@ -23,6 +18,7 @@
         listFun();
         $(".reload-btn").click(function () {
           listFun();
+          $(".reload-icon").toggleClass("rotate");
         });
         function listFun() {
           function randomNoRepeatIntValueFromZeroToMax(counts, maxValue) {

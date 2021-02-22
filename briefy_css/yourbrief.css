@@ -259,10 +259,6 @@ h4 {
   margin-left: 1em;
 }
 
-.reload-icon {
-  width: 2.2em;
-}
-
 .heading {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -426,24 +422,28 @@ span.i-icon {
   height: 81%;
 }
 
+.reload-icon {
+  width: 2.2em;
+  transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+}
+
 .reload-btn {
   margin-left: 2em;
 }
 
-.reload-btn:hover {
-  animation: rotateIt 600ms 1 0s ease-in-out;
-  -webkit-animation: rotateIt 600ms 1 0s ease-in-out;
+.rotate {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
 }
 
 /* Rotation Animation */
-@keyframes rotateIt {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 
 .headline-text-wrapper {
   display: -webkit-box;

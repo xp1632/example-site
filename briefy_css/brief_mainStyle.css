@@ -22,6 +22,7 @@
   font-style: normal;
 }
 
+
 /*pageContainer for mainbody,a 3-part column flexbox, include header,level,content_container */
 .pageContainer {
   display: flex;
@@ -325,7 +326,6 @@ a {
   text-decoration: none;
   color: #333;
 }
-
 
 .sans_Font_Medium {
   font-family: "Output Sans";

@@ -274,7 +274,7 @@
         flex-grow: 1;
         }
      */
-}
+
 
 /*flexbox foe levelgroup, a 5-part for flexbox, include level1---level5*/
 
@@ -320,26 +320,12 @@
 
 /*flexbox for area_content, flexbox includes 15 elements, for large screen 3 column,5 each, for tablet, 2 columns, for mobile 1 column*/
 
-/*font area*/
+
 a {
   text-decoration: none;
   color: #333;
 }
 
-.mono_Font {
-  font-family: "Input Mono";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.4rem;
-}
-
-.sans_Font {
-  font-family: "Output Sans";
-  font-style: normal;
-  font-size: 1.2rem;
-
-  /* font-weight: medium; */
-}
 
 .sans_Font_Medium {
   font-family: "Output Sans";

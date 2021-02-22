@@ -1,24 +1,9 @@
-@font-face {
-  src: url("../briefy_fonts/InputMono-Medium-Testing.ttf") format('truetype');
-  /*please load .woff2 fonts to the server and change the path and file type info here*/
-  font-family: "Input Mono";
-  font-weight: 600;
-  font-style: normal;
-}
 
 @font-face {
   src: url("../briefy_fonts/OutputSans-Regular-Edu.otf") format('opentype');
   /*please load .woff2 fonts to the server and change the path and file type info here*/
   font-family: "Output Sans";
   font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  src: url("../briefy_fonts/OutputSans-Medium-Edu.otf") format('opentype');
-  /*please load .woff2 fonts to the server and change the path and file type info here*/
-  font-family: "Output Sans Medium";
-  font-weight: bold;
   font-style: normal;
 }
 

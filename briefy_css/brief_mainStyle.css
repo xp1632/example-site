@@ -3,7 +3,6 @@
   font-family: "Input Mono";
   src: url("../briefy_fonts/InputMono-Regular-Edu.woff");
   src: url("../briefy_fonts/InputMono-Regular-Edu.woff2");
-  src: url("../briefy_fonts/InputMono-Regular-Edu.ttf");
   font-style: normal;
   font-weight: 400;
 }
@@ -12,7 +11,6 @@
   font-family: "Input Mono";
   src: url("../briefy_fonts/InputMono-Medium-Edu.woff");
   src: url("../briefy_fonts/InputMono-Medium-Edu.woff2");
-  src: url("../briefy_fonts/InputMono-Medium-Edu.ttf");
   font-style: normal;
   font-weight: 500;
 }
@@ -21,8 +19,6 @@
   font-family: "Output Sans";
   src: url("../briefy_fonts/OutputSans-Regular.woff");
   src: url("../briefy_fonts/OutputSans-Regular.woff2");
-  src: url("../briefy_fonts/OutputSans-Regular-Edu.ttf");
-  src: url("../briefy_fonts/OutputSans-Regular-Edu.otf");
   font-style: normal;
   font-weight: 400;
 }
@@ -31,8 +27,6 @@
   font-family: "Output Sans";
   src: url("../briefy_fonts/OutputSans-Medium-Edu.woff");
   src: url("../briefy_fonts/OutputSans-Medium-Edu.woff2");
-  src: url("../briefy_fonts/OutputSans-Medium-Edu.ttf");
-  src: url("../briefy_fonts/OutputSans-Medium-Edu.otf");
   font-style: normal;
   font-weight: 500;
 }
@@ -41,8 +35,6 @@
   font-family: "Output Sans";
   src: url("../briefy_fonts/OutputSans-Bold.woff");
   src: url("../briefy_fonts/OutputSans-Bold.woff2");
-  src: url("../briefy_fonts/OutputSans-Bold-Edu.ttf");
-  src: url("../briefy_fonts/OutputSans-Bold-Edu.otf");
   font-style: normal;
   font-weight: 700;
 }

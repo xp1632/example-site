@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: "Output Sans";
-  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff");
-  src: url("../briefy_fonts/OutputSans-Medium-Edu.woff2");
+  src: url("../briefy_fonts/OutputSans-Regular.woff");
+  src: url("../briefy_fonts/OutputSans-Regular.woff2");
   font-style: normal;
   font-weight: 400;
 }

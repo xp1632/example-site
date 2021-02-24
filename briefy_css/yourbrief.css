@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: "Output Sans";
-  src: url("../briefy_fonts/OutputSans-Regular.woff");
-  src: url("../briefy_fonts/OutputSans-Regular.woff2");
+  src: url("../briefy_fonts/OutputSans-Regular-Edu.woff");
+  src: url("../briefy_fonts/OutputSans-Regular-Edu.woff2");
   font-style: normal;
   font-weight: 400;
 }
@@ -34,8 +34,8 @@
 
 @font-face {
   font-family: "Output Sans";
-  src: url("../briefy_fonts/OutputSans-Bold.woff");
-  src: url("../briefy_fonts/OutputSans-Bold.woff2");
+  src: url("../briefy_fonts/OutputSans-Bold-Edu.woff2");
+  src: url("../briefy_fonts/OutputSans-Bold-Edu.woff2");
   font-style: normal;
   font-weight: 700;
 }

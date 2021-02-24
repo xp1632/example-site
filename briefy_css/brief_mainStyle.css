@@ -338,7 +338,7 @@ a {
 }
 
 .sans_Font_Medium {
-  font-family: "Output Sans";
+  font-family: "Output Sans", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2rem;

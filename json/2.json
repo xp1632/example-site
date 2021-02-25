@@ -3,7 +3,7 @@
 		"Branche",
 		"Medium",
 		"Zielgruppe",
-		"Auftraggeber:innen",
+		"Auftraggeber:in",
 		"Look & Feel",
 		"Farbe",
 		"Format",
@@ -224,13 +224,13 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Vegetarier:innen",
-      "intr": "Die Zielgruppe deiner Publikation sollten Vegetarier:innen sein. "
+      "title": "Vegetarier:in",
+      "intr": "Die Zielgruppe deiner Publikation sollten Vegetarier:in sein. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Veganer:innen",
-      "intr": "Die Zielgruppe deiner Publikation sollten Veganer:innen sein. "
+      "title": "Veganer:in",
+      "intr": "Die Zielgruppe deiner Publikation sollten Veganer:in sein. "
     },
     {
       "name": "Zielgruppe",
@@ -244,8 +244,8 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Hunde oder Hundebesitzer:innen",
-      "intr": "Die Zielgruppe deiner Publikation sollten Hunde oder Hundebesitzer:innen sein. "
+      "title": "Hunde oder Hundebesitzer:in",
+      "intr": "Die Zielgruppe deiner Publikation sollten Hunde oder Hundebesitzer:in sein. "
     },
     {
       "name": "Zielgruppe",
@@ -254,13 +254,13 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Autofahrer:innen",
-      "intr": "Die Zielgruppe deiner Publikation sollten Autofahrer:innen sein. "
+      "title": "Autofahrer:in",
+      "intr": "Die Zielgruppe deiner Publikation sollten Autofahrer:in sein. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Fahrradfahrer:innen",
-      "intr": "Die Zielgruppe deiner Publikation sollten Fahrradfahrer:innen sein. "
+      "title": "Fahrradfahrer:in",
+      "intr": "Die Zielgruppe deiner Publikation sollten Fahrradfahrer:in sein. "
     },
     {
       "name": "Zielgruppe",
@@ -274,8 +274,8 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Linkshänder:innen",
-      "intr": "Die Zielgruppe deiner Publikation sollten Linkshänder:innen sein. "
+      "title": "Linkshänder:in",
+      "intr": "Die Zielgruppe deiner Publikation sollten Linkshänder:in sein. "
     },
     {
       "name": "Zielgruppe",
@@ -299,106 +299,106 @@
     }
   ],
 
-  "Auftraggeber:innen": [
+  "Auftraggeber:in": [
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "HBKsaar",
       "intr": "Auftraggeber deiner Publikation sollte die HBKsaar sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Berühmte:r Designer:in",
-      "intr": "Auftraggeber:innen deiner Publikation sollten ein:e berühmte:r Designer:in sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollten ein:e berühmte:r Designer:in sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Berühmte:r Künstler:in",
-      "intr": "Auftraggeber:innen deiner Publikation sollten ein:e berühmte:r Künstler:in sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollten ein:e berühmte:r Künstler:in sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Stadt Saarbrücken",
       "intr": "Auftraggeberin deiner Publikation sollte die Stadt Saarbrücken sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Deutsche Bahn",
       "intr": "Auftraggeberin deiner Publikation sollte die Deutsche Bahn sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Fahrradhersteller",
-      "intr": "Auftraggeber:innen deiner Publikation sollte ein Fahrradhersteller sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte ein Fahrradhersteller sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Computerhersteller",
-      "intr": "Auftraggeber:innen deiner Publikation sollte ein Computerhersteller sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte ein Computerhersteller sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Kaufhaus",
-      "intr": "Auftraggeber:innen deiner Publikation sollte ein Kaufhaus sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte ein Kaufhaus sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Verlag",
-      "intr": "Auftraggeber:innen deiner Publikation sollte ein Verlag sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte ein Verlag sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Ein Krankenhaus",
-      "intr": "Auftraggeber:innen deiner Publikation sollte ein Krankenhaus sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte ein Krankenhaus sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Berühmte:r Grafiker:in",
-      "intr": "Auftraggeber:innen deiner Publikation sollte ein:e berühmte:r Grafiker:in sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte ein:e berühmte:r Grafiker:in sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Waldorfschule",
-      "intr": "Auftraggeber:innen deiner Publikation sollte eine Waldorfschule sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte eine Waldorfschule sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Gesundheitsamt",
-      "intr": "Auftraggeber:innen deiner Publikation sollte das Gesundheitsamt sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte das Gesundheitsamt sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "CIAV Meisenthal",
-      "intr": "Auftraggeber:innen deiner Publikation sollte CIAV Meisenthal sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte CIAV Meisenthal sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Die Menschheit",
-      "intr": "Auftraggeber:innen deiner Publikation sollte die Menschheit sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte die Menschheit sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Deine Lieblings-NGO",
-      "intr": "Auftraggeber:innen deiner Publikation sollte deine Lieblings-NGO sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte deine Lieblings-NGO sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Partei",
-      "intr": "Auftraggeber:innen deiner Publikation sollte eine Partei sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte eine Partei sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Bundesregierung",
-      "intr": "Auftraggeber:innen deiner Publikation sollte die Bundesregierung sein. "
+      "intr": "Auftraggeber:in deiner Publikation sollte die Bundesregierung sein. "
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Das Saarland",
-      "intr": "Auftraggeber:innen deiner Publikation ist das Saarland."
+      "intr": "Auftraggeber:in deiner Publikation ist das Saarland."
     },
     {
-      "name": "Auftraggeber:innen",
+      "name": "Auftraggeber:in",
       "title": "Mäzen:in",
-      "intr": "Auftraggeber:innen deiner Publikation ist ein:e Mäzen:in"
+      "intr": "Auftraggeber:in deiner Publikation ist ein:e Mäzen:in"
     }
   ],
 
@@ -1078,11 +1078,11 @@
 	"Barrierefreiheit":[
 		{"name":"Barrierefreiheit","title":"Leseschwache","intr":"Deine Publikation sollte für Leseschwache geeignet sein. "},
 		{"name":"Barrierefreiheit","title":"Sehschwache","intr":"Deine Publikation sollte für Sehschwache geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Raucher:innen","intr":"Deine Publikation sollte für Raucher:innen geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Analphabet:innen","intr":"Deine Publikation sollte für Analphabet:innen geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Nichtschwimmer:innen","intr":"Deine Publikation sollte für Nichtschwimmer:innen geeignet sein. "},
+		{"name":"Barrierefreiheit","title":"Raucher:in","intr":"Deine Publikation sollte für Raucher:in geeignet sein. "},
+		{"name":"Barrierefreiheit","title":"Analphabet:in","intr":"Deine Publikation sollte für Analphabet:in geeignet sein. "},
+		{"name":"Barrierefreiheit","title":"Nichtschwimmer:in","intr":"Deine Publikation sollte für Nichtschwimmer:in geeignet sein. "},
 		{"name":"Barrierefreiheit","title":"Vorerkrankte","intr":"Deine Publikation sollte für Vorerkrankte geeignet sein. "},
-		{"name":"Barrierefreiheit","title":"Brillenträger:innen","intr":"Deine Publikation sollte für Brillenträger:innen ausgelegt sein. "},
+		{"name":"Barrierefreiheit","title":"Brillenträger:in","intr":"Deine Publikation sollte für Brillenträger:in ausgelegt sein. "},
 		{"name":"Barrierefreiheit","title":"Hörgeschädigte","intr":"Deine Publikation sollte für Hörgeschädigte ausgelegt sein. "},
 		{"name":"Barrierefreiheit","title":"Kleine Menschen","intr":"Deine Publikation sollte für kleine Menschen ausgelegt sein. "},
 		{"name":"Barrierefreiheit","title":"Große Menschen","intr":"Deine Publikation sollte für große Menschen ausgelegt sein. "},

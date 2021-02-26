@@ -6,7 +6,7 @@
     "Zielgruppe",
     "Medium",
     "UI-Elemente",
-    "Auftraggeber:in",
+    "Auftraggeber:innen",
     "Barrierefreiheit",
     "Anordnung",
     "Einschränkung"
@@ -464,13 +464,13 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Vegetarier:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Vegetarier:in richten. "
+      "title": "Vegetarier:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Vegetarier:innen richten. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Veganer:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Veganer:in richten. "
+      "title": "Veganer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Veganer:innen richten. "
     },
     {
       "name": "Zielgruppe",
@@ -484,8 +484,8 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Hunde oder Hundebesitzer:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Hunde oder Hundebesitzer:in richten. "
+      "title": "Hunde oder Hundebesitzer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Hunde oder Hundebesitzer:innen richten. "
     },
     {
       "name": "Zielgruppe",
@@ -494,13 +494,13 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Autofahrer:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Autofahrer:in richten. "
+      "title": "Autofahrer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Autofahrer:innen richten. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Fahrradfahrer:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Fahrradfahrer:in richten. "
+      "title": "Fahrradfahrer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Fahrradfahrer:innen richten. "
     },
     {
       "name": "Zielgruppe",
@@ -514,18 +514,18 @@
     },
     {
       "name": "Zielgruppe",
-      "title": "Linkshänder:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Linkshänder:in richten. "
+      "title": "Linkshänder:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Linkshänder:innen richten. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Analphabet:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Analphabet:in richten. "
+      "title": "Analphabet:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Analphabet:innen richten. "
     },
     {
       "name": "Zielgruppe",
-      "title": "Nicht-Muttersprachler:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Nicht-Muttersprachler:in richten. "
+      "title": "Nicht-Muttersprachler:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Nicht-Muttersprachler:innen richten. "
     },
     {
       "name": "Zielgruppe",
@@ -700,84 +700,84 @@
     }
   ],
 
-  "Auftraggeber:in": [
+  "Auftraggeber:innen": [
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "HBKsaar",
       "intr": "Dein User Interface/Webdesign soll für die HBKsaar sein, die Kunsthochschule in Saarbrücken."
     },
     {
-      "name": "Auftraggeber:in",
-      "title": "Berühmte:r Designer:in",
-      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Designer:in sein. "
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Designer:innen",
+      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Designer:innen sein. "
     },
     {
-      "name": "Auftraggeber:in",
-      "title": "Berühmte:r Künstler:in",
-      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Künstler:in sein. "
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Künstler:innen",
+      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Künstler:innen sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Stadt Saarbrücken",
       "intr": "Dein User Interface/Webdesign soll für die Stadt Saarbrücken sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Deutsche Bahn",
       "intr": "Dein User Interface/Webdesign soll für die Deutsche Bahn sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Jaguar",
       "intr": "Dein User Interface/Webdesign soll für Jaguar sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Apple",
       "intr": "Dein User Interface/Webdesign soll für Apple sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Karstadt",
       "intr": "Dein User Interface/Webdesign soll für Karstadt sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Verlag",
       "intr": "Dein User Interface/Webdesign soll für einen Verlag sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Krankenhaus",
       "intr": "Dein User Interface/Webdesign soll für ein Krankenhaus sein. "
     },
     {
-      "name": "Auftraggeber:in",
-      "title": "Berühmte:r Grafiker:in",
-      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Grafiker:in sein. "
+      "name": "Auftraggeber:innen",
+      "title": "Berühmte:r Grafiker:innen",
+      "intr": "Dein User Interface/Webdesign soll für ein:e berühmte:r Grafiker:innen sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Waldorfschule",
       "intr": "Dein User Interface/Webdesign soll für eine Waldorfschule sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Gesundheitsamt",
       "intr": "Dein User Interface/Webdesign soll für das Gesundheitsamt sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "CIAV Meisenthal",
       "intr": "Dein User Interface/Webdesign soll für das CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Die Menschheit",
       "intr": "Dein User Interface/Webdesign soll für die Menschheit sein. "
     },
     {
-      "name": "Auftraggeber:in",
+      "name": "Auftraggeber:innen",
       "title": "Lieblings-NGO",
       "intr": "Dein User Interface/Webdesign soll für deine Lieblings-Nicht-Regierungsorganisation sein. "
     }
@@ -801,18 +801,18 @@
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Analphabet:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Analphabet:in richten. "
+      "title": "Für Analphabet:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Analphabet:innen richten. "
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Nichtschwimmer:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Nichtschwimmer:in richten. "
+      "title": "Für Nichtschwimmer:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Nichtschwimmer:innen richten. "
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Brillenträger:in",
-      "intr": "Dein User Interface/Webdesign soll sich an Brillenträger:in richten. "
+      "title": "Brillenträger:innen",
+      "intr": "Dein User Interface/Webdesign soll sich an Brillenträger:innen richten. "
     },
     {
       "name": "Barrierefreiheit",

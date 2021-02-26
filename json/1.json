@@ -4,7 +4,7 @@
     "Look & Feel",
     "Medium",
     "Zielgruppe",
-    "Auftraggeber:in",
+    "Auftraggeber:innen",
     "Formsprache",
     "Farbe",
     "Einschränkungen",
@@ -118,9 +118,9 @@
 		{"name":"Medium","title":"Merchandise","intr":"Deine Kampagne sollte übliche Merchandise-Artikel enthalten."},
 		{"name":"Medium","title":"Print-Anzeigen","intr":"Deine Kampagne sollte Print-Anzeigen in Zeitungen oder Magazinen beinhalten."},
 		{"name":"Medium","title":"Jingle","intr":"Deine Kampagne sollte einen Jingel bzw. Audiologo beinhalten."},
-		{"name":"Medium","title":"Uniform","intr":"Deine Kampagne sollte Uniformen bzw. Mitarbeiter:in-Kleidung enthalten."},
+		{"name":"Medium","title":"Uniform","intr":"Deine Kampagne sollte Uniformen bzw. Mitarbeiter:innen-Kleidung enthalten."},
 		{"name":"Medium","title":"Aufkleber","intr":"Deine Kampagne sollte eine Serie von Aufklebern enthalten."},
-		{"name":"Medium","title":"Uniform","intr":"Deine Kampagne sollte Uniformen bzw. Mitarbeiter:in-Kleidung enthalten."}
+		{"name":"Medium","title":"Uniform","intr":"Deine Kampagne sollte Uniformen bzw. Mitarbeiter:innen-Kleidung enthalten."}
 	],
 
 	"Zielgruppe":[
@@ -130,18 +130,18 @@
 		{"name":"Zielgruppe","title":"Frauen","intr":"Die Zielgruppe deiner Kampagne sollten Frauen sein. "},
 		{"name":"Zielgruppe","title":"Männer","intr":"Die Zielgruppe deiner Kampagne sollten Männer sein. "},
 		{"name":"Zielgruppe","title":"Hausfrauen bis 50","intr":"Die Zielgruppe deiner Kampagne sollten Hausfrauen bis 50 Jahre sein. "},
-		{"name":"Zielgruppe","title":"Vegetarier:in","intr":"Die Zielgruppe deiner Kampagne sollten Vegetarier:in sein. "},
-		{"name":"Zielgruppe","title":"Veganer:in","intr":"Die Zielgruppe deiner Kampagne sollten Veganer:in sein. "},
+		{"name":"Zielgruppe","title":"Vegetarier:innen","intr":"Die Zielgruppe deiner Kampagne sollten Vegetarier:innen sein. "},
+		{"name":"Zielgruppe","title":"Veganer:innen","intr":"Die Zielgruppe deiner Kampagne sollten Veganer:innen sein. "},
 		{"name":"Zielgruppe","title":"Frisch Verliebte","intr":"Die Zielgruppe deiner Kampagne sollten frisch Verliebte sein. "},
 		{"name":"Zielgruppe","title":"Studierende","intr":"Die Zielgruppe deiner Kampagne sollten Studierende sein. "},
-		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer:in","intr":"Die Zielgruppe deiner Kampagne sollten Hunde oder Hundebesitzer:in sein. "},
+		{"name":"Zielgruppe","title":"Hunde oder Hundebesitzer:innen","intr":"Die Zielgruppe deiner Kampagne sollten Hunde oder Hundebesitzer:innen sein. "},
 		{"name":"Zielgruppe","title":"Eltern mit Kleinkindern","intr":"Die Zielgruppe deiner Kampagne sollten Eltern mit Kleinkindern sein. "},
-		{"name":"Zielgruppe","title":"Autofahrer:in","intr":"Die Zielgruppe deiner Kampagne sollten Autofahrer:in sein. "},
-		{"name":"Zielgruppe","title":"Fahrradfahrer:in","intr":"Die Zielgruppe deiner Kampagne sollten Fahrradfahrer:in sein. "},
+		{"name":"Zielgruppe","title":"Autofahrer:innen","intr":"Die Zielgruppe deiner Kampagne sollten Autofahrer:innen sein. "},
+		{"name":"Zielgruppe","title":"Fahrradfahrer:innen","intr":"Die Zielgruppe deiner Kampagne sollten Fahrradfahrer:innen sein. "},
 		{"name":"Zielgruppe","title":"Körperlich eingeschränkte Personen","intr":"Die Zielgruppe deiner Kampagne sollten körperlich eingeschränkte Personen sein. "},
 		{"name":"Zielgruppe","title":"Geistig eingeschränkte Personen","intr":"Die Zielgruppe deiner Kampagne sollten geistig eingeschränkte Personen sein. "},
-		{"name":"Zielgruppe","title":"Linkshänder:in","intr":"Die Zielgruppe deiner Kampagne sollten Linkshänder:in sein. "},
-		{"name":"Zielgruppe","title":"Designer:in","intr":"Die Zielgruppe deiner Kampagne sollten Designer:in sein. "},
+		{"name":"Zielgruppe","title":"Linkshänder:innen","intr":"Die Zielgruppe deiner Kampagne sollten Linkshänder:innen sein. "},
+		{"name":"Zielgruppe","title":"Designer:innen","intr":"Die Zielgruppe deiner Kampagne sollten Designer:innen sein. "},
 		{"name":"Zielgruppe","title":"Zwillinge","intr":"Die Zielgruppe deiner Kampagne sollten Zwillinge sein. "},
 		{"name":"Zielgruppe","title":"Sehbehinderte","intr":"Die Zielgruppe deiner Kampagne sollten Sehbehinderte sein. "},
 		{"name":"Zielgruppe","title":"Finanziell Schwache","intr":"Die Zielgruppe deiner Kampagne sollten finanziell eingeschränkte Menschen sein. "},
@@ -149,28 +149,28 @@
 		{"name":"Zielgruppe","title":"Wohlhabende","intr":"Die Zielgruppe deiner Kampagne sollten wohlhabende Menschen sein. "}
 	],
 
-	"Auftraggeber:in":[
-		{"name":"Auftraggeber:in","title":"Die HBKsaar","intr":"Auftraggeber:in deiner Kampagne sollte die HBKsaar sein, die Kunsthochschule in Saarbrücken."},
-		{"name":"Auftraggeber:in","title":"Berühmte:r Designer:in","intr":"Auftraggeber:in deiner Kampagne sollte ein:e berühmte:r Designer:in sein. "},
-		{"name":"Auftraggeber:in","title":"Berühmte:r Künstler:in","intr":"Auftraggeber:in deiner Kampagne sollte ein:e berühmte:r Künstler:in sein. "},
-		{"name":"Auftraggeber:in","title":"Stadt Saarbrücken","intr":"Auftraggeber:in deiner Kampagne sollte die Stadt Saarbrücken sein. "},
-		{"name":"Auftraggeber:in","title":"Die Deutsche Bahn","intr":"Auftraggeber:in deiner Kampagne sollte die Deutsche Bahn sein. "},
-		{"name":"Auftraggeber:in","title":"Fahrradhersteller","intr":"Auftraggeber:in deiner Kampagne sollte ein Fahrradhersteller sein. "},
-		{"name":"Auftraggeber:in","title":"Computerhersteller","intr":"Auftraggeber:in deiner Kampagne sollte ein Computerhersteller sein. "},
-		{"name":"Auftraggeber:in","title":"Kaufhaus","intr":"Auftraggeber:in deiner Kampagne sollte ein Kaufhaus sein. "},
-		{"name":"Auftraggeber:in","title":"Ein Verlag","intr":"Auftraggeber:in deiner Kampagne sollte ein Verlag sein. "},
-		{"name":"Auftraggeber:in","title":"Ein Krankenhaus","intr":"Auftraggeber:in deiner Kampagne sollte ein Krankenhaus sein. "},
-		{"name":"Auftraggeber:in","title":"Berühmte:r Grafiker:in","intr":"Auftraggeber:in deiner Kampagne sollte ein:e berühmte:r Grafiker:in sein. "},
-		{"name":"Auftraggeber:in","title":"Waldorfschule","intr":"Auftraggeber:in deiner Kampagne sollte eine Waldorfsschule sein. "},
-		{"name":"Auftraggeber:in","title":"Gesundheitsamt","intr":"Auftraggeber:in deiner Kampagne sollte das Gesundheitsamt sein. "},
-		{"name":"Auftraggeber:in","title":"CIAV Meisenthal","intr":"Auftraggeber:in deiner Kampagne sollte CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."},
-		{"name":"Auftraggeber:in","title":"Die Menschheit","intr":"Auftraggeber:in deiner Kampagne sollte die Menschheit sein. "},
-		{"name":"Auftraggeber:in","title":"Deine Lieblings-NGO","intr":"Auftraggeber:in deiner Kampagne sollte deine lieblings Nicht-Regierungsorganisation sein. "},
-		{"name":"Auftraggeber:in","title":"Bundesregierung","intr":"Auftraggeber:in deiner Kampagne ist die Bundesregierung."},
-		{"name":"Auftraggeber:in","title":"Das Saarland","intr":"Auftraggeber:in deiner Kampagne ist das Saarland."},
-		{"name":"Auftraggeber:in","title":"Start-up","intr":"Auftraggeber:in deiner Kampagne ist ein Start-up Unternehmen."},
-		{"name":"Auftraggeber:in","title":"Mäzen:in","intr":"Auftraggeber:in deiner Kampagne ist ein:e Mäzen:in."},
-		{"name":"Auftraggeber:in","title":"Partei","intr":"Auftraggeber:in deiner Kampagne ist eine Partei."}
+	"Auftraggeber:innen":[
+		{"name":"Auftraggeber:innen","title":"Die HBKsaar","intr":"Auftraggeber:innen deiner Kampagne sollte die HBKsaar sein, die Kunsthochschule in Saarbrücken."},
+		{"name":"Auftraggeber:innen","title":"Berühmte:r Designer:innen","intr":"Auftraggeber:innen deiner Kampagne sollte ein:e berühmte:r Designer:innen sein. "},
+		{"name":"Auftraggeber:innen","title":"Berühmte:r Künstler:innen","intr":"Auftraggeber:innen deiner Kampagne sollte ein:e berühmte:r Künstler:innen sein. "},
+		{"name":"Auftraggeber:innen","title":"Stadt Saarbrücken","intr":"Auftraggeber:innen deiner Kampagne sollte die Stadt Saarbrücken sein. "},
+		{"name":"Auftraggeber:innen","title":"Die Deutsche Bahn","intr":"Auftraggeber:innen deiner Kampagne sollte die Deutsche Bahn sein. "},
+		{"name":"Auftraggeber:innen","title":"Fahrradhersteller","intr":"Auftraggeber:innen deiner Kampagne sollte ein Fahrradhersteller sein. "},
+		{"name":"Auftraggeber:innen","title":"Computerhersteller","intr":"Auftraggeber:innen deiner Kampagne sollte ein Computerhersteller sein. "},
+		{"name":"Auftraggeber:innen","title":"Kaufhaus","intr":"Auftraggeber:innen deiner Kampagne sollte ein Kaufhaus sein. "},
+		{"name":"Auftraggeber:innen","title":"Ein Verlag","intr":"Auftraggeber:innen deiner Kampagne sollte ein Verlag sein. "},
+		{"name":"Auftraggeber:innen","title":"Ein Krankenhaus","intr":"Auftraggeber:innen deiner Kampagne sollte ein Krankenhaus sein. "},
+		{"name":"Auftraggeber:innen","title":"Berühmte:r Grafiker:innen","intr":"Auftraggeber:innen deiner Kampagne sollte ein:e berühmte:r Grafiker:innen sein. "},
+		{"name":"Auftraggeber:innen","title":"Waldorfschule","intr":"Auftraggeber:innen deiner Kampagne sollte eine Waldorfsschule sein. "},
+		{"name":"Auftraggeber:innen","title":"Gesundheitsamt","intr":"Auftraggeber:innen deiner Kampagne sollte das Gesundheitsamt sein. "},
+		{"name":"Auftraggeber:innen","title":"CIAV Meisenthal","intr":"Auftraggeber:innen deiner Kampagne sollte CIAV Meisenthal sein, eine Glasmanufaktur in Frankreich."},
+		{"name":"Auftraggeber:innen","title":"Die Menschheit","intr":"Auftraggeber:innen deiner Kampagne sollte die Menschheit sein. "},
+		{"name":"Auftraggeber:innen","title":"Deine Lieblings-NGO","intr":"Auftraggeber:innen deiner Kampagne sollte deine lieblings Nicht-Regierungsorganisation sein. "},
+		{"name":"Auftraggeber:innen","title":"Bundesregierung","intr":"Auftraggeber:innen deiner Kampagne ist die Bundesregierung."},
+		{"name":"Auftraggeber:innen","title":"Das Saarland","intr":"Auftraggeber:innen deiner Kampagne ist das Saarland."},
+		{"name":"Auftraggeber:innen","title":"Start-up","intr":"Auftraggeber:innen deiner Kampagne ist ein Start-up Unternehmen."},
+		{"name":"Auftraggeber:innen","title":"Mäzen:innen","intr":"Auftraggeber:innen deiner Kampagne ist ein:e Mäzen:innen."},
+		{"name":"Auftraggeber:innen","title":"Partei","intr":"Auftraggeber:innen deiner Kampagne ist eine Partei."}
 	],
 
   "Formsprache": [
@@ -533,18 +533,18 @@
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Raucher:in",
-      "intr": "Deine Kampagne sollte für Raucher:in geeignet sein. "
+      "title": "Für Raucher:innen",
+      "intr": "Deine Kampagne sollte für Raucher:innen geeignet sein. "
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Analphabet:in",
-      "intr": "Deine Kampagne sollte für Analphabet:in geeignet sein. "
+      "title": "Für Analphabet:innen",
+      "intr": "Deine Kampagne sollte für Analphabet:innen geeignet sein. "
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Nichtschwimmer:in",
-      "intr": "Deine Kampagne sollte für Nichtschwimmer:in geeignet sein. "
+      "title": "Für Nichtschwimmer:innen",
+      "intr": "Deine Kampagne sollte für Nichtschwimmer:innen geeignet sein. "
     },
     {
       "name": "Barrierefreiheit",
@@ -553,8 +553,8 @@
     },
     {
       "name": "Barrierefreiheit",
-      "title": "Für Brillenträger:in",
-      "intr": "Deine Kampagne sollte für Brillenträger:in geeignet sein. "
+      "title": "Für Brillenträger:innen",
+      "intr": "Deine Kampagne sollte für Brillenträger:innen geeignet sein. "
     },
     {
       "name": "Barrierefreiheit",
